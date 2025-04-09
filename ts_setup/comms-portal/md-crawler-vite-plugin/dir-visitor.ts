@@ -40,11 +40,17 @@ class DirVisitor {
   }
 
   visitMeta(dirent: Dirent) {
-    readLocaleDirent(dirent, 'meta.').forEach(({locale, content}) => {
+    readLocaleDirent(dirent, 'meta.').forEach(({locale, content, file}) => {
       const entries = getKeyValues(content);
       const page: Page = this.getOrCreatePage(locale);
 
-      page.title = entries['T'];
+      if(entries['T']) {
+        page.title = entries['T'];
+      } else {
+        const fullpath = `${file.parentPath}/${file.name}`;
+        console.error(`Title missing on in: ${fullpath}!`);
+        page.title = 'missing title in: ' + fullpath;
+      }
       this._pages[locale] = page;
     });
   }

@@ -33,7 +33,8 @@ export async function parseFolders(path: string): Promise<KbFile[]> {
     })
     .map(article => {
       const lines = JSON.stringify(article, null, 2)
-      const content = `export const ${article.id}  = ${lines}`;
+      const importLine = `import { Article } from '@/api-kb'\n\n`;
+      const content = importLine + `export const ${article.id}: Article = ${lines}`;
       return { content, fileName: `${article.id}.ts`, article };
     });
 
@@ -42,8 +43,8 @@ export async function parseFolders(path: string): Promise<KbFile[]> {
     .join('\r\n');
 
 
-  //const content = `${imports}\r\nexport default { ${articles.map(({article}) => article.id).join(', ')}}`;
-  const index = { fileName: 'index.ts', content: '' }
+  const content = `${imports}\r\nexport default { ${articles.map(({article}) => article.id).join(', ')}}`;
+  const index = { fileName: 'index.ts', content: content }
 
   return [...articles, index];
 }

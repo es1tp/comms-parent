@@ -1,10 +1,13 @@
-export const C08_S01  = {
+import { Article } from '@/api-kb'
+
+export const C08_S01: Article = {
   "id": "C08_S01",
   "parentId": "C08",
   "pages": [
     {
       "id": "C08_S01_et",
       "localeCode": "et",
+      "title": "Mõõteseadmete kasutamine",
       "materials": [],
       "questionnaire": [
         {

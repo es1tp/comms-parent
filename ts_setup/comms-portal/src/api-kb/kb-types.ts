@@ -7,7 +7,7 @@ export type PageId = string;
 // root 'topic' that contains subject and all of the localized contents(question/answer/reading materials)
 export interface Article {
   id: ArticleId;
-  parentId: ArticleId | undefined;
+  parentId?: ArticleId | undefined;
   pages: Page[];
 }
 

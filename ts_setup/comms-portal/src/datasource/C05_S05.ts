@@ -1,4 +1,6 @@
-export const C05_S05  = {
+import { Article } from '@/api-kb'
+
+export const C05_S05: Article = {
   "id": "C05_S05",
   "parentId": "C05",
   "pages": [
