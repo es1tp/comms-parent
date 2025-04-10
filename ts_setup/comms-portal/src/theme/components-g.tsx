@@ -1,4 +1,4 @@
-import { Theme, Components } from '@mui/material';
+import { Theme, Components, alpha } from '@mui/material';
 import remarkGfm from 'remark-gfm'
 import user_logo_light from './es1tp-logo2.svg';
 import tpt_building from './tpt_building.jpg';
@@ -55,7 +55,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   },
   GFooter: {
     defaultProps: {
-      children: <DemoFooter/>
+      children: <DemoFooter />
     },
     styleOverrides: {
       root: ({ theme }) => ({
@@ -71,6 +71,22 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
     defaultProps: {
       locales: ['et', 'en']
     },
+  },
+  GPopoverButton: {
+    styleOverrides: {
+      root: ({ theme }) => ({
+        '& .GPopoverButton-button': {
+          border: `1px solid ${alpha(theme.palette.primary.main, 0.4)}`,
+          boxShadow: `0 0 30px 10px ${alpha(theme.palette.primary.main, 0.3)}`,
+          zIndex: 1,
+          [theme.breakpoints.down('lg')]: {
+            border: `1px solid ${theme.palette.primary.main}`,
+            boxShadow: 'none',
+            backgroundColor: alpha(theme.palette.background.paper, 0.3)
+          }
+        }
+      })
+    }
   },
   GMarkdown: {
     defaultProps: {
@@ -90,7 +106,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   },
 
   GArticleFeedback: {
-    defaultProps: { enabled(view) {return false } }
+    defaultProps: { enabled(view) { return false } }
   }
 }
 

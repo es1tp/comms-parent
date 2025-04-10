@@ -17,6 +17,7 @@ export const palette: PaletteOptions = {
     secondary: '#65748B',
     disabled: 'rgba(55, 65, 81, 0.48)'
   },
+  divider: '#CED8DE',
   success: {
     main: '#2e7D32',
     contrastText: '#FFFFFF'
