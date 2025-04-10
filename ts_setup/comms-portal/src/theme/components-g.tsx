@@ -1,8 +1,8 @@
 import { Theme, Components } from '@mui/material';
 import remarkGfm from 'remark-gfm'
-import user_logo_light from './logoLifeDigitalDark.svg';
+import user_logo_light from './es1tp-logo2.svg';
+import tpt_building from './tpt_building.jpg';
 import { DemoFooter } from './DemoFooter';
-
 
 export const components_g: Components<Omit<Theme, 'components'>> = {
 
@@ -35,11 +35,19 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
       }
     }
   },
+  GRouterUnsecured: {
+    styleOverrides: {
+      menuButtonContainer: {
+        backgroundImage: `url(${tpt_building})`,
+      }
+    }
+  },
   GLogin: {
     defaultProps: {
       component: () => <></>
     }
   },
+
   GLogout: {
     defaultProps: {
       component: () => <></>
