@@ -9,5 +9,9 @@ export const et = {
   'gamut.search.results.serviceLinks': 'Õppematerjal',
   'gamut.search.results.allResults': 'Kõik tulemused',
   'gamut.search.results.noResults': 'Tulemusi pole',
-  'gamut.noValueIndicatorColon': ':'
+  'gamut.noValueIndicatorColon': ':',
+  'footer.column2.title': 'Column2',
+  'footer.column3.title': 'Column3',
+  'footer.column4.title': 'Column4',
+  'footer.column2.subtitle': 'Column2 subtitle'
 }

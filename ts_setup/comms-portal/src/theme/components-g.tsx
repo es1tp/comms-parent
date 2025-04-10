@@ -36,12 +36,12 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
     }
   },
   GRouterUnsecured: {
-    styleOverrides: {
-      menuButtonContainer: {
-        backgroundImage: `url(${tpt_building})`,
-      }
+    defaultProps: {
+      backgroundImage: tpt_building,
+      height: '450px'
     }
   },
+
   GLogin: {
     defaultProps: {
       component: () => <></>
@@ -55,7 +55,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   },
   GFooter: {
     defaultProps: {
-      children: <DemoFooter />
+      children: <>Footer</>
     },
     styleOverrides: {
       root: ({ theme }) => ({

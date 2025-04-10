@@ -9,5 +9,9 @@ export const en = {
   'gamut.search.results.serviceLinks': 'Study material',
   'gamut.search.results.allResults': 'All results',
   'gamut.search.results.noResults': 'No results',
-  'gamut.noValueIndicatorColon': ':'
+  'gamut.noValueIndicatorColon': ':',
+  'footer.column2.title': 'Column2',
+  'footer.column3.title': 'Column3',
+  'footer.column4.title': 'Column4',
+  'footer.column2.subtitle': 'Column2 subtitle'
 }
