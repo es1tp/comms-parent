@@ -9,16 +9,18 @@ function createDefaultPage(localeCode: string, articleId: string): Page {
     localeCode: localeCode as LocaleCode,
     title: '',
     materials: [],
-    questionnaire: []
+    questionnaire: [],
+    qualification: undefined
+    
   }
 }
 
 class DirVisitor {
   private _pages: Record<string, Page> = {}; 
   private _id: string;
+  private _parent: Article | undefined;
   private _parentId: string | undefined;
   private _questions: Record<string, Question> = {};
-
   constructor() {
   }
 
@@ -28,6 +30,7 @@ class DirVisitor {
     } else {
       this._id = dirent.name
     }
+    this._parent = parent;
     this._parentId = parent?.id;
     this.visitMeta(dirent);
     this.visitContent(dirent)
@@ -44,6 +47,10 @@ class DirVisitor {
       const entries = getKeyValues(content);
       const page: Page = this.getOrCreatePage(locale);
 
+      if(entries['Q']) {
+        page.qualification = entries['Q'];
+      }
+
       if(entries['T']) {
         page.title = entries['T'];
       } else {
@@ -59,9 +66,14 @@ class DirVisitor {
     readLocaleDirent(dirent, 'content.').forEach(({locale, content}) => {
       const page: Page = this.getOrCreatePage(locale);
 
+      const parentPage: Page | undefined = this._parent ? this._parent.pages.find(page => page.localeCode === locale) : undefined
+
+      const header1 = parentPage ? `# ${parentPage.title}  \n` : '';
+      const header2 = page.title ? `## ${page.title}  \n` : '';
+
       page.materials.push({
         id: `${page.id}_content`,
-        text: content
+        text: header1 + header2 + content
       });
       this._pages[locale] = page;
     });
@@ -79,11 +91,23 @@ class DirVisitor {
         const entries = getKeyValues(content);
         const question = entries['?']?.trim();
         if(!question) {
-          console.error(`Failed to parse question with gid: ${gid} because it has missing title!`);
+          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing title!`);
           return;
         }
+
+        const rawClassifiers = entries['.'];
+        if(!rawClassifiers) {
+          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing classifiers! \r\n${content}!`);
+        }
+
+        const qualifications: string[] = rawClassifiers ? rawClassifiers.trim().split('') : [];
+        if(!qualifications) {
+          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing classifiers! \r\n${content}!`);
+        }
+
+
         const answers: Answer[] = Object.entries(entries)
-          .filter(([key]) => !(key === '?' || key === '.') )
+          .filter(([key]) => !(key === '?' || key === '.' || key === 'Q') )
           .map(([key, value]) => ({
             id: `${this._id}_${locale}_${key.substring(0, 1)}`,
             answer: value,
@@ -91,20 +115,21 @@ class DirVisitor {
           }));
 
         if(answers.length === 0) {
-          console.error(`Failed to parse question with gid: ${gid} because there are no answers!`);
+          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because there are no answers!`);
           return;
         }
         if(answers.filter(a => a.isCorrect).length === 0) {
-          console.error(`Failed to parse question with gid: ${gid} because there are no correct answers! \r\n${content}`);
+          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because there are no correct answers! \r\n${content}`);
           return;
         }
 
-        const newEntry: Question = { id: nameWithoutExt, question, answers };
+        const newEntry: Question = { id: nameWithoutExt, question, answers, qualifications };
         page.questionnaire.push(newEntry);
+
         this._pages[locale] = page;
         this._questions[gid] = newEntry;
       } catch(error) {
-        console.error(`Failed to parse question with gid: ${gid}`);
+        console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath}`);
       }
     });
   }

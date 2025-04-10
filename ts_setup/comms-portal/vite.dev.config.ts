@@ -19,7 +19,11 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
       checker({ typescript: true }),
       svgr({ svgrOptions: {} }), 
       intlTsVite({}),
-      mdCrawlerTsVite({ src: 'md-crawler-datasource/erau' }),
+      mdCrawlerTsVite([
+        { src: 'md-crawler-datasource/erau', target: 'src/datasource-1' },
+        { src: 'md-crawler-datasource/es3ky_r_z', target: 'src/datasource-2' }
+      ]),
+      
     ],
     build: {
       chunkSizeWarningLimit: 5000,

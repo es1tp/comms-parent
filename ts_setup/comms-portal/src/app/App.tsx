@@ -2,10 +2,13 @@ import { RouterProvider } from '@tanstack/react-router';
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
 import { SiteBackendProvider, GComponents, router, LocaleProvider, IamBackendProvider } from '@dxs-ts/gamut';
 
-import { createIamFetch, createSiteFetch } from '@/api-site';
+
 import { en } from '../intl/en';
 import { et } from '../intl/et';
+
 import { DemoTheme } from '@/theme';
+import { createSiteFetch } from './fetch_stencil';
+import { createIamFetch } from './fetch_iam';
 
 
 const siteFetch = createSiteFetch();

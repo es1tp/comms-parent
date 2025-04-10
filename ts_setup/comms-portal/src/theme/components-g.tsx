@@ -3,6 +3,9 @@ import remarkGfm from 'remark-gfm'
 import user_logo_light from './es1tp-logo2.svg';
 import tpt_building from './tpt_building.jpg';
 import { DemoFooter } from './DemoFooter';
+import { groupTopics } from '@/api-site';
+import { GTopicLink } from '@/g-popover-topics';
+import { GForm } from '@/g-form';
 
 export const components_g: Components<Omit<Theme, 'components'>> = {
 
@@ -69,7 +72,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   },
   GLocales: {
     defaultProps: {
-      locales: ['et', 'en']
+      locales: ['et', 'en'],
     },
   },
   GPopoverButton: {
@@ -105,8 +108,28 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
     }
   },
 
+  GPopoverTopics: {
+    defaultProps: {
+      groupTopics,
+      slots: {
+        link: GTopicLink
+      }
+    }
+  },
+
   GArticleFeedback: {
     defaultProps: { enabled(view) { return false } }
+  },
+
+  GRouterOffer: {
+    defaultProps: {
+      
+    }
+  },
+  GForm: {
+    defaultProps: {
+      component: GForm
+    }
   }
 }
 

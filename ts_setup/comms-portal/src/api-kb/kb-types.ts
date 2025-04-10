@@ -3,6 +3,7 @@ type Letter = 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 
 export type LocaleCode = `${Letter}${Letter}`
 export type ArticleId = string;
 export type PageId = string;
+export type QualificationType = string;
 
 // root 'topic' that contains subject and all of the localized contents(question/answer/reading materials)
 export interface Article {
@@ -16,6 +17,7 @@ export interface Page {
   id: PageId;
   localeCode: LocaleCode; // two letter 
   title: string; 
+  qualification?: QualificationType | undefined;
 
   materials: Material[]
   questionnaire: Question[];
@@ -30,6 +32,7 @@ export interface Question {
   id: string;
   question: string;
   answers: Answer[];
+  qualifications: QualificationType[];
 }
 
 export interface Answer {
