@@ -10,8 +10,15 @@ export const en = {
   'gamut.search.results.allResults': 'All results',
   'gamut.search.results.noResults': 'No results',
   'gamut.noValueIndicatorColon': ':',
-  'footer.column2.title': 'Column2',
-  'footer.column3.title': 'Column3',
-  'footer.column4.title': 'Column4',
-  'footer.column2.subtitle': 'Column2 subtitle'
+  'footer.column2.title': 'Become a radio amateur!',
+  'footer.column3.title': 'Links',
+  'footer.column4.title': 'Contact',
+  'footer.column2.become.amateur': 'How do I get started?',
+  'footer.column3.link.erau': 'Estonian Amateur Radio League',
+  'footer.column3.link.es1tp.qrz': 'QRZ ES1TP',
+  'footer.column3.link.tpt': 'Tallinn Polytechnic School',
+  'footer.column4.email': 'es1mw@erau.ee',
+  'footer.column4.address1': 'Tallinn Polytechnic School',
+  'footer.column4.address2': 'Pärnu mnt 57',
+  'footer.column4.postalCode': '10135 Tallinn'
 }

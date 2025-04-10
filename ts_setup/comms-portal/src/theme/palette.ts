@@ -2,14 +2,11 @@ import { PaletteOptions } from "@mui/material";
 
 export const palette: PaletteOptions = {
   primary: {
-    main: '#1C7287',         // blue
-    dark: '#155566',
+    main: 'rgba(41,60,85, 1)',
     contrastText: '#ffffff',
   },
   secondary: {
-    main: 'rgb(240, 169, 169)', // button border or divider colour
-    light: 'rgb(0, 126, 143)', // breadcrumbs colour
-    dark: 'rgb(3, 50, 47)', // breadcrumbs hover colour
+    main: 'rgba(37, 0, 254, 1)', // same blue as in ES1TP logo
   },
   background: {
     paper: '#f5f5f5',       // light gray for some boxes

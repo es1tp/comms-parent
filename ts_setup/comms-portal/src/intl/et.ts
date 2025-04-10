@@ -10,8 +10,15 @@ export const et = {
   'gamut.search.results.allResults': 'Kõik tulemused',
   'gamut.search.results.noResults': 'Tulemusi pole',
   'gamut.noValueIndicatorColon': ':',
-  'footer.column2.title': 'Column2',
-  'footer.column3.title': 'Column3',
-  'footer.column4.title': 'Column4',
-  'footer.column2.subtitle': 'Column2 subtitle'
+  'footer.column2.title': 'Hakka raadioamatööriks!',
+  'footer.column3.title': 'Lingid',
+  'footer.column4.title': 'Kontakti',
+  'footer.column2.become.amateur': 'Kuidas saada raadioamatööriks?',
+  'footer.column3.link.erau': 'Eesti Raadioamatööride Ühing',
+  'footer.column3.link.es1tp.qrz': 'QRZ ES1TP',
+  'footer.column3.link.tpt': 'Tallinna Polütehnikum',
+  'footer.column4.email': 'es1mw@erau.ee',
+  'footer.column4.address1': 'Tallinna Polütehnikum',
+  'footer.column4.address2': 'Pärnu mnt 57',
+  'footer.column4.postalCode': '10135 Tallinn'
 }

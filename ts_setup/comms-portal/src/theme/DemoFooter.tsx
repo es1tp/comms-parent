@@ -1,6 +1,7 @@
 
 import React from 'react';
-import { Link, Typography, generateUtilityClass, styled } from '@mui/material';
+import { Box, Link, Typography, generateUtilityClass, styled } from '@mui/material';
+import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import { useIntl } from 'react-intl';
 import { GLogo } from '@dxs-ts/gamut';
 import composeClasses from '@mui/utils/composeClasses';
@@ -9,6 +10,7 @@ const useUtilityClasses = () => {
   const slots = {
     root: ['root'],
     spacing: ['spacing'],
+    logoColumnSpacing: ['logoColumnSpacing'],
     heading: ['heading'],
     links: ['links']
   };
@@ -22,34 +24,32 @@ export const DemoFooter: React.FC = () => {
 
   return (
     <DemoFooterRoot className={classes.root}>
-      <div className={classes.spacing}><GLogo variant='black_lg' /></div>
+      <div className={classes.spacing}>
+          <GLogo variant='black_lg'  />
+      </div>
       <div className={classes.spacing}>
         <Typography className={classes.heading}>{intl.formatMessage({ id: 'footer.column2.title' })}</Typography>
-        <Typography>{intl.formatMessage({ id: 'footer.column2.subtitle' })}</Typography>
+        <Link href='https://www.erau.ee/et/kuidas-saada-raadioamatoeoeriks' target="_blank" >
+          <Typography>{intl.formatMessage({ id: 'footer.column2.become.amateur' })}</Typography>
+        </Link>
       </div>
       <div className={classes.links}>
         <Typography className={classes.heading}>{intl.formatMessage({ id: 'footer.column3.title' })}</Typography>
-        <Link href='https://www.gov.uk/government/publications/sample-accessibility-statement/sample-accessibility-statement-for-a-fictional-public-sector-website'>
-          <Typography>{intl.formatMessage({ id: 'footer.column3.link.acessibility' })}</Typography>
+        <Link href='https://www.erau.ee/et/' target="_blank">
+          <Typography>{intl.formatMessage({ id: 'footer.column3.link.erau' })}</Typography>
         </Link>
-        <Link href='https://iapp.org/resources/article/sample-data-protection-policy-template-2/'>
-          <Typography>{intl.formatMessage({ id: 'footer.column3.link.dataProtection' })}</Typography>
+        <Link href='https://www.tptlive.ee/' target="_blank">
+          <Typography>{intl.formatMessage({ id: 'footer.column3.link.tpt' })}</Typography>
         </Link>
-        <Link href='http://www.google.com'>
-          <Typography>{intl.formatMessage({ id: 'footer.column3.link.feedback' })}</Typography>
-        </Link>
-        <Link href='http://www.google.com'>
-          <Typography>{intl.formatMessage({ id: 'footer.column3.link.siteInfo' })}</Typography>
-        </Link>
-        <Link href='http://www.google.com'>
-          <Typography>{intl.formatMessage({ id: 'footer.column3.link.newsletter' })}</Typography>
+        <Link href='https://www.qrz.com/db/ES1TP' target="_blank">
+          <Typography>{intl.formatMessage({ id: 'footer.column3.link.es1tp.qrz' })}</Typography>
         </Link>
       </div>
       <div className={classes.spacing}>
         <Typography className={classes.heading}>{intl.formatMessage({ id: 'footer.column4.title' })}</Typography>
-        <Typography>{intl.formatMessage({ id: 'footer.column4.email' })}</Typography>
-        <Typography>{intl.formatMessage({ id: 'footer.column4.phone' })}</Typography>
-        <Typography>{intl.formatMessage({ id: 'footer.column4.address' })}</Typography>
+        <Box className='email-container'><EmailOutlinedIcon /><Typography>{intl.formatMessage({ id: 'footer.column4.email' })}</Typography></Box>
+        <Typography>{intl.formatMessage({ id: 'footer.column4.address1' })}</Typography>
+        <Typography>{intl.formatMessage({ id: 'footer.column4.address2' })}</Typography>
         <Typography>{intl.formatMessage({ id: 'footer.column4.postalCode' })}</Typography>
       </div>
     </DemoFooterRoot>
@@ -72,6 +72,7 @@ const DemoFooterRoot = styled("div", {
   return {
     display: 'flex',
     paddingBottom: theme.spacing(3),
+    width: '100%',
     [theme.breakpoints.down('lg')]: {
       flexDirection: 'column',
       fontSize: theme.typography.caption.fontSize,
@@ -105,7 +106,13 @@ const DemoFooterRoot = styled("div", {
         width: '24%',
       },
     },
-
-
+    '.email-container': {
+      display: 'inline-flex',
+      alignItems: 'center',
+      '.MuiSvgIcon-root': {
+        marginRight: theme.spacing(1),
+        color: theme.palette.secondary.main
+      }
+    }
   };
 });

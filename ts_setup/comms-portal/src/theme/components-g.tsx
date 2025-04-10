@@ -55,7 +55,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   },
   GFooter: {
     defaultProps: {
-      children: <>Footer</>
+      children: <DemoFooter/>
     },
     styleOverrides: {
       root: ({ theme }) => ({
