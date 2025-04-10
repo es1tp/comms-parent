@@ -14,6 +14,7 @@ export const components_mui: Components<Omit<Theme, 'components'>> = {
       })
     }
   },
+
   MuiLink: {
     styleOverrides: {
       root: ({ theme }) => ({
@@ -22,8 +23,7 @@ export const components_mui: Components<Omit<Theme, 'components'>> = {
 
         ':hover': {
           cursor: 'pointer',
-          textDecoration: 'underline',
-          color: theme.palette.info.dark
+          color: theme.palette.secondary.main,
         }
       })
     }
@@ -98,6 +98,24 @@ export const components_mui: Components<Omit<Theme, 'components'>> = {
       root: ({ theme }) => ({
         borderRadius: 0,
         backgroundColor: theme.palette.background.default
+      })
+    }
+  },
+  MuiPopover: {
+    styleOverrides: {
+      root: ({ theme }) => ({
+        '.GPopoverTopics-topicsLayout .MuiTypography-root': {
+          ':hover': {
+            color: theme.palette.secondary.main,
+            textDecoration: 'none'
+          }
+        },
+        '.GPopoverSearch-resultsContainer .MuiTypography-root.MuiLink-root': {
+          ':hover': {
+            color: theme.palette.secondary.main,
+            textDecoration: 'none'
+          }
+        }
       })
     }
   },

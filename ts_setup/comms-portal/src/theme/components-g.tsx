@@ -1,11 +1,13 @@
-import { Theme, Components, alpha } from '@mui/material';
+import { Theme, Components, alpha, darken } from '@mui/material';
 import remarkGfm from 'remark-gfm'
-import user_logo_light from './es1tp-logo2.svg';
+import user_logo_light from './es1tp-logo1.svg';
 import tpt_building from './tpt_building.jpg';
 import { DemoFooter } from './DemoFooter';
 import { groupTopics } from '@/api-site';
 import { GTopicLink } from '@/g-popover-topics';
 import { GForm } from '@/g-form';
+
+
 
 export const components_g: Components<Omit<Theme, 'components'>> = {
 
@@ -41,7 +43,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   GRouterUnsecured: {
     defaultProps: {
       backgroundImage: tpt_building,
-      height: '450px'
+      height: '470px'
     }
   },
 
@@ -74,16 +76,47 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
     defaultProps: {
       locales: ['et', 'en'],
     },
+    styleOverrides: {
+      root: ({ theme }) => ({
+        '.MuiButtonBase-root': {
+          color: theme.palette.text.primary,
+          border: `1px solid ${theme.palette.text.primary}`,
+          borderRadius: 'unset',
+          paddingRight: theme.spacing(2),
+          paddingLeft: theme.spacing(2),
+          ':hover': {
+            color: theme.palette.text.primary,
+          }
+        }
+      })
+    }
   },
+  GAppBar: {
+    styleOverrides: {
+      root: ({ theme }) => ({
+        '& .GLayout-root.GLayout-toolbar-n-rows-2-columns.GLayout-root': {
+
+        }
+      })
+    }
+  },
+
   GPopoverButton: {
     styleOverrides: {
       root: ({ theme }) => ({
         '& .GPopoverButton-button': {
-          border: `1px solid ${alpha(theme.palette.primary.main, 0.4)}`,
-          boxShadow: `0 0 30px 10px ${alpha(theme.palette.primary.main, 0.3)}`,
+          '.MuiIconButton-root': {
+            backgroundColor: theme.palette.secondary.light,
+            color: theme.palette.text.primary,
+            ':hover': {
+              backgroundColor: darken(theme.palette.secondary.light, 0.1),
+            }
+          },
+          border: `1px solid ${alpha(theme.palette.text.primary, 0.4)}`,
+          boxShadow: `0 0 30px 10px ${alpha(theme.palette.text.primary, 0.3)}`,
           zIndex: 1,
           [theme.breakpoints.down('lg')]: {
-            border: `1px solid ${theme.palette.primary.main}`,
+            border: `1px solid ${theme.palette.text.primary}`,
             boxShadow: 'none',
             backgroundColor: alpha(theme.palette.background.paper, 0.3)
           }
@@ -91,6 +124,15 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
       })
     }
   },
+
+  GArticle: {
+    defaultProps: {
+      slots: {
+        pageLinks: undefined
+      }
+    }
+  },
+
   GMarkdown: {
     defaultProps: {
       children: "# Portal under maintainence",

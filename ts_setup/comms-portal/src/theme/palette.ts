@@ -2,11 +2,13 @@ import { PaletteOptions } from "@mui/material";
 
 export const palette: PaletteOptions = {
   primary: {
-    main: 'rgba(41,60,85, 1)',
+    main: '#3f37c9',
     contrastText: '#ffffff',
   },
   secondary: {
-    main: 'rgba(37, 0, 254, 1)', // same blue as in ES1TP logo
+    main: '#df2935', 
+    dark: 'rgb(88, 107, 147)',
+    light: 'rgb(254, 174, 8, 1)'
   },
   background: {
     paper: '#f5f5f5',       // light gray for some boxes
