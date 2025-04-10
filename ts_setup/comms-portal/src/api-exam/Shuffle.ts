@@ -29,8 +29,8 @@ export class Shuffle {
   }
 
   private visitSubject(src: ExamApi.ErauSubject): ExamApi.ErauSubject | undefined {
-    const questionsTks = src.questions.map(({ tk }) => tk!);
-    const questions = Object.values(this._result).filter(({tk}) => questionsTks.includes(tk!));
+    const questionsTks = src.questions.map(({ id }) => id);
+    const questions = Object.values(this._result).filter(({id}) => questionsTks.includes(id));
     if(questions.length) {
       const subject: ExamApi.ErauSubject = {...src};
       subject.questions = questions;
@@ -45,7 +45,7 @@ export class Shuffle {
     const question: ExamApi.ErauQuestion = { ...this._source_questions[next] };
     const answers = Array.from(question.answers).sort(() => .5 - Math.random())
     question.answers = answers;
-    this._result[question.tk!] = Object.freeze(question);
+    this._result[question.id] = Object.freeze(question);
   }
 
   private visitNextQuestionId(): number {

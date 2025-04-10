@@ -1,9 +1,11 @@
 import { Dirent, readdirSync } from 'node:fs'
-import { parseDir } from './dir-visitor';
+
 import { Article } from '../src/api-kb';
-import { QuestionnaireVisitor } from './questionnaire-visitor';
 import { ExamApi } from '../src/api-exam';
 
+import { parseDir } from './dir-visitor';
+import { QuestionnaireVisitor } from './questionnaire-visitor';
+import { validateArticles } from './article-validator';
 
 
 function findValidFolders(path: string): Dirent[] {
@@ -41,7 +43,6 @@ function createSiteFiles(articles: Article[]): KbFile[] {
 
 function createQuestionnaireFile(articles: Article[]): KbFile[] {
   const questionnaires: (KbFile & { subject: ExamApi.ErauSubject })[] = new QuestionnaireVisitor(articles).visit().close()
-    
     .map(subject => {
       const lines = JSON.stringify(subject, null, 2)
       const importLine = `import { ExamApi } from '@/api-exam'\n\n`;
@@ -65,47 +66,6 @@ function createQuestionnaireFile(articles: Article[]): KbFile[] {
 
 }
 
-/**
-    function toAnswers(row: RowAnswer): ExamApi.ErauAnswer {
-      return {
-        correct: row.correct,
-        text: row.answer
-      }
-    }
-    function toQuestion(row: RowQuestion): ExamApi.ErauQuestion {
-      return {
-        id: row.id,
-        text: row.question,
-        answers: row.answers.map(toAnswers),
-        info: row.info.map(info => info.info),
-      }
-    }
-
-    function toSubject(row: RowSubject): ExamApi.ErauSubject {
-      return {
-        id: row.id,
-        title: row.title,
-        questions: row.questions.map(toQuestion)
-      }
-    }
-    const subjects = this._all_subjects
-      .map(toSubject)
-      .map(sub => ({
-        id: sub.id.trim().toUpperCase(),
-        fileName: sub.id.trim().toUpperCase() + '.ts',
-        content: `export default ${JSON.stringify(sub, null, 2)}`
-      }));
-
-    const imports = subjects.map(e => `import ${e.id} from './${e.id}'`).join('\r\n')
-      + '\r\nimport { withTk } from \'./id-gen\'\r\n'
-      + '\r\nimport { ExamApi } from \'../exam-context\'\r\n';
-
-    return [...subjects, {
-      fileName: 'index.ts',
-      content: imports + `export const defs: ExamApi.ErauSubject[] = withTk([${subjects.map(e => e.id).join(', ')}])`
-    }];
- */
-
 
 export type KbFile = {
   fileName: string;
@@ -121,6 +81,8 @@ export async function parseFolders(path: string): Promise<KbFile[]> {
         .map(child => parseDir(child, parent))
       return [parent, ...children];
     });
+
+  validateArticles(articles);
 
   return [
     ...createSiteFiles(articles),

@@ -20,22 +20,22 @@ export const C11_S02: Article = {
           "question": "Mida tähendab \"CQ\" ?",
           "answers": [
             {
-              "id": "C11_S02_et_A",
+              "id": "C11_S02_et_q011_A",
               "answer": "Märguanne teisele jaamale, et kutsute teda veerand tunni pärast.",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_B",
+              "id": "C11_S02_et_q011_B",
               "answer": "Märguanne, et proovite uut antenni ja väljakutsetele ei vasta.",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_C",
+              "id": "C11_S02_et_q011_C",
               "answer": "Üldväljakutse märkimaks, et üritate kellegagi ühendust luua.",
               "isCorrect": true
             },
             {
-              "id": "C11_S02_et_D",
+              "id": "C11_S02_et_q011_D",
               "answer": "Ainult kutsutud jaam tohib vastata.",
               "isCorrect": false
             }
@@ -50,17 +50,17 @@ export const C11_S02: Article = {
           "question": "Mida tähendab lühend QRS ?",
           "answers": [
             {
-              "id": "C11_S02_et_A",
+              "id": "C11_S02_et_q012_A",
               "answer": "Mind segavad staatilised häired.",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_B",
+              "id": "C11_S02_et_q012_B",
               "answer": "Saatke aeglasemalt.",
               "isCorrect": true
             },
             {
-              "id": "C11_S02_et_C",
+              "id": "C11_S02_et_q012_C",
               "answer": "Saatke RST raport.",
               "isCorrect": false
             }
@@ -75,17 +75,17 @@ export const C11_S02: Article = {
           "question": "Mida tähendab lühend QTH ?",
           "answers": [
             {
-              "id": "C11_S02_et_A",
+              "id": "C11_S02_et_q013_A",
               "answer": "Kellaaeg on ...",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_B",
+              "id": "C11_S02_et_q013_B",
               "answer": "Minu nimi on ...",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_C",
+              "id": "C11_S02_et_q013_C",
               "answer": "Minu asukoht on ...",
               "isCorrect": true
             }
@@ -100,17 +100,17 @@ export const C11_S02: Article = {
           "question": "Mida tähendab lühend QSL?",
           "answers": [
             {
-              "id": "C11_S02_et_A",
+              "id": "C11_S02_et_q020_A",
               "answer": "Kas pean saatma teile oma jaamapäeviku?",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_B",
+              "id": "C11_S02_et_q020_B",
               "answer": "Kas võite kinnitada minu saadetud teate kättesaamist?",
               "isCorrect": true
             },
             {
-              "id": "C11_S02_et_C",
+              "id": "C11_S02_et_q020_C",
               "answer": "Kas pean saatma aeglasemalt?",
               "isCorrect": false
             }

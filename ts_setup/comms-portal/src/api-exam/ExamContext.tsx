@@ -9,18 +9,20 @@ import { ExamApi } from './exam-types';
 export const ExamContext = React.createContext<ExamApi.ExamContextType>({} as any);
 
 export const ExamProvider: React.FC<{ children: React.ReactNode, link: SiteApi.TopicLink }> = ({ children, link }) => {
-  const source: ExamApi.ErauSubject[] = datasource.questionnaires();
+  
+  const { locale } = useLocale();
   const qualification = link.value;
-  return (<WithContext source={source} qualification={qualification}>{children}</WithContext>)
+  const source: ExamApi.ErauSubject[] = datasource.questionnaires({qualification, locale});
+  return (<WithContext source={source}>{children}</WithContext>)
 }
 
 
-const WithContext: React.FC<{ children: React.ReactNode, source: ExamApi.ErauSubject[], qualification: string }> = ({ children, source, qualification }) => {
+const WithContext: React.FC<{ children: React.ReactNode, source: ExamApi.ErauSubject[] }> = ({ children, source }) => {
 
-  const { locale } = useLocale();
-
-  const init = React.useMemo(() => ExamApi.getInstance({source, locale, qualification}), [source, locale, qualification]);
+  const init = React.useMemo(() => ExamApi.getInstance({source}), [source]);
   const [state, setState] = React.useState(init);
+
+  console.log(state);
 
   const contextValue: ExamApi.ExamContextType = React.useMemo(() => {
     function selectAnswer(answerTk: string) {

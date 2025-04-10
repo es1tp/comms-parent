@@ -15,17 +15,17 @@ export const C04_S03: Article = {
           "question": "Millised on põhilised seguastme väljundis esinevad sagedused?",
           "answers": [
             {
-              "id": "C04_S03_et_A",
+              "id": "C04_S03_et_q002_A",
               "answer": "Sisendsignaali kahe- ja neljakordne sagedus.",
               "isCorrect": false
             },
             {
-              "id": "C04_S03_et_B",
+              "id": "C04_S03_et_q002_B",
               "answer": "Sisendsageduste summa,vahe ja ruutjuurkordne sagedus.",
               "isCorrect": false
             },
             {
-              "id": "C04_S03_et_D",
+              "id": "C04_S03_et_q002_D",
               "answer": "Sisendsagedused ning summaarne ja vahesagedus.",
               "isCorrect": true
             }
@@ -40,17 +40,17 @@ export const C04_S03: Article = {
           "question": "Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?",
           "answers": [
             {
-              "id": "C04_S03_et_A",
+              "id": "C04_S03_et_q009_A",
               "answer": "Seguastmes genereeritakse parasiitsed segustusproduktid.",
               "isCorrect": false
             },
             {
-              "id": "C04_S03_et_B",
+              "id": "C04_S03_et_q009_B",
               "answer": "Seguaste lakkab töötamast.",
               "isCorrect": true
             },
             {
-              "id": "C04_S03_et_C",
+              "id": "C04_S03_et_q009_C",
               "answer": "Toimub automaatne signaali piiramine.",
               "isCorrect": false
             }

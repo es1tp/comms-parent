@@ -11,7 +11,7 @@ export const Subject: React.FC<{ subject: ExamApi.Subject }> = ({ subject }) => 
   const { locale } = useLocale();
   return (
     <Container className='subject' maxWidth='md'>
-      <Typography>{subject.title[locale]}</Typography>
+      <Typography>{subject.title}</Typography>
       <Divider />
       {subject.questions.map(q => <Question key={q.id} question={q}/>)}
     </Container>

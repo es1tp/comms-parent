@@ -22,7 +22,7 @@ const localeOptions = {
 export const App: React.FC<{}> = ({ }) => {
   return (
     <QueryClientProvider client={queryClient}>
-      <LocaleProvider disableErrors options={{
+      <LocaleProvider disableErrors defaultLocale={() => 'et'} options={{
         et: et,
         en: en,
         fi: localeOptions,

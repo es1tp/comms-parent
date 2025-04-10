@@ -15,17 +15,17 @@ export const C09_S01: Article = {
           "question": "Mis on atmosfääriliste raadiohäirete peamine tekkepõhjus?",
           "answers": [
             {
-              "id": "C09_S01_et_A",
+              "id": "C09_S01_et_q001_A",
               "answer": "Päikeseplekid.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_B",
+              "id": "C09_S01_et_q001_B",
               "answer": "Äikesetormid.",
               "isCorrect": true
             },
             {
-              "id": "C09_S01_et_C",
+              "id": "C09_S01_et_q001_C",
               "answer": "Lennukid",
               "isCorrect": false
             }
@@ -40,17 +40,17 @@ export const C09_S01: Article = {
           "question": "Mis tüüpi interferentshäireid võib kiirata mitmebandi antenn, mis on ühendatud valesti häälestatud raadiojaama väljundisse?",
           "answers": [
             {
-              "id": "C09_S01_et_A",
+              "id": "C09_S01_et_q008_A",
               "answer": "Harmoonilisi sagedusi.",
               "isCorrect": true
             },
             {
-              "id": "C09_S01_et_B",
+              "id": "C09_S01_et_q008_B",
               "answer": "Aurora taolisi signaale.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_C",
+              "id": "C09_S01_et_q008_C",
               "answer": "Parasiitsignaale.",
               "isCorrect": false
             }
@@ -65,17 +65,17 @@ export const C09_S01: Article = {
           "question": "Mida tähendab väljend \"harmooniliste kiirgus\" ?",
           "answers": [
             {
-              "id": "C09_S01_et_A",
+              "id": "C09_S01_et_q009_A",
               "answer": "Töösageduse täiskordsete sageduste kiirgus eetrisse.",
               "isCorrect": true
             },
             {
-              "id": "C09_S01_et_B",
+              "id": "C09_S01_et_q009_B",
               "answer": "50 Hz brummsagedusega moduleeritud signaalide kiirgus.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_C",
+              "id": "C09_S01_et_q009_C",
               "answer": "Lähedal paiknevates teistes saatjates võib tekkida liitmodulatsioon teie saatja töö tõttu.",
               "isCorrect": false
             }
@@ -90,17 +90,17 @@ export const C09_S01: Article = {
           "question": "Milliseid raadiohäireid võib sidepidamine põhjustada?",
           "answers": [
             {
-              "id": "C09_S01_et_A",
+              "id": "C09_S01_et_q201_A",
               "answer": "Televiisorite vilkumist ja häireid elektroonikaseadmete töös.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_B",
+              "id": "C09_S01_et_q201_B",
               "answer": "Helivõimendusseadmetele vahelesegamist.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_C",
+              "id": "C09_S01_et_q201_C",
               "answer": "Kõiki ülaltoodud häireid.",
               "isCorrect": true
             }
@@ -114,17 +114,17 @@ export const C09_S01: Article = {
           "question": "Mis võib olla häirete põhjuseks amatöörsides?",
           "answers": [
             {
-              "id": "C09_S01_et_A",
+              "id": "C09_S01_et_q202_A",
               "answer": "Lähedalasuvad elektriseadmed.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_B",
+              "id": "C09_S01_et_q202_B",
               "answer": "Atmosfäärihäired või teised raadiojaamad.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_C",
+              "id": "C09_S01_et_q202_C",
               "answer": "Kõik ülalloetletud asjaolud.",
               "isCorrect": true
             }
@@ -138,17 +138,17 @@ export const C09_S01: Article = {
           "question": "Kas päike võib põhjustada atmosfäärihäireid?",
           "answers": [
             {
-              "id": "C09_S01_et_A",
+              "id": "C09_S01_et_q203_A",
               "answer": "Ei, sest päike asub väga kaugel.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_B",
+              "id": "C09_S01_et_q203_B",
               "answer": "Jah, sest päikeselt jõuavad Maale ionosfääri seisundit mõjutavad osakesed.",
               "isCorrect": true
             },
             {
-              "id": "C09_S01_et_C",
+              "id": "C09_S01_et_q203_C",
               "answer": "Päike suudab atmosfäärihäireid tekitada ainult päevasel ajal.",
               "isCorrect": false
             }
@@ -162,17 +162,17 @@ export const C09_S01: Article = {
           "question": "Kui raadiojaam asub suures linnas, siis kas see muudab olukorda raadiohäirete osas?",
           "answers": [
             {
-              "id": "C09_S01_et_A",
+              "id": "C09_S01_et_q206_A",
               "answer": "Esineb rohkem häireid kui maal, kuna linnas on rohkem elektriseadmeid.",
               "isCorrect": true
             },
             {
-              "id": "C09_S01_et_B",
+              "id": "C09_S01_et_q206_B",
               "answer": "Esineb vähem häireid kui maal, kuna linnamajad on kõrgemad.",
               "isCorrect": false
             },
             {
-              "id": "C09_S01_et_C",
+              "id": "C09_S01_et_q206_C",
               "answer": "Häirete tugevus ei sõltu raadiojaama asukohast.",
               "isCorrect": false
             }

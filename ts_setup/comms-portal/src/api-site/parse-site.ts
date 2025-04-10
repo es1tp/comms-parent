@@ -152,8 +152,6 @@ class DatasourceVisitor {
   }
 
   close(): SiteApi.Site {
-    console.log(this._topics);
-
     return {
       id: '',
       images: '',

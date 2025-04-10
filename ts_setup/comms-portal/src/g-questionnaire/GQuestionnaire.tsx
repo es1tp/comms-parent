@@ -4,13 +4,12 @@ import { Container, Paper, Typography, ButtonGroup, Button, Box, MenuItem, TextF
 import Sticky from 'react-sticky-el';
 import { FormattedMessage } from 'react-intl';
 import { useExam } from '@/api-exam';
+
 import { Subject } from './Subject';
-import { useLocale } from '@dxs-ts/gamut';
+import { GQuestionnaireRoot } from './useUtilityClasses';
 
 
 export const GQuestionnaire: React.FC<{}> = ({ }) => {
-  const { locale } = useLocale();
-
 
   const { value, shuffle, reset, all, selectSubject } = useExam();
   const subjects = Object.values(value.questionnaire.subjects);
@@ -19,10 +18,10 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
   const topRef = React.useRef<HTMLDivElement>(null);
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+  }
 
   return (
-    <>
+    <GQuestionnaireRoot>
       <Container maxWidth='md' className='questionnaire-header'>
         <div ref={topRef} />
         <ButtonGroup variant='contained' fullWidth>
@@ -32,11 +31,11 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
           <Button onClick={() => shuffle(25)}><FormattedMessage id='questionnaire-header.shuffle.big' /></Button>
         </ButtonGroup>
 
-        <TextField select value={selectedSubject?.tk ?? ''} className='subject-select' variant='filled' label={<FormattedMessage id='questionnaire.subject.select' />}>
+        <TextField select value={selectedSubject?.id ?? ''} className='subject-select' variant='filled' label={<FormattedMessage id='questionnaire.subject.select' />}>
           {source.map((subject) => (
-            <MenuItem key={subject.id} value={subject.tk} onClick={() => selectSubject(subject)}>
+            <MenuItem key={subject.id} value={subject.id} onClick={() => selectSubject(subject)}>
               <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
-                {subject.title[locale]?.substring(6)}{" "}({subject.questions.length})
+                {subject.title}{" "}({subject.questions.length})
               </div>
             </MenuItem>
           ))}
@@ -44,11 +43,13 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
       </Container>
 
       <Container className='questionnaire'>
-        {subjects.map(s => (<Subject key={s.tk} subject={s} />))}
+        {subjects.map(s => (<Subject key={s.id} subject={s} />))}
+
         <Box display='flex' justifyContent='center'>
           <Button className='scroll-top-button' variant='contained' onClick={scrollToTop}><FormattedMessage id='button.scroll-to-top' /></Button>
         </Box>
       </Container>
+
       <Sticky mode='bottom' boundaryElement={''}>
         <Paper className='questionnaire-results'>
           <Container className='questionnaire-results' maxWidth='md'>
@@ -56,6 +57,7 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
           </Container>
         </Paper>
       </Sticky>
-    </>
+      
+    </GQuestionnaireRoot>
   );
 }

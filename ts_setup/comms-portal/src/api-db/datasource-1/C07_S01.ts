@@ -15,17 +15,17 @@ export const C07_S01: Article = {
           "question": "Mis on raadiolevi?",
           "answers": [
             {
-              "id": "C07_S01_et_A",
+              "id": "C07_S01_et_q181_A",
               "answer": "Võimalus kuulata avalikus kohas asuva raadiovastuvõtjat.",
               "isCorrect": false
             },
             {
-              "id": "C07_S01_et_B",
+              "id": "C07_S01_et_q181_B",
               "answer": "Raadiokaupluste võrk raadioamatööride varustamiseks.",
               "isCorrect": false
             },
             {
-              "id": "C07_S01_et_C",
+              "id": "C07_S01_et_q181_C",
               "answer": "Raadiolainete võime levida tekkimiskohast kaugemale.",
               "isCorrect": true
             }
@@ -39,17 +39,17 @@ export const C07_S01: Article = {
           "question": "Mis teeb võimalikus lühilainete kauglevi?",
           "answers": [
             {
-              "id": "C07_S01_et_A",
+              "id": "C07_S01_et_q184_A",
               "answer": "Lühilainete peegeldumisele ionosfäärilt ja maapinnalt.",
               "isCorrect": true
             },
             {
-              "id": "C07_S01_et_B",
+              "id": "C07_S01_et_q184_B",
               "answer": "Otsese nähtavuse piirkonna laienemisele lühilainete toimel.",
               "isCorrect": false
             },
             {
-              "id": "C07_S01_et_C",
+              "id": "C07_S01_et_q184_C",
               "answer": "Maa ja Päikese kerakujulisusele.",
               "isCorrect": false
             }
@@ -63,17 +63,17 @@ export const C07_S01: Article = {
           "question": "Kuidas on võimalik suurendada raadiolainete otsenähtavuse leviala?",
           "answers": [
             {
-              "id": "C07_S01_et_A",
+              "id": "C07_S01_et_q185_A",
               "answer": "Vähendada oluliselt Maakera kumerust.",
               "isCorrect": false
             },
             {
-              "id": "C07_S01_et_B",
+              "id": "C07_S01_et_q185_B",
               "answer": "Tõsta antenn võimalikult kõrgele.",
               "isCorrect": true
             },
             {
-              "id": "C07_S01_et_C",
+              "id": "C07_S01_et_q185_C",
               "answer": "Kasutada jämedamat antennikaablit.",
               "isCorrect": false
             }

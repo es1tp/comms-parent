@@ -15,17 +15,17 @@ export const C05_S02: Article = {
           "question": "Mida nimetatakse raadiosaatja võimsuseks?",
           "answers": [
             {
-              "id": "C05_S02_et_A",
+              "id": "C05_S02_et_q166_A",
               "answer": "Raadiosaatja suurust.",
               "isCorrect": false
             },
             {
-              "id": "C05_S02_et_B",
+              "id": "C05_S02_et_q166_B",
               "answer": "Saatja poolt ajaühikus kiiratavat energiahulka.",
               "isCorrect": true
             },
             {
-              "id": "C05_S02_et_C",
+              "id": "C05_S02_et_q166_C",
               "answer": "Vastuvõetava korrespodendi signaali tugevust.",
               "isCorrect": false
             }
@@ -39,17 +39,17 @@ export const C05_S02: Article = {
           "question": "Kuidas muutub korrespondedi poolt vastu võetav signaal Kui raadiosaatja võimsust suurendada?",
           "answers": [
             {
-              "id": "C05_S02_et_A",
+              "id": "C05_S02_et_q168_A",
               "answer": "Muutub loetavamaks.",
               "isCorrect": false
             },
             {
-              "id": "C05_S02_et_B",
+              "id": "C05_S02_et_q168_B",
               "answer": "Muutub tugevamaks.",
               "isCorrect": true
             },
             {
-              "id": "C05_S02_et_C",
+              "id": "C05_S02_et_q168_C",
               "answer": "Jääb samaks.",
               "isCorrect": false
             }
@@ -63,17 +63,17 @@ export const C05_S02: Article = {
           "question": "Mida teete naabermajas oleva amatööriga jutu ajamiseks?",
           "answers": [
             {
-              "id": "C05_S02_et_A",
+              "id": "C05_S02_et_q170_A",
               "answer": "Kasutate nii palju võimsust kui võimalik, et naaber paremini kuuleks.",
               "isCorrect": false
             },
             {
-              "id": "C05_S02_et_B",
+              "id": "C05_S02_et_q170_B",
               "answer": "Kasutate nii vähe võimsust kui võimalik, et naabri vastuvõtuseadmeid mitte kahjustada.",
               "isCorrect": true
             },
             {
-              "id": "C05_S02_et_C",
+              "id": "C05_S02_et_q170_C",
               "answer": "Helistate side pidamiseks naabri telefonile.",
               "isCorrect": false
             }

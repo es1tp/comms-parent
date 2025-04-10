@@ -15,17 +15,17 @@ export const C03_S04: Article = {
           "question": "Mis materjali kasutate kui teil on vaja valmistada maanduskontuur?",
           "answers": [
             {
-              "id": "C03_S04_et_A",
+              "id": "C03_S04_et_q144_A",
               "answer": "Ülitugevat klaaskiudu.",
               "isCorrect": false
             },
             {
-              "id": "C03_S04_et_B",
+              "id": "C03_S04_et_q144_B",
               "answer": "Pikka metallvarrast.",
               "isCorrect": true
             },
             {
-              "id": "C03_S04_et_C",
+              "id": "C03_S04_et_q144_C",
               "answer": "Eriotstarbelist plastikkontuuri.",
               "isCorrect": false
             }
@@ -39,17 +39,17 @@ export const C03_S04: Article = {
           "question": "Milleks on vajalik maandusjuhe?",
           "answers": [
             {
-              "id": "C03_S04_et_A",
+              "id": "C03_S04_et_q145_A",
               "answer": "Vältida seadmete tuulega lendutõusmist.",
               "isCorrect": false
             },
             {
-              "id": "C03_S04_et_B",
+              "id": "C03_S04_et_q145_B",
               "answer": "Välistada seadme korpuse sattumine pinge alla.",
               "isCorrect": true
             },
             {
-              "id": "C03_S04_et_C",
+              "id": "C03_S04_et_q145_C",
               "answer": "Suurendada saatja võimsust.",
               "isCorrect": false
             }
@@ -63,17 +63,17 @@ export const C03_S04: Article = {
           "question": "Mis on Maandusjuhtme paigaldamisel kõige olulisem?",
           "answers": [
             {
-              "id": "C03_S04_et_A",
+              "id": "C03_S04_et_q146_A",
               "answer": "Valida võimalikult hinnaline materjal.",
               "isCorrect": false
             },
             {
-              "id": "C03_S04_et_B",
+              "id": "C03_S04_et_q146_B",
               "answer": "Paigaldada juhe läbilöögi vältimiseks maast võimalikult kõrgele.",
               "isCorrect": false
             },
             {
-              "id": "C03_S04_et_C",
+              "id": "C03_S04_et_q146_C",
               "answer": "Tagada juhtme võimalikult hea ühendus maaga.",
               "isCorrect": true
             }

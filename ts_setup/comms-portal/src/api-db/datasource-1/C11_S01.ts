@@ -20,17 +20,17 @@ export const C11_S01: Article = {
           "question": "Kuidas tuleb veerimistabeli abil saata kutsung ES9A ?",
           "answers": [
             {
-              "id": "C11_S01_et_A",
+              "id": "C11_S01_et_q016_A",
               "answer": "Eemeli Sagari Nine Aarne.",
               "isCorrect": false
             },
             {
-              "id": "C11_S01_et_B",
+              "id": "C11_S01_et_q016_B",
               "answer": "Echo Sierra Nine Alfa.",
               "isCorrect": true
             },
             {
-              "id": "C11_S01_et_C",
+              "id": "C11_S01_et_q016_C",
               "answer": "Edward Santiago Nine Alabama.",
               "isCorrect": false
             }
@@ -45,17 +45,17 @@ export const C11_S01: Article = {
           "question": "Kuidas veeritakse kutsungit AE0LQY ?",
           "answers": [
             {
-              "id": "C11_S01_et_A",
+              "id": "C11_S01_et_q017_A",
               "answer": "Able Easy Zero Lima Quebec Yankee.",
               "isCorrect": false
             },
             {
-              "id": "C11_S01_et_B",
+              "id": "C11_S01_et_q017_B",
               "answer": "Arizona Equador Zero London Queen Yesterday",
               "isCorrect": false
             },
             {
-              "id": "C11_S01_et_C",
+              "id": "C11_S01_et_q017_C",
               "answer": "Alfa Echo Zero Lima Quebec Yankee",
               "isCorrect": true
             }
@@ -70,17 +70,17 @@ export const C11_S01: Article = {
           "question": "Kuulete, kuidas sagedusel kutsuv jaam edastab oma kutsungit “EchoSierra-one-Alfa-Charlie”. Mida see teile ütleb?",
           "answers": [
             {
-              "id": "C11_S01_et_A",
+              "id": "C11_S01_et_q229_A",
               "answer": "Tegemist on Ford Sierral töötava autojaamaga.",
               "isCorrect": false
             },
             {
-              "id": "C11_S01_et_B",
+              "id": "C11_S01_et_q229_B",
               "answer": "Operaatori nimi on Charlie.",
               "isCorrect": false
             },
             {
-              "id": "C11_S01_et_C",
+              "id": "C11_S01_et_q229_C",
               "answer": "Sidet saab pidada eesti keeles.",
               "isCorrect": true
             }

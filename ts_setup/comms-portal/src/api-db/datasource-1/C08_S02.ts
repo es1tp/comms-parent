@@ -15,17 +15,17 @@ export const C08_S02: Article = {
           "question": "Mida kasutate, et kontrollida kas elektrivõrgust saadav pinge on 230 volti?",
           "answers": [
             {
-              "id": "C08_S02_et_A",
+              "id": "C08_S02_et_q195_A",
               "answer": "Kahte suure takistusega takistit.",
               "isCorrect": false
             },
             {
-              "id": "C08_S02_et_B",
+              "id": "C08_S02_et_q195_B",
               "answer": "Testrit.",
               "isCorrect": true
             },
             {
-              "id": "C08_S02_et_C",
+              "id": "C08_S02_et_q195_C",
               "answer": "Sagedusanalüsaatorit.",
               "isCorrect": false
             }
@@ -39,17 +39,17 @@ export const C08_S02: Article = {
           "question": "Mis on testri kasutamise põhieeliseks?",
           "answers": [
             {
-              "id": "C08_S02_et_A",
+              "id": "C08_S02_et_q196_A",
               "answer": "Kasutamismugavus, kuna üks seade võimaldab mõõta mitut parameetrit ja erinevaid mõõtepiirkondi.",
               "isCorrect": true
             },
             {
-              "id": "C08_S02_et_B",
+              "id": "C08_S02_et_q196_B",
               "answer": "Suurem täpsus ja töökindlus võrreldes kõigi teiste mõõteriistadega.",
               "isCorrect": false
             },
             {
-              "id": "C08_S02_et_C",
+              "id": "C08_S02_et_q196_C",
               "answer": "Seadme kergus.",
               "isCorrect": false
             }
@@ -63,17 +63,17 @@ export const C08_S02: Article = {
           "question": "Mida tuleb jälgida testriga elektrivõrgust saadava pinge mõõtmisel?",
           "answers": [
             {
-              "id": "C08_S02_et_A",
+              "id": "C08_S02_et_q197_A",
               "answer": "Tuleb välja lülitada kõik elektriseadmed.",
               "isCorrect": false
             },
             {
-              "id": "C08_S02_et_B",
+              "id": "C08_S02_et_q197_B",
               "answer": "On vaja jälgida, et on valitud sobiv mõõtepiirkond.",
               "isCorrect": true
             },
             {
-              "id": "C08_S02_et_C",
+              "id": "C08_S02_et_q197_C",
               "answer": "Tuleb kaks nädalat varem teatada Eesti Energiasse, et nad saaksid voolu katkestada.",
               "isCorrect": false
             }
@@ -87,17 +87,17 @@ export const C08_S02: Article = {
           "question": "Mida tuleb meeles pidada Testriga takistuse mõõtmisel?",
           "answers": [
             {
-              "id": "C08_S02_et_A",
+              "id": "C08_S02_et_q198_A",
               "answer": "Mõõdetav takistus ei tohi olla liiga suur, kuna mõõteseade võib läbi põleda.",
               "isCorrect": false
             },
             {
-              "id": "C08_S02_et_B",
+              "id": "C08_S02_et_q198_B",
               "answer": "Mõõdetav takistus ei tohi olla liiga väike, kuna mõõteseadme näitu ei õnnestu fikseerida.",
               "isCorrect": false
             },
             {
-              "id": "C08_S02_et_C",
+              "id": "C08_S02_et_q198_C",
               "answer": "Mõõdetav takistus ei tohi olla pinge all.",
               "isCorrect": true
             }

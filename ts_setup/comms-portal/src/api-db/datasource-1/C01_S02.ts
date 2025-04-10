@@ -20,17 +20,17 @@ export const C01_S02: Article = {
           "question": "Miks kasutatakse mõõtühikute ees liiteid “piko-”, “nano-”, “mikro-”, “milli-”, “kilo-“, “mega-“, “giga-”, “tera”?",
           "answers": [
             {
-              "id": "C01_S02_et_A",
+              "id": "C01_S02_et_q115_A",
               "answer": "Selleks, et vähem nulle kirjutada.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_B",
+              "id": "C01_S02_et_q115_B",
               "answer": "Ilma eesliiteta ühikute kirjutamine pole lubatud.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_C",
+              "id": "C01_S02_et_q115_C",
               "answer": "Eesliiteid ei tohi mingil juhul kasutada.",
               "isCorrect": false
             }
@@ -44,17 +44,17 @@ export const C01_S02: Article = {
           "question": "Miks kasutatakse mõõtühikutes eesliidet “mega”?",
           "answers": [
             {
-              "id": "C01_S02_et_A",
+              "id": "C01_S02_et_q116_A",
               "answer": "Tegemist on eesliitega, mis lisatakse eriti sümpaatsele mõõtühikule.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_B",
+              "id": "C01_S02_et_q116_B",
               "answer": "Ühiku väärtuse miljonikordseks suurendamiseks.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_C",
+              "id": "C01_S02_et_q116_C",
               "answer": "Ühiku väärtuse miljonikordseks vähendamiseks.",
               "isCorrect": false
             }
@@ -68,17 +68,17 @@ export const C01_S02: Article = {
           "question": "Kuidas on seotud sagedused 5 000 000 hertsi ja 5 megahertsi?",
           "answers": [
             {
-              "id": "C01_S02_et_A",
+              "id": "C01_S02_et_q117_A",
               "answer": "5 000 000 hertsi on suurem kui 5 megahertsi.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_B",
+              "id": "C01_S02_et_q117_B",
               "answer": "5 000 000 hertsi on väiksem kui 5 megahertsi.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_C",
+              "id": "C01_S02_et_q117_C",
               "answer": "Nad on võrdsed.",
               "isCorrect": true
             }
@@ -92,17 +92,17 @@ export const C01_S02: Article = {
           "question": "Kuidas on seotud sagedused 5 000 hertsi ja 5 megahertsi?",
           "answers": [
             {
-              "id": "C01_S02_et_A",
+              "id": "C01_S02_et_q118_A",
               "answer": "5 000 hertsi on suurem kui 5 megahertsi.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_B",
+              "id": "C01_S02_et_q118_B",
               "answer": "5 000 hertsi on väiksem kui 5 megahertsi.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_C",
+              "id": "C01_S02_et_q118_C",
               "answer": "Nad on võrdsed.",
               "isCorrect": false
             }
@@ -116,17 +116,17 @@ export const C01_S02: Article = {
           "question": "Kuidas on seotud sagedused 5 mHz ja 5 MHz?",
           "answers": [
             {
-              "id": "C01_S02_et_A",
+              "id": "C01_S02_et_q119_A",
               "answer": "5 mHz on suurem kui 5 MHz.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_B",
+              "id": "C01_S02_et_q119_B",
               "answer": "5 mHz on väiksem kui 5 MHz.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_C",
+              "id": "C01_S02_et_q119_C",
               "answer": "Nad on võrdsed.",
               "isCorrect": false
             }
@@ -140,17 +140,17 @@ export const C01_S02: Article = {
           "question": "Mis on võrdne 1 kilovatiga?",
           "answers": [
             {
-              "id": "C01_S02_et_A",
+              "id": "C01_S02_et_q120_A",
               "answer": "1 vatt.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_B",
+              "id": "C01_S02_et_q120_B",
               "answer": "1000 vatti.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_C",
+              "id": "C01_S02_et_q120_C",
               "answer": "0,001 vatti.",
               "isCorrect": false
             }
@@ -164,17 +164,17 @@ export const C01_S02: Article = {
           "question": "Te töötate sagedusel 14250 kHz ja tahate sagedust muuta 5 kHz ülespoole. Mis on teie uueks töösageduseks?",
           "answers": [
             {
-              "id": "C01_S02_et_A",
+              "id": "C01_S02_et_q121_A",
               "answer": "14255 kHz.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_B",
+              "id": "C01_S02_et_q121_B",
               "answer": "14245 kHz.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_C",
+              "id": "C01_S02_et_q121_C",
               "answer": "19250 kHz.",
               "isCorrect": false
             }
@@ -188,17 +188,17 @@ export const C01_S02: Article = {
           "question": "Kuidas on seotud suurused 10 kilohertsi ja 10 millivolti?",
           "answers": [
             {
-              "id": "C01_S02_et_A",
+              "id": "C01_S02_et_q122_A",
               "answer": "10 kilohertsi on suurem kui 10 millivolti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_B",
+              "id": "C01_S02_et_q122_B",
               "answer": "10 kilohertsi on väiksem kui 10 millivolti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_C",
+              "id": "C01_S02_et_q122_C",
               "answer": "Nad ei ole seotud.",
               "isCorrect": true
             }

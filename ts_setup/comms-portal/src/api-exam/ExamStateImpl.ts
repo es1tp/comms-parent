@@ -4,7 +4,6 @@ import { Shuffle } from './Shuffle';
 
 
 export class ExamStateImpl implements ExamApi.ExamState {
-  private _locale: ExamApi.LocaleCode;
   private _source: ExamApi.ErauSubject[];
   private _questionnaire: ExamApi.Questionnaire;
   private _selectedAnswers: string[];
@@ -12,26 +11,23 @@ export class ExamStateImpl implements ExamApi.ExamState {
 
 
   constructor(props: {
-    locale: ExamApi.LocaleCode,
     source: ExamApi.ErauSubject[],
     subject?: ExamApi.ErauSubject | undefined,
     selectedAnswers?: { values: string[], questionnaire: ExamApi.Questionnaire },
     nextNQuestions?: number
   }) {
-    this._locale = props.locale;
     this._source = props.source;    
     this._selectedSubject = props.subject;
 
     if (props.selectedAnswers) {
       this._selectedAnswers = [...props.selectedAnswers.values];
       const subjects = Object.values(props.selectedAnswers.questionnaire.subjects);
-      //this._questionnaire = new QuestionnaireReducer(subjects, this._selectedAnswers, this._locale).accept(); 
-      this._questionnaire = {} as any;
+      this._questionnaire = new QuestionnaireReducer(subjects, this._selectedAnswers).accept(); 
     } else {
-      const source = !!props.subject ? props.source.filter(e => e.tk === props.subject?.tk) : props.source;
+      const source = !!props.subject ? props.source.filter(e => e.id === props.subject?.id) : props.source;
       this._selectedAnswers = [];
       const nextQuesions = props.nextNQuestions ? new Shuffle(source, props.nextNQuestions).accept() : source;
-      this._questionnaire = new QuestionnaireReducer(nextQuesions, this._selectedAnswers, this._locale).accept();    
+      this._questionnaire = new QuestionnaireReducer(nextQuesions, this._selectedAnswers).accept();    
     }
   }
   selectAnswer(answerTk: string): ExamApi.ExamState {
@@ -44,26 +40,26 @@ export class ExamStateImpl implements ExamApi.ExamState {
       return this;
     }
 
-    const selectedQuestionAnswers = selectedQuestion.answers.map(({tk}) => tk);
-    const values = this._selectedAnswers.filter(tk => !selectedQuestionAnswers.includes(tk));    
+    const selectedQuestionAnswers = selectedQuestion.answers.map(({id}) => id);
+    const values = this._selectedAnswers.filter(id => !selectedQuestionAnswers.includes(id));    
     values.push(answerTk);
-    return new ExamStateImpl({ source, subject: this._selectedSubject, selectedAnswers: { values, questionnaire }, locale: this._locale });
+    return new ExamStateImpl({ source, subject: this._selectedSubject, selectedAnswers: { values, questionnaire } });
   }
 
   suffle(nextNQuestions: number): ExamApi.ExamState {
     const source = this._source;
-    return new ExamStateImpl({ source, nextNQuestions, subject: this._selectedSubject, locale: this._locale });
+    return new ExamStateImpl({ source, nextNQuestions, subject: this._selectedSubject });
   }
 
   reset(): ExamApi.ExamState {
     const source = this._source;
     const questionnaire = this._questionnaire;
-    return new ExamStateImpl({ subject: this._selectedSubject, source, selectedAnswers: { values: [], questionnaire }, locale: this._locale });
+    return new ExamStateImpl({ subject: this._selectedSubject, source, selectedAnswers: { values: [], questionnaire } });
   }
 
   all(): ExamApi.ExamState {
     const source = this._source;
-    return new ExamStateImpl({ source, locale: this._locale });
+    return new ExamStateImpl({ source });
   }
 
   get source() { return this._source }
@@ -71,7 +67,7 @@ export class ExamStateImpl implements ExamApi.ExamState {
   get stats() {
     const total: number = Object.values(this._questionnaire.questions).length;
     const correct: number = Object.values(this._questionnaire.answers)
-      .filter(({correct, isAnswered}) => isAnswered && correct)
+      .filter(({isCorrect, isAnswered}) => isAnswered && isCorrect)
       .length;
     const perc: string = correct === 0 ? '0' : (100 / total * correct).toFixed(0);
     return { perc, total, correct }
@@ -83,6 +79,6 @@ export class ExamStateImpl implements ExamApi.ExamState {
 
   selectSubject(subject: ExamApi.ErauSubject | undefined): ExamApi.ExamState {
     const source = this._source;
-    return new ExamStateImpl({ source, subject, locale: this._locale });
+    return new ExamStateImpl({ source, subject });
   }
 }

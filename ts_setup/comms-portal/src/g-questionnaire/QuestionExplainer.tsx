@@ -17,7 +17,7 @@ export const QuestionExplainer: React.FC<{ question: ExamApi.Question }> = ({ qu
     "Please translate this question and its answers into English." +
     "Then, tell which of the answers is correct and explain why that answer is correct and the others are incorrect:\n\n";
 
-  const formattedQuestion = `${question.text[locale]}\r\n`
+  const formattedQuestion = `${question.text}\r\n`
   const formattedAnswers = question.answers.map((a, i) => `${i + 1}. ${a.text}`).join("\n");
   const textToSend = `${instruction}${formattedQuestion}\n\n${formattedAnswers}`;
 

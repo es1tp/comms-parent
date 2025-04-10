@@ -20,17 +20,17 @@ export const C11_S04: Article = {
           "question": "Mis on kõige olulisem tegur kutsesageduse valikul teil kasutada lubatud sagedusalal?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q001_A",
               "answer": "Sagedus ei tohi olla hõivatud teiste amatööride poolt.",
               "isCorrect": true
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q001_B",
               "answer": "Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q001_C",
               "answer": "Teie antenn peab olema resonantsis antud sagedusel.",
               "isCorrect": false
             }
@@ -45,27 +45,27 @@ export const C11_S04: Article = {
           "question": "Kuulete oma sagedusel Haiitis toimunud maavärina päästjate teabevahetust. Mida teete?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q004_A",
               "answer": "Teatate jaamale, et sagedus on hõivatud.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q004_B",
               "answer": "Otsite töötamiseks mõne teise sageduse.",
               "isCorrect": true
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q004_C",
               "answer": "Helistate Päästeametisse.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_D",
+              "id": "C11_S04_et_q004_D",
               "answer": "Helistate Tehnilise Järelevalve Ametisse.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_#",
+              "id": "C11_S04_et_q004_#",
               "answer": "vajab kontrollimist",
               "isCorrect": false
             }
@@ -80,17 +80,17 @@ export const C11_S04: Article = {
           "question": "Milline on standardse telefoniväljakutse formaat?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q014_A",
               "answer": "Saadate teise jaama kutsungi vähemalt kümme korda, siis sõnad \"this is\",seejärel oma kutsung vähemalt kaks korda.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q014_B",
               "answer": "Saadate fraasi \"CQ\" vähemalt viis korda, siis \"this is\" ja oma kutsung üks kord.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q014_C",
               "answer": "Saadate fraasi \"CQ\" kolm korda, \"this is\" ja oma kutsungi kolm korda.",
               "isCorrect": true
             }
@@ -105,17 +105,17 @@ export const C11_S04: Article = {
           "question": "Kuidas te vastate raadiotelefoni väljakutsele?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q015_A",
               "answer": "Saadate teise jaama kutsungit kümme korda ,siis \"this is\" ja oma kutsungit vähemalt kaks korda.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q015_B",
               "answer": "Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, \"this is\" ja oma kutsungit vähemalt üks kord.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q015_C",
               "answer": "Saadate teise jaama kutsungit ühe korra, \"this is\" ja oma kutsungit veerimistabelit kasutades ühe korra.",
               "isCorrect": true
             }
@@ -130,17 +130,17 @@ export const C11_S04: Article = {
           "question": "Te kuulete Soome jaama kutsumas “CQ DX”. Mida teete pärast kutsumise lõppu?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q220_A",
               "answer": "Edastate viivitamatult 3 korda oma kutsungi.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q220_B",
               "answer": "Kuna leviolud on soodsad, hakkate ise sellel sagedusel kutsuma.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q220_C",
               "answer": "Kuulate, kas keegi vastab, et saada aimu levitingimustest.",
               "isCorrect": true
             }
@@ -154,17 +154,17 @@ export const C11_S04: Article = {
           "question": "Teie CQ-le vastanud jaam edastas oma kutsungi liiga kiiresti, nii et Te ei suutnud seda vastu võtta. Mida teete?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q221_A",
               "answer": "Palute kutsungit aeglasemalt korrata.",
               "isCorrect": true
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q221_B",
               "answer": "Vahetate laineala.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q221_C",
               "answer": "Hakkate uuesti kutsuma, nagu poleks midagi kuulnud.",
               "isCorrect": false
             }
@@ -178,17 +178,17 @@ export const C11_S04: Article = {
           "question": "Töötate sagedusel, kui keegi küsib: “Kas sagedus on hõivatud?”. Mida teete?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q222_A",
               "answer": "Vahetate viivitamatult sagedust, et teine amatöör sagedusel töötada saaks.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q222_B",
               "answer": "Teavitate küsijat, et sagedus on hõivatud.",
               "isCorrect": true
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q222_C",
               "answer": "Lülitate transiiveri häälestusrežiimi näitamaks, et olete sagedusel.",
               "isCorrect": false
             }
@@ -202,17 +202,17 @@ export const C11_S04: Article = {
           "question": "Töötate sagedusel, kui Saksa jaam hakkab küsimata kutsuma “CQ DX”. Mida teete?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q223_A",
               "answer": "Lahkute viivitamatult sageduselt, kuna DX-sidet pidavad jaamad on eelisolukorras.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q223_B",
               "answer": "Alustate kutsujaga sidet.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q223_C",
               "answer": "Teavitate kutsujat, et sagedus on hõivatud, ja palute tal lahkuda.",
               "isCorrect": true
             }
@@ -226,17 +226,17 @@ export const C11_S04: Article = {
           "question": "Küsite sagedusel: “Kas sagedus on hõivatud?” ja saate jaatava vastuse. Mida teete?",
           "answers": [
             {
-              "id": "C11_S04_et_A",
+              "id": "C11_S04_et_q224_A",
               "answer": "Otsite uue vaba sageduse.",
               "isCorrect": true
             },
             {
-              "id": "C11_S04_et_B",
+              "id": "C11_S04_et_q224_B",
               "answer": "Suurendate võimsust, et sagedusel olevast jaamast tugevam olla.",
               "isCorrect": false
             },
             {
-              "id": "C11_S04_et_C",
+              "id": "C11_S04_et_q224_C",
               "answer": "Käsite sagedusel oleval jaamal viivitamatult lahkuda.",
               "isCorrect": false
             }

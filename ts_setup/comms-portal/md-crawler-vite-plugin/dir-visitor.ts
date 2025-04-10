@@ -109,7 +109,7 @@ class DirVisitor {
         const answers: Answer[] = Object.entries(entries)
           .filter(([key]) => !(key === '?' || key === '.' || key === 'Q') )
           .map(([key, value]) => ({
-            id: `${this._id}_${locale}_${key.substring(0, 1)}`,
+            id: `${page.id}_${nameWithoutExt}_${key.substring(0, 1)}`,
             answer: value,
             isCorrect: key.includes('*')
           }));

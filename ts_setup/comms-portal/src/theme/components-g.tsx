@@ -74,7 +74,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   },
   GLocales: {
     defaultProps: {
-      locales: ['et', 'en'],
+      locales: ['et', 'en']
     },
     styleOverrides: {
       root: ({ theme }) => ({

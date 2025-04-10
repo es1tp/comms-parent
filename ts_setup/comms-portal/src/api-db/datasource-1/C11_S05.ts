@@ -20,17 +20,17 @@ export const C11_S05: Article = {
           "question": "Mida tähendab R RST signaali raportis?",
           "answers": [
             {
-              "id": "C11_S05_et_A",
+              "id": "C11_S05_et_q019_A",
               "answer": "Signaali taastumist.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_B",
+              "id": "C11_S05_et_q019_B",
               "answer": "CW tooni reonantsi.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_C",
+              "id": "C11_S05_et_q019_C",
               "answer": "Signaali loetavust.",
               "isCorrect": true
             }
@@ -45,17 +45,17 @@ export const C11_S05: Article = {
           "question": "Kolm sidet järjest on korrespondendid andnud raportiks 39. Mida teete?",
           "answers": [
             {
-              "id": "C11_S05_et_A",
+              "id": "C11_S05_et_q227_A",
               "answer": "Palute anda raportiks 59.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_B",
+              "id": "C11_S05_et_q227_B",
               "answer": "Suurendate võimsust.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_C",
+              "id": "C11_S05_et_q227_C",
               "answer": "Katsute selgusele jõuda, kas transiiver on korras.",
               "isCorrect": true
             }
@@ -69,17 +69,17 @@ export const C11_S05: Article = {
           "question": "Teile on kolm Jaapani korrespondenti järjest andnud raportiks 59. See tähendab, et:",
           "answers": [
             {
-              "id": "C11_S05_et_A",
+              "id": "C11_S05_et_q228_A",
               "answer": "Jaapanisse on hea levi.",
               "isCorrect": true
             },
             {
-              "id": "C11_S05_et_B",
+              "id": "C11_S05_et_q228_B",
               "answer": "Tuleb transiiveri korrasolekut kontrollida.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_C",
+              "id": "C11_S05_et_q228_C",
               "answer": "Tuleb võimsust suurendada.",
               "isCorrect": false
             }

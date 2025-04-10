@@ -20,15 +20,17 @@ export class QuestionnaireVisitor {
     return this;
   }
 
-  getOrCreateSubject(article: Article): ExamApi.ErauSubject {
-    const current = this._subjects[article.id];
+  getOrCreateSubject(article: Article, page: Page): ExamApi.ErauSubject {
+    const current = this._subjects[page.id];
     if(current) {
       return current;
     }
 
     const newSubject: ExamApi.ErauSubject = {
-      id: article.id,
-      title: {},
+      id: page.id,
+      articleId: article.id,
+      locale: page.localeCode,
+      title: page.title,
       questions: [],
     }
 
@@ -38,54 +40,45 @@ export class QuestionnaireVisitor {
 
   visitArticle(article: Article) {
     // article has not questions
-    if(article.pages.flatMap(page => page.questionnaire).length === 0) {
-      return;
-    }
-
-    const subject = this.getOrCreateSubject(article);
-
-    const titles = article.pages
-      .filter(e => e.questionnaire.length > 0)
-      .reduce<ExamApi.Intl>((collector, current) => {
-        collector[current.localeCode] = current.title;
-        return collector;
-      }, {});
-
-    // merge locale based titles
-    subject.title = {...subject.title, ...titles}
-
-    subject.questions.push(...this.visitQuestions(article));
-
-  }
-
-  visitQuestions(article: Article): ExamApi.ErauQuestion[] {
-    const result: Record<string, ExamApi.ErauQuestion> = {};
 
     for(const page of article.pages) {
-      for(const { id, question, answers, qualifications } of page.questionnaire) {
-        
-        const entry: ExamApi.ErauQuestion = result[id] ?? { id, info: [], answers: [], text: {}, qualifications: [] };
-        answers.forEach(answer => this.visitAnswer(answer, page, entry))
 
-        entry.qualifications.push(...qualifications);
-        entry.text[page.localeCode] = question;
-        result[entry.id] = entry;
+      if(page.questionnaire.length === 0) {
+        continue;
       }
+
+      const subject = this.getOrCreateSubject(article, page);
+      subject.questions.push(...this.visitQuestions(article, page));
     }
+  }
+
+  visitQuestions(article: Article, page: Page): ExamApi.ErauQuestion[] {
+    const result: Record<string, ExamApi.ErauQuestion> = {};
+    
+    for(const { id, question, answers, qualifications } of page.questionnaire) {
+      
+      const entry: ExamApi.ErauQuestion = result[id] ?? { id, info: [], answers: [], text: {}, qualifications: [] };
+      answers.forEach(answer => this.visitAnswer(answer, page, entry))
+
+      entry.qualifications.push(...qualifications);
+      entry.text = question;
+      result[entry.id] = entry;
+    }
+    
     return Object.values(result);
   }
+
   visitAnswer(answer: Answer, page: Page, question: ExamApi.ErauQuestion) { 
-    let newEntry: ExamApi.ErauAnswer | undefined = question.answers.find(target => target.id === answer.id);
-    if(!newEntry) {
-      newEntry = {
+    const exists: ExamApi.ErauAnswer | undefined = question.answers.find(target => target.id === answer.id);
+    if(exists) {
+      console.error(`${page.id} has answer with same id: ${answer.id}`);
+    } else {
+      question.answers.push({
         id: answer.id,
-        value: {}
-      }
-      question.answers.push(newEntry);
+        text: answer.answer,
+        isCorrect: answer.isCorrect,
+      });
     }
-    newEntry.value[page.localeCode] = {
-      text: answer.answer,
-      isCorrect: answer.isCorrect,
-    };
+
   }
 }

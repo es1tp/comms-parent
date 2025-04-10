@@ -20,17 +20,17 @@ export const C11_S03: Article = {
           "question": "Milline on morsekoodis antud standardse väljakutse \"CQ\" formaat?",
           "answers": [
             {
-              "id": "C11_S03_et_A",
+              "id": "C11_S03_et_q005_A",
               "answer": "Saadate kolm korda \"CQ\", millele järgneb protseduurisignaal \"DE\" ja kolm korda oma kutsungi.",
               "isCorrect": true
             },
             {
-              "id": "C11_S03_et_B",
+              "id": "C11_S03_et_q005_B",
               "answer": "Saadate \"CQ\" kolm korda, \"DE\" üks kord ja oma kutsungi ka üks kord.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_C",
+              "id": "C11_S03_et_q005_C",
               "answer": "Saadate \"CQ\" kümme korda, \"DE\" üks kord ja oma kutsung üks kord.",
               "isCorrect": false
             }
@@ -44,17 +44,17 @@ export const C11_S03: Article = {
           "question": "Kuidas te vastate morsekoodis \"CQ\" väljakutsele?",
           "answers": [
             {
-              "id": "C11_S03_et_A",
+              "id": "C11_S03_et_q006_A",
               "answer": "Saadate oma kutsungit neli korda.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_B",
+              "id": "C11_S03_et_q006_B",
               "answer": "Saadate teise jaama kutsungi kaks korda, \"DE\" ja oma kutsungi kaks korda.",
               "isCorrect": true
             },
             {
-              "id": "C11_S03_et_C",
+              "id": "C11_S03_et_q006_C",
               "answer": "Saadate teise jaama kutsungi üks kord,\"DE\" ja oma kutsungi neli korda",
               "isCorrect": false
             }
@@ -68,17 +68,17 @@ export const C11_S03: Article = {
           "question": "Millise kiirusega tuleb morsekoodis saata \"CQ\"?",
           "answers": [
             {
-              "id": "C11_S03_et_A",
+              "id": "C11_S03_et_q007_A",
               "answer": "Aeglasemalt kui 25 märki minutis.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_B",
+              "id": "C11_S03_et_q007_B",
               "answer": "Suurima kiirusega, mida teie võti on võimeline arendama.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_C",
+              "id": "C11_S03_et_q007_C",
               "answer": "Kiirusega, millist olete ise võimeline korralikult vastu võtma.",
               "isCorrect": true
             }
@@ -92,17 +92,17 @@ export const C11_S03: Article = {
           "question": "Mis tähendus on Morsekoodi liittähtedel AR ?",
           "answers": [
             {
-              "id": "C11_S03_et_A",
+              "id": "C11_S03_et_q008_A",
               "answer": "Vastaku ainult kutsutud jaam.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_B",
+              "id": "C11_S03_et_q008_B",
               "answer": "Kõik on korralikult vastu võetud.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_C",
+              "id": "C11_S03_et_q008_C",
               "answer": "Saate lõpp.",
               "isCorrect": true
             }
@@ -116,17 +116,17 @@ export const C11_S03: Article = {
           "question": "Mida tähendavad Morsekoodis saadetud liittähed SK ?",
           "answers": [
             {
-              "id": "C11_S03_et_A",
+              "id": "C11_S03_et_q009_A",
               "answer": "Enam-vähem korralikult vastu võetud.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_B",
+              "id": "C11_S03_et_q009_B",
               "answer": "Parimad tevitused.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_C",
+              "id": "C11_S03_et_q009_C",
               "answer": "Side lõpp.",
               "isCorrect": true
             }
@@ -140,17 +140,17 @@ export const C11_S03: Article = {
           "question": "Mida tähendavad Morsekoodis saadetud liittähed KN ?",
           "answers": [
             {
-              "id": "C11_S03_et_A",
+              "id": "C11_S03_et_q010_A",
               "answer": "Murrujoon.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_B",
+              "id": "C11_S03_et_q010_B",
               "answer": "Side lõpp.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_C",
+              "id": "C11_S03_et_q010_C",
               "answer": "Vastaku ainult kutsutud jaam .",
               "isCorrect": true
             }
@@ -164,17 +164,17 @@ export const C11_S03: Article = {
           "question": "Mida tähendab morsekoodis lühend AS ?",
           "answers": [
             {
-              "id": "C11_S03_et_A",
+              "id": "C11_S03_et_q018_A",
               "answer": "Aktsiaselts.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_B",
+              "id": "C11_S03_et_q018_B",
               "answer": "Asu saatele.",
               "isCorrect": false
             },
             {
-              "id": "C11_S03_et_C",
+              "id": "C11_S03_et_q018_C",
               "answer": "Oota",
               "isCorrect": true
             }

@@ -15,17 +15,17 @@ export const C05_S05: Article = {
           "question": "Mis tüüpi filter tuleb installeerida amatöörsaatjasse harmooniliste sageduste kiirguse vältimiseks?",
           "answers": [
             {
-              "id": "C05_S05_et_A",
+              "id": "C05_S05_et_q006_A",
               "answer": "Võtmeklõpsu filter.",
               "isCorrect": false
             },
             {
-              "id": "C05_S05_et_C",
+              "id": "C05_S05_et_q006_C",
               "answer": "Madalpääsfilter.",
               "isCorrect": true
             },
             {
-              "id": "C05_S05_et_D",
+              "id": "C05_S05_et_q006_D",
               "answer": "Kõrgpääsfilter.",
               "isCorrect": false
             }
@@ -40,17 +40,17 @@ export const C05_S05: Article = {
           "question": "Monteerisite oma autosse VHF või UHF FM raadiojaama. Milline on antenni jaoks parim koht vältimaks juhi ja reisijate ülikõrgsagedusliku kiirituse ohtu?",
           "answers": [
             {
-              "id": "C05_S05_et_A",
+              "id": "C05_S05_et_q008_A",
               "answer": "Katuse keskkoht.",
               "isCorrect": true
             },
             {
-              "id": "C05_S05_et_B",
+              "id": "C05_S05_et_q008_B",
               "answer": "Tuuleklaasi ülemine äär.",
               "isCorrect": false
             },
             {
-              "id": "C05_S05_et_C",
+              "id": "C05_S05_et_q008_C",
               "answer": "Ükskõik kummal esimesel poritiival.",
               "isCorrect": false
             }
@@ -65,17 +65,17 @@ export const C05_S05: Article = {
           "question": "Mis on saatjas kasutatavate ekraanide otstarve?",
           "answers": [
             {
-              "id": "C05_S05_et_A",
+              "id": "C05_S05_et_q009_A",
               "answer": "Moodustab strukturaalse madalpääsfiltri.",
               "isCorrect": false
             },
             {
-              "id": "C05_S05_et_B",
+              "id": "C05_S05_et_q009_B",
               "answer": "Likvideerib ebasoovitava kõrgsagedusliku kiirguse.",
               "isCorrect": true
             },
             {
-              "id": "C05_S05_et_C",
+              "id": "C05_S05_et_q009_C",
               "answer": "Takistab helisagedusliku tagasiside tekkimist saatjas",
               "isCorrect": false
             }
@@ -90,17 +90,17 @@ export const C05_S05: Article = {
           "question": "Miks kasutatakse nn. pii-filtrit saatja väljundis?",
           "answers": [
             {
-              "id": "C05_S05_et_A",
+              "id": "C05_S05_et_q010_A",
               "answer": "Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.",
               "isCorrect": true
             },
             {
-              "id": "C05_S05_et_B",
+              "id": "C05_S05_et_q010_B",
               "answer": "Antenni poolt vastuvõetud mürasignaalide mahajuhtimiseks.",
               "isCorrect": false
             },
             {
-              "id": "C05_S05_et_C",
+              "id": "C05_S05_et_q010_C",
               "answer": "Antennis tekkinud staatiliste pingete saatjasse pääsu takistamiseks.",
               "isCorrect": false
             }
@@ -115,17 +115,17 @@ export const C05_S05: Article = {
           "question": "Mis on saatjas kasutatavate ekraanide otstarve?",
           "answers": [
             {
-              "id": "C05_S05_et_A",
+              "id": "C05_S05_et_q167_A",
               "answer": "Korrespondendi signaali parem summutamine.",
               "isCorrect": false
             },
             {
-              "id": "C05_S05_et_B",
+              "id": "C05_S05_et_q167_B",
               "answer": "Kaitse ebasoovitava kõrgsagedusliku kiirguse eest.",
               "isCorrect": true
             },
             {
-              "id": "C05_S05_et_C",
+              "id": "C05_S05_et_q167_C",
               "answer": "Filmi vaatamiseks töö vaheajal.",
               "isCorrect": false
             }

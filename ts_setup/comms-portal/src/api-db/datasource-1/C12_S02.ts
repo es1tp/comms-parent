@@ -15,22 +15,22 @@ export const C12_S02: Article = {
           "question": "Millist varianti saab kasutada Eesti amatöörjaama kutsungi moodustamiseks?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q011_A",
               "answer": "Kolmetäheline eesliide, number ja neljatäheline järelliide.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q011_B",
               "answer": "Ühetäheline eesliide, number ja neljatäheline järelliide.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q011_C",
               "answer": "Kahetäheline eesliide, number ja neljatäheline järelliide.",
               "isCorrect": true
             },
             {
-              "id": "C12_S02_et_D",
+              "id": "C12_S02_et_q011_D",
               "answer": "Kahekohaline numbriline eesliide ja kuni kolmetähelisest järelliide.",
               "isCorrect": false
             }
@@ -45,17 +45,17 @@ export const C12_S02: Article = {
           "question": "Kuidas algab Haapsalus registreeritud amatöörraadiojaama kutsung?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q012_A",
               "answer": "ES1",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q012_B",
               "answer": "ES0",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q012_C",
               "answer": "ES3",
               "isCorrect": true
             }
@@ -70,17 +70,17 @@ export const C12_S02: Article = {
           "question": "Kuhu kuulub piirkondlikult Kutsung ES9Z?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q013_A",
               "answer": "Hiiumaale",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q013_B",
               "answer": "Üleriigiline, kasutamiseks ainult ERAÜ poolt.",
               "isCorrect": true
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q013_C",
               "answer": "Põlvamaale.",
               "isCorrect": false
             }
@@ -95,17 +95,17 @@ export const C12_S02: Article = {
           "question": "Millise klassi Eesti amatöörraadiojaamale võib kuuluda Kutsung ES2XX ?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q014_A",
               "answer": "C",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q014_B",
               "answer": "B",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q014_C",
               "answer": "A",
               "isCorrect": true
             }
@@ -120,17 +120,17 @@ export const C12_S02: Article = {
           "question": "Milline järelliide omistatakse Ühiskasutusega (raadioklubi) amatöörraadiojaamale?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q015_A",
               "answer": "AAA-CCC",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q015_B",
               "answer": "A-ZZ",
               "isCorrect": true
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q015_C",
               "answer": "XAA-ZZZ",
               "isCorrect": false
             }
@@ -145,17 +145,17 @@ export const C12_S02: Article = {
           "question": "Kuidas ära tunda eetris töötavat Eesti D-klassi amatööri?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q241_A",
               "answer": "Tema kutsungi prefiks on “ES0”.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q241_B",
               "answer": "Ta oskab töötada ainult eesti keeles ja telefonirežiimis.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q241_C",
               "answer": "Tema kutsungi prefiksiks on “ES” ja kutsungi lõpp koosneb neljast tähest.",
               "isCorrect": true
             }
@@ -169,17 +169,17 @@ export const C12_S02: Article = {
           "question": "Kuidas ära tunda eetris töötavat Eesti A-klassi amatööri?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q242_A",
               "answer": "Tema kutsungi prefiks on “ES1”.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q242_B",
               "answer": "Tema telegraafisaatekiirus on üle 30 sõna minutis.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q242_C",
               "answer": "Tema kutsungi prefiksiks on “ES” ja kutsungi lõpp koosneb kahest tähest.",
               "isCorrect": true
             }
@@ -193,17 +193,17 @@ export const C12_S02: Article = {
           "question": "Mis näitab, et eetris töötab alaealine?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q245_A",
               "answer": "Tal ei saa olla A- või B- kvalifikatsiooniklassi.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q245_B",
               "answer": "Ta oskab töötada ainult telefonirežiimis.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q245_C",
               "answer": "Eelpooltoodu põhjal pole seda võimalik öelda.",
               "isCorrect": true
             }
@@ -217,17 +217,17 @@ export const C12_S02: Article = {
           "question": "Mida näitab raadioamatööri poolt kasutav kutsung ES9B?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q246_A",
               "answer": "Tal on B-klassi amatööri tööluba.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q246_B",
               "answer": "Jaam töötab Saaremaal.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q246_C",
               "answer": "Raadiojaam kuulub ERAÜ-le.",
               "isCorrect": true
             }
@@ -241,17 +241,17 @@ export const C12_S02: Article = {
           "question": "Te kuulete kutsumas jaama kutsungiga ES5/DJ0IB. Mid see tähendab?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q247_A",
               "answer": "Eesti amatöör töötab Saksamaalt.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q247_B",
               "answer": "Saksa amatöör töötab Eestis.",
               "isCorrect": true
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q247_C",
               "answer": "Eesti ja Saksamaa kutsungipiirkonnad on ühendatud.",
               "isCorrect": false
             }
@@ -265,17 +265,17 @@ export const C12_S02: Article = {
           "question": "Te kuulete kutsumas jaama kutsungiga ES5JR/6. Mida see tähendab?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q248_A",
               "answer": "ES5JR kuulab sagedusel, mis on 6 korda väiksem kui saatesagedus.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q248_B",
               "answer": "ES5JR on kuueaastane raadioamatöör.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q248_C",
               "answer": "ES5JR töötab Võru-, Põlva- või Valgamaal.",
               "isCorrect": true
             }
@@ -289,17 +289,17 @@ export const C12_S02: Article = {
           "question": "Te kuulete kutsumas jaama kutsungiga ES5YL/M. Mida see tähendab?",
           "answers": [
             {
-              "id": "C12_S02_et_A",
+              "id": "C12_S02_et_q249_A",
               "answer": "ES5YL töötab autost.",
               "isCorrect": true
             },
             {
-              "id": "C12_S02_et_B",
+              "id": "C12_S02_et_q249_B",
               "answer": "ES5YL on meesterahvas.",
               "isCorrect": false
             },
             {
-              "id": "C12_S02_et_C",
+              "id": "C12_S02_et_q249_C",
               "answer": "ES5YL töötab Inglismaa territooriumilt.",
               "isCorrect": false
             }
