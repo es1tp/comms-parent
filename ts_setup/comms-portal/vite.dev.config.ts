@@ -20,8 +20,18 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
       svgr({ svgrOptions: {} }), 
       intlTsVite({}),
       mdCrawlerTsVite([
-        { src: 'md-crawler-datasource/erau', target: 'src/datasource-1' },
-        { src: 'md-crawler-datasource/es3ky_r_z', target: 'src/datasource-2' }
+        { src: 'md-crawler-datasource/erau', 
+          target: {
+            site: 'src/api-db/datasource-1',
+            questionnaire: 'src/api-db/questionnaire-1'
+          } 
+        },
+        { src: 'md-crawler-datasource/es3ky_r_z', 
+          target: {
+            site: 'src/api-db/datasource-2',
+            questionnaire: 'src/api-db/questionnaire-2'
+          } 
+        }
       ]),
       
     ],

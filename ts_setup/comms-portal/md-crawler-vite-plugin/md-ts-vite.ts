@@ -12,13 +12,19 @@ const setLock = (bool: boolean) => {
 
 function getConfig(init: Partial<Config>): Config {
   return {
-    target: init.target ?? 'src/datasource',
+    target: {
+      site: init.target?.site ?? 'src/datasource',
+      questionnaire: init.target?.questionnaire ?? 'src/questionnaire',
+    },
     src: init.src ?? 'md-crawler-datasource'
   };
 }
 
 export interface Config {
-  target: string; 
+  target: {
+    site: string,
+    questionnaire: string,
+  }; 
   src: string;
 }
 export function mdCrawlerTsVite(options: Partial<Config>[] = []): Plugin {
@@ -39,7 +45,7 @@ export function mdCrawlerTsVite(options: Partial<Config>[] = []): Plugin {
         const kbFiles = await parseFolders(fullPath);
         
         for(const newFile of kbFiles) {
-          const path = createFilePath([root, config.target], newFile.fileName);
+          const path = createFilePath([root, config.target[newFile.type]], newFile.fileName);
           writeFile({ fullPath: path.fullPath, content: newFile.content });
         }
         console.log(`\u{1F30D} generated new datasource: ${config.src}, total files: ${kbFiles.length}`);

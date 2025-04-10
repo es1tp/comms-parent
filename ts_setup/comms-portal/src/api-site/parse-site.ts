@@ -1,8 +1,9 @@
 import { SiteApi } from '@dxs-ts/gamut';
-import datasource_1 from '@/datasource-1';
-import datasource_2 from '@/datasource-2';
 import { Article } from '@/api-kb';
+import { datasource } from '@/api-db';
 
+
+const QUALIFICATION_LINK = 'qualification';
 
 function getPage(article: Article, locale: string) {
   return article.pages.find(p => p.localeCode === locale);
@@ -14,6 +15,7 @@ class DatasourceVisitor {
   private _locale: string;
   private _topics: Record<string, SiteApi.Topic> = {};
   private _blob: Record<string, SiteApi.Blob> = {};
+  private _links: Record<string, SiteApi.TopicLink> = {};
 
   constructor(locale: string, articles: Article[]) {
     this._articles = articles;
@@ -63,12 +65,21 @@ class DatasourceVisitor {
     const heading = `${page.title}`;
     const blobId = `${page.id}_blob`;
 
+    const link: SiteApi.TopicLink | undefined = page.qualification ? {
+      id: `${page.id}_qualification_${page.qualification}`,
+      name: heading,
+      value: page.qualification,
+      anon: true,
+      type: QUALIFICATION_LINK
+    } : undefined;
+
     const topic: SiteApi.Topic = {
       id: article.id,
       name: heading,
       blob: blobId,
-      links: [],
+      links: link ? [link.id] : [],
       parent: article.parentId,
+      
       headings: [{
         id: article.id,
         level: 0,
@@ -80,6 +91,9 @@ class DatasourceVisitor {
     const value = page.title;
     const blob: SiteApi.Blob = { id: blobId, value };
 
+    if(link) {
+      this._links[link.id] = link;
+    }
     this._blob[blob.id] = blob;
     this._topics[topic.id] = topic;
   }
@@ -146,16 +160,20 @@ class DatasourceVisitor {
       locale: this._locale,
       topics: this._topics,
       blobs: this._blob,
-      links: {}
+      links: this._links
     }
   }
 }
 
+export function findQualificiationLink(topic: SiteApi.TopicView): SiteApi.TopicLink | undefined {
+  const links = topic.links.filter(link => link.type === QUALIFICATION_LINK);
+  if(links.length !== 1) {
+    return undefined
+  }
+  return links[0];
+}
+
 
 export function parseSite(locale: string): SiteApi.Site {
-  
-  return new DatasourceVisitor(locale, [
-    ...Object.values(datasource_1),
-    ...Object.values(datasource_2)
-  ]).visit().close();
+  return new DatasourceVisitor(locale, datasource.articles()).visit().close();
 }
