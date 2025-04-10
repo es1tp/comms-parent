@@ -39,16 +39,20 @@ export function mdCrawlerTsVite(options: Partial<Config>[] = []): Plugin {
     setLock(true) 
     try {
       for(const option of userConfig) { 
-        const config = getConfig(option);
-        const root = process.cwd();
-        const { fullPath } = createFilePath([root], config.src);
-        const kbFiles = await parseFolders(fullPath);
-        
-        for(const newFile of kbFiles) {
-          const path = createFilePath([root, config.target[newFile.type]], newFile.fileName);
-          writeFile({ fullPath: path.fullPath, content: newFile.content });
+        try {
+          const config = getConfig(option);
+          const root = process.cwd();
+          const { fullPath } = createFilePath([root], config.src);
+          const kbFiles = await parseFolders(fullPath);
+          
+          for(const newFile of kbFiles) {
+            const path = createFilePath([root, config.target[newFile.type]], newFile.fileName);
+            writeFile({ fullPath: path.fullPath, content: newFile.content });
+          }
+          console.log(`\u{1F30D} generated new datasource: ${config.src}, total files: ${kbFiles.length}`);
+        } catch (err) {
+          console.error(`\u{1F30D} failed to generate files from: ${option.src}`, err)
         }
-        console.log(`\u{1F30D} generated new datasource: ${config.src}, total files: ${kbFiles.length}`);
       }
     } catch (err) {
       console.error(err)
@@ -66,7 +70,7 @@ export function mdCrawlerTsVite(options: Partial<Config>[] = []): Plugin {
       .map(option => createFilePath([ROOT], option.src).fullPath)
       .find(routesDirectoryPath => filePath.startsWith(routesDirectoryPath))
     
-    if (isGenerationEnabled) {
+    if (true || isGenerationEnabled) {
       await generate()
     } 
   }
