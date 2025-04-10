@@ -3,6 +3,8 @@ import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
 import { SiteBackendProvider, GComponents, router, LocaleProvider, IamBackendProvider } from '@dxs-ts/gamut';
 
 import { createIamFetch, createSiteFetch } from '@/api-site';
+import { en } from '../intl/en';
+import { et } from '../intl/et';
 import { DemoTheme } from '@/theme';
 
 
@@ -14,15 +16,15 @@ const localeOptions = {
   'document.title': 'ES1TP'
 }
 
-export const App: React.FC<{  }> = ({  }) => {
+export const App: React.FC<{}> = ({ }) => {
   return (
     <QueryClientProvider client={queryClient}>
       <LocaleProvider disableErrors options={{
-        et: localeOptions,
-        en: localeOptions,
+        et: et,
+        en: en,
         fi: localeOptions,
       }}>
-        <IamBackendProvider liveness={900000} onExpire={() => {}}
+        <IamBackendProvider liveness={900000} onExpire={() => { }}
           fetchUserGET={iamFetch.fetchUserGET}
           fetchUserLivenessGET={iamFetch.fetchUserLivenessGET}
           fetchUserProductsGET={iamFetch.fetchUserProductsGET}
