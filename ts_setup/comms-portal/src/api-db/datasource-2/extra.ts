@@ -6,14 +6,14 @@ export const extra: Article = {
     {
       "id": "extra_et",
       "localeCode": "et",
-      "title": "my index",
+      "title": "Tere tulemast ES1TP-sse",
       "materials": [
         {
           "id": "extra_et_content",
-          "text": "## my index  \n### my latter contentsdfdsf"
+          "text": "## Tere tulemast ES1TP-sse  \nTallinna Polütehnikumi Raadioamatööride Klubi\n\nOleme rõõmsad, et leidsite meid! Sellel lehel leiate ressursse ja praktikaeksameid, mis aitavad teil saada Eesti Raadioamatööri litsents!"
         }
       ],
-      "questionnaire": []  
+      "questionnaire": []
     }
   ]
 }
