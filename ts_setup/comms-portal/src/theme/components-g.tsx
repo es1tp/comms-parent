@@ -1,4 +1,4 @@
-import { Theme, Components, alpha, darken } from '@mui/material';
+import { Theme, Components, alpha } from '@mui/material';
 import remarkGfm from 'remark-gfm'
 import user_logo_light from './es1tp-logo1.svg';
 import tpt_building from './tpt_building.jpg';
@@ -106,10 +106,10 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
       root: ({ theme }) => ({
         '& .GPopoverButton-button': {
           '.MuiIconButton-root': {
-            backgroundColor: theme.palette.secondary.light,
-            color: theme.palette.text.primary,
+            backgroundColor: theme.palette.primary.main,
+            color: theme.palette.background.paper,
             ':hover': {
-              backgroundColor: darken(theme.palette.secondary.light, 0.1),
+              backgroundColor: theme.palette.primary.dark,
             }
           },
           border: `1px solid ${alpha(theme.palette.text.primary, 0.4)}`,

@@ -7,7 +7,6 @@ export const palette: PaletteOptions = {
   },
   secondary: {
     main: '#df2935', 
-    dark: 'rgb(88, 107, 147)',
     light: 'rgb(254, 174, 8, 1)'
   },
   background: {

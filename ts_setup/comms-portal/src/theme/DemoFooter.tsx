@@ -25,7 +25,7 @@ export const DemoFooter: React.FC = () => {
   return (
     <DemoFooterRoot className={classes.root}>
       <div className={classes.spacing}>
-          <GLogo variant='black_lg'  />
+        <GLogo variant='black_lg' />
       </div>
       <div className={classes.spacing}>
         <Typography className={classes.heading}>{intl.formatMessage({ id: 'footer.column2.title' })}</Typography>
