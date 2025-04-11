@@ -53,11 +53,20 @@ export const GQuestionnaireRoot = styled("div", {
       '&.subject-select': {
         minWidth: '50%',
         maxWidth: '93vw',
-        marginTop: theme.spacing(1)
+        marginTop: theme.spacing(1),
+        marginBottom: theme.spacing(2),
       }
     },
 
     '.MuiContainer-root': {
+      [theme.breakpoints.up('md')]: {
+        width: '75%'
+      },
+      [theme.breakpoints.down('md')]: {
+        width: '100%',
+        padding: theme.spacing(1)
+      },
+
       '&.subject >.MuiTypography-root': {
         ...theme.typography.h5
       },
