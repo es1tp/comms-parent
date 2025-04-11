@@ -30,15 +30,17 @@ jobs:
           cache-dependency-path: ts_setup/comms-portal/pnpm-lock.yaml
 
       - name: 📦 Install dependencies
+        working-directory: ts_setup/comms-portal
         run: pnpm install
 
       - name: 🔨 Build
+        working-directory: ts_setup/comms-portal
         run: pnpm build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ts_setup/comms-portal/dist
 
   deploy:
     environment:
