@@ -8,7 +8,12 @@ export const C01_S05: KbApi.Article = {
       "id": "C01_S05_et",
       "localeCode": "et",
       "title": "Elektromagnetlained ja raadiolained",
-      "materials": [],
+      "materials": [
+        {
+          "id": "C01_S05_et_content",
+          "text": "# Raadio- ja elektrotehnika teooria  \n## Elektromagnetlained ja raadiolained  \nRaadiolained on lähedased sugulased valgusele, soojusele ja röntgenikiirtele. Kõik\nnad kuuluvad elektromagnetlainete hulka, kujutades endast elektri- ja magnetvälja\nvõnkumisi. Peale valguse on elektromagnetlained inimesele nähtamatud.\n\nKõik elektromagnetlained levivad valguse kiirusel, ligikaudu 300000 km/s. \n\nHeli, mida me vastuvõtjast kuuleme, on samuti laine, kuid mitte\nelektromagnet-, vaid helilaine, mis kujutab endast õhu võnkumist.\nPeale õhu suudab heli levida ka vedelikes ja tahketes kehades,\nkuid mitte vaakumis. Helilaine kiirus õhus on 330 m/s, see on umbes\nmiljon korda väiksem kui elektromagnetlainetel.\n\nElektromagnetlainete omadused sõltuvad nende lainepikkusest. \nRaadiolained on elektromagnetlainetest kõige suurema lainepikkusega, see võib ulatuda\ntuhandetest meetritest mõne sentimeetrini. Vastavalt sellele jaotatakse raadiolained\npikk-, kesk-, lühi- ja ultralühilaineteks."
+        }
+      ],
       "questionnaire": [
         {
           "id": "C01_S05_et_q100_et",

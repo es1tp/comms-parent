@@ -40,7 +40,7 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
     ],
     
     build: {
-      outDir: 'build',
+      outDir: 'dist',
       lib: {
         // Could also be a dictionary or array of multiple entry points
         entry: resolve(__dirname, 'src/index.tsx'),

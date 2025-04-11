@@ -156,6 +156,42 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
+          "id": "C12_S03_et_q021_et",
+          "groupId": "q021",
+          "question": "Kui pikalt on lubatud Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta?",
+          "answers": [
+            {
+              "id": "C12_S03_et_q021_et_A",
+              "answer": "Kolm kuud.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_et_q021_et_B",
+              "answer": "Viis kuud.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_et_q021_et_C",
+              "answer": "Kuus kuud.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_et_q021_et_D",
+              "answer": "Üks aasta.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_et_q021_et_#",
+              "answer": "vajab kontrollimist, seaduses seda pole. on ainult (4) Amatöörraadiojaamale väljastatakse uus kutsung, kui muutub amatöörraadiojaama kasutaja raadioamatööri kvalifikatsiooniklass või amatöörraadiojaama registreeritud asukoht.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
           "id": "C12_S03_et_q230_et",
           "groupId": "q230",
           "question": "Millistele tingimustele peab vastama raadioamatöör?",

@@ -43,7 +43,8 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   GRouterUnsecured: {
     defaultProps: {
       backgroundImage: tpt_building,
-      height: '470px'
+      height: '470px',
+      defaultPageId: 'extra'
     }
   },
 
@@ -156,9 +157,17 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
       slots: {
         link: GTopicLink
       }
+    },
+    styleOverrides: {
+      //@ts-ignore
+      topics: ({ theme }) => ({
+        '& .child-topic': {
+          display: 'flex', 
+          alignItems: 'center'
+        },
+      }),
     }
   },
-
   GArticleFeedback: {
     defaultProps: { enabled(view) { return false } }
   },

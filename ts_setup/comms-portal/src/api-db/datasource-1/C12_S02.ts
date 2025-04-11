@@ -8,7 +8,12 @@ export const C12_S02: KbApi.Article = {
       "id": "C12_S02_et",
       "localeCode": "et",
       "title": "Raadioamatööride kutsungid",
-      "materials": [],
+      "materials": [
+        {
+          "id": "C12_S02_et_content",
+          "text": "# Amatöörraadioside siseriiklik ja rahvusvaheline õiguslik regulatsioon  \n## Raadioamatööride kutsungid  \nIgal raadioamatööril on tähtedest ja numbri(te)st koosnev kutsung, mis on maailmas ainuke ja on talle teise nime eest.\n\nTõsi, riikides, kus amatööre on palju, lastakse juba kasutusel olnud kutsungid mõne aja pärast uuesti käiku.\n\nIga kutsungi esimene osa ehk prefiks näitab, millisest riigist amatöör töötab. Eesti amatööride kutsungid\nalgavad tähekombinatsiooniga “ES”, sellele järgnev number näitab, millisest Eesti piirkonnaga on tegemist.\n\n* ES1 Tallinn\n* ES2 Harjumaa\n* ES3 Rapla- ja Läänemaa\n* ES4 Ida-Virumaa ja Lääne-Virumaa\n* ES5 Tartu- ja Jõgevamaa\n* ES6 Põlva-, Võru- ja Valgamaa\n* ES7 Viljandimaa\n* ES8 Pärnumaa\n* ES9 ERAÜ erikutsung\n* ES0 Saare ja Hiiu maakond\n\nViimane osa ehk sufiks annab Eesti jaamade puhul informatsiooni raadioamatööri kvalifikatsioonist ja jaama otstarbest.\n\nÜldreegliks on: mida lühem kutsung, seda parem operaator. Kutsungi lühenemisega kahaneb\nka võimalike kutsungite arv, ka kõige parema tahtmise juures pole võimalik kõigile Eesti\namatööridele väljastada ühetähelise sufiksiga kutsungeid.\n\nPäris algajate, D-klassi amatööride kutsungi sufiksis on neli tähte. Edasijõudnute, B-klassi amatööride kutsungis\non pärast numbrit kolm tähte. Kaks tähte on sufiksis A-klassi amatööridel ja klubijaamadel. \nViimastel on võimalik TTJA-lt taotleda ka ühetähelist sufiksit.\n\nKui amatöör ei tööta oma tavalises asukohas, saab seda näidata kaldjoonega (ingl. k. “stroke” või “slash”)\neraldatud kutsungi lisa abil:\n\n* ES4LB/6 jaam töötab ajutisest asukohast teises kutsungipiirkonnas\n* ES5RY/p jaam töötab ajutisest asukohast samas kutsungipiirkonnas (“portable”)\n* ES5MG/m jaam töötab autolt (“mobile”)\n* ES0IC/mm jaam töötab merelt (“maritime mobile”)\n* ES5PC/am jaam töötab lennukilt (“aeroplane mobile”)\n\nKui välismaa amatöör tuleb lühiajaliselt Eestisse, lisatakse tema kutsungi ette “ES”+kutsungipiirkond + “/”. \nNäiteks Timo, OH1NOA, töötades Lõuna-Eestist, võtab kutsungiks ES6/OH1NOA. Pikemaajalisel peatumisel\n(üle kuue kuu) peab amatöör taotlema Eesti kutsungit."
+        }
+      ],
       "questionnaire": [
         {
           "id": "C12_S02_et_q011_et",

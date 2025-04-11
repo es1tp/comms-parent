@@ -152,6 +152,42 @@ export const C12_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
+      "id": "C12_S03_et_q021_et",
+      "info": [],
+      "answers": [
+        {
+          "id": "C12_S03_et_q021_et_A",
+          "text": "Kolm kuud.",
+          "isCorrect": false
+        },
+        {
+          "id": "C12_S03_et_q021_et_B",
+          "text": "Viis kuud.",
+          "isCorrect": false
+        },
+        {
+          "id": "C12_S03_et_q021_et_C",
+          "text": "Kuus kuud.",
+          "isCorrect": true
+        },
+        {
+          "id": "C12_S03_et_q021_et_D",
+          "text": "Üks aasta.",
+          "isCorrect": false
+        },
+        {
+          "id": "C12_S03_et_q021_et_#",
+          "text": "vajab kontrollimist, seaduses seda pole. on ainult (4) Amatöörraadiojaamale väljastatakse uus kutsung, kui muutub amatöörraadiojaama kasutaja raadioamatööri kvalifikatsiooniklass või amatöörraadiojaama registreeritud asukoht.",
+          "isCorrect": false
+        }
+      ],
+      "text": "Kui pikalt on lubatud Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta?",
+      "qualifications": [
+        "A",
+        "B"
+      ]
+    },
+    {
       "id": "C12_S03_et_q230_et",
       "info": [],
       "answers": [

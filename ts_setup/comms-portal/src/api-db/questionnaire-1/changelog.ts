@@ -1,7 +1,7 @@
 import { ExamApi } from '@/api-exam'
 
 export default {
-  "timestamp": "2025-04-11T21:09:40.434+03:00",
+  "timestamp": "2025-04-11T22:35:24.793+03:00",
   "changes": [
     {
       "id": "C01_S01_et",
@@ -5046,149 +5046,149 @@ export default {
     {
       "id": "C08_S01_et",
       "changeObject": "subject",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q191_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q191_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q191_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q191_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q192_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q192_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q192_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q192_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q193_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q193_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q193_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q193_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q194_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q194_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q194_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q194_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q199_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q199_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q199_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S01_et_q199_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C08_S02_et",
@@ -8343,422 +8343,464 @@ export default {
     {
       "id": "C12_S03_et",
       "changeObject": "subject",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q010_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q010_et_#",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q010_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q010_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q010_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q016_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q016_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q016_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q016_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q017_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q017_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q017_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q017_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q017_et_D",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q019_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q019_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q019_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q019_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q019_et_D",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q020_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q020_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q020_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q020_et_C",
       "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
+    },
+    {
+      "id": "C12_S03_et_q021_et",
+      "changeObject": "question",
       "changeType": "add",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
+    },
+    {
+      "id": "C12_S03_et_q021_et_#",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
+    },
+    {
+      "id": "C12_S03_et_q021_et_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
+    },
+    {
+      "id": "C12_S03_et_q021_et_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
+    },
+    {
+      "id": "C12_S03_et_q021_et_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
+    },
+    {
+      "id": "C12_S03_et_q021_et_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q230_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q230_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q230_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q230_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q231_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q231_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q231_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q231_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q232_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q232_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q232_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q232_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q235_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q235_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q235_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q235_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q236_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q236_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q236_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q236_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q237_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q237_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q237_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q237_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q238_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q238_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q238_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q238_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q243_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q243_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q243_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q243_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q244_et",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q244_et_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q244_et_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
       "id": "C12_S03_et_q244_et_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T21:09:40.434+03:00"
+      "timestamp": "2025-04-11T22:35:24.793+03:00"
     }
   ]
 }

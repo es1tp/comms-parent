@@ -4,7 +4,7 @@ export const C08_S01_et: ExamApi.ErauSubject = {
   "id": "C08_S01_et",
   "articleId": "C08_S01",
   "locale": "et",
-  "title": "missing title in: /Users/olevmutso/Development/comms-parent/ts_setup/comms-portal/external-kb/erau/C08/S01/meta.et",
+  "title": "Mõõteseadmete kasutamine",
   "questions": [
     {
       "id": "C08_S01_et_q191_et",

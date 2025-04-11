@@ -7,7 +7,7 @@ export const C08_S01: KbApi.Article = {
     {
       "id": "C08_S01_et",
       "localeCode": "et",
-      "title": "missing title in: /Users/olevmutso/Development/comms-parent/ts_setup/comms-portal/external-kb/erau/C08/S01/meta.et",
+      "title": "Mõõteseadmete kasutamine",
       "materials": [],
       "questionnaire": [
         {

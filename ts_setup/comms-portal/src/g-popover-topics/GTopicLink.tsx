@@ -1,8 +1,9 @@
 import { Link } from '@mui/material';
-import { GTopicLinkProps, SiteApi, useSite } from "@dxs-ts/gamut";
+import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import { GTopicLinkProps, SiteApi, useSite } from '@dxs-ts/gamut';
 import { findQualificiationLink } from '@/api-site';
 import { useNavigate } from '@tanstack/react-router';
-import { SiteBackendProvider, GComponents, router, LocaleProvider, IamBackendProvider } from '@dxs-ts/gamut';
+
 
 
 export const GTopicLink: React.FC<GTopicLinkProps> = (props) => {  
@@ -42,16 +43,9 @@ export const GTopicLink: React.FC<GTopicLinkProps> = (props) => {
   return <>
     <Link onClick={handleRootClick}>{props.children.name}</Link>
     {childTopics.map(topic => (
-      <Link key={topic.id} onClick={(event) => handleChildClick(event, topic)}>
-        -{topic.name}
+      <Link key={topic.id} onClick={(event) => handleChildClick(event, topic)} className='child-topic'>
+        <ArrowRightIcon/>{topic.name}
       </Link>
     ))}
   </>
-}
-
-// Register the router instance for type safety
-declare module '@tanstack/react-router' {
-  interface Register {
-    router: typeof router
-  }
 }
