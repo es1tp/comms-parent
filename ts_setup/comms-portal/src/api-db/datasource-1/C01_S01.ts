@@ -16,21 +16,22 @@ export const C01_S01: KbApi.Article = {
       ],
       "questionnaire": [
         {
-          "id": "q001",
+          "id": "C01_S01_et_q001_et",
+          "groupId": "q001",
           "question": "Mida tähendab termin impedants?",
           "answers": [
             {
-              "id": "C01_S01_et_q001_A",
+              "id": "C01_S01_et_q001_et_A",
               "answer": "Kondensaatoris salvestatavat elektrilaengut.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q001_B",
+              "id": "C01_S01_et_q001_et_B",
               "answer": "Vooluringi poolt vahelduvvoolule osutatavat takistust.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q001_C",
+              "id": "C01_S01_et_q001_et_C",
               "answer": "Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.",
               "isCorrect": false
             }
@@ -41,21 +42,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q011",
+          "id": "C01_S01_et_q011_et",
+          "groupId": "q011",
           "question": "Milline on reaktiivtakistuse mõõtühik?",
           "answers": [
             {
-              "id": "C01_S01_et_q011_A",
+              "id": "C01_S01_et_q011_et_A",
               "answer": "Amper.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q011_B",
+              "id": "C01_S01_et_q011_et_B",
               "answer": "Oom",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q011_C",
+              "id": "C01_S01_et_q011_et_C",
               "answer": "Siemens.",
               "isCorrect": false
             }
@@ -66,21 +68,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q012",
+          "id": "C01_S01_et_q012_et",
+          "groupId": "q012",
           "question": "Milline on impedantsi mõõtühik?",
           "answers": [
             {
-              "id": "C01_S01_et_q012_A",
+              "id": "C01_S01_et_q012_et_A",
               "answer": "Oom.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q012_B",
+              "id": "C01_S01_et_q012_et_B",
               "answer": "Volt.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q012_C",
+              "id": "C01_S01_et_q012_et_C",
               "answer": "Amper.",
               "isCorrect": false
             }
@@ -91,21 +94,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q113",
+          "id": "C01_S01_et_q113_et",
+          "groupId": "q113",
           "question": "Mis ühikutes mõõdetakse raadiolaine pikkust?",
           "answers": [
             {
-              "id": "C01_S01_et_q113_A",
+              "id": "C01_S01_et_q113_et_A",
               "answer": "Hertsides.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q113_B",
+              "id": "C01_S01_et_q113_et_B",
               "answer": "Meetrites.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q113_C",
+              "id": "C01_S01_et_q113_et_C",
               "answer": "Raadiolaine pikkust ei saa mõõta.",
               "isCorrect": false
             }
@@ -115,21 +119,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q114",
+          "id": "C01_S01_et_q114_et",
+          "groupId": "q114",
           "question": "Mis ühikutes mõõdetakse raadiolaine sagedust?",
           "answers": [
             {
-              "id": "C01_S01_et_q114_A",
+              "id": "C01_S01_et_q114_et_A",
               "answer": "Hertsides.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q114_B",
+              "id": "C01_S01_et_q114_et_B",
               "answer": "Meetrites.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q114_C",
+              "id": "C01_S01_et_q114_et_C",
               "answer": "Raadiolaine sagedust ei saa mõõta.",
               "isCorrect": false
             }
@@ -139,21 +144,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q123",
+          "id": "C01_S01_et_q123_et",
+          "groupId": "q123",
           "question": "Mida mõõdetakse vattides?",
           "answers": [
             {
-              "id": "C01_S01_et_q123_A",
+              "id": "C01_S01_et_q123_et_A",
               "answer": "Võimsust.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q123_B",
+              "id": "C01_S01_et_q123_et_B",
               "answer": "Kaitseriietuse pehmust.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q123_C",
+              "id": "C01_S01_et_q123_et_C",
               "answer": "Lainepikkust.",
               "isCorrect": false
             }
@@ -163,21 +169,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q124",
+          "id": "C01_S01_et_q124_et",
+          "groupId": "q124",
           "question": "Mida mõõdetakse voltides?",
           "answers": [
             {
-              "id": "C01_S01_et_q124_A",
+              "id": "C01_S01_et_q124_et_A",
               "answer": "Sagedust.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q124_B",
+              "id": "C01_S01_et_q124_et_B",
               "answer": "Kaitseriietuse voltide arvu.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q124_C",
+              "id": "C01_S01_et_q124_et_C",
               "answer": "Pinget.",
               "isCorrect": true
             }
@@ -187,21 +194,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q125",
+          "id": "C01_S01_et_q125_et",
+          "groupId": "q125",
           "question": "Mida mõõdetakse oomides?",
           "answers": [
             {
-              "id": "C01_S01_et_q125_A",
+              "id": "C01_S01_et_q125_et_A",
               "answer": "Oomegategurit.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q125_B",
+              "id": "C01_S01_et_q125_et_B",
               "answer": "Takistust.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q125_C",
+              "id": "C01_S01_et_q125_et_C",
               "answer": "Sagedust.",
               "isCorrect": false
             }
@@ -211,21 +219,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q126",
+          "id": "C01_S01_et_q126_et",
+          "groupId": "q126",
           "question": "Mida mõõdetakse amprites?",
           "answers": [
             {
-              "id": "C01_S01_et_q126_A",
+              "id": "C01_S01_et_q126_et_A",
               "answer": "Voolutugevust.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q126_B",
+              "id": "C01_S01_et_q126_et_B",
               "answer": "Levitegurit.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q126_C",
+              "id": "C01_S01_et_q126_et_C",
               "answer": "Sagedust.",
               "isCorrect": false
             }
@@ -235,21 +244,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q127",
+          "id": "C01_S01_et_q127_et",
+          "groupId": "q127",
           "question": "Mida mõõdetakse hertsides?",
           "answers": [
             {
-              "id": "C01_S01_et_q127_A",
+              "id": "C01_S01_et_q127_et_A",
               "answer": "Elektrivoolu kahjulikku mõju südamele.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q127_B",
+              "id": "C01_S01_et_q127_et_B",
               "answer": "Sagedust.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q127_C",
+              "id": "C01_S01_et_q127_et_C",
               "answer": "Lainepikkust.",
               "isCorrect": false
             }
@@ -259,21 +269,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q128",
+          "id": "C01_S01_et_q128_et",
+          "groupId": "q128",
           "question": "Mida mõõdetakse meetrites?",
           "answers": [
             {
-              "id": "C01_S01_et_q128_A",
+              "id": "C01_S01_et_q128_et_A",
               "answer": "Takistust.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q128_B",
+              "id": "C01_S01_et_q128_et_B",
               "answer": "Lainepikkust.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q128_C",
+              "id": "C01_S01_et_q128_et_C",
               "answer": "Sagedust.",
               "isCorrect": false
             }
@@ -283,21 +294,22 @@ export const C01_S01: KbApi.Article = {
           ]
         },
         {
-          "id": "q129",
+          "id": "C01_S01_et_q129_et",
+          "groupId": "q129",
           "question": "Miks mõõdetakse lainepikkust meetrites?",
           "answers": [
             {
-              "id": "C01_S01_et_q129_A",
+              "id": "C01_S01_et_q129_et_A",
               "answer": "Meeter on pikkusühik.",
               "isCorrect": true
             },
             {
-              "id": "C01_S01_et_q129_B",
+              "id": "C01_S01_et_q129_et_B",
               "answer": "Elektromagnetlained levivad väga suure kiirusega.",
               "isCorrect": false
             },
             {
-              "id": "C01_S01_et_q129_C",
+              "id": "C01_S01_et_q129_et_C",
               "answer": "Meetri kasutamisel saavutatakse kõige suurem saatja võimsus.",
               "isCorrect": false
             }

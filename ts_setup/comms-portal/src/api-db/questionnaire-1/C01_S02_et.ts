@@ -7,21 +7,21 @@ export const C01_S02_et: ExamApi.ErauSubject = {
   "title": "Mõõtühikute eesliidetest",
   "questions": [
     {
-      "id": "q115",
+      "id": "C01_S02_et_q115_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S02_et_q115_A",
+          "id": "C01_S02_et_q115_et_A",
           "text": "Selleks, et vähem nulle kirjutada.",
           "isCorrect": true
         },
         {
-          "id": "C01_S02_et_q115_B",
+          "id": "C01_S02_et_q115_et_B",
           "text": "Ilma eesliiteta ühikute kirjutamine pole lubatud.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q115_C",
+          "id": "C01_S02_et_q115_et_C",
           "text": "Eesliiteid ei tohi mingil juhul kasutada.",
           "isCorrect": false
         }
@@ -32,21 +32,21 @@ export const C01_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q116",
+      "id": "C01_S02_et_q116_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S02_et_q116_A",
+          "id": "C01_S02_et_q116_et_A",
           "text": "Tegemist on eesliitega, mis lisatakse eriti sümpaatsele mõõtühikule.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q116_B",
+          "id": "C01_S02_et_q116_et_B",
           "text": "Ühiku väärtuse miljonikordseks suurendamiseks.",
           "isCorrect": true
         },
         {
-          "id": "C01_S02_et_q116_C",
+          "id": "C01_S02_et_q116_et_C",
           "text": "Ühiku väärtuse miljonikordseks vähendamiseks.",
           "isCorrect": false
         }
@@ -57,21 +57,21 @@ export const C01_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q117",
+      "id": "C01_S02_et_q117_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S02_et_q117_A",
+          "id": "C01_S02_et_q117_et_A",
           "text": "5 000 000 hertsi on suurem kui 5 megahertsi.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q117_B",
+          "id": "C01_S02_et_q117_et_B",
           "text": "5 000 000 hertsi on väiksem kui 5 megahertsi.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q117_C",
+          "id": "C01_S02_et_q117_et_C",
           "text": "Nad on võrdsed.",
           "isCorrect": true
         }
@@ -82,21 +82,21 @@ export const C01_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q118",
+      "id": "C01_S02_et_q118_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S02_et_q118_A",
+          "id": "C01_S02_et_q118_et_A",
           "text": "5 000 hertsi on suurem kui 5 megahertsi.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q118_B",
+          "id": "C01_S02_et_q118_et_B",
           "text": "5 000 hertsi on väiksem kui 5 megahertsi.",
           "isCorrect": true
         },
         {
-          "id": "C01_S02_et_q118_C",
+          "id": "C01_S02_et_q118_et_C",
           "text": "Nad on võrdsed.",
           "isCorrect": false
         }
@@ -107,21 +107,21 @@ export const C01_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q119",
+      "id": "C01_S02_et_q119_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S02_et_q119_A",
+          "id": "C01_S02_et_q119_et_A",
           "text": "5 mHz on suurem kui 5 MHz.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q119_B",
+          "id": "C01_S02_et_q119_et_B",
           "text": "5 mHz on väiksem kui 5 MHz.",
           "isCorrect": true
         },
         {
-          "id": "C01_S02_et_q119_C",
+          "id": "C01_S02_et_q119_et_C",
           "text": "Nad on võrdsed.",
           "isCorrect": false
         }
@@ -132,21 +132,21 @@ export const C01_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q120",
+      "id": "C01_S02_et_q120_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S02_et_q120_A",
+          "id": "C01_S02_et_q120_et_A",
           "text": "1 vatt.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q120_B",
+          "id": "C01_S02_et_q120_et_B",
           "text": "1000 vatti.",
           "isCorrect": true
         },
         {
-          "id": "C01_S02_et_q120_C",
+          "id": "C01_S02_et_q120_et_C",
           "text": "0,001 vatti.",
           "isCorrect": false
         }
@@ -157,21 +157,21 @@ export const C01_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q121",
+      "id": "C01_S02_et_q121_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S02_et_q121_A",
+          "id": "C01_S02_et_q121_et_A",
           "text": "14255 kHz.",
           "isCorrect": true
         },
         {
-          "id": "C01_S02_et_q121_B",
+          "id": "C01_S02_et_q121_et_B",
           "text": "14245 kHz.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q121_C",
+          "id": "C01_S02_et_q121_et_C",
           "text": "19250 kHz.",
           "isCorrect": false
         }
@@ -182,21 +182,21 @@ export const C01_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q122",
+      "id": "C01_S02_et_q122_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S02_et_q122_A",
+          "id": "C01_S02_et_q122_et_A",
           "text": "10 kilohertsi on suurem kui 10 millivolti.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q122_B",
+          "id": "C01_S02_et_q122_et_B",
           "text": "10 kilohertsi on väiksem kui 10 millivolti.",
           "isCorrect": false
         },
         {
-          "id": "C01_S02_et_q122_C",
+          "id": "C01_S02_et_q122_et_C",
           "text": "Nad ei ole seotud.",
           "isCorrect": true
         }

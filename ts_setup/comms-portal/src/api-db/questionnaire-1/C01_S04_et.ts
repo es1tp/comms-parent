@@ -7,21 +7,21 @@ export const C01_S04_et: ExamApi.ErauSubject = {
   "title": "Detsibellid",
   "questions": [
     {
-      "id": "q013",
+      "id": "C01_S04_et_q013_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S04_et_q013_A",
+          "id": "C01_S04_et_q013_et_A",
           "text": "Mahtuvuse muutumise mõõtühik.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q013_B",
+          "id": "C01_S04_et_q013_et_B",
           "text": "Induktiivsuse muutumise mõõtühik.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q013_C",
+          "id": "C01_S04_et_q013_et_C",
           "text": "Erinevate võimsuste suhte suurust väljendav ühik.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C01_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q014",
+      "id": "C01_S04_et_q014_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S04_et_q014_A",
+          "id": "C01_S04_et_q014_et_A",
           "text": "Võimsusnivoode suhte muutumine 0,1 Belli võrra.",
           "isCorrect": true
         },
         {
-          "id": "C01_S04_et_q014_B",
+          "id": "C01_S04_et_q014_et_B",
           "text": "Võimsusnivoode suhte muutumine 0,01 Belli võrra",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q014_C",
+          "id": "C01_S04_et_q014_et_C",
           "text": "Võimsusnivoode suhte muutumine 10 Belli võrra.",
           "isCorrect": false
         }
@@ -59,26 +59,26 @@ export const C01_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q015",
+      "id": "C01_S04_et_q015_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S04_et_q015_A",
+          "id": "C01_S04_et_q015_et_A",
           "text": "12 dB.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q015_B",
+          "id": "C01_S04_et_q015_et_B",
           "text": "6 dB.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q015_C",
+          "id": "C01_S04_et_q015_et_C",
           "text": "1 dB.",
           "isCorrect": true
         },
         {
-          "id": "C01_S04_et_q015_D",
+          "id": "C01_S04_et_q015_et_D",
           "text": "3 dB",
           "isCorrect": false
         }
@@ -90,21 +90,21 @@ export const C01_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q016",
+      "id": "C01_S04_et_q016_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S04_et_q016_A",
+          "id": "C01_S04_et_q016_et_A",
           "text": "1 dB.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q016_B",
+          "id": "C01_S04_et_q016_et_B",
           "text": "3 dB.",
           "isCorrect": true
         },
         {
-          "id": "C01_S04_et_q016_C",
+          "id": "C01_S04_et_q016_et_C",
           "text": "6 dB",
           "isCorrect": false
         }
@@ -116,21 +116,21 @@ export const C01_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q017",
+      "id": "C01_S04_et_q017_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S04_et_q017_A",
+          "id": "C01_S04_et_q017_et_A",
           "text": "1,5 korda.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q017_B",
+          "id": "C01_S04_et_q017_et_B",
           "text": "2 korda.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q017_C",
+          "id": "C01_S04_et_q017_et_C",
           "text": "4 korda.",
           "isCorrect": true
         }
@@ -142,21 +142,21 @@ export const C01_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q018",
+      "id": "C01_S04_et_q018_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S04_et_q018_A",
+          "id": "C01_S04_et_q018_et_A",
           "text": "1,5 korda.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q018_B",
+          "id": "C01_S04_et_q018_et_B",
           "text": "2 korda.",
           "isCorrect": true
         },
         {
-          "id": "C01_S04_et_q018_C",
+          "id": "C01_S04_et_q018_et_C",
           "text": "4 korda",
           "isCorrect": false
         }
@@ -168,21 +168,21 @@ export const C01_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q019",
+      "id": "C01_S04_et_q019_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S04_et_q019_A",
+          "id": "C01_S04_et_q019_et_A",
           "text": "S5.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q019_B",
+          "id": "C01_S04_et_q019_et_B",
           "text": "S7",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q019_C",
+          "id": "C01_S04_et_q019_et_C",
           "text": "S9.",
           "isCorrect": true
         }
@@ -194,21 +194,21 @@ export const C01_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q020",
+      "id": "C01_S04_et_q020_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S04_et_q020_A",
+          "id": "C01_S04_et_q020_et_A",
           "text": "S5.",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q020_B",
+          "id": "C01_S04_et_q020_et_B",
           "text": "S7",
           "isCorrect": false
         },
         {
-          "id": "C01_S04_et_q020_C",
+          "id": "C01_S04_et_q020_et_C",
           "text": "S9.",
           "isCorrect": true
         }

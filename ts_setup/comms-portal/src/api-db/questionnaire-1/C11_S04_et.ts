@@ -7,21 +7,21 @@ export const C11_S04_et: ExamApi.ErauSubject = {
   "title": "Sidepidamise reeglid",
   "questions": [
     {
-      "id": "q001",
+      "id": "C11_S04_et_q001_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q001_A",
+          "id": "C11_S04_et_q001_et_A",
           "text": "Sagedus ei tohi olla hõivatud teiste amatööride poolt.",
           "isCorrect": true
         },
         {
-          "id": "C11_S04_et_q001_B",
+          "id": "C11_S04_et_q001_et_B",
           "text": "Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q001_C",
+          "id": "C11_S04_et_q001_et_C",
           "text": "Teie antenn peab olema resonantsis antud sagedusel.",
           "isCorrect": false
         }
@@ -33,31 +33,31 @@ export const C11_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q004",
+      "id": "C11_S04_et_q004_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q004_A",
+          "id": "C11_S04_et_q004_et_A",
           "text": "Teatate jaamale, et sagedus on hõivatud.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q004_B",
+          "id": "C11_S04_et_q004_et_B",
           "text": "Otsite töötamiseks mõne teise sageduse.",
           "isCorrect": true
         },
         {
-          "id": "C11_S04_et_q004_C",
+          "id": "C11_S04_et_q004_et_C",
           "text": "Helistate Päästeametisse.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q004_D",
+          "id": "C11_S04_et_q004_et_D",
           "text": "Helistate Tehnilise Järelevalve Ametisse.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q004_#",
+          "id": "C11_S04_et_q004_et_#",
           "text": "vajab kontrollimist",
           "isCorrect": false
         }
@@ -69,21 +69,21 @@ export const C11_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q014",
+      "id": "C11_S04_et_q014_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q014_A",
+          "id": "C11_S04_et_q014_et_A",
           "text": "Saadate teise jaama kutsungi vähemalt kümme korda, siis sõnad \"this is\",seejärel oma kutsung vähemalt kaks korda.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q014_B",
+          "id": "C11_S04_et_q014_et_B",
           "text": "Saadate fraasi \"CQ\" vähemalt viis korda, siis \"this is\" ja oma kutsung üks kord.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q014_C",
+          "id": "C11_S04_et_q014_et_C",
           "text": "Saadate fraasi \"CQ\" kolm korda, \"this is\" ja oma kutsungi kolm korda.",
           "isCorrect": true
         }
@@ -95,21 +95,21 @@ export const C11_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q015",
+      "id": "C11_S04_et_q015_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q015_A",
+          "id": "C11_S04_et_q015_et_A",
           "text": "Saadate teise jaama kutsungit kümme korda ,siis \"this is\" ja oma kutsungit vähemalt kaks korda.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q015_B",
+          "id": "C11_S04_et_q015_et_B",
           "text": "Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, \"this is\" ja oma kutsungit vähemalt üks kord.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q015_C",
+          "id": "C11_S04_et_q015_et_C",
           "text": "Saadate teise jaama kutsungit ühe korra, \"this is\" ja oma kutsungit veerimistabelit kasutades ühe korra.",
           "isCorrect": true
         }
@@ -121,21 +121,21 @@ export const C11_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q220",
+      "id": "C11_S04_et_q220_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q220_A",
+          "id": "C11_S04_et_q220_et_A",
           "text": "Edastate viivitamatult 3 korda oma kutsungi.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q220_B",
+          "id": "C11_S04_et_q220_et_B",
           "text": "Kuna leviolud on soodsad, hakkate ise sellel sagedusel kutsuma.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q220_C",
+          "id": "C11_S04_et_q220_et_C",
           "text": "Kuulate, kas keegi vastab, et saada aimu levitingimustest.",
           "isCorrect": true
         }
@@ -146,21 +146,21 @@ export const C11_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q221",
+      "id": "C11_S04_et_q221_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q221_A",
+          "id": "C11_S04_et_q221_et_A",
           "text": "Palute kutsungit aeglasemalt korrata.",
           "isCorrect": true
         },
         {
-          "id": "C11_S04_et_q221_B",
+          "id": "C11_S04_et_q221_et_B",
           "text": "Vahetate laineala.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q221_C",
+          "id": "C11_S04_et_q221_et_C",
           "text": "Hakkate uuesti kutsuma, nagu poleks midagi kuulnud.",
           "isCorrect": false
         }
@@ -171,21 +171,21 @@ export const C11_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q222",
+      "id": "C11_S04_et_q222_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q222_A",
+          "id": "C11_S04_et_q222_et_A",
           "text": "Vahetate viivitamatult sagedust, et teine amatöör sagedusel töötada saaks.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q222_B",
+          "id": "C11_S04_et_q222_et_B",
           "text": "Teavitate küsijat, et sagedus on hõivatud.",
           "isCorrect": true
         },
         {
-          "id": "C11_S04_et_q222_C",
+          "id": "C11_S04_et_q222_et_C",
           "text": "Lülitate transiiveri häälestusrežiimi näitamaks, et olete sagedusel.",
           "isCorrect": false
         }
@@ -196,21 +196,21 @@ export const C11_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q223",
+      "id": "C11_S04_et_q223_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q223_A",
+          "id": "C11_S04_et_q223_et_A",
           "text": "Lahkute viivitamatult sageduselt, kuna DX-sidet pidavad jaamad on eelisolukorras.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q223_B",
+          "id": "C11_S04_et_q223_et_B",
           "text": "Alustate kutsujaga sidet.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q223_C",
+          "id": "C11_S04_et_q223_et_C",
           "text": "Teavitate kutsujat, et sagedus on hõivatud, ja palute tal lahkuda.",
           "isCorrect": true
         }
@@ -221,21 +221,21 @@ export const C11_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q224",
+      "id": "C11_S04_et_q224_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S04_et_q224_A",
+          "id": "C11_S04_et_q224_et_A",
           "text": "Otsite uue vaba sageduse.",
           "isCorrect": true
         },
         {
-          "id": "C11_S04_et_q224_B",
+          "id": "C11_S04_et_q224_et_B",
           "text": "Suurendate võimsust, et sagedusel olevast jaamast tugevam olla.",
           "isCorrect": false
         },
         {
-          "id": "C11_S04_et_q224_C",
+          "id": "C11_S04_et_q224_et_C",
           "text": "Käsite sagedusel oleval jaamal viivitamatult lahkuda.",
           "isCorrect": false
         }

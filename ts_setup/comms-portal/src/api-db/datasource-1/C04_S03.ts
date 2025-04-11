@@ -11,21 +11,22 @@ export const C04_S03: KbApi.Article = {
       "materials": [],
       "questionnaire": [
         {
-          "id": "q002",
+          "id": "C04_S03_et_q002_et",
+          "groupId": "q002",
           "question": "Millised on põhilised seguastme väljundis esinevad sagedused?",
           "answers": [
             {
-              "id": "C04_S03_et_q002_A",
+              "id": "C04_S03_et_q002_et_A",
               "answer": "Sisendsignaali kahe- ja neljakordne sagedus.",
               "isCorrect": false
             },
             {
-              "id": "C04_S03_et_q002_B",
+              "id": "C04_S03_et_q002_et_B",
               "answer": "Sisendsageduste summa,vahe ja ruutjuurkordne sagedus.",
               "isCorrect": false
             },
             {
-              "id": "C04_S03_et_q002_D",
+              "id": "C04_S03_et_q002_et_D",
               "answer": "Sisendsagedused ning summaarne ja vahesagedus.",
               "isCorrect": true
             }
@@ -36,21 +37,22 @@ export const C04_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q009",
+          "id": "C04_S03_et_q009_et",
+          "groupId": "q009",
           "question": "Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?",
           "answers": [
             {
-              "id": "C04_S03_et_q009_A",
+              "id": "C04_S03_et_q009_et_A",
               "answer": "Seguastmes genereeritakse parasiitsed segustusproduktid.",
               "isCorrect": false
             },
             {
-              "id": "C04_S03_et_q009_B",
+              "id": "C04_S03_et_q009_et_B",
               "answer": "Seguaste lakkab töötamast.",
               "isCorrect": true
             },
             {
-              "id": "C04_S03_et_q009_C",
+              "id": "C04_S03_et_q009_et_C",
               "answer": "Toimub automaatne signaali piiramine.",
               "isCorrect": false
             }

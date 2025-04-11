@@ -7,21 +7,21 @@ export const C02_S01_et: ExamApi.ErauSubject = {
   "title": "Passiivkomponendid",
   "questions": [
     {
-      "id": "q001",
+      "id": "C02_S01_et_q001_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S01_et_q001_A",
+          "id": "C02_S01_et_q001_et_A",
           "text": "Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q001_B",
+          "id": "C02_S01_et_q001_et_B",
           "text": "Takistuse suurus ei muutu.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q001_C",
+          "id": "C02_S01_et_q001_et_C",
           "text": "Takistuse muutus sõltub takisti temperatuuritegurist.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C02_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q002",
+      "id": "C02_S01_et_q002_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S01_et_q002_A",
+          "id": "C02_S01_et_q002_et_A",
           "text": "Keraamilist ketaskondensaatorit.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q002_B",
+          "id": "C02_S01_et_q002_et_B",
           "text": "Muutuva mahtuvusega vaakumkondensaatorit.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q002_C",
+          "id": "C02_S01_et_q002_et_C",
           "text": "Elektrolüütkondensaatorit.",
           "isCorrect": true
         }
@@ -59,21 +59,21 @@ export const C02_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q003",
+      "id": "C02_S01_et_q003_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S01_et_q003_A",
+          "id": "C02_S01_et_q003_et_A",
           "text": "Suure mahtuvusega kondensaatorid.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q003_B",
+          "id": "C02_S01_et_q003_et_B",
           "text": "Muutuva mahtuvusega vaakumkondensaatorid.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q003_C",
+          "id": "C02_S01_et_q003_et_C",
           "text": "Keraamilised kondensaatorid.",
           "isCorrect": true
         }
@@ -85,21 +85,21 @@ export const C02_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q004",
+      "id": "C02_S01_et_q004_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S01_et_q004_A",
+          "id": "C02_S01_et_q004_et_A",
           "text": "Hajutatud elektromagnetism.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q004_B",
+          "id": "C02_S01_et_q004_et_B",
           "text": "Pöörisvoolud.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q004_C",
+          "id": "C02_S01_et_q004_et_C",
           "text": "Keerdudevaheline mahtuvus.",
           "isCorrect": true
         }
@@ -111,21 +111,21 @@ export const C02_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q136",
+      "id": "C02_S01_et_q136_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S01_et_q136_A",
+          "id": "C02_S01_et_q136_et_A",
           "text": "Raadiojaama ruumi võõraste isikute tuleku takistamiseks.",
           "isCorrect": false
         },
         {
-          "id": "C02_S01_et_q136_B",
+          "id": "C02_S01_et_q136_et_B",
           "text": "Sobiva takistusega vooluahelate koostamiseks.",
           "isCorrect": true
         },
         {
-          "id": "C02_S01_et_q136_C",
+          "id": "C02_S01_et_q136_et_C",
           "text": "Elektrienergia tarbimise vähendamiseks öisel ajal.",
           "isCorrect": false
         }

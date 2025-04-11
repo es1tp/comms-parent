@@ -16,21 +16,22 @@ export const C01_S04: KbApi.Article = {
       ],
       "questionnaire": [
         {
-          "id": "q013",
+          "id": "C01_S04_et_q013_et",
+          "groupId": "q013",
           "question": "Mis on Bell?",
           "answers": [
             {
-              "id": "C01_S04_et_q013_A",
+              "id": "C01_S04_et_q013_et_A",
               "answer": "Mahtuvuse muutumise mõõtühik.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q013_B",
+              "id": "C01_S04_et_q013_et_B",
               "answer": "Induktiivsuse muutumise mõõtühik.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q013_C",
+              "id": "C01_S04_et_q013_et_C",
               "answer": "Erinevate võimsuste suhte suurust väljendav ühik.",
               "isCorrect": true
             }
@@ -41,21 +42,22 @@ export const C01_S04: KbApi.Article = {
           ]
         },
         {
-          "id": "q014",
+          "id": "C01_S04_et_q014_et",
+          "groupId": "q014",
           "question": "Mis on detsibell?",
           "answers": [
             {
-              "id": "C01_S04_et_q014_A",
+              "id": "C01_S04_et_q014_et_A",
               "answer": "Võimsusnivoode suhte muutumine 0,1 Belli võrra.",
               "isCorrect": true
             },
             {
-              "id": "C01_S04_et_q014_B",
+              "id": "C01_S04_et_q014_et_B",
               "answer": "Võimsusnivoode suhte muutumine 0,01 Belli võrra",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q014_C",
+              "id": "C01_S04_et_q014_et_C",
               "answer": "Võimsusnivoode suhte muutumine 10 Belli võrra.",
               "isCorrect": false
             }
@@ -66,26 +68,27 @@ export const C01_S04: KbApi.Article = {
           ]
         },
         {
-          "id": "q015",
+          "id": "C01_S04_et_q015_et",
+          "groupId": "q015",
           "question": "Ligikaudu mitu detsibelli on vaevaltmärgatav helitugevuse muutus?",
           "answers": [
             {
-              "id": "C01_S04_et_q015_A",
+              "id": "C01_S04_et_q015_et_A",
               "answer": "12 dB.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q015_B",
+              "id": "C01_S04_et_q015_et_B",
               "answer": "6 dB.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q015_C",
+              "id": "C01_S04_et_q015_et_C",
               "answer": "1 dB.",
               "isCorrect": true
             },
             {
-              "id": "C01_S04_et_q015_D",
+              "id": "C01_S04_et_q015_et_D",
               "answer": "3 dB",
               "isCorrect": false
             }
@@ -96,21 +99,22 @@ export const C01_S04: KbApi.Article = {
           ]
         },
         {
-          "id": "q016",
+          "id": "C01_S04_et_q016_et",
+          "groupId": "q016",
           "question": "Kui suur on Võimsuse suurenemine kaks korda detsibellides?",
           "answers": [
             {
-              "id": "C01_S04_et_q016_A",
+              "id": "C01_S04_et_q016_et_A",
               "answer": "1 dB.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q016_B",
+              "id": "C01_S04_et_q016_et_B",
               "answer": "3 dB.",
               "isCorrect": true
             },
             {
-              "id": "C01_S04_et_q016_C",
+              "id": "C01_S04_et_q016_et_C",
               "answer": "6 dB",
               "isCorrect": false
             }
@@ -121,21 +125,22 @@ export const C01_S04: KbApi.Article = {
           ]
         },
         {
-          "id": "q017",
+          "id": "C01_S04_et_q017_et",
+          "groupId": "q017",
           "question": "Mitu korda suureneb võimsus 6 dB puhul?",
           "answers": [
             {
-              "id": "C01_S04_et_q017_A",
+              "id": "C01_S04_et_q017_et_A",
               "answer": "1,5 korda.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q017_B",
+              "id": "C01_S04_et_q017_et_B",
               "answer": "2 korda.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q017_C",
+              "id": "C01_S04_et_q017_et_C",
               "answer": "4 korda.",
               "isCorrect": true
             }
@@ -146,21 +151,22 @@ export const C01_S04: KbApi.Article = {
           ]
         },
         {
-          "id": "q018",
+          "id": "C01_S04_et_q018_et",
+          "groupId": "q018",
           "question": "Mitu korda suureneb võimsus 3 dB puhul?",
           "answers": [
             {
-              "id": "C01_S04_et_q018_A",
+              "id": "C01_S04_et_q018_et_A",
               "answer": "1,5 korda.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q018_B",
+              "id": "C01_S04_et_q018_et_B",
               "answer": "2 korda.",
               "isCorrect": true
             },
             {
-              "id": "C01_S04_et_q018_C",
+              "id": "C01_S04_et_q018_et_C",
               "answer": "4 korda",
               "isCorrect": false
             }
@@ -171,21 +177,22 @@ export const C01_S04: KbApi.Article = {
           ]
         },
         {
-          "id": "q019",
+          "id": "C01_S04_et_q019_et",
+          "groupId": "q019",
           "question": "Signaali raport on ”10 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini kui suur on uus signaali tugevuse raport?",
           "answers": [
             {
-              "id": "C01_S04_et_q019_A",
+              "id": "C01_S04_et_q019_et_A",
               "answer": "S5.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q019_B",
+              "id": "C01_S04_et_q019_et_B",
               "answer": "S7",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q019_C",
+              "id": "C01_S04_et_q019_et_C",
               "answer": "S9.",
               "isCorrect": true
             }
@@ -196,21 +203,22 @@ export const C01_S04: KbApi.Article = {
           ]
         },
         {
-          "id": "q020",
+          "id": "C01_S04_et_q020_et",
+          "groupId": "q020",
           "question": "Signaali raport on “20 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini kui suur on uus signaali tugevuse raport?",
           "answers": [
             {
-              "id": "C01_S04_et_q020_A",
+              "id": "C01_S04_et_q020_et_A",
               "answer": "S5.",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q020_B",
+              "id": "C01_S04_et_q020_et_B",
               "answer": "S7",
               "isCorrect": false
             },
             {
-              "id": "C01_S04_et_q020_C",
+              "id": "C01_S04_et_q020_et_C",
               "answer": "S9.",
               "isCorrect": true
             }

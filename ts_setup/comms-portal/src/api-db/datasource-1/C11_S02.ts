@@ -16,26 +16,27 @@ export const C11_S02: KbApi.Article = {
       ],
       "questionnaire": [
         {
-          "id": "q011",
+          "id": "C11_S02_et_q011_et",
+          "groupId": "q011",
           "question": "Mida tähendab \"CQ\" ?",
           "answers": [
             {
-              "id": "C11_S02_et_q011_A",
+              "id": "C11_S02_et_q011_et_A",
               "answer": "Märguanne teisele jaamale, et kutsute teda veerand tunni pärast.",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_q011_B",
+              "id": "C11_S02_et_q011_et_B",
               "answer": "Märguanne, et proovite uut antenni ja väljakutsetele ei vasta.",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_q011_C",
+              "id": "C11_S02_et_q011_et_C",
               "answer": "Üldväljakutse märkimaks, et üritate kellegagi ühendust luua.",
               "isCorrect": true
             },
             {
-              "id": "C11_S02_et_q011_D",
+              "id": "C11_S02_et_q011_et_D",
               "answer": "Ainult kutsutud jaam tohib vastata.",
               "isCorrect": false
             }
@@ -46,21 +47,22 @@ export const C11_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q012",
+          "id": "C11_S02_et_q012_et",
+          "groupId": "q012",
           "question": "Mida tähendab lühend QRS ?",
           "answers": [
             {
-              "id": "C11_S02_et_q012_A",
+              "id": "C11_S02_et_q012_et_A",
               "answer": "Mind segavad staatilised häired.",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_q012_B",
+              "id": "C11_S02_et_q012_et_B",
               "answer": "Saatke aeglasemalt.",
               "isCorrect": true
             },
             {
-              "id": "C11_S02_et_q012_C",
+              "id": "C11_S02_et_q012_et_C",
               "answer": "Saatke RST raport.",
               "isCorrect": false
             }
@@ -71,21 +73,22 @@ export const C11_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q013",
+          "id": "C11_S02_et_q013_et",
+          "groupId": "q013",
           "question": "Mida tähendab lühend QTH ?",
           "answers": [
             {
-              "id": "C11_S02_et_q013_A",
+              "id": "C11_S02_et_q013_et_A",
               "answer": "Kellaaeg on ...",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_q013_B",
+              "id": "C11_S02_et_q013_et_B",
               "answer": "Minu nimi on ...",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_q013_C",
+              "id": "C11_S02_et_q013_et_C",
               "answer": "Minu asukoht on ...",
               "isCorrect": true
             }
@@ -96,21 +99,22 @@ export const C11_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q020",
+          "id": "C11_S02_et_q020_et",
+          "groupId": "q020",
           "question": "Mida tähendab lühend QSL?",
           "answers": [
             {
-              "id": "C11_S02_et_q020_A",
+              "id": "C11_S02_et_q020_et_A",
               "answer": "Kas pean saatma teile oma jaamapäeviku?",
               "isCorrect": false
             },
             {
-              "id": "C11_S02_et_q020_B",
+              "id": "C11_S02_et_q020_et_B",
               "answer": "Kas võite kinnitada minu saadetud teate kättesaamist?",
               "isCorrect": true
             },
             {
-              "id": "C11_S02_et_q020_C",
+              "id": "C11_S02_et_q020_et_C",
               "answer": "Kas pean saatma aeglasemalt?",
               "isCorrect": false
             }

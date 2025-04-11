@@ -7,21 +7,21 @@ export const C05_S05_et: ExamApi.ErauSubject = {
   "title": "Raadiohäired",
   "questions": [
     {
-      "id": "q006",
+      "id": "C05_S05_et_q006_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S05_et_q006_A",
+          "id": "C05_S05_et_q006_et_A",
           "text": "Võtmeklõpsu filter.",
           "isCorrect": false
         },
         {
-          "id": "C05_S05_et_q006_C",
+          "id": "C05_S05_et_q006_et_C",
           "text": "Madalpääsfilter.",
           "isCorrect": true
         },
         {
-          "id": "C05_S05_et_q006_D",
+          "id": "C05_S05_et_q006_et_D",
           "text": "Kõrgpääsfilter.",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C05_S05_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q008",
+      "id": "C05_S05_et_q008_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S05_et_q008_A",
+          "id": "C05_S05_et_q008_et_A",
           "text": "Katuse keskkoht.",
           "isCorrect": true
         },
         {
-          "id": "C05_S05_et_q008_B",
+          "id": "C05_S05_et_q008_et_B",
           "text": "Tuuleklaasi ülemine äär.",
           "isCorrect": false
         },
         {
-          "id": "C05_S05_et_q008_C",
+          "id": "C05_S05_et_q008_et_C",
           "text": "Ükskõik kummal esimesel poritiival.",
           "isCorrect": false
         }
@@ -59,21 +59,21 @@ export const C05_S05_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q009",
+      "id": "C05_S05_et_q009_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S05_et_q009_A",
+          "id": "C05_S05_et_q009_et_A",
           "text": "Moodustab strukturaalse madalpääsfiltri.",
           "isCorrect": false
         },
         {
-          "id": "C05_S05_et_q009_B",
+          "id": "C05_S05_et_q009_et_B",
           "text": "Likvideerib ebasoovitava kõrgsagedusliku kiirguse.",
           "isCorrect": true
         },
         {
-          "id": "C05_S05_et_q009_C",
+          "id": "C05_S05_et_q009_et_C",
           "text": "Takistab helisagedusliku tagasiside tekkimist saatjas",
           "isCorrect": false
         }
@@ -85,21 +85,21 @@ export const C05_S05_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q010",
+      "id": "C05_S05_et_q010_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S05_et_q010_A",
+          "id": "C05_S05_et_q010_et_A",
           "text": "Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.",
           "isCorrect": true
         },
         {
-          "id": "C05_S05_et_q010_B",
+          "id": "C05_S05_et_q010_et_B",
           "text": "Antenni poolt vastuvõetud mürasignaalide mahajuhtimiseks.",
           "isCorrect": false
         },
         {
-          "id": "C05_S05_et_q010_C",
+          "id": "C05_S05_et_q010_et_C",
           "text": "Antennis tekkinud staatiliste pingete saatjasse pääsu takistamiseks.",
           "isCorrect": false
         }
@@ -111,21 +111,21 @@ export const C05_S05_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q167",
+      "id": "C05_S05_et_q167_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S05_et_q167_A",
+          "id": "C05_S05_et_q167_et_A",
           "text": "Korrespondendi signaali parem summutamine.",
           "isCorrect": false
         },
         {
-          "id": "C05_S05_et_q167_B",
+          "id": "C05_S05_et_q167_et_B",
           "text": "Kaitse ebasoovitava kõrgsagedusliku kiirguse eest.",
           "isCorrect": true
         },
         {
-          "id": "C05_S05_et_q167_C",
+          "id": "C05_S05_et_q167_et_C",
           "text": "Filmi vaatamiseks töö vaheajal.",
           "isCorrect": false
         }

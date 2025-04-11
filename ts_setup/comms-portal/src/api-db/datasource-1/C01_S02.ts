@@ -16,21 +16,22 @@ export const C01_S02: KbApi.Article = {
       ],
       "questionnaire": [
         {
-          "id": "q115",
+          "id": "C01_S02_et_q115_et",
+          "groupId": "q115",
           "question": "Miks kasutatakse mõõtühikute ees liiteid “piko-”, “nano-”, “mikro-”, “milli-”, “kilo-“, “mega-“, “giga-”, “tera”?",
           "answers": [
             {
-              "id": "C01_S02_et_q115_A",
+              "id": "C01_S02_et_q115_et_A",
               "answer": "Selleks, et vähem nulle kirjutada.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_q115_B",
+              "id": "C01_S02_et_q115_et_B",
               "answer": "Ilma eesliiteta ühikute kirjutamine pole lubatud.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q115_C",
+              "id": "C01_S02_et_q115_et_C",
               "answer": "Eesliiteid ei tohi mingil juhul kasutada.",
               "isCorrect": false
             }
@@ -40,21 +41,22 @@ export const C01_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q116",
+          "id": "C01_S02_et_q116_et",
+          "groupId": "q116",
           "question": "Miks kasutatakse mõõtühikutes eesliidet “mega”?",
           "answers": [
             {
-              "id": "C01_S02_et_q116_A",
+              "id": "C01_S02_et_q116_et_A",
               "answer": "Tegemist on eesliitega, mis lisatakse eriti sümpaatsele mõõtühikule.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q116_B",
+              "id": "C01_S02_et_q116_et_B",
               "answer": "Ühiku väärtuse miljonikordseks suurendamiseks.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_q116_C",
+              "id": "C01_S02_et_q116_et_C",
               "answer": "Ühiku väärtuse miljonikordseks vähendamiseks.",
               "isCorrect": false
             }
@@ -64,21 +66,22 @@ export const C01_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q117",
+          "id": "C01_S02_et_q117_et",
+          "groupId": "q117",
           "question": "Kuidas on seotud sagedused 5 000 000 hertsi ja 5 megahertsi?",
           "answers": [
             {
-              "id": "C01_S02_et_q117_A",
+              "id": "C01_S02_et_q117_et_A",
               "answer": "5 000 000 hertsi on suurem kui 5 megahertsi.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q117_B",
+              "id": "C01_S02_et_q117_et_B",
               "answer": "5 000 000 hertsi on väiksem kui 5 megahertsi.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q117_C",
+              "id": "C01_S02_et_q117_et_C",
               "answer": "Nad on võrdsed.",
               "isCorrect": true
             }
@@ -88,21 +91,22 @@ export const C01_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q118",
+          "id": "C01_S02_et_q118_et",
+          "groupId": "q118",
           "question": "Kuidas on seotud sagedused 5 000 hertsi ja 5 megahertsi?",
           "answers": [
             {
-              "id": "C01_S02_et_q118_A",
+              "id": "C01_S02_et_q118_et_A",
               "answer": "5 000 hertsi on suurem kui 5 megahertsi.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q118_B",
+              "id": "C01_S02_et_q118_et_B",
               "answer": "5 000 hertsi on väiksem kui 5 megahertsi.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_q118_C",
+              "id": "C01_S02_et_q118_et_C",
               "answer": "Nad on võrdsed.",
               "isCorrect": false
             }
@@ -112,21 +116,22 @@ export const C01_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q119",
+          "id": "C01_S02_et_q119_et",
+          "groupId": "q119",
           "question": "Kuidas on seotud sagedused 5 mHz ja 5 MHz?",
           "answers": [
             {
-              "id": "C01_S02_et_q119_A",
+              "id": "C01_S02_et_q119_et_A",
               "answer": "5 mHz on suurem kui 5 MHz.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q119_B",
+              "id": "C01_S02_et_q119_et_B",
               "answer": "5 mHz on väiksem kui 5 MHz.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_q119_C",
+              "id": "C01_S02_et_q119_et_C",
               "answer": "Nad on võrdsed.",
               "isCorrect": false
             }
@@ -136,21 +141,22 @@ export const C01_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q120",
+          "id": "C01_S02_et_q120_et",
+          "groupId": "q120",
           "question": "Mis on võrdne 1 kilovatiga?",
           "answers": [
             {
-              "id": "C01_S02_et_q120_A",
+              "id": "C01_S02_et_q120_et_A",
               "answer": "1 vatt.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q120_B",
+              "id": "C01_S02_et_q120_et_B",
               "answer": "1000 vatti.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_q120_C",
+              "id": "C01_S02_et_q120_et_C",
               "answer": "0,001 vatti.",
               "isCorrect": false
             }
@@ -160,21 +166,22 @@ export const C01_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q121",
+          "id": "C01_S02_et_q121_et",
+          "groupId": "q121",
           "question": "Te töötate sagedusel 14250 kHz ja tahate sagedust muuta 5 kHz ülespoole. Mis on teie uueks töösageduseks?",
           "answers": [
             {
-              "id": "C01_S02_et_q121_A",
+              "id": "C01_S02_et_q121_et_A",
               "answer": "14255 kHz.",
               "isCorrect": true
             },
             {
-              "id": "C01_S02_et_q121_B",
+              "id": "C01_S02_et_q121_et_B",
               "answer": "14245 kHz.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q121_C",
+              "id": "C01_S02_et_q121_et_C",
               "answer": "19250 kHz.",
               "isCorrect": false
             }
@@ -184,21 +191,22 @@ export const C01_S02: KbApi.Article = {
           ]
         },
         {
-          "id": "q122",
+          "id": "C01_S02_et_q122_et",
+          "groupId": "q122",
           "question": "Kuidas on seotud suurused 10 kilohertsi ja 10 millivolti?",
           "answers": [
             {
-              "id": "C01_S02_et_q122_A",
+              "id": "C01_S02_et_q122_et_A",
               "answer": "10 kilohertsi on suurem kui 10 millivolti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q122_B",
+              "id": "C01_S02_et_q122_et_B",
               "answer": "10 kilohertsi on väiksem kui 10 millivolti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S02_et_q122_C",
+              "id": "C01_S02_et_q122_et_C",
               "answer": "Nad ei ole seotud.",
               "isCorrect": true
             }

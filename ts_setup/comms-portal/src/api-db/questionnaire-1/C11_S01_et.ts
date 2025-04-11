@@ -7,21 +7,21 @@ export const C11_S01_et: ExamApi.ErauSubject = {
   "title": "Veerimistabel",
   "questions": [
     {
-      "id": "q016",
+      "id": "C11_S01_et_q016_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S01_et_q016_A",
+          "id": "C11_S01_et_q016_et_A",
           "text": "Eemeli Sagari Nine Aarne.",
           "isCorrect": false
         },
         {
-          "id": "C11_S01_et_q016_B",
+          "id": "C11_S01_et_q016_et_B",
           "text": "Echo Sierra Nine Alfa.",
           "isCorrect": true
         },
         {
-          "id": "C11_S01_et_q016_C",
+          "id": "C11_S01_et_q016_et_C",
           "text": "Edward Santiago Nine Alabama.",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C11_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q017",
+      "id": "C11_S01_et_q017_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S01_et_q017_A",
+          "id": "C11_S01_et_q017_et_A",
           "text": "Able Easy Zero Lima Quebec Yankee.",
           "isCorrect": false
         },
         {
-          "id": "C11_S01_et_q017_B",
+          "id": "C11_S01_et_q017_et_B",
           "text": "Arizona Equador Zero London Queen Yesterday",
           "isCorrect": false
         },
         {
-          "id": "C11_S01_et_q017_C",
+          "id": "C11_S01_et_q017_et_C",
           "text": "Alfa Echo Zero Lima Quebec Yankee",
           "isCorrect": true
         }
@@ -59,21 +59,21 @@ export const C11_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q229",
+      "id": "C11_S01_et_q229_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S01_et_q229_A",
+          "id": "C11_S01_et_q229_et_A",
           "text": "Tegemist on Ford Sierral töötava autojaamaga.",
           "isCorrect": false
         },
         {
-          "id": "C11_S01_et_q229_B",
+          "id": "C11_S01_et_q229_et_B",
           "text": "Operaatori nimi on Charlie.",
           "isCorrect": false
         },
         {
-          "id": "C11_S01_et_q229_C",
+          "id": "C11_S01_et_q229_et_C",
           "text": "Sidet saab pidada eesti keeles.",
           "isCorrect": true
         }

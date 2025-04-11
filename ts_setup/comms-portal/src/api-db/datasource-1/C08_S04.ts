@@ -11,21 +11,22 @@ export const C08_S04: KbApi.Article = {
       "materials": [],
       "questionnaire": [
         {
-          "id": "q007",
+          "id": "C08_S04_et_q007_et",
+          "groupId": "q007",
           "question": "Mis seade on väljatugevuse mõõtja?",
           "answers": [
             {
-              "id": "C08_S04_et_q007_A",
+              "id": "C08_S04_et_q007_et_A",
               "answer": "Seade,mis mõõdab seisulaine tegurit antenni toiteliinis.",
               "isCorrect": false
             },
             {
-              "id": "C08_S04_et_q007_B",
+              "id": "C08_S04_et_q007_et_B",
               "answer": "Seade modulatsioonisügavuse määramiseks saatja väljundis.",
               "isCorrect": false
             },
             {
-              "id": "C08_S04_et_q007_C",
+              "id": "C08_S04_et_q007_et_C",
               "answer": "Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.",
               "isCorrect": true
             }
@@ -36,21 +37,22 @@ export const C08_S04: KbApi.Article = {
           ]
         },
         {
-          "id": "q009",
+          "id": "C08_S04_et_q009_et",
+          "groupId": "q009",
           "question": "Milline on kõige sobivam lihtne instrument antenni kiirguse suunadiagrammi määramiseks horisontaaltasapinnas?",
           "answers": [
             {
-              "id": "C08_S04_et_q009_A",
+              "id": "C08_S04_et_q009_et_A",
               "answer": "Väljatugevuse mõõtja.",
               "isCorrect": true
             },
             {
-              "id": "C08_S04_et_q009_B",
+              "id": "C08_S04_et_q009_et_B",
               "answer": "Antenni mürasild.",
               "isCorrect": false
             },
             {
-              "id": "C08_S04_et_q009_C",
+              "id": "C08_S04_et_q009_et_C",
               "answer": "Tester.",
               "isCorrect": false
             }

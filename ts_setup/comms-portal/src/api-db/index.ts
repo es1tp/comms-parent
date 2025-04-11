@@ -15,7 +15,10 @@ const articles: KbApi.Article[] = [
 const questionnaires: ExamApi.ErauSubject[] = [
   ...Object.values(questionnaire_1),
 ];
-export const datasource = {
+
+
+
+const datasource = {
   articles: () => [...articles], 
   questionnaires: (props: { locale: string, qualification: string }) => {
     return questionnaires
@@ -30,3 +33,8 @@ export const datasource = {
       .filter(({ questions }) => questions.length > 0);
   }
 };
+
+//@ts-ignore backdoor for console
+window.__datasource = datasource;
+
+export {datasource};

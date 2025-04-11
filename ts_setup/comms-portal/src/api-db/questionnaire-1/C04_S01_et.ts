@@ -7,21 +7,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
   "title": "Raadiovastuvõtja ehitus",
   "questions": [
     {
-      "id": "q006",
+      "id": "C04_S01_et_q006_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q006_A",
+          "id": "C04_S01_et_q006_et_A",
           "text": "Lairibavastuvõtjas müra kõrvaldamist faasivõrdluse teel.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q006_B",
+          "id": "C04_S01_et_q006_et_B",
           "text": "Lairibavastuvõtjas müra kõrvaldamist faasinihke abil.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q006_C",
+          "id": "C04_S01_et_q006_et_C",
           "text": "Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q007",
+      "id": "C04_S01_et_q007_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q007_A",
+          "id": "C04_S01_et_q007_et_A",
           "text": "Automaatselt toimiv müralukustus ja suurenenud selektiivsus.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q007_B",
+          "id": "C04_S01_et_q007_et_B",
           "text": "Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.",
           "isCorrect": true
         },
         {
-          "id": "C04_S01_et_q007_C",
+          "id": "C04_S01_et_q007_et_C",
           "text": "Automaatne signaali piiramine ja müralukustus.",
           "isCorrect": false
         }
@@ -59,21 +59,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q011",
+      "id": "C04_S01_et_q011_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q011_A",
+          "id": "C04_S01_et_q011_et_A",
           "text": "Dünaamiline diapasoon ja kolmanda järgu lõikepunkt.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q011_B",
+          "id": "C04_S01_et_q011_et_B",
           "text": "Hind ja kättesaadavus.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q011_C",
+          "id": "C04_S01_et_q011_et_C",
           "text": "Ribalaius ja mürategur.",
           "isCorrect": true
         }
@@ -85,21 +85,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q150",
+      "id": "C04_S01_et_q150_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q150_A",
+          "id": "C04_S01_et_q150_et_A",
           "text": "Raadiovastuvõtjat.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q150_B",
+          "id": "C04_S01_et_q150_et_B",
           "text": "Transiiverit.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q150_C",
+          "id": "C04_S01_et_q150_et_C",
           "text": "Mõlemat.",
           "isCorrect": true
         }
@@ -110,21 +110,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q151",
+      "id": "C04_S01_et_q151_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q151_A",
+          "id": "C04_S01_et_q151_et_A",
           "text": "Helilaineid.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q151_B",
+          "id": "C04_S01_et_q151_et_B",
           "text": "Raadiolaineid.",
           "isCorrect": true
         },
         {
-          "id": "C04_S01_et_q151_C",
+          "id": "C04_S01_et_q151_et_C",
           "text": "Nii heli- kui raadiolaineid.",
           "isCorrect": false
         }
@@ -135,21 +135,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q152",
+      "id": "C04_S01_et_q152_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q152_A",
+          "id": "C04_S01_et_q152_et_A",
           "text": "Mööda antennikaablit.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q152_B",
+          "id": "C04_S01_et_q152_et_B",
           "text": "Mööda maanduskaablit.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q152_C",
+          "id": "C04_S01_et_q152_et_C",
           "text": "Ei jõuagi.",
           "isCorrect": true
         }
@@ -160,21 +160,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q153",
+      "id": "C04_S01_et_q153_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q153_A",
+          "id": "C04_S01_et_q153_et_A",
           "text": "Antenn.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q153_B",
+          "id": "C04_S01_et_q153_et_B",
           "text": "Raadiovastuvõtja.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q153_C",
+          "id": "C04_S01_et_q153_et_C",
           "text": "Nii antenn kui raadiovastuvõtja.",
           "isCorrect": true
         }
@@ -185,21 +185,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q154",
+      "id": "C04_S01_et_q154_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q154_A",
+          "id": "C04_S01_et_q154_et_A",
           "text": "Kasutatakse laineala häälestusnuppu.",
           "isCorrect": true
         },
         {
-          "id": "C04_S01_et_q154_B",
+          "id": "C04_S01_et_q154_et_B",
           "text": "Keeratakse helitugevuse regulaatori nuppu soovitud sageduse saavutamiseni.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q154_C",
+          "id": "C04_S01_et_q154_et_C",
           "text": "Helistatakse teise jaama operaatorile ja palutakse tal end häälestada Teie vastuvõtusagedusele.",
           "isCorrect": false
         }
@@ -210,21 +210,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q155",
+      "id": "C04_S01_et_q155_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q155_A",
+          "id": "C04_S01_et_q155_et_A",
           "text": "Tekib raadiovastuvõtja poolt vastuvõetud ja töödeldud raadiosignaalist.",
           "isCorrect": true
         },
         {
-          "id": "C04_S01_et_q155_B",
+          "id": "C04_S01_et_q155_et_B",
           "text": "Tekib raadiovastuvõtja poolt vastuvõetud helisignaalist.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q155_C",
+          "id": "C04_S01_et_q155_et_C",
           "text": "Tekib iseenesest.",
           "isCorrect": false
         }
@@ -235,21 +235,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q156",
+      "id": "C04_S01_et_q156_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q156_A",
+          "id": "C04_S01_et_q156_et_A",
           "text": "Raadiolaineid.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q156_B",
+          "id": "C04_S01_et_q156_et_B",
           "text": "Helilaineid.",
           "isCorrect": true
         },
         {
-          "id": "C04_S01_et_q156_C",
+          "id": "C04_S01_et_q156_et_C",
           "text": "Seisulaineid.",
           "isCorrect": false
         }
@@ -260,21 +260,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q157",
+      "id": "C04_S01_et_q157_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q157_A",
+          "id": "C04_S01_et_q157_et_A",
           "text": "Muudetakse transiiveri poolt vastuvõetava raadiosignaali sagedust.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q157_B",
+          "id": "C04_S01_et_q157_et_B",
           "text": "Muudetakse kõrvaklappidesse või valjuhääldisse jõudva heli tugevust.",
           "isCorrect": true
         },
         {
-          "id": "C04_S01_et_q157_C",
+          "id": "C04_S01_et_q157_et_C",
           "text": "Muudetakse raadiosaatja poolt kiiratava signaali tugevust.",
           "isCorrect": false
         }
@@ -285,21 +285,21 @@ export const C04_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q160",
+      "id": "C04_S01_et_q160_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S01_et_q160_A",
+          "id": "C04_S01_et_q160_et_A",
           "text": "Vastuvõetav signaal segab vähem ruumisviibijaid ja nemad segavad vähem kuulamist.",
           "isCorrect": true
         },
         {
-          "id": "C04_S01_et_q160_B",
+          "id": "C04_S01_et_q160_et_B",
           "text": "Kõrvaklapid tarbivad oluliselt vähem energiat.",
           "isCorrect": false
         },
         {
-          "id": "C04_S01_et_q160_C",
+          "id": "C04_S01_et_q160_et_C",
           "text": "Valjuhääldist tulev signaal on kõrgsageduslik.",
           "isCorrect": false
         }

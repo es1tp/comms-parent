@@ -7,21 +7,21 @@ export const C04_S03_et: ExamApi.ErauSubject = {
   "title": "Seguaste",
   "questions": [
     {
-      "id": "q002",
+      "id": "C04_S03_et_q002_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S03_et_q002_A",
+          "id": "C04_S03_et_q002_et_A",
           "text": "Sisendsignaali kahe- ja neljakordne sagedus.",
           "isCorrect": false
         },
         {
-          "id": "C04_S03_et_q002_B",
+          "id": "C04_S03_et_q002_et_B",
           "text": "Sisendsageduste summa,vahe ja ruutjuurkordne sagedus.",
           "isCorrect": false
         },
         {
-          "id": "C04_S03_et_q002_D",
+          "id": "C04_S03_et_q002_et_D",
           "text": "Sisendsagedused ning summaarne ja vahesagedus.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C04_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q009",
+      "id": "C04_S03_et_q009_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S03_et_q009_A",
+          "id": "C04_S03_et_q009_et_A",
           "text": "Seguastmes genereeritakse parasiitsed segustusproduktid.",
           "isCorrect": false
         },
         {
-          "id": "C04_S03_et_q009_B",
+          "id": "C04_S03_et_q009_et_B",
           "text": "Seguaste lakkab töötamast.",
           "isCorrect": true
         },
         {
-          "id": "C04_S03_et_q009_C",
+          "id": "C04_S03_et_q009_et_C",
           "text": "Toimub automaatne signaali piiramine.",
           "isCorrect": false
         }

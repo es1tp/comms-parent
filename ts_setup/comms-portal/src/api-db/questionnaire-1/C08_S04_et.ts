@@ -7,21 +7,21 @@ export const C08_S04_et: ExamApi.ErauSubject = {
   "title": "Väljatugevuse mõõtja",
   "questions": [
     {
-      "id": "q007",
+      "id": "C08_S04_et_q007_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S04_et_q007_A",
+          "id": "C08_S04_et_q007_et_A",
           "text": "Seade,mis mõõdab seisulaine tegurit antenni toiteliinis.",
           "isCorrect": false
         },
         {
-          "id": "C08_S04_et_q007_B",
+          "id": "C08_S04_et_q007_et_B",
           "text": "Seade modulatsioonisügavuse määramiseks saatja väljundis.",
           "isCorrect": false
         },
         {
-          "id": "C08_S04_et_q007_C",
+          "id": "C08_S04_et_q007_et_C",
           "text": "Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C08_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q009",
+      "id": "C08_S04_et_q009_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S04_et_q009_A",
+          "id": "C08_S04_et_q009_et_A",
           "text": "Väljatugevuse mõõtja.",
           "isCorrect": true
         },
         {
-          "id": "C08_S04_et_q009_B",
+          "id": "C08_S04_et_q009_et_B",
           "text": "Antenni mürasild.",
           "isCorrect": false
         },
         {
-          "id": "C08_S04_et_q009_C",
+          "id": "C08_S04_et_q009_et_C",
           "text": "Tester.",
           "isCorrect": false
         }

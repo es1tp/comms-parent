@@ -60,11 +60,11 @@ export function vitePluginKb(options: Partial<Config>[] = []): Plugin {
     event: 'create' | 'update' | 'delete',
   ) => {
     const filePath = normalize(file);
-    const isGenerationEnabled: boolean = !!userConfig
+    const isChangeOnPath: boolean = !!userConfig
       .map(option => createFilePath([ROOT], option.src).fullPath)
       .find(routesDirectoryPath => filePath.startsWith(routesDirectoryPath))
     
-    if (true || isGenerationEnabled) {
+    if (isChangeOnPath) {
       await generate()
     } 
   }

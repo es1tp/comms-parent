@@ -16,21 +16,22 @@ export const C11_S05: KbApi.Article = {
       ],
       "questionnaire": [
         {
-          "id": "q019",
+          "id": "C11_S05_et_q019_et",
+          "groupId": "q019",
           "question": "Mida tähendab R RST signaali raportis?",
           "answers": [
             {
-              "id": "C11_S05_et_q019_A",
+              "id": "C11_S05_et_q019_et_A",
               "answer": "Signaali taastumist.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_q019_B",
+              "id": "C11_S05_et_q019_et_B",
               "answer": "CW tooni reonantsi.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_q019_C",
+              "id": "C11_S05_et_q019_et_C",
               "answer": "Signaali loetavust.",
               "isCorrect": true
             }
@@ -41,21 +42,22 @@ export const C11_S05: KbApi.Article = {
           ]
         },
         {
-          "id": "q227",
+          "id": "C11_S05_et_q227_et",
+          "groupId": "q227",
           "question": "Kolm sidet järjest on korrespondendid andnud raportiks 39. Mida teete?",
           "answers": [
             {
-              "id": "C11_S05_et_q227_A",
+              "id": "C11_S05_et_q227_et_A",
               "answer": "Palute anda raportiks 59.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_q227_B",
+              "id": "C11_S05_et_q227_et_B",
               "answer": "Suurendate võimsust.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_q227_C",
+              "id": "C11_S05_et_q227_et_C",
               "answer": "Katsute selgusele jõuda, kas transiiver on korras.",
               "isCorrect": true
             }
@@ -65,21 +67,22 @@ export const C11_S05: KbApi.Article = {
           ]
         },
         {
-          "id": "q228",
+          "id": "C11_S05_et_q228_et",
+          "groupId": "q228",
           "question": "Teile on kolm Jaapani korrespondenti järjest andnud raportiks 59. See tähendab, et:",
           "answers": [
             {
-              "id": "C11_S05_et_q228_A",
+              "id": "C11_S05_et_q228_et_A",
               "answer": "Jaapanisse on hea levi.",
               "isCorrect": true
             },
             {
-              "id": "C11_S05_et_q228_B",
+              "id": "C11_S05_et_q228_et_B",
               "answer": "Tuleb transiiveri korrasolekut kontrollida.",
               "isCorrect": false
             },
             {
-              "id": "C11_S05_et_q228_C",
+              "id": "C11_S05_et_q228_et_C",
               "answer": "Tuleb võimsust suurendada.",
               "isCorrect": false
             }

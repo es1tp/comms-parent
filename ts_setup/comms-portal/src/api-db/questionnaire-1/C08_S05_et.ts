@@ -7,21 +7,21 @@ export const C08_S05_et: ExamApi.ErauSubject = {
   "title": "Mürasild",
   "questions": [
     {
-      "id": "q005",
+      "id": "C08_S05_et_q005_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S05_et_q005_A",
+          "id": "C08_S05_et_q005_et_A",
           "text": "Seade antenni või muu elektrilise lülituse mürateguri mõõtmiseks.",
           "isCorrect": false
         },
         {
-          "id": "C08_S05_et_q005_B",
+          "id": "C08_S05_et_q005_et_B",
           "text": "Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.",
           "isCorrect": true
         },
         {
-          "id": "C08_S05_et_q005_C",
+          "id": "C08_S05_et_q005_et_C",
           "text": "Seade vastuvõtjas esineva müra hävitamiseks.",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C08_S05_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q006",
+      "id": "C08_S05_et_q006_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S05_et_q006_A",
+          "id": "C08_S05_et_q006_et_A",
           "text": "Seade ühendatakse antenni toitepunkti ja müra suurus loetakse seadme skaalalt.",
           "isCorrect": false
         },
         {
-          "id": "C08_S05_et_q006_B",
+          "id": "C08_S05_et_q006_et_B",
           "text": "Seade ühendatakse saatja ja antenni vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.",
           "isCorrect": false
         },
         {
-          "id": "C08_S05_et_q006_C",
+          "id": "C08_S05_et_q006_et_C",
           "text": "Seade ühendatakse vastuvõtja ja tundmatu impedantsiga skeemi vahele ning häälestatakse minimaalse müra saavutamiseni.",
           "isCorrect": true
         }

@@ -7,21 +7,21 @@ export const C03_S02_et: ExamApi.ErauSubject = {
   "title": "Paralleel- ja jadaühendused",
   "questions": [
     {
-      "id": "q021",
+      "id": "C03_S02_et_q021_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S02_et_q021_A",
+          "id": "C03_S02_et_q021_et_A",
           "text": "10 amprit.",
           "isCorrect": false
         },
         {
-          "id": "C03_S02_et_q021_B",
+          "id": "C03_S02_et_q021_et_B",
           "text": "1 amper.",
           "isCorrect": false
         },
         {
-          "id": "C03_S02_et_q021_C",
+          "id": "C03_S02_et_q021_et_C",
           "text": "0,5 amprit.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C03_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q025",
+      "id": "C03_S02_et_q025_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S02_et_q025_A",
+          "id": "C03_S02_et_q025_et_A",
           "text": "Kogutakistus on võrdne kõikide takistite takistuste summaga.",
           "isCorrect": true
         },
         {
-          "id": "C03_S02_et_q025_B",
+          "id": "C03_S02_et_q025_et_B",
           "text": "Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.",
           "isCorrect": false
         },
         {
-          "id": "C03_S02_et_q025_C",
+          "id": "C03_S02_et_q025_et_C",
           "text": "Kogutakistuse saame jagades takistite takistuste summa takistite arvuga.",
           "isCorrect": false
         }
@@ -59,21 +59,21 @@ export const C03_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q026",
+      "id": "C03_S02_et_q026_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S02_et_q026_A",
+          "id": "C03_S02_et_q026_et_A",
           "text": "Kahekordne ühe takisti takistuse väärtus.",
           "isCorrect": false
         },
         {
-          "id": "C03_S02_et_q026_B",
+          "id": "C03_S02_et_q026_et_B",
           "text": "Pool kummagi takisti takistuse väärtusest.",
           "isCorrect": true
         },
         {
-          "id": "C03_S02_et_q026_C",
+          "id": "C03_S02_et_q026_et_C",
           "text": "Kahekordne kummagi takisti väärtus.",
           "isCorrect": false
         }
@@ -85,21 +85,21 @@ export const C03_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q027",
+      "id": "C03_S02_et_q027_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S02_et_q027_A",
+          "id": "C03_S02_et_q027_et_A",
           "text": "Pool kummagi väärtusest.",
           "isCorrect": true
         },
         {
-          "id": "C03_S02_et_q027_B",
+          "id": "C03_S02_et_q027_et_B",
           "text": "Kahekordne kummagi induktiivsuse väärtus.",
           "isCorrect": false
         },
         {
-          "id": "C03_S02_et_q027_C",
+          "id": "C03_S02_et_q027_et_C",
           "text": "Ei saa määrata induktiivsuste täpset suurust teadmata.",
           "isCorrect": false
         }
@@ -111,21 +111,21 @@ export const C03_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q028",
+      "id": "C03_S02_et_q028_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S02_et_q028_A",
+          "id": "C03_S02_et_q028_et_A",
           "text": "Pool kummagi kondensaatori mahtuvusest.",
           "isCorrect": false
         },
         {
-          "id": "C03_S02_et_q028_B",
+          "id": "C03_S02_et_q028_et_B",
           "text": "Kogumahtuvus on võrdne kondensaatorite mahtuvuste summaga.",
           "isCorrect": true
         },
         {
-          "id": "C03_S02_et_q028_C",
+          "id": "C03_S02_et_q028_et_C",
           "text": "Mahtuvust ei saa määrata teadmata kondensatorite täpset mahtuvust.",
           "isCorrect": false
         }

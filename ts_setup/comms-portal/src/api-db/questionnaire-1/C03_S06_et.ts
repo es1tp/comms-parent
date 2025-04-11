@@ -7,21 +7,21 @@ export const C03_S06_et: ExamApi.ErauSubject = {
   "title": "Kaitseahelad",
   "questions": [
     {
-      "id": "q139",
+      "id": "C03_S06_et_q139_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S06_et_q139_A",
+          "id": "C03_S06_et_q139_et_A",
           "text": "Uurite, miks kaitse läbi põles.",
           "isCorrect": true
         },
         {
-          "id": "C03_S06_et_q139_B",
+          "id": "C03_S06_et_q139_et_B",
           "text": "Asendate sulavkaitsme vastupidavamaga.",
           "isCorrect": false
         },
         {
-          "id": "C03_S06_et_q139_C",
+          "id": "C03_S06_et_q139_et_C",
           "text": "Ei kasuta edasises töös sulavkaitsmeid.",
           "isCorrect": false
         }
@@ -32,21 +32,21 @@ export const C03_S06_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q147",
+      "id": "C03_S06_et_q147_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S06_et_q147_A",
+          "id": "C03_S06_et_q147_et_A",
           "text": "Jootetina sulamistemperatuuri alandamiseks, et raadiodetailid ei kahjustuks.",
           "isCorrect": false
         },
         {
-          "id": "C03_S06_et_q147_B",
+          "id": "C03_S06_et_q147_et_B",
           "text": "Vooluahela katkestamiseks liiga suure koormuse puhul.",
           "isCorrect": true
         },
         {
-          "id": "C03_S06_et_q147_C",
+          "id": "C03_S06_et_q147_et_C",
           "text": "Jää eemaldamiseks talvisel ajal kaitseks saatja lõppastme külmumise eest.",
           "isCorrect": false
         }

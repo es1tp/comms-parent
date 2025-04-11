@@ -7,21 +7,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
   "title": "Raadiohäirete vähendamine",
   "questions": [
     {
-      "id": "q002",
+      "id": "C09_S02_et_q002_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q002_A",
+          "id": "C09_S02_et_q002_et_A",
           "text": "Kontrolli elektriliini pinget graafilise reflektomeetriga.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q002_B",
+          "id": "C09_S02_et_q002_et_B",
           "text": "Kontrolli vahelduvvoolu lainekuju ostsilloskoobi abil.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q002_C",
+          "id": "C09_S02_et_q002_et_C",
           "text": "Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q003",
+      "id": "C09_S02_et_q003_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q003_A",
+          "id": "C09_S02_et_q003_et_A",
           "text": "Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q003_B",
+          "id": "C09_S02_et_q003_et_B",
           "text": "Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.",
           "isCorrect": true
         },
         {
-          "id": "C09_S02_et_q003_C",
+          "id": "C09_S02_et_q003_et_C",
           "text": "Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse.",
           "isCorrect": false
         }
@@ -59,21 +59,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q004",
+      "id": "C09_S02_et_q004_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q004_A",
+          "id": "C09_S02_et_q004_et_A",
           "text": "Vähendades vastuvõtja toitepinget.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q004_B",
+          "id": "C09_S02_et_q004_et_B",
           "text": "Lülitades vastuvõtja sisendisse attenuaatori.",
           "isCorrect": true
         },
         {
-          "id": "C09_S02_et_q004_C",
+          "id": "C09_S02_et_q004_et_C",
           "text": "Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit.",
           "isCorrect": false
         }
@@ -85,21 +85,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q006",
+      "id": "C09_S02_et_q006_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q006_A",
+          "id": "C09_S02_et_q006_et_A",
           "text": "Lülitate kohe oma saatja välja ja pöördute Sideameti poole abi saamiseks.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q006_B",
+          "id": "C09_S02_et_q006_et_B",
           "text": "Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.",
           "isCorrect": true
         },
         {
-          "id": "C09_S02_et_q006_C",
+          "id": "C09_S02_et_q006_et_C",
           "text": "Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madalpääsfiltri.",
           "isCorrect": false
         }
@@ -111,21 +111,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q007",
+      "id": "C09_S02_et_q007_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q007_A",
+          "id": "C09_S02_et_q007_et_A",
           "text": "Võtmeklõpsu filter.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q007_B",
+          "id": "C09_S02_et_q007_et_B",
           "text": "Madalpääsfilter.",
           "isCorrect": true
         },
         {
-          "id": "C09_S02_et_q007_C",
+          "id": "C09_S02_et_q007_et_C",
           "text": "Kõrgpääsfilter.",
           "isCorrect": false
         }
@@ -137,26 +137,26 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q010",
+      "id": "C09_S02_et_q010_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q010_A",
+          "id": "C09_S02_et_q010_et_A",
           "text": "Kõrgpääsfilter.",
           "isCorrect": true
         },
         {
-          "id": "C09_S02_et_q010_B",
+          "id": "C09_S02_et_q010_et_B",
           "text": "Madalpääsfilter.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q010_C",
+          "id": "C09_S02_et_q010_et_C",
           "text": "Ribafilter.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q010_D",
+          "id": "C09_S02_et_q010_et_D",
           "text": "Sõltub, millisel sagedusel tekitab raadiojaam häireid.",
           "isCorrect": false
         }
@@ -168,21 +168,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q204",
+      "id": "C09_S02_et_q204_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q204_A",
+          "id": "C09_S02_et_q204_et_A",
           "text": "Viite raadiojaama viivitamatult mujale.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q204_B",
+          "id": "C09_S02_et_q204_et_B",
           "text": "Katsute selgusele jõuda, kas ja kuidas on häired Teie raadiojaama tööga seotud.",
           "isCorrect": true
         },
         {
-          "id": "C09_S02_et_q204_C",
+          "id": "C09_S02_et_q204_et_C",
           "text": "Ostate naabritele paremad seadmed.",
           "isCorrect": false
         }
@@ -193,21 +193,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q205",
+      "id": "C09_S02_et_q205_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q205_A",
+          "id": "C09_S02_et_q205_et_A",
           "text": "Viite raadiojaama viivitamatult mujale.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q205_B",
+          "id": "C09_S02_et_q205_et_B",
           "text": "Teete kõik endast oleneva, et võrgupinge normaliseerida.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q205_C",
+          "id": "C09_S02_et_q205_et_C",
           "text": "Soovitate neil pöörduda Eesti Energiasse, kuna liiga suur võrgupinge ei sõltu kuidagi Teie raadiojaamast.",
           "isCorrect": true
         }
@@ -218,21 +218,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q208",
+      "id": "C09_S02_et_q208_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q208_A",
+          "id": "C09_S02_et_q208_et_A",
           "text": "Saadetakse kaebus Tarbijakaitse ja Tehnilise Järelevalve Ametisse.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q208_B",
+          "id": "C09_S02_et_q208_et_B",
           "text": "Proovitakse muuta antenni suunda või segavalt jaamalt kõrvale häälestada.",
           "isCorrect": true
         },
         {
-          "id": "C09_S02_et_q208_C",
+          "id": "C09_S02_et_q208_et_C",
           "text": "Kõik ülalloetletud teguviisid võivad aidata.",
           "isCorrect": false
         }
@@ -243,21 +243,21 @@ export const C09_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q210",
+      "id": "C09_S02_et_q210_et",
       "info": [],
       "answers": [
         {
-          "id": "C09_S02_et_q210_A",
+          "id": "C09_S02_et_q210_et_A",
           "text": "Lõpetate viivitamatult töö.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q210_B",
+          "id": "C09_S02_et_q210_et_B",
           "text": "Ei pane neid lihtsalt tähele.",
           "isCorrect": false
         },
         {
-          "id": "C09_S02_et_q210_C",
+          "id": "C09_S02_et_q210_et_C",
           "text": "Katsute nende jaamadega sidet saada, kuna levi on väga hea.",
           "isCorrect": true
         }

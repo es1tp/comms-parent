@@ -7,21 +7,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
   "title": "Levihäired",
   "questions": [
     {
-      "id": "q001",
+      "id": "C07_S03_et_q001_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q001_A",
+          "id": "C07_S03_et_q001_et_A",
           "text": "Väga hea arusaadavus.",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q001_B",
+          "id": "C07_S03_et_q001_et_B",
           "text": "Lainetav heli.",
           "isCorrect": true
         },
         {
-          "id": "C07_S03_et_q001_C",
+          "id": "C07_S03_et_q001_et_C",
           "text": "Ümberpööratud külgribad.",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q002",
+      "id": "C07_S03_et_q002_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q002_A",
+          "id": "C07_S03_et_q002_et_A",
           "text": "Päikese magnetvälja intensiivsus.",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q002_B",
+          "id": "C07_S03_et_q002_et_B",
           "text": "Maa poole pööratud Päikese küljel nähtavate plekkide arv.",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q002_C",
+          "id": "C07_S03_et_q002_et_C",
           "text": "Päikese poolt kiiratav ioniseeriv energia.",
           "isCorrect": true
         }
@@ -59,21 +59,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q003",
+      "id": "C07_S03_et_q003_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q003_A",
+          "id": "C07_S03_et_q003_et_A",
           "text": "Päikese solar-fluks indeksi järsk langus.",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q003_B",
+          "id": "C07_S03_et_q003_et_B",
           "text": "Maa magnetvälja järsk muutus lühikese aja jooksul.",
           "isCorrect": true
         },
         {
-          "id": "C07_S03_et_q003_C",
+          "id": "C07_S03_et_q003_et_C",
           "text": "Maa magnetpooluse nihe.",
           "isCorrect": false
         }
@@ -85,21 +85,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q004",
+      "id": "C07_S03_et_q004_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q004_A",
+          "id": "C07_S03_et_q004_et_A",
           "text": "1,5 sekundiga",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q004_B",
+          "id": "C07_S03_et_q004_et_B",
           "text": "8 minutiga",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q004_C",
+          "id": "C07_S03_et_q004_et_C",
           "text": "20 kuni 40 tunniga.",
           "isCorrect": true
         }
@@ -111,21 +111,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q006",
+      "id": "C07_S03_et_q006_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q006_A",
+          "id": "C07_S03_et_q006_et_A",
           "text": "D-kihis.",
           "isCorrect": true
         },
         {
-          "id": "C07_S03_et_q006_B",
+          "id": "C07_S03_et_q006_et_B",
           "text": "E-kihis",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q006_C",
+          "id": "C07_S03_et_q006_et_C",
           "text": "F2-kihis.",
           "isCorrect": false
         }
@@ -137,21 +137,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q007",
+      "id": "C07_S03_et_q007_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q007_A",
+          "id": "C07_S03_et_q007_et_A",
           "text": "Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel.",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q007_B",
+          "id": "C07_S03_et_q007_et_B",
           "text": "Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.",
           "isCorrect": true
         },
         {
-          "id": "C07_S03_et_q007_C",
+          "id": "C07_S03_et_q007_et_C",
           "text": "Suurenenud pinnalaine ulatus.",
           "isCorrect": false
         }
@@ -163,21 +163,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q009",
+      "id": "C07_S03_et_q009_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q009_A",
+          "id": "C07_S03_et_q009_et_A",
           "text": "Kogu päev.",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q009_B",
+          "id": "C07_S03_et_q009_et_B",
           "text": "Mõnest minutist kuni mõne tunnini.",
           "isCorrect": true
         },
         {
-          "id": "C07_S03_et_q009_C",
+          "id": "C07_S03_et_q009_et_C",
           "text": "Keskmiselt ühe nädala.",
           "isCorrect": false
         }
@@ -189,21 +189,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q010",
+      "id": "C07_S03_et_q010_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q010_A",
+          "id": "C07_S03_et_q010_et_A",
           "text": "Ekvaatori laiuskraadidel.",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q010_B",
+          "id": "C07_S03_et_q010_et_B",
           "text": "45 kraadist kõrgematel laiustel.",
           "isCorrect": true
         },
         {
-          "id": "C07_S03_et_q010_C",
+          "id": "C07_S03_et_q010_et_C",
           "text": "Kõikidel laiuskraadidel ühtemoodi.",
           "isCorrect": false
         }
@@ -215,21 +215,21 @@ export const C07_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q186",
+      "id": "C07_S03_et_q186_et",
       "info": [],
       "answers": [
         {
-          "id": "C07_S03_et_q186_A",
+          "id": "C07_S03_et_q186_et_A",
           "text": "Aitavad raadiolainete abil avastada teisi universumi tsivilisatsioone.",
           "isCorrect": false
         },
         {
-          "id": "C07_S03_et_q186_B",
+          "id": "C07_S03_et_q186_et_B",
           "text": "Halvendavad oluliselt raadiolainete levi lühilainetel.",
           "isCorrect": true
         },
         {
-          "id": "C07_S03_et_q186_C",
+          "id": "C07_S03_et_q186_et_C",
           "text": "Ei mõjuta raadiolainete levi.",
           "isCorrect": false
         }

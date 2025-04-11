@@ -7,21 +7,21 @@ export const C03_S04_et: ExamApi.ErauSubject = {
   "title": "Maandus",
   "questions": [
     {
-      "id": "q144",
+      "id": "C03_S04_et_q144_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S04_et_q144_A",
+          "id": "C03_S04_et_q144_et_A",
           "text": "Ülitugevat klaaskiudu.",
           "isCorrect": false
         },
         {
-          "id": "C03_S04_et_q144_B",
+          "id": "C03_S04_et_q144_et_B",
           "text": "Pikka metallvarrast.",
           "isCorrect": true
         },
         {
-          "id": "C03_S04_et_q144_C",
+          "id": "C03_S04_et_q144_et_C",
           "text": "Eriotstarbelist plastikkontuuri.",
           "isCorrect": false
         }
@@ -32,21 +32,21 @@ export const C03_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q145",
+      "id": "C03_S04_et_q145_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S04_et_q145_A",
+          "id": "C03_S04_et_q145_et_A",
           "text": "Vältida seadmete tuulega lendutõusmist.",
           "isCorrect": false
         },
         {
-          "id": "C03_S04_et_q145_B",
+          "id": "C03_S04_et_q145_et_B",
           "text": "Välistada seadme korpuse sattumine pinge alla.",
           "isCorrect": true
         },
         {
-          "id": "C03_S04_et_q145_C",
+          "id": "C03_S04_et_q145_et_C",
           "text": "Suurendada saatja võimsust.",
           "isCorrect": false
         }
@@ -57,21 +57,21 @@ export const C03_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q146",
+      "id": "C03_S04_et_q146_et",
       "info": [],
       "answers": [
         {
-          "id": "C03_S04_et_q146_A",
+          "id": "C03_S04_et_q146_et_A",
           "text": "Valida võimalikult hinnaline materjal.",
           "isCorrect": false
         },
         {
-          "id": "C03_S04_et_q146_B",
+          "id": "C03_S04_et_q146_et_B",
           "text": "Paigaldada juhe läbilöögi vältimiseks maast võimalikult kõrgele.",
           "isCorrect": false
         },
         {
-          "id": "C03_S04_et_q146_C",
+          "id": "C03_S04_et_q146_et_C",
           "text": "Tagada juhtme võimalikult hea ühendus maaga.",
           "isCorrect": true
         }

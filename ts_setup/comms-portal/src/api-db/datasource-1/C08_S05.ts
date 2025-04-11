@@ -11,21 +11,22 @@ export const C08_S05: KbApi.Article = {
       "materials": [],
       "questionnaire": [
         {
-          "id": "q005",
+          "id": "C08_S05_et_q005_et",
+          "groupId": "q005",
           "question": "Mis seade on antenni mürasild?",
           "answers": [
             {
-              "id": "C08_S05_et_q005_A",
+              "id": "C08_S05_et_q005_et_A",
               "answer": "Seade antenni või muu elektrilise lülituse mürateguri mõõtmiseks.",
               "isCorrect": false
             },
             {
-              "id": "C08_S05_et_q005_B",
+              "id": "C08_S05_et_q005_et_B",
               "answer": "Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.",
               "isCorrect": true
             },
             {
-              "id": "C08_S05_et_q005_C",
+              "id": "C08_S05_et_q005_et_C",
               "answer": "Seade vastuvõtjas esineva müra hävitamiseks.",
               "isCorrect": false
             }
@@ -36,21 +37,22 @@ export const C08_S05: KbApi.Article = {
           ]
         },
         {
-          "id": "q006",
+          "id": "C08_S05_et_q006_et",
+          "groupId": "q006",
           "question": "Kuhu ühendatakse antenni mürasild?",
           "answers": [
             {
-              "id": "C08_S05_et_q006_A",
+              "id": "C08_S05_et_q006_et_A",
               "answer": "Seade ühendatakse antenni toitepunkti ja müra suurus loetakse seadme skaalalt.",
               "isCorrect": false
             },
             {
-              "id": "C08_S05_et_q006_B",
+              "id": "C08_S05_et_q006_et_B",
               "answer": "Seade ühendatakse saatja ja antenni vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.",
               "isCorrect": false
             },
             {
-              "id": "C08_S05_et_q006_C",
+              "id": "C08_S05_et_q006_et_C",
               "answer": "Seade ühendatakse vastuvõtja ja tundmatu impedantsiga skeemi vahele ning häälestatakse minimaalse müra saavutamiseni.",
               "isCorrect": true
             }

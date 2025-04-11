@@ -7,21 +7,21 @@ export const C11_et: ExamApi.ErauSubject = {
   "title": "Amatöörraadiojaama opereerimise reeglid ja protseduurid",
   "questions": [
     {
-      "id": "q225",
+      "id": "C11_et_q225_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_et_q225_A",
+          "id": "C11_et_q225_et_A",
           "text": "Ei pööra segajale mingit tähelepanu.",
           "isCorrect": true
         },
         {
-          "id": "C11_et_q225_B",
+          "id": "C11_et_q225_et_B",
           "text": "Tõestate segajale, et Te pole loll ja ta on eksiarvamusel.",
           "isCorrect": false
         },
         {
-          "id": "C11_et_q225_C",
+          "id": "C11_et_q225_et_C",
           "text": "Tõestate segajale, et hoopis tema on loll.",
           "isCorrect": false
         }
@@ -32,21 +32,21 @@ export const C11_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q226",
+      "id": "C11_et_q226_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_et_q226_A",
+          "id": "C11_et_q226_et_A",
           "text": "Palute tal viivitamatult eetri risustamine lõpetada ja side katkestada.",
           "isCorrect": false
         },
         {
-          "id": "C11_et_q226_B",
+          "id": "C11_et_q226_et_B",
           "text": "Katkestate ise side ja vahetate sagedust.",
           "isCorrect": false
         },
         {
-          "id": "C11_et_q226_C",
+          "id": "C11_et_q226_et_C",
           "text": "Katsute teda igati julgustada ja soovite edu.",
           "isCorrect": true
         }
@@ -57,21 +57,21 @@ export const C11_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q239",
+      "id": "C11_et_q239_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_et_q239_A",
+          "id": "C11_et_q239_et_A",
           "text": "Selgitate viisakalt, et telegraafitöö pole sellel lainealal lubatud.",
           "isCorrect": false
         },
         {
-          "id": "C11_et_q239_B",
+          "id": "C11_et_q239_et_B",
           "text": "Katsute tema signaali kõigi vahenditega summutada.",
           "isCorrect": false
         },
         {
-          "id": "C11_et_q239_C",
+          "id": "C11_et_q239_et_C",
           "text": "Ei tee midagi.",
           "isCorrect": true
         }
@@ -82,21 +82,21 @@ export const C11_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q240",
+      "id": "C11_et_q240_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_et_q240_A",
+          "id": "C11_et_q240_et_A",
           "text": "Pärast kutsumise lõppu vastate ja sooritate side.",
           "isCorrect": false
         },
         {
-          "id": "C11_et_q240_B",
+          "id": "C11_et_q240_et_B",
           "text": "Selgitate viisakalt, et telefonitöö pole sellel lainealal lubatud.",
           "isCorrect": true
         },
         {
-          "id": "C11_et_q240_C",
+          "id": "C11_et_q240_et_C",
           "text": "Katsute tema signaali kõigi vahenditega summutada.",
           "isCorrect": false
         }

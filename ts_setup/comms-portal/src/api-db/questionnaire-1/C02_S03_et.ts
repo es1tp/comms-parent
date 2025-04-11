@@ -7,21 +7,21 @@ export const C02_S03_et: ExamApi.ErauSubject = {
   "title": "Transformaatorid",
   "questions": [
     {
-      "id": "q005",
+      "id": "C02_S03_et_q005_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S03_et_q005_A",
+          "id": "C02_S03_et_q005_et_A",
           "text": "Transformaator.",
           "isCorrect": true
         },
         {
-          "id": "C02_S03_et_q005_B",
+          "id": "C02_S03_et_q005_et_B",
           "text": "Kondensaator.",
           "isCorrect": false
         },
         {
-          "id": "C02_S03_et_q005_C",
+          "id": "C02_S03_et_q005_et_C",
           "text": "Diood.",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C02_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q006",
+      "id": "C02_S03_et_q006_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S03_et_q006_A",
+          "id": "C02_S03_et_q006_et_A",
           "text": "Magneetimisvooluks.",
           "isCorrect": true
         },
         {
-          "id": "C02_S03_et_q006_B",
+          "id": "C02_S03_et_q006_et_B",
           "text": "Alalisvooluks.",
           "isCorrect": false
         },
         {
-          "id": "C02_S03_et_q006_C",
+          "id": "C02_S03_et_q006_et_C",
           "text": "Ergutusvooluks.",
           "isCorrect": false
         }
@@ -59,21 +59,21 @@ export const C02_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q007",
+      "id": "C02_S03_et_q007_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S03_et_q007_A",
+          "id": "C02_S03_et_q007_et_A",
           "text": "Dzauli sekundis.",
           "isCorrect": false
         },
         {
-          "id": "C02_S03_et_q007_B",
+          "id": "C02_S03_et_q007_et_B",
           "text": "Volt või volt-amper.",
           "isCorrect": true
         },
         {
-          "id": "C02_S03_et_q007_C",
+          "id": "C02_S03_et_q007_et_C",
           "text": "Kulonit sekundis.",
           "isCorrect": false
         }
@@ -85,16 +85,16 @@ export const C02_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q029",
+      "id": "C02_S03_et_q029_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S03_et_q029_A",
+          "id": "C02_S03_et_q029_et_A",
           "text": "50 V",
           "isCorrect": true
         },
         {
-          "id": "C02_S03_et_q029_B",
+          "id": "C02_S03_et_q029_et_B",
           "text": "26 V",
           "isCorrect": false
         }

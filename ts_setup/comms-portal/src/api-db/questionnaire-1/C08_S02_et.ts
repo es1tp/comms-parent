@@ -7,21 +7,21 @@ export const C08_S02_et: ExamApi.ErauSubject = {
   "title": "Tester",
   "questions": [
     {
-      "id": "q195",
+      "id": "C08_S02_et_q195_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S02_et_q195_A",
+          "id": "C08_S02_et_q195_et_A",
           "text": "Kahte suure takistusega takistit.",
           "isCorrect": false
         },
         {
-          "id": "C08_S02_et_q195_B",
+          "id": "C08_S02_et_q195_et_B",
           "text": "Testrit.",
           "isCorrect": true
         },
         {
-          "id": "C08_S02_et_q195_C",
+          "id": "C08_S02_et_q195_et_C",
           "text": "Sagedusanalüsaatorit.",
           "isCorrect": false
         }
@@ -32,21 +32,21 @@ export const C08_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q196",
+      "id": "C08_S02_et_q196_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S02_et_q196_A",
+          "id": "C08_S02_et_q196_et_A",
           "text": "Kasutamismugavus, kuna üks seade võimaldab mõõta mitut parameetrit ja erinevaid mõõtepiirkondi.",
           "isCorrect": true
         },
         {
-          "id": "C08_S02_et_q196_B",
+          "id": "C08_S02_et_q196_et_B",
           "text": "Suurem täpsus ja töökindlus võrreldes kõigi teiste mõõteriistadega.",
           "isCorrect": false
         },
         {
-          "id": "C08_S02_et_q196_C",
+          "id": "C08_S02_et_q196_et_C",
           "text": "Seadme kergus.",
           "isCorrect": false
         }
@@ -57,21 +57,21 @@ export const C08_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q197",
+      "id": "C08_S02_et_q197_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S02_et_q197_A",
+          "id": "C08_S02_et_q197_et_A",
           "text": "Tuleb välja lülitada kõik elektriseadmed.",
           "isCorrect": false
         },
         {
-          "id": "C08_S02_et_q197_B",
+          "id": "C08_S02_et_q197_et_B",
           "text": "On vaja jälgida, et on valitud sobiv mõõtepiirkond.",
           "isCorrect": true
         },
         {
-          "id": "C08_S02_et_q197_C",
+          "id": "C08_S02_et_q197_et_C",
           "text": "Tuleb kaks nädalat varem teatada Eesti Energiasse, et nad saaksid voolu katkestada.",
           "isCorrect": false
         }
@@ -82,21 +82,21 @@ export const C08_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q198",
+      "id": "C08_S02_et_q198_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S02_et_q198_A",
+          "id": "C08_S02_et_q198_et_A",
           "text": "Mõõdetav takistus ei tohi olla liiga suur, kuna mõõteseade võib läbi põleda.",
           "isCorrect": false
         },
         {
-          "id": "C08_S02_et_q198_B",
+          "id": "C08_S02_et_q198_et_B",
           "text": "Mõõdetav takistus ei tohi olla liiga väike, kuna mõõteseadme näitu ei õnnestu fikseerida.",
           "isCorrect": false
         },
         {
-          "id": "C08_S02_et_q198_C",
+          "id": "C08_S02_et_q198_et_C",
           "text": "Mõõdetav takistus ei tohi olla pinge all.",
           "isCorrect": true
         }

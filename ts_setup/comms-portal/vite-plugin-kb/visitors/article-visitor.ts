@@ -73,7 +73,7 @@ class DirVisitor {
   visitQuestion(dirent: Dirent) {
     readLocaleDirent(dirent, 'q').forEach(({locale, content, nameWithoutExt}) => {
       const page: KbApi.Page = this.getOrCreatePage(locale);
-      const gid = `${nameWithoutExt}_${locale}`;
+      const gid = `${page.id}_${nameWithoutExt}_${locale}`;
 
       if(this._questions[gid]) {
         throw Error(`duplicate question id-s for the same locale: ${gid}!`);
@@ -101,7 +101,7 @@ class DirVisitor {
         const answers: KbApi.Answer[] = Object.entries(entries)
           .filter(([key]) => !(key === '?' || key === '.' || key === 'Q') )
           .map(([key, value]) => ({
-            id: `${page.id}_${nameWithoutExt}_${key.substring(0, 1)}`,
+            id: `${gid}_${key.substring(0, 1)}`,
             answer: value,
             isCorrect: key.includes('*')
           }));
@@ -115,7 +115,7 @@ class DirVisitor {
           return;
         }
 
-        const newEntry: KbApi.Question = { id: nameWithoutExt, question, answers, qualifications };
+        const newEntry: KbApi.Question = { id: gid, groupId: nameWithoutExt, question, answers, qualifications };
         page.questionnaire.push(newEntry);
 
         this._pages[locale] = page;

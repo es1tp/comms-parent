@@ -33,6 +33,7 @@ export declare namespace KbApi {
 
   export interface Question {
     id: string;
+    groupId: string;
     question: string;
     answers: Answer[];
     qualifications: QualificationType[];
@@ -43,5 +44,16 @@ export declare namespace KbApi {
     isCorrect: boolean;
     answer: string;
   }
-}
 
+  export type ArticleChangeLog = {
+    timestamp: string;
+    changes: ArticleChange[];
+  };
+  export interface ArticleChange {
+    id: string;
+    changeObject: 'question' | 'answer' | 'material' | 'page' | 'article' | 'answer';
+    changeType: 'add' | 'update';
+    timestamp: string;
+    comment: string;
+  }
+}

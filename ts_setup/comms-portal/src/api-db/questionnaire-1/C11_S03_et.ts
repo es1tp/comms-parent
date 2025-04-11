@@ -7,21 +7,21 @@ export const C11_S03_et: ExamApi.ErauSubject = {
   "title": "Morse",
   "questions": [
     {
-      "id": "q005",
+      "id": "C11_S03_et_q005_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S03_et_q005_A",
+          "id": "C11_S03_et_q005_et_A",
           "text": "Saadate kolm korda \"CQ\", millele järgneb protseduurisignaal \"DE\" ja kolm korda oma kutsungi.",
           "isCorrect": true
         },
         {
-          "id": "C11_S03_et_q005_B",
+          "id": "C11_S03_et_q005_et_B",
           "text": "Saadate \"CQ\" kolm korda, \"DE\" üks kord ja oma kutsungi ka üks kord.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q005_C",
+          "id": "C11_S03_et_q005_et_C",
           "text": "Saadate \"CQ\" kümme korda, \"DE\" üks kord ja oma kutsung üks kord.",
           "isCorrect": false
         }
@@ -32,21 +32,21 @@ export const C11_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q006",
+      "id": "C11_S03_et_q006_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S03_et_q006_A",
+          "id": "C11_S03_et_q006_et_A",
           "text": "Saadate oma kutsungit neli korda.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q006_B",
+          "id": "C11_S03_et_q006_et_B",
           "text": "Saadate teise jaama kutsungi kaks korda, \"DE\" ja oma kutsungi kaks korda.",
           "isCorrect": true
         },
         {
-          "id": "C11_S03_et_q006_C",
+          "id": "C11_S03_et_q006_et_C",
           "text": "Saadate teise jaama kutsungi üks kord,\"DE\" ja oma kutsungi neli korda",
           "isCorrect": false
         }
@@ -57,21 +57,21 @@ export const C11_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q007",
+      "id": "C11_S03_et_q007_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S03_et_q007_A",
+          "id": "C11_S03_et_q007_et_A",
           "text": "Aeglasemalt kui 25 märki minutis.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q007_B",
+          "id": "C11_S03_et_q007_et_B",
           "text": "Suurima kiirusega, mida teie võti on võimeline arendama.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q007_C",
+          "id": "C11_S03_et_q007_et_C",
           "text": "Kiirusega, millist olete ise võimeline korralikult vastu võtma.",
           "isCorrect": true
         }
@@ -82,21 +82,21 @@ export const C11_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q008",
+      "id": "C11_S03_et_q008_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S03_et_q008_A",
+          "id": "C11_S03_et_q008_et_A",
           "text": "Vastaku ainult kutsutud jaam.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q008_B",
+          "id": "C11_S03_et_q008_et_B",
           "text": "Kõik on korralikult vastu võetud.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q008_C",
+          "id": "C11_S03_et_q008_et_C",
           "text": "Saate lõpp.",
           "isCorrect": true
         }
@@ -107,21 +107,21 @@ export const C11_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q009",
+      "id": "C11_S03_et_q009_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S03_et_q009_A",
+          "id": "C11_S03_et_q009_et_A",
           "text": "Enam-vähem korralikult vastu võetud.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q009_B",
+          "id": "C11_S03_et_q009_et_B",
           "text": "Parimad tevitused.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q009_C",
+          "id": "C11_S03_et_q009_et_C",
           "text": "Side lõpp.",
           "isCorrect": true
         }
@@ -132,21 +132,21 @@ export const C11_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q010",
+      "id": "C11_S03_et_q010_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S03_et_q010_A",
+          "id": "C11_S03_et_q010_et_A",
           "text": "Murrujoon.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q010_B",
+          "id": "C11_S03_et_q010_et_B",
           "text": "Side lõpp.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q010_C",
+          "id": "C11_S03_et_q010_et_C",
           "text": "Vastaku ainult kutsutud jaam .",
           "isCorrect": true
         }
@@ -157,21 +157,21 @@ export const C11_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q018",
+      "id": "C11_S03_et_q018_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S03_et_q018_A",
+          "id": "C11_S03_et_q018_et_A",
           "text": "Aktsiaselts.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q018_B",
+          "id": "C11_S03_et_q018_et_B",
           "text": "Asu saatele.",
           "isCorrect": false
         },
         {
-          "id": "C11_S03_et_q018_C",
+          "id": "C11_S03_et_q018_et_C",
           "text": "Oota",
           "isCorrect": true
         }

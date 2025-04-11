@@ -11,26 +11,27 @@ export const C12_S03: KbApi.Article = {
       "materials": [],
       "questionnaire": [
         {
-          "id": "q010",
+          "id": "C12_S03_et_q010_et",
+          "groupId": "q010",
           "question": "Mis tingimustel tohib Amatöörraadiosides edastada sihituseta või korrespondendita saateid?",
           "answers": [
             {
-              "id": "C12_S03_et_q010_A",
+              "id": "C12_S03_et_q010_et_A",
               "answer": "Amatöörtelevisiooni saatja video- ja helikanali edastamiseks.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q010_B",
+              "id": "C12_S03_et_q010_et_B",
               "answer": "Amatöörraadiomajakate poolt.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q010_C",
+              "id": "C12_S03_et_q010_et_C",
               "answer": "Kõikidele Eesti raadioamatööridele määratud infoteadete edastamiseks.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q010_#",
+              "id": "C12_S03_et_q010_et_#",
               "answer": "vajab kontrollimist",
               "isCorrect": false
             }
@@ -41,21 +42,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q016",
+          "id": "C12_S03_et_q016_et",
+          "groupId": "q016",
           "question": "Kes võib olla ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelevaatajaks?",
           "answers": [
             {
-              "id": "C12_S03_et_q016_A",
+              "id": "C12_S03_et_q016_et_A",
               "answer": "A-klassi kvalifikatsioonitunnistust omav raadioamatöör.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q016_B",
+              "id": "C12_S03_et_q016_et_B",
               "answer": "D-klassi kvalifikatsioonitunnistust omav raadioamatöör.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q016_C",
+              "id": "C12_S03_et_q016_et_C",
               "answer": "C-klassi kvalifikatsioonitunnistust omav raadioamatöör.",
               "isCorrect": false
             }
@@ -66,26 +68,27 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q017",
+          "id": "C12_S03_et_q017_et",
+          "groupId": "q017",
           "question": "Millise maksimaalse kestvusega võib olla Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt väljastatav Amatöörjaama luba?",
           "answers": [
             {
-              "id": "C12_S03_et_q017_A",
+              "id": "C12_S03_et_q017_et_A",
               "answer": "Tähtajatu.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q017_B",
+              "id": "C12_S03_et_q017_et_B",
               "answer": "1 aasta.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q017_C",
+              "id": "C12_S03_et_q017_et_C",
               "answer": "3 aastat.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q017_D",
+              "id": "C12_S03_et_q017_et_D",
               "answer": "5 aastat.",
               "isCorrect": true
             }
@@ -96,26 +99,27 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q019",
+          "id": "C12_S03_et_q019_et",
+          "groupId": "q019",
           "question": "Kus tuleb hoida Amatöörraadiojaama tööluba?",
           "answers": [
             {
-              "id": "C12_S03_et_q019_A",
+              "id": "C12_S03_et_q019_et_A",
               "answer": "Raadiojaama valdaja elukohas.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q019_B",
+              "id": "C12_S03_et_q019_et_B",
               "answer": "Raadiojaama registreeritud asukohas.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q019_C",
+              "id": "C12_S03_et_q019_et_C",
               "answer": "Tarbijakaitse ja Tehnilise Järelevalve Ametiis.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q019_D",
+              "id": "C12_S03_et_q019_et_D",
               "answer": "Seda ei reguleerita.",
               "isCorrect": true
             }
@@ -126,21 +130,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q020",
+          "id": "C12_S03_et_q020_et",
+          "groupId": "q020",
           "question": "Mida tuleb teha tööloale kantud andmete muutumisel?",
           "answers": [
             {
-              "id": "C12_S03_et_q020_A",
+              "id": "C12_S03_et_q020_et_A",
               "answer": "Tuleb taotleda uut tööluba.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q020_B",
+              "id": "C12_S03_et_q020_et_B",
               "answer": "Tuleb sooritada uus eksam",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q020_C",
+              "id": "C12_S03_et_q020_et_C",
               "answer": "Tuleb tööloal veekindla markeriga andmed muuta",
               "isCorrect": false
             }
@@ -151,21 +156,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q230",
+          "id": "C12_S03_et_q230_et",
+          "groupId": "q230",
           "question": "Millistele tingimustele peab vastama raadioamatöör?",
           "answers": [
             {
-              "id": "C12_S03_et_q230_A",
+              "id": "C12_S03_et_q230_et_A",
               "answer": "Ta peab olema vähemalt 12 aastat vana.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q230_B",
+              "id": "C12_S03_et_q230_et_B",
               "answer": "Ta peab oskama käsivõtmega telegraafisignaali edastada.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q230_C",
+              "id": "C12_S03_et_q230_et_C",
               "answer": "Ükski eeltoodud tingimustest pole oluline.",
               "isCorrect": true
             }
@@ -175,21 +181,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q231",
+          "id": "C12_S03_et_q231_et",
+          "groupId": "q231",
           "question": "Miks raadioamatöörid sooritavad kvalifikatsioonieksami?",
           "answers": [
             {
-              "id": "C12_S03_et_q231_A",
+              "id": "C12_S03_et_q231_et_A",
               "answer": "Eksami edukas sooritamine tõendab nende oskusi amatöörside pidamiseks ja võimaldab taotleda raadiojaama tööluba.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q231_B",
+              "id": "C12_S03_et_q231_et_B",
               "answer": "Eksami tegemine vabastab nad riigilõivu tasumisest tööloa taotlemisel.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q231_C",
+              "id": "C12_S03_et_q231_et_C",
               "answer": "Kvalifikatsioonieksami sooritavad ainult inimesed, kellel pole kõrgharidust.",
               "isCorrect": false
             }
@@ -199,21 +206,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q232",
+          "id": "C12_S03_et_q232_et",
+          "groupId": "q232",
           "question": "Mida peab raadioamatöör tegema kutsungi saamiseks?",
           "answers": [
             {
-              "id": "C12_S03_et_q232_A",
+              "id": "C12_S03_et_q232_et_A",
               "answer": "Ostma raadiojaama ja alustama vabalt valitud kutsungiga tööd.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q232_B",
+              "id": "C12_S03_et_q232_et_B",
               "answer": "Läbima arstliku kontrolli.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q232_C",
+              "id": "C12_S03_et_q232_et_C",
               "answer": "Esitama tööloa saamise avalduse ja kvalifikatsioonieksami sooritamise tõendi Tarbijakaitse ja Tehnilise Järelevalve Ametisse.",
               "isCorrect": true
             }
@@ -223,21 +231,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q235",
+          "id": "C12_S03_et_q235_et",
+          "groupId": "q235",
           "question": "Kes annab välja raadiojaama tööloa ja kutsungi?",
           "answers": [
             {
-              "id": "C12_S03_et_q235_A",
+              "id": "C12_S03_et_q235_et_A",
               "answer": "Tarbijakaitse ja Tehnilise Järelevalve Amet.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q235_B",
+              "id": "C12_S03_et_q235_et_B",
               "answer": "ERAÜ.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q235_C",
+              "id": "C12_S03_et_q235_et_C",
               "answer": "Riiklik eksamikomisjon.",
               "isCorrect": false
             }
@@ -247,21 +256,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q236",
+          "id": "C12_S03_et_q236_et",
+          "groupId": "q236",
           "question": "Miks D-klassi amatöörid ei tohi töötada amatöörlainealast väljaspool?",
           "answers": [
             {
-              "id": "C12_S03_et_q236_A",
+              "id": "C12_S03_et_q236_et_A",
               "answer": "Signaali tugevus ja loetavus langeb järsult.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q236_B",
+              "id": "C12_S03_et_q236_et_B",
               "answer": "Segatakse kommerts- ja teenistusjaamade tööd.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q236_C",
+              "id": "C12_S03_et_q236_et_C",
               "answer": "Nendel lainealadel töötamine on lubatud ainult A-klassi amatööridele.",
               "isCorrect": false
             }
@@ -271,21 +281,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q237",
+          "id": "C12_S03_et_q237_et",
+          "groupId": "q237",
           "question": "Milleks amatöörsidet ei tohi kasutada?",
           "answers": [
             {
-              "id": "C12_S03_et_q237_A",
+              "id": "C12_S03_et_q237_et_A",
               "answer": "Isiklikust elust rääkimiseks.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q237_B",
+              "id": "C12_S03_et_q237_et_B",
               "answer": "Vabadel teemadel rääkimiseks.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q237_C",
+              "id": "C12_S03_et_q237_et_C",
               "answer": "Äri- ja tööasjade ajamiseks.",
               "isCorrect": true
             }
@@ -295,21 +306,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q238",
+          "id": "C12_S03_et_q238_et",
+          "groupId": "q238",
           "question": "Mida peab raadioamatöör silmas pidama, kui ta soovib eetris edastada muusikat?",
           "answers": [
             {
-              "id": "C12_S03_et_q238_A",
+              "id": "C12_S03_et_q238_et_A",
               "answer": "Muusika edastamine on keelatud.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q238_B",
+              "id": "C12_S03_et_q238_et_B",
               "answer": "Ta peab tagama muusika piisavalt hea kvaliteedi.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q238_C",
+              "id": "C12_S03_et_q238_et_C",
               "answer": "Muusika edastamiseks tuleb maksta autoritasu teose avaliku esitamise eest.",
               "isCorrect": false
             }
@@ -319,21 +331,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q243",
+          "id": "C12_S03_et_q243_et",
+          "groupId": "q243",
           "question": "Mida saab D-klassi amatöör teha töötades klubijaamast?",
           "answers": [
             {
-              "id": "C12_S03_et_q243_A",
+              "id": "C12_S03_et_q243_et_A",
               "answer": "Ta saab töötamiseks kasutada ainult D-kvalifikatsiooniklassi amatööridele ette nähtud lainealasid ja saatevõimsust.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q243_B",
+              "id": "C12_S03_et_q243_et_B",
               "answer": "Ta saab töötamiseks kasutada A- kvalifikatsiooniklassi amatööridele ettenähtud lainealasid ja saatevõimsust.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q243_C",
+              "id": "C12_S03_et_q243_et_C",
               "answer": "Ta lisab oma kutsungile klubijaama kutsungi, eraldades need kaldkriipsuga.",
               "isCorrect": false
             }
@@ -343,21 +356,22 @@ export const C12_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q244",
+          "id": "C12_S03_et_q244_et",
+          "groupId": "q244",
           "question": "Kui suurt saatevõimsust võib kasutada raadioamatöör?",
           "answers": [
             {
-              "id": "C12_S03_et_q244_A",
+              "id": "C12_S03_et_q244_et_A",
               "answer": "Saatevõimsus ei tohi ületada tema kvalifikatsiooniklassile ettenähtut.",
               "isCorrect": true
             },
             {
-              "id": "C12_S03_et_q244_B",
+              "id": "C12_S03_et_q244_et_B",
               "answer": "Raadioamatöörid võivad kasutada piiramatut võimsust.",
               "isCorrect": false
             },
             {
-              "id": "C12_S03_et_q244_C",
+              "id": "C12_S03_et_q244_et_C",
               "answer": "Üle 10 kW võimsusega jaamaga töötamiseks tuleb hankida Tarbijakaitse ja Tehnilise Järelevalve Ameti luba.",
               "isCorrect": false
             }

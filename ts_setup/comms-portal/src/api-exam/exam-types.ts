@@ -27,6 +27,20 @@ export declare namespace ExamApi {
     isCorrect: boolean; 
   }
 
+  export type ErauChangeLog = {
+    timestamp: string;
+    changes: ErauChange[];
+  };
+  export interface ErauChange {
+    id: string;
+    changeObject: 'question' | 'answer' | 'subject';
+    changeType: 'add' | 'update';
+    timestamp: string;
+    comment: string;
+  }
+
+
+
   export interface Subject {
     
     id: string;

@@ -9,9 +9,13 @@ class CsvReadVisitor {
 
   visitLine(object: Record<string, string>) {
     this._index++;
+    if(Object.keys(object).length === 0) {
+      return;
+    }
+
     const intlKey = this.visitIntlKey(object);
     if(!intlKey) {
-      console.error('unknown column', this._index, object);
+      console.error('unknown column on line: ', this._index, object);
       return;
     }
     if(this.visitComment(intlKey)) {

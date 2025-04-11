@@ -7,21 +7,21 @@ export const C04_S04_et: ExamApi.ErauSubject = {
   "title": "Vahesagedus",
   "questions": [
     {
-      "id": "q008",
+      "id": "C04_S04_et_q008_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S04_et_q008_A",
+          "id": "C04_S04_et_q008_et_A",
           "text": "Fikseeritult häälestatud pääsuribaga võimendi.",
           "isCorrect": true
         },
         {
-          "id": "C04_S04_et_q008_B",
+          "id": "C04_S04_et_q008_et_B",
           "text": "Vastuvõtja filter.",
           "isCorrect": false
         },
         {
-          "id": "C04_S04_et_q008_C",
+          "id": "C04_S04_et_q008_et_C",
           "text": "Vastuvõtja demodulaator.",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C04_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q015",
+      "id": "C04_S04_et_q015_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S04_et_q015_A",
+          "id": "C04_S04_et_q015_et_A",
           "text": "6 kHz -6dB pääsuriba juures.",
           "isCorrect": false
         },
         {
-          "id": "C04_S04_et_q015_B",
+          "id": "C04_S04_et_q015_et_B",
           "text": "2,1 kHz –6dB pääsuriba juures.",
           "isCorrect": true
         },
         {
-          "id": "C04_S04_et_q015_C",
+          "id": "C04_S04_et_q015_et_C",
           "text": "500 Hz -6dB pääsuriba juures.",
           "isCorrect": false
         }

@@ -23,15 +23,14 @@ export function validateArticles(articles: KbApi.Article[]) {
         uniqueIds.push(material.id);
       }
 
-      // Question id-s are not globally unique
-      /*
+
       for(const question of page.questionnaire) {
         if(uniqueIds.includes(question.id)) {
           throw new Error(`Question with id: ${question.id} is not unique!`);
         }
         uniqueIds.push(question.id);
       }
-      */
+      
     }
   }
 }

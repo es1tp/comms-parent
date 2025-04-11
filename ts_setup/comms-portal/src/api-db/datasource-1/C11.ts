@@ -15,21 +15,22 @@ export const C11: KbApi.Article = {
       ],
       "questionnaire": [
         {
-          "id": "q225",
+          "id": "C11_et_q225_et",
+          "groupId": "q225",
           "question": "Töötate sagedusel, kui keegi ütleb: “Oled loll”. Mida teete?",
           "answers": [
             {
-              "id": "C11_et_q225_A",
+              "id": "C11_et_q225_et_A",
               "answer": "Ei pööra segajale mingit tähelepanu.",
               "isCorrect": true
             },
             {
-              "id": "C11_et_q225_B",
+              "id": "C11_et_q225_et_B",
               "answer": "Tõestate segajale, et Te pole loll ja ta on eksiarvamusel.",
               "isCorrect": false
             },
             {
-              "id": "C11_et_q225_C",
+              "id": "C11_et_q225_et_C",
               "answer": "Tõestate segajale, et hoopis tema on loll.",
               "isCorrect": false
             }
@@ -39,21 +40,22 @@ export const C11: KbApi.Article = {
           ]
         },
         {
-          "id": "q226",
+          "id": "C11_et_q226_et",
+          "groupId": "q226",
           "question": "Algaja amatöör on Teiega side pidamisel hädas. Mida teete?",
           "answers": [
             {
-              "id": "C11_et_q226_A",
+              "id": "C11_et_q226_et_A",
               "answer": "Palute tal viivitamatult eetri risustamine lõpetada ja side katkestada.",
               "isCorrect": false
             },
             {
-              "id": "C11_et_q226_B",
+              "id": "C11_et_q226_et_B",
               "answer": "Katkestate ise side ja vahetate sagedust.",
               "isCorrect": false
             },
             {
-              "id": "C11_et_q226_C",
+              "id": "C11_et_q226_et_C",
               "answer": "Katsute teda igati julgustada ja soovite edu.",
               "isCorrect": true
             }
@@ -63,21 +65,22 @@ export const C11: KbApi.Article = {
           ]
         },
         {
-          "id": "q239",
+          "id": "C11_et_q239_et",
+          "groupId": "q239",
           "question": "Kuulete telefonilainealal morsesignaali. Milline alljärgnevatest tegevustest on õige?",
           "answers": [
             {
-              "id": "C11_et_q239_A",
+              "id": "C11_et_q239_et_A",
               "answer": "Selgitate viisakalt, et telegraafitöö pole sellel lainealal lubatud.",
               "isCorrect": false
             },
             {
-              "id": "C11_et_q239_B",
+              "id": "C11_et_q239_et_B",
               "answer": "Katsute tema signaali kõigi vahenditega summutada.",
               "isCorrect": false
             },
             {
-              "id": "C11_et_q239_C",
+              "id": "C11_et_q239_et_C",
               "answer": "Ei tee midagi.",
               "isCorrect": true
             }
@@ -87,21 +90,22 @@ export const C11: KbApi.Article = {
           ]
         },
         {
-          "id": "q240",
+          "id": "C11_et_q240_et",
+          "groupId": "q240",
           "question": "Kuulete telegraafialal jaama, kes telefoni teel edastab CQ. Milline alljärgnevatest tegevustest on õige?",
           "answers": [
             {
-              "id": "C11_et_q240_A",
+              "id": "C11_et_q240_et_A",
               "answer": "Pärast kutsumise lõppu vastate ja sooritate side.",
               "isCorrect": false
             },
             {
-              "id": "C11_et_q240_B",
+              "id": "C11_et_q240_et_B",
               "answer": "Selgitate viisakalt, et telefonitöö pole sellel lainealal lubatud.",
               "isCorrect": true
             },
             {
-              "id": "C11_et_q240_C",
+              "id": "C11_et_q240_et_C",
               "answer": "Katsute tema signaali kõigi vahenditega summutada.",
               "isCorrect": false
             }

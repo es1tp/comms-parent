@@ -16,21 +16,22 @@ export const C01_S03: KbApi.Article = {
       ],
       "questionnaire": [
         {
-          "id": "q022",
+          "id": "C01_S03_et_q022_et",
+          "groupId": "q022",
           "question": "Kui suur on kasutatav võimsus kui 400 V pingega vooluallikas ühendatakse 800 oomise koormusega?",
           "answers": [
             {
-              "id": "C01_S03_et_q022_A",
+              "id": "C01_S03_et_q022_et_A",
               "answer": "0,5 vatti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S03_et_q022_B",
+              "id": "C01_S03_et_q022_et_B",
               "answer": "200 vatti.",
               "isCorrect": true
             },
             {
-              "id": "C01_S03_et_q022_C",
+              "id": "C01_S03_et_q022_et_C",
               "answer": "400 vatti",
               "isCorrect": false
             }
@@ -41,21 +42,22 @@ export const C01_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q023",
+          "id": "C01_S03_et_q023_et",
+          "groupId": "q023",
           "question": "Kui suur on 12 V 0,2 A vooluga indikaatorlambi võimsus?",
           "answers": [
             {
-              "id": "C01_S03_et_q023_A",
+              "id": "C01_S03_et_q023_et_A",
               "answer": "60 vatti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S03_et_q023_B",
+              "id": "C01_S03_et_q023_et_B",
               "answer": "24 vatti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S03_et_q023_C",
+              "id": "C01_S03_et_q023_et_C",
               "answer": "2,4 vatti",
               "isCorrect": true
             }
@@ -66,26 +68,27 @@ export const C01_S03: KbApi.Article = {
           ]
         },
         {
-          "id": "q024",
+          "id": "C01_S03_et_q024_et",
+          "groupId": "q024",
           "question": "Kui suur võimsus eraldub 100 oomisel takistil, kui tema jalgadel mõõdetud pinge on 5 V?",
           "answers": [
             {
-              "id": "C01_S03_et_q024_A",
+              "id": "C01_S03_et_q024_et_A",
               "answer": "500 millivatti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S03_et_q024_B",
+              "id": "C01_S03_et_q024_et_B",
               "answer": "50 millivatti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S03_et_q024_C",
+              "id": "C01_S03_et_q024_et_C",
               "answer": "20 millivatti.",
               "isCorrect": false
             },
             {
-              "id": "C01_S03_et_q024_D",
+              "id": "C01_S03_et_q024_et_D",
               "answer": "250 millivatti.",
               "isCorrect": true
             }

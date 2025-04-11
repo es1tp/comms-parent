@@ -7,21 +7,21 @@ export const C04_S06_et: ExamApi.ErauSubject = {
   "title": "S-meeter",
   "questions": [
     {
-      "id": "q008",
+      "id": "C04_S06_et_q008_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S06_et_q008_A",
+          "id": "C04_S06_et_q008_et_A",
           "text": "Ligikaudu kaks korda.",
           "isCorrect": false
         },
         {
-          "id": "C04_S06_et_q008_B",
+          "id": "C04_S06_et_q008_et_B",
           "text": "Ligikaudu kolm korda.",
           "isCorrect": false
         },
         {
-          "id": "C04_S06_et_q008_C",
+          "id": "C04_S06_et_q008_et_C",
           "text": "Ligikaudu neli korda.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C04_S06_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q158",
+      "id": "C04_S06_et_q158_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S06_et_q158_A",
+          "id": "C04_S06_et_q158_et_A",
           "text": "Vastuvõetava signaali tugevust.",
           "isCorrect": true
         },
         {
-          "id": "C04_S06_et_q158_B",
+          "id": "C04_S06_et_q158_et_B",
           "text": "Vastuvõetava signaali loetavust.",
           "isCorrect": false
         },
         {
-          "id": "C04_S06_et_q158_C",
+          "id": "C04_S06_et_q158_et_C",
           "text": "Transiiveri S-teguri suurust.",
           "isCorrect": false
         }
@@ -58,21 +58,21 @@ export const C04_S06_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q159",
+      "id": "C04_S06_et_q159_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S06_et_q159_A",
+          "id": "C04_S06_et_q159_et_A",
           "text": "Spektrianalüsaatoriga.",
           "isCorrect": false
         },
         {
-          "id": "C04_S06_et_q159_B",
+          "id": "C04_S06_et_q159_et_B",
           "text": "Testriga.",
           "isCorrect": false
         },
         {
-          "id": "C04_S06_et_q159_C",
+          "id": "C04_S06_et_q159_et_C",
           "text": "Kuulmise järgi.",
           "isCorrect": true
         }

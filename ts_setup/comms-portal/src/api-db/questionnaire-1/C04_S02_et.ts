@@ -7,21 +7,21 @@ export const C04_S02_et: ExamApi.ErauSubject = {
   "title": "Kõrgsagedusvõimendi",
   "questions": [
     {
-      "id": "q005",
+      "id": "C04_S02_et_q005_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S02_et_q005_A",
+          "id": "C04_S02_et_q005_et_A",
           "text": "Vähendab vastuvõetava signaali ribalaiust.",
           "isCorrect": false
         },
         {
-          "id": "C04_S02_et_q005_B",
+          "id": "C04_S02_et_q005_et_B",
           "text": "Elimineerib isotroopilise kiirguse põhjustatud efekte.",
           "isCorrect": false
         },
         {
-          "id": "C04_S02_et_q005_C",
+          "id": "C04_S02_et_q005_et_C",
           "text": "Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C04_S02_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q010",
+      "id": "C04_S02_et_q010_et",
       "info": [],
       "answers": [
         {
-          "id": "C04_S02_et_q010_A",
+          "id": "C04_S02_et_q010_et_A",
           "text": "Kindlustada enamik vastuvõtja võimendusest.",
           "isCorrect": false
         },
         {
-          "id": "C04_S02_et_q010_B",
+          "id": "C04_S02_et_q010_et_B",
           "text": "Automaatse võimenduse reguleerimise süsteemi abil muuta parsiitsignaalide mahasurumise astet.",
           "isCorrect": false
         },
         {
-          "id": "C04_S02_et_q010_C",
+          "id": "C04_S02_et_q010_et_C",
           "text": "Parandada vastuvõtja mürategurit.",
           "isCorrect": true
         }

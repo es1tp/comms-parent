@@ -7,21 +7,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
   "title": "Mõõtühikud",
   "questions": [
     {
-      "id": "q001",
+      "id": "C01_S01_et_q001_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q001_A",
+          "id": "C01_S01_et_q001_et_A",
           "text": "Kondensaatoris salvestatavat elektrilaengut.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q001_B",
+          "id": "C01_S01_et_q001_et_B",
           "text": "Vooluringi poolt vahelduvvoolule osutatavat takistust.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q001_C",
+          "id": "C01_S01_et_q001_et_C",
           "text": "Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q011",
+      "id": "C01_S01_et_q011_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q011_A",
+          "id": "C01_S01_et_q011_et_A",
           "text": "Amper.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q011_B",
+          "id": "C01_S01_et_q011_et_B",
           "text": "Oom",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q011_C",
+          "id": "C01_S01_et_q011_et_C",
           "text": "Siemens.",
           "isCorrect": false
         }
@@ -59,21 +59,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q012",
+      "id": "C01_S01_et_q012_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q012_A",
+          "id": "C01_S01_et_q012_et_A",
           "text": "Oom.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q012_B",
+          "id": "C01_S01_et_q012_et_B",
           "text": "Volt.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q012_C",
+          "id": "C01_S01_et_q012_et_C",
           "text": "Amper.",
           "isCorrect": false
         }
@@ -85,21 +85,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q113",
+      "id": "C01_S01_et_q113_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q113_A",
+          "id": "C01_S01_et_q113_et_A",
           "text": "Hertsides.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q113_B",
+          "id": "C01_S01_et_q113_et_B",
           "text": "Meetrites.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q113_C",
+          "id": "C01_S01_et_q113_et_C",
           "text": "Raadiolaine pikkust ei saa mõõta.",
           "isCorrect": false
         }
@@ -110,21 +110,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q114",
+      "id": "C01_S01_et_q114_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q114_A",
+          "id": "C01_S01_et_q114_et_A",
           "text": "Hertsides.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q114_B",
+          "id": "C01_S01_et_q114_et_B",
           "text": "Meetrites.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q114_C",
+          "id": "C01_S01_et_q114_et_C",
           "text": "Raadiolaine sagedust ei saa mõõta.",
           "isCorrect": false
         }
@@ -135,21 +135,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q123",
+      "id": "C01_S01_et_q123_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q123_A",
+          "id": "C01_S01_et_q123_et_A",
           "text": "Võimsust.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q123_B",
+          "id": "C01_S01_et_q123_et_B",
           "text": "Kaitseriietuse pehmust.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q123_C",
+          "id": "C01_S01_et_q123_et_C",
           "text": "Lainepikkust.",
           "isCorrect": false
         }
@@ -160,21 +160,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q124",
+      "id": "C01_S01_et_q124_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q124_A",
+          "id": "C01_S01_et_q124_et_A",
           "text": "Sagedust.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q124_B",
+          "id": "C01_S01_et_q124_et_B",
           "text": "Kaitseriietuse voltide arvu.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q124_C",
+          "id": "C01_S01_et_q124_et_C",
           "text": "Pinget.",
           "isCorrect": true
         }
@@ -185,21 +185,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q125",
+      "id": "C01_S01_et_q125_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q125_A",
+          "id": "C01_S01_et_q125_et_A",
           "text": "Oomegategurit.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q125_B",
+          "id": "C01_S01_et_q125_et_B",
           "text": "Takistust.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q125_C",
+          "id": "C01_S01_et_q125_et_C",
           "text": "Sagedust.",
           "isCorrect": false
         }
@@ -210,21 +210,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q126",
+      "id": "C01_S01_et_q126_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q126_A",
+          "id": "C01_S01_et_q126_et_A",
           "text": "Voolutugevust.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q126_B",
+          "id": "C01_S01_et_q126_et_B",
           "text": "Levitegurit.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q126_C",
+          "id": "C01_S01_et_q126_et_C",
           "text": "Sagedust.",
           "isCorrect": false
         }
@@ -235,21 +235,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q127",
+      "id": "C01_S01_et_q127_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q127_A",
+          "id": "C01_S01_et_q127_et_A",
           "text": "Elektrivoolu kahjulikku mõju südamele.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q127_B",
+          "id": "C01_S01_et_q127_et_B",
           "text": "Sagedust.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q127_C",
+          "id": "C01_S01_et_q127_et_C",
           "text": "Lainepikkust.",
           "isCorrect": false
         }
@@ -260,21 +260,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q128",
+      "id": "C01_S01_et_q128_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q128_A",
+          "id": "C01_S01_et_q128_et_A",
           "text": "Takistust.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q128_B",
+          "id": "C01_S01_et_q128_et_B",
           "text": "Lainepikkust.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q128_C",
+          "id": "C01_S01_et_q128_et_C",
           "text": "Sagedust.",
           "isCorrect": false
         }
@@ -285,21 +285,21 @@ export const C01_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q129",
+      "id": "C01_S01_et_q129_et",
       "info": [],
       "answers": [
         {
-          "id": "C01_S01_et_q129_A",
+          "id": "C01_S01_et_q129_et_A",
           "text": "Meeter on pikkusühik.",
           "isCorrect": true
         },
         {
-          "id": "C01_S01_et_q129_B",
+          "id": "C01_S01_et_q129_et_B",
           "text": "Elektromagnetlained levivad väga suure kiirusega.",
           "isCorrect": false
         },
         {
-          "id": "C01_S01_et_q129_C",
+          "id": "C01_S01_et_q129_et_C",
           "text": "Meetri kasutamisel saavutatakse kõige suurem saatja võimsus.",
           "isCorrect": false
         }

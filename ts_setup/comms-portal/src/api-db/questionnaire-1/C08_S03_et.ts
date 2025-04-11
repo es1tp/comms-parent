@@ -7,21 +7,21 @@ export const C08_S03_et: ExamApi.ErauSubject = {
   "title": "Ostsilloskoop",
   "questions": [
     {
-      "id": "q001",
+      "id": "C08_S03_et_q001_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S03_et_q001_A",
+          "id": "C08_S03_et_q001_et_A",
           "text": "Oommeeter.",
           "isCorrect": false
         },
         {
-          "id": "C08_S03_et_q001_B",
+          "id": "C08_S03_et_q001_et_B",
           "text": "Signaalgeneraator.",
           "isCorrect": false
         },
         {
-          "id": "C08_S03_et_q001_C",
+          "id": "C08_S03_et_q001_et_C",
           "text": "Ostsilloskoop.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C08_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q002",
+      "id": "C08_S03_et_q002_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S03_et_q002_A",
+          "id": "C08_S03_et_q002_et_A",
           "text": "Suvalisi ajast sõltuvaid signaale instrumendi sagedusriba piires.",
           "isCorrect": true
         },
         {
-          "id": "C08_S03_et_q002_B",
+          "id": "C08_S03_et_q002_et_B",
           "text": "Rahvusvahelisi laevade lipusignaale.",
           "isCorrect": false
         },
         {
-          "id": "C08_S03_et_q002_C",
+          "id": "C08_S03_et_q002_et_C",
           "text": "Ookeanilaevade blinkersignaal",
           "isCorrect": false
         }
@@ -59,21 +59,21 @@ export const C08_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q003",
+      "id": "C08_S03_et_q003_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S03_et_q003_A",
+          "id": "C08_S03_et_q003_et_A",
           "text": "Seade,mis näitab antenni kiirgustakistust.",
           "isCorrect": false
         },
         {
-          "id": "C08_S03_et_q003_B",
+          "id": "C08_S03_et_q003_et_B",
           "text": "Seade,mis näitab antenni toiteliini seisulaine tegurit.",
           "isCorrect": false
         },
         {
-          "id": "C08_S03_et_q003_C",
+          "id": "C08_S03_et_q003_et_C",
           "text": "Seade, mis võimaldab uurida kuvaril signaalide lainekuju.",
           "isCorrect": true
         }
@@ -85,21 +85,21 @@ export const C08_S03_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q004",
+      "id": "C08_S03_et_q004_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S03_et_q004_A",
+          "id": "C08_S03_et_q004_et_A",
           "text": "Vertikaalkanali võimendi ületüürimine.",
           "isCorrect": false
         },
         {
-          "id": "C08_S03_et_q004_B",
+          "id": "C08_S03_et_q004_et_B",
           "text": "Liig suur heleduse säting.",
           "isCorrect": true
         },
         {
-          "id": "C08_S03_et_q004_C",
+          "id": "C08_S03_et_q004_et_C",
           "text": "Kiire ebaõige fokuseerimine.",
           "isCorrect": false
         }

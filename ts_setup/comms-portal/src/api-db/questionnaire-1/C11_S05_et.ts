@@ -7,21 +7,21 @@ export const C11_S05_et: ExamApi.ErauSubject = {
   "title": "Side ajal edastatav info",
   "questions": [
     {
-      "id": "q019",
+      "id": "C11_S05_et_q019_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S05_et_q019_A",
+          "id": "C11_S05_et_q019_et_A",
           "text": "Signaali taastumist.",
           "isCorrect": false
         },
         {
-          "id": "C11_S05_et_q019_B",
+          "id": "C11_S05_et_q019_et_B",
           "text": "CW tooni reonantsi.",
           "isCorrect": false
         },
         {
-          "id": "C11_S05_et_q019_C",
+          "id": "C11_S05_et_q019_et_C",
           "text": "Signaali loetavust.",
           "isCorrect": true
         }
@@ -33,21 +33,21 @@ export const C11_S05_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q227",
+      "id": "C11_S05_et_q227_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S05_et_q227_A",
+          "id": "C11_S05_et_q227_et_A",
           "text": "Palute anda raportiks 59.",
           "isCorrect": false
         },
         {
-          "id": "C11_S05_et_q227_B",
+          "id": "C11_S05_et_q227_et_B",
           "text": "Suurendate võimsust.",
           "isCorrect": false
         },
         {
-          "id": "C11_S05_et_q227_C",
+          "id": "C11_S05_et_q227_et_C",
           "text": "Katsute selgusele jõuda, kas transiiver on korras.",
           "isCorrect": true
         }
@@ -58,21 +58,21 @@ export const C11_S05_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q228",
+      "id": "C11_S05_et_q228_et",
       "info": [],
       "answers": [
         {
-          "id": "C11_S05_et_q228_A",
+          "id": "C11_S05_et_q228_et_A",
           "text": "Jaapanisse on hea levi.",
           "isCorrect": true
         },
         {
-          "id": "C11_S05_et_q228_B",
+          "id": "C11_S05_et_q228_et_B",
           "text": "Tuleb transiiveri korrasolekut kontrollida.",
           "isCorrect": false
         },
         {
-          "id": "C11_S05_et_q228_C",
+          "id": "C11_S05_et_q228_et_C",
           "text": "Tuleb võimsust suurendada.",
           "isCorrect": false
         }

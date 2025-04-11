@@ -7,21 +7,21 @@ export const C08_S06_et: ExamApi.ErauSubject = {
   "title": "Spektrianalüsaator",
   "questions": [
     {
-      "id": "q010",
+      "id": "C08_S06_et_q010_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S06_et_q010_A",
+          "id": "C08_S06_et_q010_et_A",
           "text": "Vattmeeter.",
           "isCorrect": false
         },
         {
-          "id": "C08_S06_et_q010_B",
+          "id": "C08_S06_et_q010_et_B",
           "text": "Spektrianalüsaator.",
           "isCorrect": true
         },
         {
-          "id": "C08_S06_et_q010_C",
+          "id": "C08_S06_et_q010_et_C",
           "text": "Loogikaskeemide analüsaator.",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C08_S06_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q200",
+      "id": "C08_S06_et_q200_et",
       "info": [],
       "answers": [
         {
-          "id": "C08_S06_et_q200_A",
+          "id": "C08_S06_et_q200_et_A",
           "text": "Ei saa ainult siis, kui joonlaua mõõtmed erinevad tunduvalt lainepikkusest.",
           "isCorrect": false
         },
         {
-          "id": "C08_S06_et_q200_B",
+          "id": "C08_S06_et_q200_et_B",
           "text": "Saab, kui mõõtja piisavalt kiiresti tegutseb.",
           "isCorrect": false
         },
         {
-          "id": "C08_S06_et_q200_C",
+          "id": "C08_S06_et_q200_et_C",
           "text": "Ei saa, tuleb kasutada spektrianalüsaatorit.",
           "isCorrect": true
         }

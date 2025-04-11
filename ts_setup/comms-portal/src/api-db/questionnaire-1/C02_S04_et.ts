@@ -7,21 +7,21 @@ export const C02_S04_et: ExamApi.ErauSubject = {
   "title": "Ühendused",
   "questions": [
     {
-      "id": "q130",
+      "id": "C02_S04_et_q130_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S04_et_q130_A",
+          "id": "C02_S04_et_q130_et_A",
           "text": "Juhivad hästi elektrit.",
           "isCorrect": true
         },
         {
-          "id": "C02_S04_et_q130_B",
+          "id": "C02_S04_et_q130_et_B",
           "text": "On head isolaatorid.",
           "isCorrect": false
         },
         {
-          "id": "C02_S04_et_q130_C",
+          "id": "C02_S04_et_q130_et_C",
           "text": "Sulavad kergesti.",
           "isCorrect": false
         }
@@ -32,21 +32,21 @@ export const C02_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q131",
+      "id": "C02_S04_et_q131_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S04_et_q131_A",
+          "id": "C02_S04_et_q131_et_A",
           "text": "Kaabli elektriline isoleerimine.",
           "isCorrect": true
         },
         {
-          "id": "C02_S04_et_q131_B",
+          "id": "C02_S04_et_q131_et_B",
           "text": "Lühise korral kõrge temperatuuri tekkimise vältimine.",
           "isCorrect": false
         },
         {
-          "id": "C02_S04_et_q131_C",
+          "id": "C02_S04_et_q131_et_C",
           "text": "Kaabli juhtivuse parandamine.",
           "isCorrect": false
         }
@@ -57,21 +57,21 @@ export const C02_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q134",
+      "id": "C02_S04_et_q134_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S04_et_q134_A",
+          "id": "C02_S04_et_q134_et_A",
           "text": "Portselan on vastupidav ja ei juhi elektrit.",
           "isCorrect": true
         },
         {
-          "id": "C02_S04_et_q134_B",
+          "id": "C02_S04_et_q134_et_B",
           "text": "Portselanist valmistatud isolaatorid on valged.",
           "isCorrect": false
         },
         {
-          "id": "C02_S04_et_q134_C",
+          "id": "C02_S04_et_q134_et_C",
           "text": "Portselan juhib väga hästi elektrit.",
           "isCorrect": false
         }
@@ -82,21 +82,21 @@ export const C02_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q135",
+      "id": "C02_S04_et_q135_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S04_et_q135_A",
+          "id": "C02_S04_et_q135_et_A",
           "text": "Sulavkaitset.",
           "isCorrect": false
         },
         {
-          "id": "C02_S04_et_q135_B",
+          "id": "C02_S04_et_q135_et_B",
           "text": "Pistikut ja pistikupesa.",
           "isCorrect": true
         },
         {
-          "id": "C02_S04_et_q135_C",
+          "id": "C02_S04_et_q135_et_C",
           "text": "Transformaatorit.",
           "isCorrect": false
         }
@@ -107,21 +107,21 @@ export const C02_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q137",
+      "id": "C02_S04_et_q137_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S04_et_q137_A",
+          "id": "C02_S04_et_q137_et_A",
           "text": "Korralik jootmine tagab hea ühenduse.",
           "isCorrect": true
         },
         {
-          "id": "C02_S04_et_q137_B",
+          "id": "C02_S04_et_q137_et_B",
           "text": "Joodetud detailid peegeldavad paremini valgust.",
           "isCorrect": false
         },
         {
-          "id": "C02_S04_et_q137_C",
+          "id": "C02_S04_et_q137_et_C",
           "text": "Sulavkaitse rakendub joodetud detailide puhul paremini.",
           "isCorrect": false
         }
@@ -132,21 +132,21 @@ export const C02_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q138",
+      "id": "C02_S04_et_q138_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S04_et_q138_A",
+          "id": "C02_S04_et_q138_et_A",
           "text": "Kasutate juhtsõlme kontrollsõlmega.",
           "isCorrect": false
         },
         {
-          "id": "C02_S04_et_q138_B",
+          "id": "C02_S04_et_q138_et_B",
           "text": "Panete otsad lähestikku, nii et magnetjõud mõjuma hakkavad.",
           "isCorrect": false
         },
         {
-          "id": "C02_S04_et_q138_C",
+          "id": "C02_S04_et_q138_et_C",
           "text": "Joodate kokku.",
           "isCorrect": true
         }
@@ -157,21 +157,21 @@ export const C02_S04_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q149",
+      "id": "C02_S04_et_q149_et",
       "info": [],
       "answers": [
         {
-          "id": "C02_S04_et_q149_A",
+          "id": "C02_S04_et_q149_et_A",
           "text": "Nad kuumenevad liialt.",
           "isCorrect": true
         },
         {
-          "id": "C02_S04_et_q149_B",
+          "id": "C02_S04_et_q149_et_B",
           "text": "Nad on silmaga halvasti nähtavad.",
           "isCorrect": false
         },
         {
-          "id": "C02_S04_et_q149_C",
+          "id": "C02_S04_et_q149_et_C",
           "text": "Nad raiskavad liiga palju materjali.",
           "isCorrect": false
         }

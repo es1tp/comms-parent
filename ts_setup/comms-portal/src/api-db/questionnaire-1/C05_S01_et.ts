@@ -7,21 +7,21 @@ export const C05_S01_et: ExamApi.ErauSubject = {
   "title": "Raadiosaatja ehitus",
   "questions": [
     {
-      "id": "q007",
+      "id": "C05_S01_et_q007_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S01_et_q007_A",
+          "id": "C05_S01_et_q007_et_A",
           "text": "Splatteri filter.",
           "isCorrect": false
         },
         {
-          "id": "C05_S01_et_q007_B",
+          "id": "C05_S01_et_q007_et_B",
           "text": "Mikrofon.",
           "isCorrect": true
         },
         {
-          "id": "C05_S01_et_q007_C",
+          "id": "C05_S01_et_q007_et_C",
           "text": "Vastuvõtja helisagedusfilter",
           "isCorrect": false
         }
@@ -33,21 +33,21 @@ export const C05_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q161",
+      "id": "C05_S01_et_q161_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S01_et_q161_A",
+          "id": "C05_S01_et_q161_et_A",
           "text": "Ostsillograafi.",
           "isCorrect": false
         },
         {
-          "id": "C05_S01_et_q161_B",
+          "id": "C05_S01_et_q161_et_B",
           "text": "Transiiverit.",
           "isCorrect": true
         },
         {
-          "id": "C05_S01_et_q161_C",
+          "id": "C05_S01_et_q161_et_C",
           "text": "Spektrianalüsaatorit.",
           "isCorrect": false
         }
@@ -58,21 +58,21 @@ export const C05_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q162",
+      "id": "C05_S01_et_q162_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S01_et_q162_A",
+          "id": "C05_S01_et_q162_et_A",
           "text": "Telegraafivõtit.",
           "isCorrect": false
         },
         {
-          "id": "C05_S01_et_q162_B",
+          "id": "C05_S01_et_q162_et_B",
           "text": "Mikrofoni.",
           "isCorrect": true
         },
         {
-          "id": "C05_S01_et_q162_C",
+          "id": "C05_S01_et_q162_et_C",
           "text": "Madalpääsfiltrit.",
           "isCorrect": false
         }
@@ -83,21 +83,21 @@ export const C05_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q163",
+      "id": "C05_S01_et_q163_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S01_et_q163_A",
+          "id": "C05_S01_et_q163_et_A",
           "text": "Hääle muundamine elektriliseks signaaliks.",
           "isCorrect": true
         },
         {
-          "id": "C05_S01_et_q163_B",
+          "id": "C05_S01_et_q163_et_B",
           "text": "Hääle edastamine otse antenni.",
           "isCorrect": false
         },
         {
-          "id": "C05_S01_et_q163_C",
+          "id": "C05_S01_et_q163_et_C",
           "text": "Helisignaali täielik summutamine.",
           "isCorrect": false
         }
@@ -108,21 +108,21 @@ export const C05_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q164",
+      "id": "C05_S01_et_q164_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S01_et_q164_A",
+          "id": "C05_S01_et_q164_et_A",
           "text": "Telegraafirežiimis raadiosaatja lülitamine saatele ja saate katkestamine.",
           "isCorrect": true
         },
         {
-          "id": "C05_S01_et_q164_B",
+          "id": "C05_S01_et_q164_et_B",
           "text": "Automaatne telegraafikoodi genereerimine.",
           "isCorrect": false
         },
         {
-          "id": "C05_S01_et_q164_C",
+          "id": "C05_S01_et_q164_et_C",
           "text": "Edastatava signaali toonikõrguse tagamine.",
           "isCorrect": false
         }
@@ -133,21 +133,21 @@ export const C05_S01_et: ExamApi.ErauSubject = {
       ]
     },
     {
-      "id": "q165",
+      "id": "C05_S01_et_q165_et",
       "info": [],
       "answers": [
         {
-          "id": "C05_S01_et_q165_A",
+          "id": "C05_S01_et_q165_et_A",
           "text": "Muudetakse mikrofoni kaudu edastatava madalsagedussignaali sagedust.",
           "isCorrect": false
         },
         {
-          "id": "C05_S01_et_q165_B",
+          "id": "C05_S01_et_q165_et_B",
           "text": "Muudetakse transiiveri poolt saadetava ja vastuvõetava raadiosignaali sagedust.",
           "isCorrect": true
         },
         {
-          "id": "C05_S01_et_q165_C",
+          "id": "C05_S01_et_q165_et_C",
           "text": "Muudetakse kõrvaklappidesse edastatava madalsagedussignaali sagedust.",
           "isCorrect": false
         }
