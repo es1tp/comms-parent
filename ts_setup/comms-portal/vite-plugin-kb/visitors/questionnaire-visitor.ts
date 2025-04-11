@@ -1,9 +1,9 @@
-import { ExamApi } from '../src/api-exam';
-import { Answer, Article, Page } from '../src/api-kb';
+import { ExamApi } from '../../src/api-exam';
+import { Answer, Article, Page } from '../../src/api-kb';
 
 
 
-export class QuestionnaireVisitor {
+class QuestionnaireVisitor {
   private _articles: Article[];
   private _subjects: Record<string, ExamApi.ErauSubject> = {};
 
@@ -14,7 +14,6 @@ export class QuestionnaireVisitor {
   close(): ExamApi.ErauSubject[] {
     return Object.values(this._subjects);
   }
-
   visit() {
     this._articles.forEach(article => this.visitArticle(article));
     return this;
@@ -81,4 +80,8 @@ export class QuestionnaireVisitor {
     }
 
   }
+}
+
+export function visitQuestions(articles: Article[]): ExamApi.ErauSubject[] {
+  return new QuestionnaireVisitor(articles).visit().close();
 }

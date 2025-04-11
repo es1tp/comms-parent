@@ -1,19 +1,11 @@
-import { Dirent } from 'node:fs';
-import { readLocaleDirent, getKeyValues } from './file-utils'
+import { Dirent, readdirSync } from 'node:fs'
 
-import { Article, Page, Question, LocaleCode, Answer } from '../src/api-kb' 
+import { Article, Page, Question, LocaleCode, Answer } from '../../src/api-kb' 
 
-function createDefaultPage(localeCode: string, articleId: string): Page {
-  return {
-    id: `${articleId}_${localeCode}`,
-    localeCode: localeCode as LocaleCode,
-    title: '',
-    materials: [],
-    questionnaire: [],
-    qualification: undefined
-    
-  }
-}
+import { readLocaleDirent, getKeyValues } from '../utils'
+import { validateArticles } from './article-validator';
+
+
 
 class DirVisitor {
   private _pages: Record<string, Page> = {}; 
@@ -142,6 +134,42 @@ class DirVisitor {
   }
 }
 
-export function parseDir(dirent: Dirent, parent?: Article): Article {
-  return new DirVisitor().visit(dirent, parent).close();
+
+function createDefaultPage(localeCode: string, articleId: string): Page {
+  return {
+    id: `${articleId}_${localeCode}`,
+    localeCode: localeCode as LocaleCode,
+    title: '',
+    materials: [],
+    questionnaire: [],
+    qualification: undefined
+    
+  }
 }
+
+function findValidFolders(path: string): Dirent[] {
+  return readdirSync(path, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory())
+    .filter(dirent => {
+      const dirName = `${dirent.parentPath}/${dirent.name}`;
+      const isValidDir = readdirSync(dirName, { withFileTypes: true })
+        .filter(file => file.name.startsWith('meta.') || file.name.startsWith('content.'))
+        .filter(file => file.isFile()).length > 0;
+      return isValidDir;
+    });
+}
+
+
+export function visitArticles(path: string): Article[] {
+  const articles: Article[] = findValidFolders(path)
+    .flatMap(root => {
+      const parent = new DirVisitor().visit(root).close();
+      const children = findValidFolders(`${root.parentPath}/${root.name}`)
+        .map(child => new DirVisitor().visit(child, parent).close())
+      return [parent, ...children];
+    });
+
+  validateArticles(articles);
+  return articles;
+}
+

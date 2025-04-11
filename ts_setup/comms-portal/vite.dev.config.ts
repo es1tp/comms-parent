@@ -2,9 +2,10 @@ import { ConfigEnv, UserConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import checker from 'vite-plugin-checker';
 import svgr from 'vite-plugin-svgr';
-import { intlTsVite } from './intl-vite-plugin';
+
+import { vitePluginIntl } from './vite-plugin-intl';
 import { alias } from './vite.paths.config';
-import { mdCrawlerTsVite } from './md-crawler-vite-plugin';
+import { vitePluginKb } from './vite-plugin-kb';
 
 
 // https://vitejs.dev/config/
@@ -18,15 +19,15 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
       }),
       checker({ typescript: true }),
       svgr({ svgrOptions: {} }), 
-      intlTsVite({}),
-      mdCrawlerTsVite([
-        { src: 'md-crawler-datasource/erau', 
+      vitePluginIntl({}),
+      vitePluginKb([
+        { src: 'external-kb/erau', 
           target: {
             site: 'src/api-db/datasource-1',
             questionnaire: 'src/api-db/questionnaire-1'
           } 
         },
-        { src: 'md-crawler-datasource/es3ky_r_z', 
+        { src: 'external-kb/es3ky_r_z', 
           target: {
             site: 'src/api-db/datasource-2',
             questionnaire: 'src/api-db/questionnaire-2'

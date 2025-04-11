@@ -10,21 +10,6 @@ const setLock = (bool: boolean) => {
   lock = bool
 }
 
-
-  /*
-  return [{
-    name: 'replace-my-text', // Name for the plugin
-    enforce: 'pre',          // Run this plugin before other transformations
-    transform(code, id) {
-      // Replace MY_TEXT_EXAMPLE with "Hello world!" in JavaScript and TypeScript files
-      if (/\.(js|ts|jsx|tsx)$/.test(id)) {
-        console.log(id);
-      }
-      return null; // Return null if no transformation is applied
-    },
-  }];*/
-
-
 function getConfig(init: {}, root: string): Config {
   return {
     intlDirectory: "src/intl",
@@ -33,10 +18,11 @@ function getConfig(init: {}, root: string): Config {
 }
 
 export interface Config {
-  intlDirectory: string; // target
+  intlDirectory: string;
   csv: string;
 }
-export function intlTsVite(options: Partial<Config> = {}): Plugin {
+
+export function vitePluginIntl(options: Partial<Config> = {}): Plugin {
 
   let ROOT: string = process.cwd()
   let userConfig = options as Config
@@ -77,7 +63,7 @@ export function intlTsVite(options: Partial<Config> = {}): Plugin {
   }
 
   return {
-    name: 'intl-ts-vite',
+    name: 'vite-plugin-intl',
     async watchChange(id, { event }) {
       await handleFile(id, event)
     },

@@ -1,4 +1,4 @@
-import { Article } from '../src/api-kb';
+import { Article } from '../../src/api-kb';
 
 
 export function validateArticles(articles: Article[]) {

@@ -1,24 +1,9 @@
-import { Dirent, readdirSync } from 'node:fs'
+import { createFilePath, writeFile } from '../utils'
+import { Article } from '../../src/api-kb';
+import { ExamApi } from '../../src/api-exam';
+import { visitQuestions } from './questionnaire-visitor';
+import { visitArticles } from './article-visitor';
 
-import { Article } from '../src/api-kb';
-import { ExamApi } from '../src/api-exam';
-
-import { parseDir } from './dir-visitor';
-import { QuestionnaireVisitor } from './questionnaire-visitor';
-import { validateArticles } from './article-validator';
-
-
-function findValidFolders(path: string): Dirent[] {
-  return readdirSync(path, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .filter(dirent => {
-      const dirName = `${dirent.parentPath}/${dirent.name}`;
-      const isValidDir = readdirSync(dirName, { withFileTypes: true })
-        .filter(file => file.name.startsWith('meta.') || file.name.startsWith('content.'))
-        .filter(file => file.isFile()).length > 0;
-      return isValidDir;
-    });
-}
 
 function createSiteFiles(articles: Article[]): KbFile[] {
   const site: (KbFile & { article: Article })[] = articles
@@ -42,7 +27,7 @@ function createSiteFiles(articles: Article[]): KbFile[] {
 
 
 function createQuestionnaireFile(articles: Article[]): KbFile[] {
-  const questionnaires: (KbFile & { subject: ExamApi.ErauSubject })[] = new QuestionnaireVisitor(articles).visit().close()
+  const questionnaires: (KbFile & { subject: ExamApi.ErauSubject })[] = visitQuestions(articles)
     .map(subject => {
       const lines = JSON.stringify(subject, null, 2)
       const importLine = `import { ExamApi } from '@/api-exam'\n\n`;
@@ -73,19 +58,31 @@ export type KbFile = {
   type: 'questionnaire' | 'site'
 }
 
-export async function parseFolders(path: string): Promise<KbFile[]> {
-  const articles: Article[] = findValidFolders(path)
-    .flatMap(root => {
-      const parent = parseDir(root);
-      const children = findValidFolders(`${root.parentPath}/${root.name}`)
-        .map(child => parseDir(child, parent))
-      return [parent, ...children];
-    });
+export async function visitAssets(
+  config: { 
+    src: string, 
+    target: {
+      questionnaire: string,
+      site: string
+    } 
+}) {
+  const root = process.cwd();
+  const { fullPath } = createFilePath([root], config.src);
+    
+  try {  
+    const articles: Article[] = visitArticles(fullPath)
+    const kbFiles = [
+      ...createSiteFiles(articles),
+      ...createQuestionnaireFile(articles)
+    ];
 
-  validateArticles(articles);
-
-  return [
-    ...createSiteFiles(articles),
-    ...createQuestionnaireFile(articles)
-  ];
+    for(const newFile of kbFiles) {
+      const path = createFilePath([root, config.target[newFile.type]], newFile.fileName);
+      writeFile({ fullPath: path.fullPath, content: newFile.content });
+    }
+    console.log(`\u{1F30D} generated new datasource: ${config.src}, total files: ${kbFiles.length}`);
+  } catch (err) {
+    console.error(`\u{1F30D} failed to generate files from: ${fullPath}`, err)
+  }
 }
+

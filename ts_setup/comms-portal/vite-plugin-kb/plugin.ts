@@ -1,7 +1,7 @@
 import type { Plugin } from 'vite'
 import { normalize } from 'node:path'
-import { createFilePath, writeFile } from './file-utils'
-import { parseFolders } from './parse-md'
+import { createFilePath } from './utils'
+import { visitAssets } from './visitors'
 
 
 let lock = false
@@ -27,7 +27,8 @@ export interface Config {
   }; 
   src: string;
 }
-export function mdCrawlerTsVite(options: Partial<Config>[] = []): Plugin {
+
+export function vitePluginKb(options: Partial<Config>[] = []): Plugin {
 
   let ROOT: string = process.cwd()
   let userConfig = options as Config[]
@@ -36,22 +37,15 @@ export function mdCrawlerTsVite(options: Partial<Config>[] = []): Plugin {
     if (checkLock()) {
       return
     }
+
     setLock(true) 
     try {
       for(const option of userConfig) { 
         try {
           const config = getConfig(option);
-          const root = process.cwd();
-          const { fullPath } = createFilePath([root], config.src);
-          const kbFiles = await parseFolders(fullPath);
-          
-          for(const newFile of kbFiles) {
-            const path = createFilePath([root, config.target[newFile.type]], newFile.fileName);
-            writeFile({ fullPath: path.fullPath, content: newFile.content });
-          }
-          console.log(`\u{1F30D} generated new datasource: ${config.src}, total files: ${kbFiles.length}`);
+          visitAssets(config)
         } catch (err) {
-          console.error(`\u{1F30D} failed to generate files from: ${option.src}`, err)
+          console.error(`failed to process config: ${option} because of error: ${err}`);
         }
       }
     } catch (err) {
@@ -76,7 +70,7 @@ export function mdCrawlerTsVite(options: Partial<Config>[] = []): Plugin {
   }
 
   return {
-    name: 'md-ts-vite',
+    name: 'vite-plugin-kb',
     async watchChange(id, { event }) {
       await handleFile(id, event)
     },
