@@ -14,7 +14,7 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
 
   return {
     mode: 'production',
-    base: '/comms-parent/',
+    base: '/comms-parent',
     resolve: { alias },
     plugins: [
       react({ 

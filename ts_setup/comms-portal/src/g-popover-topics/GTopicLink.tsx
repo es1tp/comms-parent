@@ -23,11 +23,9 @@ export const GTopicLink: React.FC<GTopicLinkProps> = (props) => {
 
     if(qualificationLink) {
       navigate({
-        form: '/public/$locale',
-        // @ts-ignore
+        from: '/public/$locale',
         to: '/public/$locale/pages/$pageId/products/$productId/offers/$offerId',
         params: {
-          // @ts-ignore
           pageId: topic.id,
           productId: qualificationLink.name,
           offerId: qualificationLink.id
