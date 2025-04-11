@@ -1,7 +1,7 @@
 {
   "name": "@es1tp/comms-portal",
   "version": "0.0.1",
-  "homepage": "https://github.com/es1tp/comms-portal",
+  "homepage": "https://es1tp.github.io/comms-parent",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "type": "module",
