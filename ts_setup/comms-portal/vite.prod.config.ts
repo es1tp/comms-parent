@@ -3,7 +3,6 @@ import dts from 'vite-plugin-dts'
 import react from '@vitejs/plugin-react';
 import checker from 'vite-plugin-checker';
 import svgr from 'vite-plugin-svgr';
-import { resolve } from 'path';
 import { alias } from './vite.paths.config';
 import { vitePluginIntl } from './vite-plugin-intl';
 import { vitePluginKb } from './vite-plugin-kb';
@@ -15,10 +14,15 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
 
   return {
     mode: 'production',
-    base: process.env.PUBLIC_URL || '',
+    base: '/comms-parent/',
     resolve: { alias },
     plugins: [
-      react({ }),
+      react({ 
+        jsxImportSource: '@emotion/react',
+        babel: {
+          plugins: ['@emotion/babel-plugin'],
+        },
+      }),
       dts({ rollupTypes: false }),
       checker({ typescript: true }),
       svgr({ svgrOptions: {} }),
@@ -41,6 +45,7 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
     
     build: {
       outDir: 'dist',
+      /* lib mode
       lib: {
         // Could also be a dictionary or array of multiple entry points
         entry: resolve(__dirname, 'src/index.tsx'),
@@ -49,6 +54,7 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
         fileName: 'index',
         formats: ['es'] 
       }
+      */
     },
   }
 }
