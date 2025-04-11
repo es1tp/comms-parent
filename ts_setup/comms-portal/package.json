@@ -1,12 +1,12 @@
 {
   "name": "@es1tp/comms-portal",
   "version": "0.0.1",
-  "homepage": "https://github.com/es1tp/comms-parent",
+  "homepage": "https://github.com/es1tp/comms-portal",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "type": "module",
   "files": [
-    "build"
+    "dist"
   ],
   "repository": "git@github.com:es1tp/comms-parent.git",
   "dependencies": {
