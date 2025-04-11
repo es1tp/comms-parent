@@ -1,6 +1,6 @@
-import { Article } from '@/api-kb'
+import { KbApi } from '@/api-kb'
 
-export const C02_S03: Article = {
+export const C02_S03: KbApi.Article = {
   "id": "C02_S03",
   "parentId": "C02",
   "pages": [

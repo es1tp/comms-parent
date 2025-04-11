@@ -1,6 +1,6 @@
 import { Dirent, readdirSync } from 'node:fs'
 
-import { Article, Page, Question, LocaleCode, Answer } from '../../src/api-kb' 
+import { KbApi } from '../../src/api-kb' 
 
 import { readLocaleDirent, getKeyValues } from '../utils'
 import { validateArticles } from './article-validator';
@@ -8,15 +8,15 @@ import { validateArticles } from './article-validator';
 
 
 class DirVisitor {
-  private _pages: Record<string, Page> = {}; 
+  private _pages: Record<string, KbApi.Page> = {}; 
   private _id: string;
-  private _parent: Article | undefined;
+  private _parent: KbApi.Article | undefined;
   private _parentId: string | undefined;
-  private _questions: Record<string, Question> = {};
+  private _questions: Record<string, KbApi.Question> = {};
   constructor() {
   }
 
-  visit(dirent: Dirent, parent?: Article) {
+  visit(dirent: Dirent, parent?: KbApi.Article) {
     if(parent) {
       this._id = `${parent.id}_${dirent.name}`
     } else {
@@ -37,7 +37,7 @@ class DirVisitor {
   visitMeta(dirent: Dirent) {
     readLocaleDirent(dirent, 'meta.').forEach(({locale, content, file}) => {
       const entries = getKeyValues(content);
-      const page: Page = this.getOrCreatePage(locale);
+      const page: KbApi.Page = this.getOrCreatePage(locale);
 
       if(entries['Q']) {
         page.qualification = entries['Q'];
@@ -56,9 +56,9 @@ class DirVisitor {
 
   visitContent(dirent: Dirent) {
     readLocaleDirent(dirent, 'content.').forEach(({locale, content}) => {
-      const page: Page = this.getOrCreatePage(locale);
+      const page: KbApi.Page = this.getOrCreatePage(locale);
 
-      const parentPage: Page | undefined = this._parent ? this._parent.pages.find(page => page.localeCode === locale) : undefined
+      const parentPage: KbApi.Page | undefined = this._parent ? this._parent.pages.find(page => page.localeCode === locale) : undefined
 
       const header1 = parentPage ? `# ${parentPage.title}  \n` : '';
       const header2 = page.title ? `## ${page.title}  \n` : '';
@@ -72,7 +72,7 @@ class DirVisitor {
   }
   visitQuestion(dirent: Dirent) {
     readLocaleDirent(dirent, 'q').forEach(({locale, content, nameWithoutExt}) => {
-      const page: Page = this.getOrCreatePage(locale);
+      const page: KbApi.Page = this.getOrCreatePage(locale);
       const gid = `${nameWithoutExt}_${locale}`;
 
       if(this._questions[gid]) {
@@ -98,7 +98,7 @@ class DirVisitor {
         }
 
 
-        const answers: Answer[] = Object.entries(entries)
+        const answers: KbApi.Answer[] = Object.entries(entries)
           .filter(([key]) => !(key === '?' || key === '.' || key === 'Q') )
           .map(([key, value]) => ({
             id: `${page.id}_${nameWithoutExt}_${key.substring(0, 1)}`,
@@ -115,7 +115,7 @@ class DirVisitor {
           return;
         }
 
-        const newEntry: Question = { id: nameWithoutExt, question, answers, qualifications };
+        const newEntry: KbApi.Question = { id: nameWithoutExt, question, answers, qualifications };
         page.questionnaire.push(newEntry);
 
         this._pages[locale] = page;
@@ -125,7 +125,7 @@ class DirVisitor {
       }
     });
   }
-  close(): Article {
+  close(): KbApi.Article {
     return {
       id: this._id,
       parentId: this._parentId,
@@ -135,10 +135,10 @@ class DirVisitor {
 }
 
 
-function createDefaultPage(localeCode: string, articleId: string): Page {
+function createDefaultPage(localeCode: string, articleId: string): KbApi.Page {
   return {
     id: `${articleId}_${localeCode}`,
-    localeCode: localeCode as LocaleCode,
+    localeCode: localeCode as KbApi.LocaleCode,
     title: '',
     materials: [],
     questionnaire: [],
@@ -160,8 +160,8 @@ function findValidFolders(path: string): Dirent[] {
 }
 
 
-export function visitArticles(path: string): Article[] {
-  const articles: Article[] = findValidFolders(path)
+export function visitArticles(path: string): KbApi.Article[] {
+  const articles: KbApi.Article[] = findValidFolders(path)
     .flatMap(root => {
       const parent = new DirVisitor().visit(root).close();
       const children = findValidFolders(`${root.parentPath}/${root.name}`)

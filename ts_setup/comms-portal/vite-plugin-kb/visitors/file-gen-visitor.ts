@@ -1,16 +1,16 @@
 import { createFilePath, writeFile } from '../utils'
-import { Article } from '../../src/api-kb';
+import { KbApi } from '../../src/api-kb';
 import { ExamApi } from '../../src/api-exam';
 import { visitQuestions } from './questionnaire-visitor';
 import { visitArticles } from './article-visitor';
 
 
-function createSiteFiles(articles: Article[]): KbFile[] {
-  const site: (KbFile & { article: Article })[] = articles
+function createSiteFiles(articles: KbApi.Article[]): KbFile[] {
+  const site: (KbFile & { article: KbApi.Article })[] = articles
     .map(article => {
       const lines = JSON.stringify(article, null, 2)
-      const importLine = `import { Article } from '@/api-kb'\n\n`;
-      const content = importLine + `export const ${article.id}: Article = ${lines}`;
+      const importLine = `import { KbApi } from '@/api-kb'\n\n`;
+      const content = importLine + `export const ${article.id}: KbApi.Article = ${lines}`;
       return { content, fileName: `${article.id}.ts`, article, type: 'site' };
     });
 
@@ -26,7 +26,7 @@ function createSiteFiles(articles: Article[]): KbFile[] {
 }
 
 
-function createQuestionnaireFile(articles: Article[]): KbFile[] {
+function createQuestionnaireFile(articles: KbApi.Article[]): KbFile[] {
   const questionnaires: (KbFile & { subject: ExamApi.ErauSubject })[] = visitQuestions(articles)
     .map(subject => {
       const lines = JSON.stringify(subject, null, 2)
@@ -70,7 +70,7 @@ export async function visitAssets(
   const { fullPath } = createFilePath([root], config.src);
     
   try {  
-    const articles: Article[] = visitArticles(fullPath)
+    const articles: KbApi.Article[] = visitArticles(fullPath)
     const kbFiles = [
       ...createSiteFiles(articles),
       ...createQuestionnaireFile(articles)

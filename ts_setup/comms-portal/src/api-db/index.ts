@@ -1,4 +1,4 @@
-import { Article } from '@/api-kb';
+import { KbApi } from '@/api-kb';
 import { ExamApi } from '@/api-exam';
 
 import datasource_1 from './datasource-1'
@@ -7,7 +7,7 @@ import questionnaire_1 from './questionnaire-1'
 
 
 
-const articles: Article[] = [
+const articles: KbApi.Article[] = [
   ...Object.values(datasource_1),
   ...Object.values(datasource_2)
 ];

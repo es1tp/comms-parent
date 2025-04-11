@@ -1,13 +1,13 @@
 import { ExamApi } from '../../src/api-exam';
-import { Answer, Article, Page } from '../../src/api-kb';
+import { KbApi } from '../../src/api-kb';
 
 
 
 class QuestionnaireVisitor {
-  private _articles: Article[];
+  private _articles: KbApi.Article[];
   private _subjects: Record<string, ExamApi.ErauSubject> = {};
 
-  constructor(articles: Article[]) {
+  constructor(articles: KbApi.Article[]) {
     this._articles = articles;
   }
 
@@ -19,7 +19,7 @@ class QuestionnaireVisitor {
     return this;
   }
 
-  getOrCreateSubject(article: Article, page: Page): ExamApi.ErauSubject {
+  getOrCreateSubject(article: KbApi.Article, page: KbApi.Page): ExamApi.ErauSubject {
     const current = this._subjects[page.id];
     if(current) {
       return current;
@@ -37,7 +37,7 @@ class QuestionnaireVisitor {
     return newSubject;
   }
 
-  visitArticle(article: Article) {
+  visitArticle(article: KbApi.Article) {
     // article has not questions
 
     for(const page of article.pages) {
@@ -51,7 +51,7 @@ class QuestionnaireVisitor {
     }
   }
 
-  visitQuestions(article: Article, page: Page): ExamApi.ErauQuestion[] {
+  visitQuestions(article: KbApi.Article, page: KbApi.Page): ExamApi.ErauQuestion[] {
     const result: Record<string, ExamApi.ErauQuestion> = {};
     
     for(const { id, question, answers, qualifications } of page.questionnaire) {
@@ -67,7 +67,7 @@ class QuestionnaireVisitor {
     return Object.values(result);
   }
 
-  visitAnswer(answer: Answer, page: Page, question: ExamApi.ErauQuestion) { 
+  visitAnswer(answer: KbApi.Answer, page: KbApi.Page, question: ExamApi.ErauQuestion) { 
     const exists: ExamApi.ErauAnswer | undefined = question.answers.find(target => target.id === answer.id);
     if(exists) {
       console.error(`${page.id} has answer with same id: ${answer.id}`);
@@ -82,6 +82,6 @@ class QuestionnaireVisitor {
   }
 }
 
-export function visitQuestions(articles: Article[]): ExamApi.ErauSubject[] {
+export function visitQuestions(articles: KbApi.Article[]): ExamApi.ErauSubject[] {
   return new QuestionnaireVisitor(articles).visit().close();
 }

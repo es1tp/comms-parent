@@ -1,25 +1,25 @@
 import { SiteApi } from '@dxs-ts/gamut';
-import { Article } from '@/api-kb';
+import { KbApi } from '@/api-kb';
 import { datasource } from '@/api-db';
 
 
 const QUALIFICATION_LINK = 'qualification';
 
-function getPage(article: Article, locale: string) {
+function getPage(article: KbApi.Article, locale: string) {
   return article.pages.find(p => p.localeCode === locale);
 }
 
 class DatasourceVisitor {
-  private _articles_by_id: Record<string, Article>;
-  private _articles: Article[];
+  private _articles_by_id: Record<string, KbApi.Article>;
+  private _articles: KbApi.Article[];
   private _locale: string;
   private _topics: Record<string, SiteApi.Topic> = {};
   private _blob: Record<string, SiteApi.Blob> = {};
   private _links: Record<string, SiteApi.TopicLink> = {};
 
-  constructor(locale: string, articles: Article[]) {
+  constructor(locale: string, articles: KbApi.Article[]) {
     this._articles = articles;
-    this._articles_by_id = this._articles.reduce<Record<string, Article>>((collector, next) => {
+    this._articles_by_id = this._articles.reduce<Record<string, KbApi.Article>>((collector, next) => {
       collector[next.id] = next
       return collector;
     }, {});
@@ -31,7 +31,7 @@ class DatasourceVisitor {
     return this;
   }
 
-  visitAnyArticle(article: Article) {
+  visitAnyArticle(article: KbApi.Article) {
     const page = getPage(article, this._locale);
     if(!page) {
       return;
@@ -41,7 +41,7 @@ class DatasourceVisitor {
     this.visitQualificationArticle(article);
   }
 
-  visitQualificationArticle(article: Article) {
+  visitQualificationArticle(article: KbApi.Article) {
     const page = getPage(article, this._locale)!;
 
     // any child article has learning material
@@ -60,7 +60,7 @@ class DatasourceVisitor {
     this.visitQualificationTopic(article);
   }
 
-  visitQualificationTopic(article: Article) {
+  visitQualificationTopic(article: KbApi.Article) {
     const page = getPage(article, this._locale)!;
     const heading = `${page.title}`;
     const blobId = `${page.id}_blob`;
@@ -99,14 +99,14 @@ class DatasourceVisitor {
   }
 
 
-  visitQuestionnaireArticle(article: Article) {
+  visitQuestionnaireArticle(article: KbApi.Article) {
     const page = getPage(article, this._locale)!;
     if(page.questionnaire.length === 0) {
       return;
     }
   }
 
-  visitLearningArticle(article: Article) {
+  visitLearningArticle(article: KbApi.Article) {
     const page = getPage(article, this._locale)!;
 
     // any child article has learning material
@@ -125,7 +125,7 @@ class DatasourceVisitor {
     this.visitLearningTopic(article);
   }
 
-  visitLearningTopic(article: Article) {
+  visitLearningTopic(article: KbApi.Article) {
     const page = getPage(article, this._locale)!;
     const heading = `${page.title}`;
     const blobId = `${page.id}_blob`;

@@ -1,7 +1,7 @@
-import { Article } from '../../src/api-kb';
+import { KbApi } from '../../src/api-kb';
 
 
-export function validateArticles(articles: Article[]) {
+export function validateArticles(articles: KbApi.Article[]) {
   const uniqueIds: string[] = [];
 
   for(const article of articles) {
