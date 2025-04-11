@@ -11,7 +11,7 @@ export const fi = {
   'footer.column4.address2': 'Pärnu mnt 57',
   'footer.column4.postalCode': '10135 Tallinn',
   'questionnaire.subject.select': 'Select exam subject',
-  'questionnaire-results.title': 'Exam results',
+  'questionnaire-results.title': 'Exam results correct:{correct}/{total} Exam percentage: {perc}%',
   'questionnaire-header.all': 'All questions',
   'questionnaire-header.reset': 'Reset',
   'questionnaire-header.shuffle': 'Shuffle',

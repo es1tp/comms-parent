@@ -22,7 +22,7 @@ export const et = {
   'footer.column4.address2': 'Pärnu mnt 57',
   'footer.column4.postalCode': '10135 Tallinn',
   'questionnaire.subject.select': 'Valige eksami teema',
-  'questionnaire-results.title': 'Eksamitulemused',
+  'questionnaire-results.title': 'Eksamitulemused õige: {correct}/{total} Eksami protsent: {perc}%',
   'questionnaire-header.all': 'Kõik küsimused',
   'questionnaire-header.reset': 'Lähtestada',
   'questionnaire-header.shuffle': 'Segada',

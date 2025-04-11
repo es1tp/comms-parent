@@ -50,15 +50,13 @@ export const Question: React.FC<{ question: ExamApi.Question }> = ({ question })
   return (
     <Paper className='question'>
       <List component='nav' subheader={
-        <ListSubheader>
-          <Box display='flex' alignItems='flex-start'>
-            <Typography>{question.text}</Typography>
+        <Box className='question-title'>
+          <Typography>{question.text}</Typography>
             <Box flexGrow={1} />
             <Box className='question-actions'>
               <QuestionExplainer question={question} />
             </Box>
-          </Box>
-        </ListSubheader>
+        </Box>
       }>
         <Divider sx={{ my: 1 }} />
         {question.answers.map((answer, index) => (<Answer key={answer.id} index={index} answer={answer} />))}

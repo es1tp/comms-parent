@@ -27,9 +27,25 @@ export const GQuestionnaireRoot = styled("div", {
   },
 })(({ theme }) => {
   return {
+
+    '& .question-title': {
+      display: 'flex',
+      alignItems: 'center',
+      paddingLeft: theme.spacing(1),
+      paddingRight: theme.spacing(2)
+    },
+
+    '& .question .question-title .MuiTypography-root': {
+      color: theme.palette.text.primary,
+      fontWeight: '500 !important',
+    },
+
     '.MuiPaper-root': {
+      paddingTop: theme.spacing(1),
+
       '&.question': {
-        marginBottom: theme.spacing(4)
+        marginBottom: theme.spacing(4),
+        color: theme.palette.text.primary
       },
       '.question-actions': {
         marginTop: theme.spacing(1),
@@ -39,28 +55,31 @@ export const GQuestionnaireRoot = styled("div", {
         flexDirection: useMediaQuery(theme.breakpoints.down('sm')) ? 'column' : 'row',
         alignItems: useMediaQuery(theme.breakpoints.down('sm')) ? 'end' : undefined
       },
-      '.translator-text.MuiTypography-root ': {
-        fontSize: useMediaQuery(theme.breakpoints.down('sm')) ? theme.typography.caption.fontSize : '10pt', //TODO typography styles
-        fontWeight: 'bold',
-      },
       '&.questionnaire-results': {
         backgroundColor: theme.palette.success.dark,
-        zIndex: 1000000
-      }
+        color: theme.palette.background.default,
+        zIndex: 1000000,
+        padding: theme.spacing(1),
+        textAlign: 'center'
+      },
     },
 
     '.MuiTextField-root': {
       '&.subject-select': {
-        minWidth: '50%',
-        maxWidth: '93vw',
-        marginTop: theme.spacing(1),
-        marginBottom: theme.spacing(2),
+        marginTop: theme.spacing(2),
+        [theme.breakpoints.down('md')]: {
+          width: '100%'
+        },
+        width: '90%',
+        display: 'flex',
+        justifySelf: 'center'
       }
     },
 
+
     '.MuiContainer-root': {
       [theme.breakpoints.up('md')]: {
-        width: '75%'
+        width: '90%'
       },
       [theme.breakpoints.down('md')]: {
         width: '100%',
@@ -68,7 +87,11 @@ export const GQuestionnaireRoot = styled("div", {
       },
 
       '&.subject >.MuiTypography-root': {
-        ...theme.typography.h5
+        ...theme.typography.h2,
+        [theme.breakpoints.down('sm')]: {
+          ...theme.typography.h3,
+        },
+        textAlign: 'center'
       },
       '&.subject >.MuiDivider-root': {
         border: '1px solid',
@@ -88,7 +111,7 @@ export const GQuestionnaireRoot = styled("div", {
         marginBottom: theme.spacing(2),
       },
     },
-    
+
     '.MuiList-root': {
       backgroundColor: undefined,
       '.success': {
@@ -113,6 +136,22 @@ export const GQuestionnaireRoot = styled("div", {
 
     '.MuiListItemButton-root': {
       userSelect: 'text'
+    },
+    '.MuiListItemIcon-root': {
+      minWidth: 'unset',
+      marginRight: theme.spacing(2),
+      color: theme.palette.primary.main
+    },
+    '.responsive-button-group': {
+      [theme.breakpoints.down('sm')]: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        flexDirection: 'column',
+        '& .MuiButton-root': {
+          width: '100%',
+          marginBottom: theme.spacing(1),
+        }
+      }
     }
   };
 });

@@ -120,14 +120,13 @@ export const components_mui: Components<Omit<Theme, 'components'>> = {
     }
   },
 
+
   MuiSelect: {
     defaultProps: {
       fullWidth: true,
       sx: {
         '.MuiInputBase-input': {
           m: 0,
-          px: 1,
-          py: 0.5,
           fontSize: '1rem',
           whiteSpace: 'break-spaces',
           overflowWrap: 'break-word',

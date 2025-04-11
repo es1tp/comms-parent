@@ -18,22 +18,18 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
   fontFamily: '"Ubuntu", sans-serif',
   h1: {
     fontSize: "2rem",
-    lineHeight: 1.5,
+    lineHeight: 1,
     fontWeight: 600,
   },
   h2: {
     fontSize: "1.9rem",
     lineHeight: 1,
     fontWeight: 500,
-    paddingTop: 15,
-    paddingBottom: 15,
   },
   h3: {
     fontSize: "1.6rem",
     fontWeight: 300,
     lineHeight: 1,
-    paddingTop: 15,
-    paddingBottom: 15,
   },
   h4: {
     fontSize: "1.3rem",

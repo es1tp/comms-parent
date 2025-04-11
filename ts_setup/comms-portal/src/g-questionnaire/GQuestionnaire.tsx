@@ -24,22 +24,24 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
     <GQuestionnaireRoot>
       <Container maxWidth='md' className='questionnaire-header'>
         <div ref={topRef} />
-        <ButtonGroup variant='contained' fullWidth>
+        <ButtonGroup variant='contained' fullWidth className='responsive-button-group'>
           <Button onClick={() => all()}><FormattedMessage id='questionnaire-header.all' /></Button>
           <Button onClick={() => reset()}><FormattedMessage id='questionnaire-header.reset' /></Button>
           <Button onClick={() => shuffle(3)}><FormattedMessage id='questionnaire-header.shuffle' /></Button>
           <Button onClick={() => shuffle(25)}><FormattedMessage id='questionnaire-header.shuffle.big' /></Button>
         </ButtonGroup>
 
-        <TextField select value={selectedSubject?.id ?? ''} className='subject-select' variant='filled' label={<FormattedMessage id='questionnaire.subject.select' />}>
-          {source.map((subject) => (
-            <MenuItem key={subject.id} value={subject.id} onClick={() => selectSubject(subject)}>
-              <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
-                {subject.title}{" "}({subject.questions.length})
-              </div>
-            </MenuItem>
-          ))}
-        </TextField>
+        <Box className='subject'>
+          <TextField select value={selectedSubject?.id ?? ''} className='subject-select' variant='outlined' label={<FormattedMessage id='questionnaire.subject.select' />}>
+            {source.map((subject) => (
+              <MenuItem key={subject.id} value={subject.id} onClick={() => selectSubject(subject)}>
+                <div style={{ overflow: "hidden", textOverflow: "ellipsis" }}>
+                  {subject.title}{" "}({subject.questions.length})
+                </div>
+              </MenuItem>
+            ))}
+          </TextField>
+        </Box>
       </Container>
 
       <Container className='questionnaire'>
@@ -52,12 +54,12 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
 
       <Sticky mode='bottom' boundaryElement={''}>
         <Paper className='questionnaire-results'>
-          <Container className='questionnaire-results' maxWidth='md'>
+          <Container maxWidth='md'>
             <Typography><FormattedMessage id='questionnaire-results.title' values={{ correct, perc, total }} /></Typography>
           </Container>
         </Paper>
       </Sticky>
-      
+
     </GQuestionnaireRoot>
   );
 }
