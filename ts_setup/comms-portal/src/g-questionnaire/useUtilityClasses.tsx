@@ -143,16 +143,8 @@ export const GQuestionnaireRoot = styled("div", {
       marginRight: theme.spacing(2),
       color: theme.palette.primary.main
     },
-    '.responsive-button-group': {
-      [theme.breakpoints.down('sm')]: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        flexDirection: 'column',
-        '& .MuiButton-root': {
-          width: '100%',
-          marginBottom: theme.spacing(1),
-        }
-      }
+    '&.questionnaire-header .MuiButtonGroup-root': {
+      orientation: 'vertical'
     }
   };
 });

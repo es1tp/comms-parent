@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Paper, Typography, ButtonGroup, Button, Box, MenuItem, TextField } from '@mui/material';
+import { Container, Paper, Typography, ButtonGroup, Button, Box, MenuItem, TextField, useTheme } from '@mui/material';
 
 import Sticky from 'react-sticky-el';
 import { FormattedMessage } from 'react-intl';
@@ -7,9 +7,12 @@ import { useExam } from '@/api-exam';
 
 import { Subject } from './Subject';
 import { GQuestionnaireRoot } from './useUtilityClasses';
+import { useMediaQuery } from '@mui/system';
 
 
 export const GQuestionnaire: React.FC<{}> = ({ }) => {
+  const theme = useTheme();
+  const smallScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
   const { value, shuffle, reset, all, selectSubject } = useExam();
   const subjects = Object.values(value.questionnaire.subjects);
@@ -24,7 +27,7 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
     <GQuestionnaireRoot>
       <Container maxWidth='md' className='questionnaire-header'>
         <div ref={topRef} />
-        <ButtonGroup variant='contained' fullWidth className='responsive-button-group'>
+        <ButtonGroup variant='contained' fullWidth orientation={smallScreen ? 'vertical' : 'horizontal'}>
           <Button onClick={() => all()}><FormattedMessage id='questionnaire-header.all' /></Button>
           <Button onClick={() => reset()}><FormattedMessage id='questionnaire-header.reset' /></Button>
           <Button onClick={() => shuffle(3)}><FormattedMessage id='questionnaire-header.shuffle' /></Button>
