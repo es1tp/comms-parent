@@ -20,5 +20,12 @@ export const en = {
   'footer.column4.email': 'es1mw@erau.ee',
   'footer.column4.address1': 'Tallinn Polytechnic School',
   'footer.column4.address2': 'Pärnu mnt 57',
-  'footer.column4.postalCode': '10135 Tallinn'
+  'footer.column4.postalCode': '10135 Tallinn',
+  'questionnaire.subject.select': 'Select exam subject',
+  'questionnaire-results.title': 'Exam results',
+  'questionnaire-header.all': 'All questions',
+  'questionnaire-header.reset': 'Reset',
+  'questionnaire-header.shuffle': 'Shuffle',
+  'questionnaire-header.shuffle.big': 'Shuffle(25)',
+  'button.scroll-to-top': 'Scroll to top'
 }
