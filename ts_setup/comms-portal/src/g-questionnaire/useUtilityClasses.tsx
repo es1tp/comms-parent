@@ -78,10 +78,11 @@ export const GQuestionnaireRoot = styled("div", {
 
 
     '.MuiContainer-root': {
-      [theme.breakpoints.up('md')]: {
-        width: '90%'
+      [theme.breakpoints.up('sm')]: {
+        width: '90%',
+        padding: theme.spacing(1)
       },
-      [theme.breakpoints.down('md')]: {
+      [theme.breakpoints.down('sm')]: {
         width: '100%',
         padding: theme.spacing(1)
       },
