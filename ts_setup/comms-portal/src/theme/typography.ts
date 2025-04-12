@@ -15,10 +15,10 @@ export const breakpoints = createTheme({ breakpoints: breakpointDefs }).breakpoi
 
 export const typography: TypographyOptions | ((palette: Palette) => TypographyOptions) = {
 
-  fontFamily: '"Outfit", sans-serif',
+  fontFamily: '"Ubuntu", sans-serif',
 
   h1: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontSize: '2.5rem',
     fontWeight: 400,
     lineHeight: 1.375,
@@ -31,7 +31,7 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   h2: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontSize: '1.9rem',
     fontWeight: 400,
     lineHeight: 1.375,
@@ -44,7 +44,7 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   h3: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontSize: '1.5rem',
     fontWeight: 500,
     lineHeight: 1.375,
@@ -56,7 +56,7 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   h4: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontSize: '1.125rem',
     fontWeight: 700,
     lineHeight: 1.375,
@@ -67,7 +67,7 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   h5: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontSize: '12pt',
     fontWeight: 600,
     lineHeight: 1.375,
@@ -78,13 +78,13 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   h6: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontWeight: 400,
     lineHeight: 1.375
   },
   body1: {
-    fontFamily: '"Outfit", sans-serif',
-    fontWeight: 500,
+    fontFamily: '"Ubuntu", sans-serif',
+    fontWeight: 400,
     fontSize: '1.125rem',
     lineHeight: 1.4,
     [breakpoints.down('sm')]: {
@@ -94,8 +94,8 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   body2: { 
-    fontFamily: '"Outfit", sans-serif',
-    fontWeight: 500,
+    fontFamily: '"Ubuntu", sans-serif',
+    fontWeight: 400,
     fontSize: '1rem',
     lineHeight: 1.4,
     [breakpoints.down('sm')]: {
@@ -105,7 +105,7 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   subtitle1: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontWeight: 500,
     lineHeight: 1.75,
     [breakpoints.down('sm')]: {
@@ -115,7 +115,7 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   subtitle2: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontWeight: 400,
     lineHeight: 1.57,
     [breakpoints.down('sm')]: {
@@ -125,14 +125,14 @@ export const typography: TypographyOptions | ((palette: Palette) => TypographyOp
     },
   },
   overline: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontWeight: 600,
     letterSpacing: '0.5px',
     lineHeight: 2.5,
     textTransform: 'uppercase'
   },
   caption: {
-    fontFamily: '"Outfit", sans-serif',
+    fontFamily: '"Ubuntu", sans-serif',
     fontSize: '11pt',
     fontWeight: 500,
     lineHeight: 1.375,
