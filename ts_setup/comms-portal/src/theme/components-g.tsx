@@ -45,7 +45,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
     defaultProps: {
       backgroundImage: tpt_building,
       height: '470px',
-      defaultPageId: 'extra'
+      defaultPageId: 'extra',
     }
   },
 
@@ -103,6 +103,8 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
     }
   },
 
+
+
   GPopoverButton: {
     styleOverrides: {
       root: ({ theme }) => ({
@@ -118,8 +120,9 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
           boxShadow: `0 0 30px 10px ${alpha(theme.palette.text.primary, 0.3)}`,
           zIndex: 1,
           [theme.breakpoints.down('lg')]: {
-            border: `1px solid ${theme.palette.text.primary}`,
-            boxShadow: 'none',
+            border: `1px solid ${alpha(theme.palette.text.primary, 0.4)}`,
+            boxShadow: `-10px 0 30px 0 ${alpha(theme.palette.text.primary, 0.3)}, 
+            10px 0 30px 0 ${alpha(theme.palette.text.primary, 0.3)}`,
             backgroundColor: alpha(theme.palette.background.paper, 0.3)
           }
         }
