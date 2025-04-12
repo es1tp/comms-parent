@@ -1,7 +1,11 @@
 import { KbApi } from '@/api-kb'
 
 export default {
+<<<<<<< Updated upstream
   "timestamp": "2025-04-12T09:25:09.108+03:00",
+=======
+  "timestamp": "2025-04-12T09:32:07.129+03:00",
+>>>>>>> Stashed changes
   "changes": [
     {
       "id": "extra",
@@ -41,9 +45,9 @@ export default {
     {
       "id": "qualification",
       "changeObject": "article",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T19:19:46.365+03:00"
+      "timestamp": "2025-04-12T09:32:07.129+03:00"
     },
     {
       "id": "qualification_cat_a",
@@ -90,9 +94,16 @@ export default {
     {
       "id": "qualification_et",
       "changeObject": "page",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T19:19:46.365+03:00"
+      "timestamp": "2025-04-12T09:32:07.129+03:00"
+    },
+    {
+      "id": "qualification_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-12T09:32:07.129+03:00"
     }
   ]
 }

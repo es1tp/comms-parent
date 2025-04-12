@@ -20,7 +20,7 @@ export declare namespace KbApi {
     id: PageId;
     localeCode: LocaleCode; // two letter 
     title: string; 
-    qualification?: QualificationType | undefined;
+    qualification?: QualificationType | undefined; // page is dedicated for specific type of qualification
 
     materials: Material[]
     questionnaire: Question[];

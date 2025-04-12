@@ -6,6 +6,7 @@ import { DemoFooter } from './DemoFooter';
 import { groupTopics } from '@/api-site';
 import { GTopicLink } from '@/g-popover-topics';
 import { GForm } from '@/g-form';
+import { GLinkFormUnlocked } from '@/g-link';
 
 
 
@@ -154,6 +155,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   GPopoverTopics: {
     defaultProps: {
       groupTopics,
+      filterTopic: (topic) => topic.id !== 'extra',
       slots: {
         link: GTopicLink
       }
@@ -171,7 +173,11 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   GArticleFeedback: {
     defaultProps: { enabled(view) { return false } }
   },
-
+  GLinkFormUnlocked: {
+    defaultProps: { slots: {
+      link: GLinkFormUnlocked
+    } }
+  },
   GRouterOffer: {
     defaultProps: {
       

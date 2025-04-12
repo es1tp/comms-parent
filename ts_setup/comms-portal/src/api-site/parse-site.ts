@@ -1,4 +1,4 @@
-import { SiteApi } from '@dxs-ts/gamut';
+import { SiteApi, useSite } from '@dxs-ts/gamut';
 import { KbApi } from '@/api-kb';
 import { datasource } from '@/api-db';
 
@@ -27,7 +27,10 @@ class DatasourceVisitor {
   }
 
   visit() {
-    this._articles.forEach(article => this.visitAnyArticle(article));
+    // process children first
+    this._articles
+      .sort((a, b) => Number(!!b.parentId) - Number(!!a.parentId))
+      .forEach(article => this.visitAnyArticle(article));
     return this;
   }
 
@@ -36,78 +39,6 @@ class DatasourceVisitor {
     if(!page) {
       return;
     }
-    this.visitLearningArticle(article);
-    this.visitQuestionnaireArticle(article);
-    this.visitQualificationArticle(article);
-  }
-
-  visitQualificationArticle(article: KbApi.Article) {
-    const page = getPage(article, this._locale)!;
-
-    // any child article has learning material
-    const isQualificationArticle = !!page.qualification || (
-      !!this._articles
-      .filter(child => child.parentId === article.id)
-      .map(child => getPage(child, this._locale))
-      .find(child => !!child && !!child.qualification)
-    );
-
-    if(!isQualificationArticle) {
-      return;
-    }
-
-
-    this.visitQualificationTopic(article);
-  }
-
-  visitQualificationTopic(article: KbApi.Article) {
-    const page = getPage(article, this._locale)!;
-    const heading = `${page.title}`;
-    const blobId = `${page.id}_blob`;
-
-    const link: SiteApi.TopicLink | undefined = page.qualification ? {
-      id: `${page.id}_qualification_${page.qualification}`,
-      name: heading,
-      value: page.qualification,
-      anon: true,
-      type: QUALIFICATION_LINK
-    } : undefined;
-
-    const topic: SiteApi.Topic = {
-      id: article.id,
-      name: heading,
-      blob: blobId,
-      links: link ? [link.id] : [],
-      parent: article.parentId,
-      
-      headings: [{
-        id: article.id,
-        level: 0,
-        name: heading,
-        order: 1,
-      }]
-    };
-
-    const value = page.title;
-    const blob: SiteApi.Blob = { id: blobId, value };
-
-    if(link) {
-      this._links[link.id] = link;
-    }
-    this._blob[blob.id] = blob;
-    this._topics[topic.id] = topic;
-  }
-
-
-  visitQuestionnaireArticle(article: KbApi.Article) {
-    const page = getPage(article, this._locale)!;
-    if(page.questionnaire.length === 0) {
-      return;
-    }
-  }
-
-  visitLearningArticle(article: KbApi.Article) {
-    const page = getPage(article, this._locale)!;
 
     // any child article has learning material
     const isLearningArticle = page.materials.length > 0 || (
@@ -117,15 +48,55 @@ class DatasourceVisitor {
       .find(child => !!child && child.materials.length > 0)
     );
 
-    // no materials 
-    if(!isLearningArticle) {
-      return;
-    }
+    // has learning material
+    if(isLearningArticle) {
+      this.visitTopic(article);  
+    } else {
+      // generate questionnaire only topic
+      const isQualificationArticle = !!page.qualification || (
+        !!this._articles
+        .filter(child => child.parentId === article.id)
+        .map(child => getPage(child, this._locale))
+        .find(child => !!child && !!child.qualification && child.questionnaire.length > 0)
+      );
 
-    this.visitLearningTopic(article);
+      if(isQualificationArticle) {
+        this.visitTopic(article)
+      }
+    }
   }
 
-  visitLearningTopic(article: KbApi.Article) {
+  visitQualificationLinks(article: KbApi.Article, page: KbApi.Page): string[] {
+    const links: string[] = [];
+
+    // article has questionnaire directly links to it, exam topic
+    if(page.qualification) {
+      const heading = `${page.title}`;
+      const link: SiteApi.TopicLink = {
+        id: `${page.id}_qualification_${page.qualification}`,
+        name: heading,
+        value: page.qualification,
+        anon: true,
+        type: 'dialob',
+        path: QUALIFICATION_LINK
+      };
+      links.push(link.id);
+      this._links[link.id] = link;
+
+      // page is dedicated for specific type of qualification
+    } else {
+
+      // collect all links from from children
+      const childQualifications = Object.values(this._topics)
+        .filter(topic => topic.parent === article.id)
+        .flatMap(topic => topic.links)
+      links.push(...childQualifications);
+    }
+
+    return links;
+  }
+
+  visitTopic(article: KbApi.Article) {
     const page = getPage(article, this._locale)!;
     const heading = `${page.title}`;
     const blobId = `${page.id}_blob`;
@@ -134,7 +105,7 @@ class DatasourceVisitor {
       id: article.id,
       name: heading,
       blob: blobId,
-      links: [],
+      links: this.visitQualificationLinks(article, page),
       parent: article.parentId,
       headings: [{
         id: article.id,
@@ -144,7 +115,7 @@ class DatasourceVisitor {
       }]
     };
 
-    const value = page.materials.map(p => p.text).join('\n\n');
+    const value = page.materials.map(p => p.text).join('\n\n') ?? page.title;
     const blob: SiteApi.Blob = { id: blobId, value };
 
     this._blob[blob.id] = blob;
@@ -163,15 +134,31 @@ class DatasourceVisitor {
   }
 }
 
-export function findQualificiationLink(topic: SiteApi.TopicView): SiteApi.TopicLink | undefined {
-  const links = topic.links.filter(link => link.type === QUALIFICATION_LINK);
-  if(links.length !== 1) {
-    return undefined
+export function useQualifications() {
+  const { topics } = useSite();
+  
+  function findQualificiation(init: SiteApi.TopicView | KbApi.QualificationType): SiteApi.TopicLink | undefined  {
+
+    if((init as any).links) {
+      const topic: SiteApi.TopicView = init as SiteApi.TopicView;
+      const links = topic.links.filter(link => link.type === 'dialob' && link.path === QUALIFICATION_LINK);
+      if(links.length !== 1) {
+        return undefined
+      }
+      return links[0];
+    } else {
+      const [found] = topics.flatMap(t => t.links)
+        .filter(link => link.type === 'dialob' && link.path === QUALIFICATION_LINK)
+        .filter(link => link.value);
+      return found;
+    }
   }
-  return links[0];
+  return { findQualificiation };
 }
 
 
 export function parseSite(locale: string): SiteApi.Site {
-  return new DatasourceVisitor(locale, datasource.articles()).visit().close();
+  const result = new DatasourceVisitor(locale, datasource.articles()).visit().close();
+  console.debug(result);
+  return result;
 }

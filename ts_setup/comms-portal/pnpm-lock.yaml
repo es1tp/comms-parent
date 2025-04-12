@@ -15,8 +15,13 @@ importers:
         specifier: 1.3.13
         version: 1.3.13(moment@2.30.1)
       '@dxs-ts/gamut':
+<<<<<<< Updated upstream
         specifier: ^1.0.139
         version: 1.0.139(2volo4fj3nk462sjssi2qwcune)
+=======
+        specifier: ^1.0.140
+        version: 1.0.140(2volo4fj3nk462sjssi2qwcune)
+>>>>>>> Stashed changes
       '@emotion/react':
         specifier: ^11.10.6
         version: 11.14.0(@types/react@18.3.20)(react@18.3.1)
@@ -286,8 +291,13 @@ packages:
     peerDependencies:
       moment: ^2.24.0
 
+<<<<<<< Updated upstream
   '@dxs-ts/gamut@1.0.139':
     resolution: {integrity: sha512-PvGiwD/q5y8CK2WzFBqrJ93+k6d1sQEYOy8b6AXqcgU7R1EVcFpZXWLKv9fNkiszQIadudlTpyD1MxgA68YO1Q==}
+=======
+  '@dxs-ts/gamut@1.0.140':
+    resolution: {integrity: sha512-0Ddjj+CKyS15DT3zu3dGdjryOG0fHo71LT0nIWRCafPJBDlDggub5J95FO4lAw1SRi4GkYypwwqQ/5DznWQ9Sg==}
+>>>>>>> Stashed changes
     peerDependencies:
       '@date-io/date-fns': ^2.11.0
       '@date-io/moment': 1.3.13
@@ -2948,7 +2958,11 @@ snapshots:
       '@date-io/core': 1.3.13
       moment: 2.30.1
 
+<<<<<<< Updated upstream
   '@dxs-ts/gamut@1.0.139(2volo4fj3nk462sjssi2qwcune)':
+=======
+  '@dxs-ts/gamut@1.0.140(2volo4fj3nk462sjssi2qwcune)':
+>>>>>>> Stashed changes
     dependencies:
       '@date-io/date-fns': 2.17.0(date-fns@2.30.0)
       '@date-io/moment': 1.3.13(moment@2.30.1)

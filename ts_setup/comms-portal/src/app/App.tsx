@@ -33,13 +33,13 @@ export const App: React.FC<{}> = ({ }) => {
         en: en,
         fi: localeOptions,
       }}>
-        <IamBackendProvider liveness={900000} onExpire={() => { }}
+        <IamBackendProvider liveness={900000} staleTime={900000} onExpire={() => { }}
           fetchUserGET={iamFetch.fetchUserGET}
           fetchUserLivenessGET={iamFetch.fetchUserLivenessGET}
           fetchUserProductsGET={iamFetch.fetchUserProductsGET}
           fetchUserRolesGET={iamFetch.fetchUserRolesGET}>
 
-          <SiteBackendProvider
+          <SiteBackendProvider staleTime={900000}
             fetchSiteGet={siteFetch.fetchSiteGet}
             fetchFeedbackGet={siteFetch.fetchFeedbackGet}
             fetchFeedbackRatingPut={siteFetch.fetchFeedbackRatingPut}>
