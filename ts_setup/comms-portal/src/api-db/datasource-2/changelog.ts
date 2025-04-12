@@ -1,11 +1,7 @@
 import { KbApi } from '@/api-kb'
 
 export default {
-<<<<<<< Updated upstream
-  "timestamp": "2025-04-12T09:25:09.108+03:00",
-=======
   "timestamp": "2025-04-12T09:32:07.129+03:00",
->>>>>>> Stashed changes
   "changes": [
     {
       "id": "extra",
