@@ -1,28 +1,42 @@
 import { KbApi } from '@/api-kb'
 
 export default {
-  "timestamp": "2025-04-11T19:19:46.365+03:00",
+  "timestamp": "2025-04-12T09:25:09.108+03:00",
   "changes": [
     {
       "id": "extra",
       "changeObject": "article",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T19:19:46.365+03:00"
+      "timestamp": "2025-04-12T09:25:09.108+03:00"
+    },
+    {
+      "id": "extra_en",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-12T09:25:09.108+03:00"
+    },
+    {
+      "id": "extra_en_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-12T09:25:09.108+03:00"
     },
     {
       "id": "extra_et",
       "changeObject": "page",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T19:19:46.365+03:00"
+      "timestamp": "2025-04-12T09:25:09.108+03:00"
     },
     {
       "id": "extra_et_content",
       "changeObject": "material",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-11T19:19:46.365+03:00"
+      "timestamp": "2025-04-12T09:25:09.108+03:00"
     },
     {
       "id": "qualification",
