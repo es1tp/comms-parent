@@ -29,7 +29,7 @@ export const en = {
   'questionnaire-results.title': 'Exam results: correct: {correct}/{total} Exam percentage: {perc}%',
   'questionnaire-header.all': 'All questions',
   'questionnaire-header.reset': 'Reset',
-  'questionnaire-header.shuffle': 'Shuffle',
+  'questionnaire-header.shuffle': 'Shuffle(3)',
   'questionnaire-header.shuffle.big': 'Shuffle(25)',
   'buttons.scroll-to-top': 'Scroll to top',
   'buttons.cancel': 'Cancel'

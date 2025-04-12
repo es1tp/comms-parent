@@ -34,7 +34,7 @@ questionnaire.subject.select,,Select exam subject,Valige eksami teema,Select exa
 questionnaire-results.title,,Exam results: correct: {correct}/{total} Exam percentage: {perc}%,Eksamitulemused õige: {correct}/{total} Eksami protsent: {perc}%,Exam results correct:{correct}/{total} Exam percentage: {perc}%,,
 questionnaire-header.all,,All questions,Kõik küsimused,All questions,,
 questionnaire-header.reset,,Reset,Lähtestada,Reset,,
-questionnaire-header.shuffle,,Shuffle,Juhuslikud,Shuffle,,
+questionnaire-header.shuffle,,Shuffle(3),Juhuslikud(3),Shuffle(3),,
 questionnaire-header.shuffle.big,,Shuffle(25),Juhuslikud(25),Shuffle(25),,
 
 buttons.scroll-to-top,,Scroll to top,Kerige üles,Scroll to top,,,

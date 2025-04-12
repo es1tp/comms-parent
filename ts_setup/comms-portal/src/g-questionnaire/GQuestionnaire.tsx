@@ -28,10 +28,10 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
       <Container maxWidth='md' className='questionnaire-header'>
         <div ref={topRef} />
         <ButtonGroup variant='contained' fullWidth orientation={smallScreen ? 'vertical' : 'horizontal'}>
-          <Button onClick={() => all()}><Typography variant='body1'><FormattedMessage id='questionnaire-header.all' /></Typography></Button>
-          <Button onClick={() => reset()}><Typography variant='body1'><FormattedMessage id='questionnaire-header.reset' /></Typography></Button>
-          <Button onClick={() => shuffle(3)}><Typography variant='body1'><FormattedMessage id='questionnaire-header.shuffle' /></Typography></Button>
-          <Button onClick={() => shuffle(25)}><Typography variant='body1'><FormattedMessage id='questionnaire-header.shuffle.big' /></Typography></Button>
+          <Button onClick={() => all()}><FormattedMessage id='questionnaire-header.all' /></Button>
+          <Button onClick={() => reset()}><FormattedMessage id='questionnaire-header.reset' /></Button>
+          <Button onClick={() => shuffle(3)}><FormattedMessage id='questionnaire-header.shuffle' /></Button>
+          <Button onClick={() => shuffle(25)}><FormattedMessage id='questionnaire-header.shuffle.big' /></Button>
         </ButtonGroup>
 
         <Box className='subject'>

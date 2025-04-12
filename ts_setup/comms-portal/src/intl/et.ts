@@ -29,7 +29,7 @@ export const et = {
   'questionnaire-results.title': 'Eksamitulemused õige: {correct}/{total} Eksami protsent: {perc}%',
   'questionnaire-header.all': 'Kõik küsimused',
   'questionnaire-header.reset': 'Lähtestada',
-  'questionnaire-header.shuffle': 'Juhuslikud',
+  'questionnaire-header.shuffle': 'Juhuslikud(3)',
   'questionnaire-header.shuffle.big': 'Juhuslikud(25)',
   'buttons.scroll-to-top': 'Kerige üles',
   'buttons.cancel': 'Tühista'

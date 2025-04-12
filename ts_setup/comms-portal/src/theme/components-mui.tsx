@@ -172,14 +172,11 @@ export const components_mui: Components<Omit<Theme, 'components'>> = {
       {
         props: { variant: 'contained' },
         style: ({ theme }) => ({
-          fontSize: theme.typography.body1.fontSize,
-          textTransform: 'unset',
-          borderRadius: 'unset',
-          boxShadow: 'unset',
           backgroundColor: theme.palette.primary.main,
+          textTransform: 'inherit',
+          borderRadius: 'unset',
           '&:hover': {
-            backgroundColor: theme.palette.primary.light,
-            boxShadow: 'unset',
+            backgroundColor: theme.palette.primary.dark,
           }
         }),
       },
