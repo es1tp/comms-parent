@@ -7,28 +7,24 @@ import questionnaire_1 from './questionnaire-1'
 
 
 
-const articles: KbApi.Article[] = [
+const all_articles: KbApi.Article[] = [
   ...Object.values(datasource_1),
   ...Object.values(datasource_2)
 ];
 
-const questionnaires: ExamApi.ErauSubject[] = [
+const all_subjects: ExamApi.ErauSubject[] = [
   ...Object.values(questionnaire_1),
 ];
 
 
 
 const datasource = {
-  articles: () => [...articles], 
+  articles: () => [...all_articles], 
   questionnaires: (props: { locale: string, qualification: string }) => {
-    return questionnaires
-      .filter(({ locale }) => locale === props.locale)
+    return all_subjects.filter(({ locale }) => locale === props.locale)
       .map((subject) => {
-        
-        return {
-          ...subject,
-          questions: subject.questions.filter(question => question.qualifications.includes(props.qualification))
-        }
+        const questions = subject.questions.filter(question => question.qualifications.includes(props.qualification));
+        return { ...subject, questions }
       })
       .filter(({ questions }) => questions.length > 0);
   }

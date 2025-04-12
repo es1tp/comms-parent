@@ -25,6 +25,8 @@ const localeOptions = {
   'document.title': 'ES1TP'
 }
 
+const staleTime = 900000;
+
 export const App: React.FC<{}> = ({ }) => {
   return (
     <QueryClientProvider client={queryClient}>
@@ -33,13 +35,18 @@ export const App: React.FC<{}> = ({ }) => {
         en: en,
         fi: localeOptions,
       }}>
-        <IamBackendProvider liveness={900000} staleTime={900000} onExpire={() => { }}
+        <IamBackendProvider 
+          liveness={staleTime} 
+          staleTime={staleTime} 
+          onExpire={() => { }}
           fetchUserGET={iamFetch.fetchUserGET}
           fetchUserLivenessGET={iamFetch.fetchUserLivenessGET}
           fetchUserProductsGET={iamFetch.fetchUserProductsGET}
           fetchUserRolesGET={iamFetch.fetchUserRolesGET}>
 
-          <SiteBackendProvider staleTime={900000}
+          <SiteBackendProvider 
+            staleTime={staleTime}
+            refetchTime={staleTime}
             fetchSiteGet={siteFetch.fetchSiteGet}
             fetchFeedbackGet={siteFetch.fetchFeedbackGet}
             fetchFeedbackRatingPut={siteFetch.fetchFeedbackRatingPut}>

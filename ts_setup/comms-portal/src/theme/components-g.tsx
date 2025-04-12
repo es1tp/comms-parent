@@ -8,6 +8,7 @@ import { GTopicLink } from '@/g-popover-topics';
 import { GForm } from '@/g-form';
 import { GLinkFormUnlocked } from '@/g-link';
 import { CancelExamButton } from '@/g-questionnaire';
+import { GPopoverTopics } from '@/g-popover-topics';
 
 
 
@@ -98,9 +99,6 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
 
   GAppBar: {
   },
-
-
-
   GPopoverButton: {
     styleOverrides: {
       root: ({ theme }) => ({
@@ -156,7 +154,10 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
       groupTopics,
       filterTopic: (topic) => topic.id !== 'extra',
       slots: {
-        link: GTopicLink
+        link: GTopicLink,
+        popover(query, theme) {
+          return query(theme.breakpoints.up('sm')) ? GPopoverTopics: undefined;
+        }
       }
     },
     styleOverrides: {
