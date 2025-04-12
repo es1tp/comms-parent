@@ -12,11 +12,7 @@
   "dependencies": {
     "@date-io/date-fns": "^2.11.0",
     "@date-io/moment": "1.3.13",
-<<<<<<< Updated upstream
-    "@dxs-ts/gamut": "^1.0.139",
-=======
     "@dxs-ts/gamut": "^1.0.140",
->>>>>>> Stashed changes
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^6.1.1",
