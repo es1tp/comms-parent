@@ -31,5 +31,6 @@ export const et = {
   'questionnaire-header.reset': 'Lähtestada',
   'questionnaire-header.shuffle': 'Juhuslikud',
   'questionnaire-header.shuffle.big': 'Juhuslikud(25)',
-  'button.scroll-to-top': 'Kerige üles'
+  'buttons.scroll-to-top': 'Kerige üles',
+  'buttons.cancel': 'Tühista'
 }

@@ -7,6 +7,7 @@ import { groupTopics } from '@/api-site';
 import { GTopicLink } from '@/g-popover-topics';
 import { GForm } from '@/g-form';
 import { GLinkFormUnlocked } from '@/g-link';
+import { CancelExamButton } from '@/g-questionnaire';
 
 
 
@@ -93,14 +94,9 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
       })
     }
   },
-  GAppBar: {
-    styleOverrides: {
-      root: ({ theme }) => ({
-        '& .GLayout-root.GLayout-toolbar-n-rows-2-columns.GLayout-root': {
 
-        }
-      })
-    }
+
+  GAppBar: {
   },
 
 
@@ -167,7 +163,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
       //@ts-ignore
       topics: ({ theme }) => ({
         '& .child-topic': {
-          display: 'flex', 
+          display: 'flex',
           alignItems: 'center'
         },
       }),
@@ -177,14 +173,21 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
     defaultProps: { enabled(view) { return false } }
   },
   GLinkFormUnlocked: {
-    defaultProps: { slots: {
-      link: GLinkFormUnlocked
-    } }
+    defaultProps: {
+      slots: {
+        link: GLinkFormUnlocked
+      }
+    }
   },
   GRouterOffer: {
     defaultProps: {
-      
+      slots: {
+        appbar: {
+          right: () => <CancelExamButton />
+        }
+      }
     }
+
   },
   GForm: {
     defaultProps: {

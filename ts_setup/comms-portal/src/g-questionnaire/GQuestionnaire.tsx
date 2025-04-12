@@ -51,7 +51,7 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
         {subjects.map(s => (<Subject key={s.id} subject={s} />))}
 
         <Box display='flex' justifyContent='center'>
-          <Button className='scroll-top-button' variant='contained' onClick={scrollToTop}><FormattedMessage id='button.scroll-to-top' /></Button>
+          <Button className='scroll-top-button' variant='contained' onClick={scrollToTop}><FormattedMessage id='buttons.scroll-to-top' /></Button>
         </Box>
       </Container>
 

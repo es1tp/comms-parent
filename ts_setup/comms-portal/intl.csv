@@ -37,6 +37,7 @@ questionnaire-header.reset,,Reset,Lähtestada,Reset,,
 questionnaire-header.shuffle,,Shuffle,Juhuslikud,Shuffle,,
 questionnaire-header.shuffle.big,,Shuffle(25),Juhuslikud(25),Shuffle(25),,
 
-button.scroll-to-top,,Scroll to top,Kerige üles,Scroll to top
+buttons.scroll-to-top,,Scroll to top,Kerige üles,Scroll to top,,,
+buttons.cancel,,Cancel,Tühista,Cancel,,
 
 

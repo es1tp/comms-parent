@@ -31,5 +31,6 @@ export const en = {
   'questionnaire-header.reset': 'Reset',
   'questionnaire-header.shuffle': 'Shuffle',
   'questionnaire-header.shuffle.big': 'Shuffle(25)',
-  'button.scroll-to-top': 'Scroll to top'
+  'buttons.scroll-to-top': 'Scroll to top',
+  'buttons.cancel': 'Cancel'
 }
