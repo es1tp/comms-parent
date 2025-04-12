@@ -149,7 +149,7 @@ export function useQualifications() {
     } else {
       const [found] = topics.flatMap(t => t.links)
         .filter(link => link.type === 'dialob' && link.path === QUALIFICATION_LINK)
-        .filter(link => link.value);
+        .filter(link => link.value === init);
       return found;
     }
   }

@@ -21,12 +21,13 @@ const all_subjects: ExamApi.ErauSubject[] = [
 const datasource = {
   articles: () => [...all_articles], 
   questionnaires: (props: { locale: string, qualification: string }) => {
-    return all_subjects.filter(({ locale }) => locale === props.locale)
+    const subjects =  all_subjects.filter(({ locale }) => locale === props.locale)
       .map((subject) => {
         const questions = subject.questions.filter(question => question.qualifications.includes(props.qualification));
         return { ...subject, questions }
       })
       .filter(({ questions }) => questions.length > 0);
+    return subjects;
   }
 };
 
