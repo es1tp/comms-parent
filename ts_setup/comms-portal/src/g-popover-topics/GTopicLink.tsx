@@ -1,15 +1,16 @@
 import { Link } from '@mui/material';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import { GTopicLinkProps, SiteApi, useSite } from '@dxs-ts/gamut';
+import { GTopicLinkProps, SiteApi, useLocale, useSite } from '@dxs-ts/gamut';
 import { useQualifications } from '@/api-site';
 import { useExamLink } from '@/g-nav';
+import { useDb } from '@/api-db';
 
 
 
 export const GTopicLink: React.FC<GTopicLinkProps> = (props) => {  
   const root: SiteApi.TopicView = props.children;
   const { topics } = useSite();
-  
+
   const { navToExam } = useExamLink();
   const { findQualificiation } = useQualifications();
   
@@ -34,7 +35,7 @@ export const GTopicLink: React.FC<GTopicLinkProps> = (props) => {
     
     {childTopics.map(topic => (
       <Link key={topic.id} onClick={(event) => handleChildClick(event, topic)} className='child-topic'>
-        <ArrowRightIcon/>{topic.name}
+        <ArrowRightIcon/>{`${topic.name}`} 
       </Link>
     ))}
   </>

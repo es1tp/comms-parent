@@ -36,5 +36,9 @@ const datasource = {
 
 //@ts-ignore backdoor for console
 window.__datasource = datasource;
+export { datasource };
 
-export {datasource};
+export function useDb() {
+  return datasource;
+}
+

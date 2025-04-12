@@ -1,6 +1,6 @@
 import React from 'react';
 import { SiteApi, useLocale } from '@dxs-ts/gamut';
-import { datasource } from '@/api-db';
+import { useDb } from '@/api-db';
 
 import { ExamApi } from './exam-types';
 
@@ -9,7 +9,7 @@ import { ExamApi } from './exam-types';
 export const ExamContext = React.createContext<ExamApi.ExamContextType>({} as any);
 
 export const ExamProvider: React.FC<{ children: React.ReactNode, link: SiteApi.TopicLink }> = ({ children, link }) => {
-  
+  const datasource = useDb();
   const { locale } = useLocale();
   const qualification = link.value;
   const source: ExamApi.ErauSubject[] = datasource.questionnaires({qualification, locale});
@@ -21,8 +21,6 @@ const WithContext: React.FC<{ children: React.ReactNode, source: ExamApi.ErauSub
 
   const init = React.useMemo(() => ExamApi.getInstance({source}), [source]);
   const [state, setState] = React.useState(init);
-
-  console.log(state);
 
   const contextValue: ExamApi.ExamContextType = React.useMemo(() => {
     function selectAnswer(answerTk: string) {
