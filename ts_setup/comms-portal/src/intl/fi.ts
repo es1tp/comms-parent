@@ -1,4 +1,5 @@
 export const fi = {
+  'gamut.search.popover.allLinks': 'All links',
   'footer.column2.title': 'Become a radio amateur!',
   'footer.column3.title': 'Links',
   'footer.column4.title': 'Contact',
