@@ -4,7 +4,8 @@ import { ExamApi } from '@/api-exam';
 import datasource_1 from './datasource-1'
 import datasource_2 from './datasource-2'
 import questionnaire_1 from './questionnaire-1'
-
+import { calendar as erau_calendar } from './events-1/erau_events'
+import { EventApi } from '@/api-events';
 
 
 const all_articles: KbApi.Article[] = [
@@ -28,6 +29,9 @@ const datasource = {
       })
       .filter(({ questions }) => questions.length > 0);
     return subjects;
+  },
+  events: (): EventApi.Calendar => {
+    return erau_calendar
   }
 };
 
