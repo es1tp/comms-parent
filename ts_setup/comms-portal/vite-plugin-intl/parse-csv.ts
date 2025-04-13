@@ -93,9 +93,9 @@ export type IntlFile = {
 }
 
 
-export function parseCsv(path: string): Promise<IntlFile[]> {
+export async function parseCsv(path: string): Promise<IntlFile[]> {
   const visitor = new CsvReadVisitor();
-  
+  console.log('\u{1F30D} generating new intl');
 
   const promise = new Promise<IntlFile[]>((resolve, reject) => {
     createReadStream(path).pipe(csv())

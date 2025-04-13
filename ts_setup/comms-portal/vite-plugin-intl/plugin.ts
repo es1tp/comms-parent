@@ -33,19 +33,20 @@ export function vitePluginIntl(options: Partial<Config> = {}): Plugin {
     }
     setLock(true)
     try {
+
       const config = userConfig;
       const root = process.cwd();
       const csvFile = createFilePath([root], config.csv);
       const intlFiles: IntlFile[] = await parseCsv(csvFile.fullPath);
-    
+
+
       for(const newFile of intlFiles) {
         const path = createFilePath([root, config.intlDirectory], newFile.fileName);
         writeFile({ fullPath: path.fullPath, content: newFile.content });
       }
-      console.log('\u{1F30D} generated new intl');
+
     } catch (err) {
       console.error(err)
-      console.info()
     } finally {
       setLock(false)
     }

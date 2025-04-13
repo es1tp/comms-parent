@@ -79,6 +79,8 @@
     "@typescript-eslint/parser": "8.26.1",
     "@typescript-eslint/typescript-estree": "^8.26.1",
     "@vitejs/plugin-react": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "node-html-parser": "^7.0.1",
     "chokidar": "^4.0.3",
     "csv-parser": "^3.2.0",
     "eslint": "^9.24.0",

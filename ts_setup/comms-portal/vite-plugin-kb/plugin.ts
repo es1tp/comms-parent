@@ -16,7 +16,8 @@ function getConfig(init: Partial<Config>): Config {
       site: init.target?.site ?? 'src/datasource',
       questionnaire: init.target?.questionnaire ?? 'src/questionnaire',
     },
-    src: init.src ?? 'md-crawler-datasource'
+    src: init.src ?? 'md-crawler-datasource',
+    enabled: init.enabled === undefined ? true : init.enabled
   };
 }
 
@@ -26,6 +27,7 @@ export interface Config {
     questionnaire: string,
   }; 
   src: string;
+  enabled: boolean;
 }
 
 export function vitePluginKb(options: Partial<Config>[] = []): Plugin {
@@ -41,11 +43,16 @@ export function vitePluginKb(options: Partial<Config>[] = []): Plugin {
     setLock(true) 
     try {
       for(const option of userConfig) { 
+        if(!option.enabled) {
+          console.error(`Skipping to process config: ${option.src} because it is disabled`);
+          continue;
+        }
+
         try {
           const config = getConfig(option);
           visitAssets(config)
         } catch (err) {
-          console.error(`failed to process config: ${option} because of error: ${err}`);
+          console.error(`failed to process config: ${option.src} because of error: ${err}`);
         }
       }
     } catch (err) {

@@ -6,6 +6,7 @@ import svgr from 'vite-plugin-svgr';
 import { alias } from './vite.paths.config';
 import { vitePluginIntl } from './vite-plugin-intl';
 import { vitePluginKb } from './vite-plugin-kb';
+import { vitePluginEvents } from './vite-plugin-events';
 
 
 // https://vitejs.dev/config/
@@ -29,18 +30,21 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
       vitePluginIntl({}),
       vitePluginKb([
         { src: 'external-kb/erau', 
+          enabled: false,
           target: {
             site: 'src/api-db/datasource-1',
             questionnaire: 'src/api-db/questionnaire-1'
           } 
         },
         { src: 'external-kb/es3ky_r_z', 
+          enabled: true,
           target: {
             site: 'src/api-db/datasource-2',
             questionnaire: 'src/api-db/questionnaire-2'
           } 
         }
       ]),
+      vitePluginEvents({ directory: 'src/api-db/events-1', tsFilename: 'erau_events.ts', enabled: false })
     ],
     
     build: {
