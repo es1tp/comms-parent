@@ -43,7 +43,7 @@ export const GEvents: React.FC<{ children: SiteApi.TopicView }> = (props) => {
   const { } = useSite();
   const events = useDb().events();
 
-  const now = DateTime.now();
+  const now = DateTime.now().minus({days: 1});
   const nowAfterOneWeek = now.plus({ days: 7 });
 
 
