@@ -14,7 +14,7 @@ function getConfig(init: Partial<Config>): Config {
     tsFilename: init.tsFilename,
     jsonFilename: init.jsonFilename,
     directory: init.directory ?? "src",
-    enabled: true
+    enabled: init.enabled === undefined ? true : init.enabled
   };
 }
 

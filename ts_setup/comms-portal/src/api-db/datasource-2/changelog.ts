@@ -1,8 +1,85 @@
 import { KbApi } from '@/api-kb'
 
 export default {
-  "timestamp": "2025-04-12T09:32:07.129+03:00",
+  "timestamp": "2025-04-13T14:20:11.371+03:00",
   "changes": [
+    {
+      "id": "calendar",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T12:43:15.340+03:00"
+    },
+    {
+      "id": "calendar_comp_2_m",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T12:47:03.817+03:00"
+    },
+    {
+      "id": "calendar_comp_2_m_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T12:47:03.817+03:00"
+    },
+    {
+      "id": "calendar_comp_2_m_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T12:47:03.817+03:00"
+    },
+    {
+      "id": "calendar_comp_70_cm",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T14:20:11.371+03:00"
+    },
+    {
+      "id": "calendar_comp_70_cm_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T14:20:11.371+03:00"
+    },
+    {
+      "id": "calendar_comp_70_cm_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T14:20:11.371+03:00"
+    },
+    {
+      "id": "calendar_en",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T12:43:15.340+03:00"
+    },
+    {
+      "id": "calendar_en_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T12:43:15.340+03:00"
+    },
+    {
+      "id": "calendar_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T12:43:15.340+03:00"
+    },
+    {
+      "id": "calendar_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-13T12:43:15.340+03:00"
+    },
     {
       "id": "extra",
       "changeObject": "article",

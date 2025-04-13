@@ -9,6 +9,7 @@ import { GForm } from '@/g-form';
 import { GLinkFormUnlocked } from '@/g-link';
 import { CancelExamButton } from '@/g-questionnaire';
 import { GPopoverTopics } from '@/g-popover-topics';
+import { GEvents } from '@/g-events/GEvents';
 
 
 
@@ -127,7 +128,10 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
   GArticle: {
     defaultProps: {
       slots: {
-        pageLinks: undefined
+        pageLinks: undefined,
+        pageAdditionalInfo(topic) {
+          return topic?.id === 'calendar' ? GEvents : undefined;
+        },
       }
     }
   },

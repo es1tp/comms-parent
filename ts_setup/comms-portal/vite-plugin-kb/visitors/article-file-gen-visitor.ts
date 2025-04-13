@@ -57,6 +57,7 @@ class FileGenVisitor {
     }
   }
   visitNewArticle(current: KbApi.Article) {
+    console.log(`  - adding new article: ${current.id}`);
     const newSource = this.visitTsSource(current);
     this._new_change_log.push(...visitNewArticleChangeLog(current));
     this.visitWriteFile(newSource);
@@ -66,11 +67,13 @@ class FileGenVisitor {
     const newFile = this.visitTsSource(current);
     if(prev.test(newFile.content)) {
       // no changes
+      console.log(`  - no changes in article: ${current.id}`);
       this.visitNoChangeArticle(prev, current);
       return;
     }
 
     // figure out changes
+    console.log(`  - diffing changes in article: ${current.id}`);
     const newSource = this.visitTsSource(current);
     this._new_change_log.push(...visitDiffArticleChangeLog({ newArticle: current, prevArticle: prev.object, changelog: this._current_changelog?.object}));
     this.visitWriteFile(newSource);

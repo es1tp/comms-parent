@@ -35,6 +35,8 @@ class DirVisitor {
   }
 
   visitMeta(dirent: Dirent) {
+    console.log(`  - syncing directory: ${dirent.name}`);
+
     readLocaleDirent(dirent, 'meta.').forEach(({locale, content, file}) => {
       const entries = getKeyValues(content);
       const page: KbApi.Page = this.getOrCreatePage(locale);
