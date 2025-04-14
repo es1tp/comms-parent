@@ -131,11 +131,13 @@ class HtmlVisitor {
     const cleaned: string = eventDate.textContent.trim()
       .replace('.', ':')
       .replace(/[^0-9:-]+/g, '');
+
     if(!cleaned) {
       return {
         startTime: undefined,
         endTime: undefined
       };
+
     }
 
     
@@ -188,7 +190,6 @@ class HtmlVisitor {
           hour: row.endTime?.hour ?? 23, 
           minute: row.endTime?.minute ?? 59 })
       }
-
       return result;
     });
 

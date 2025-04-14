@@ -5,9 +5,10 @@ import { calendar_comp_4_m } from './calendar_comp_4_m'
 import { calendar_comp_6_m } from './calendar_comp_6_m'
 import { calendar_comp_70_cm } from './calendar_comp_70_cm'
 import { calendar_comp_80_m } from './calendar_comp_80_m'
+import { calendar_comp_es_open } from './calendar_comp_es_open'
 import { extra } from './extra'
 import { qualification } from './qualification'
 import { qualification_cat_a } from './qualification_cat_a'
 import { qualification_cat_b } from './qualification_cat_b'
 import { qualification_cat_d } from './qualification_cat_d'
-export default { calendar, calendar_comp_23_cm, calendar_comp_2_m, calendar_comp_4_m, calendar_comp_6_m, calendar_comp_70_cm, calendar_comp_80_m, extra, qualification, qualification_cat_a, qualification_cat_b, qualification_cat_d}
+export default { calendar, calendar_comp_23_cm, calendar_comp_2_m, calendar_comp_4_m, calendar_comp_6_m, calendar_comp_70_cm, calendar_comp_80_m, calendar_comp_es_open, extra, qualification, qualification_cat_a, qualification_cat_b, qualification_cat_d}
