@@ -30,6 +30,13 @@ footer.column4.address1,,Tallinn Polytechnic School,Tallinna Polütehnikum,Talli
 footer.column4.address2,,Pärnu mnt 57,Pärnu mnt 57,Pärnu mnt 57,
 footer.column4.postalCode,,10135 Tallinn,10135 Tallinn,10135 Tallinn,
 
+events.none,,No events found,Sündmust ei leitud,No events found,,
+events.filter,,Filter date range,Filtreeri kuupäevavahemik,Filter date range,,
+events.today,,Today,Täna,Today,,
+events.nextSevenDays,,Next 7 days,Järgmised 7 päeva,Next 7 days,,
+events.nextFourteenDays,,Next 14 days,Järgmised 14 päeva,Next 14 days,,
+events.nextThirtyDays,,Next 30 days,Järgmised 30 päeva,Next 30 days,,
+
 questionnaire.subject.select,,Select exam subject,Valige eksami teema,Select exam subject
 questionnaire-results.title,,Exam results: correct: {correct}/{total} Exam percentage: {perc}%,Eksamitulemused õige: {correct}/{total} Eksami protsent: {perc}%,Exam results correct:{correct}/{total} Exam percentage: {perc}%,,
 questionnaire-header.all,,All questions,Kõik küsimused,All questions,,

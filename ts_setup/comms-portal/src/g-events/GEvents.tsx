@@ -1,10 +1,17 @@
+import React from "react";
+
 import { useDb } from "@/api-db";
 import { GMarkdown, SiteApi, useLocale, useSite } from "@dxs-ts/gamut";
 import { Avatar, Card, CardContent, CardHeader, IconButton, Typography, Stack, useTheme } from "@mui/material";
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-
+import { useIntl } from "react-intl";
 import { DateTime } from "luxon";
+
 import { EventApi } from "@/api-events";
+import { TimePeriodSelection } from "./TimePeriodSelection";
+
+
+
 
 
 const Event: React.FC<{ value: EventApi.CalendarEvent }> = ({ value }) => {
@@ -42,26 +49,41 @@ const Event: React.FC<{ value: EventApi.CalendarEvent }> = ({ value }) => {
 
 
 export const GEvents: React.FC<{ children: SiteApi.TopicView }> = (props) => {
-  const { } = useSite();
+  const intl = useIntl();
   const events = useDb().events();
+  const [period, setPeriod] = React.useState(7);
 
   const now = DateTime.now().minus({ days: 1 });
-  const nowAfterOneWeek = now.plus({ days: 30 });
+  const nowAfterOneWeek = now.plus({ days: 7 });
+  const nowAfterTwoWeeks = now.plus({ days: 14 });
+  const nowAfterThirtyDays = now.plus({ days: 30 });
 
+  const endDate = (() => {
+    switch (period) {
+      case 1: return now;
+      case 7: return nowAfterOneWeek;
+      case 14: return nowAfterTwoWeeks;
+      case 30: return nowAfterThirtyDays;
+      default:
+        return nowAfterOneWeek;
+    }
+  })();
 
   const upcomingEvents = events.filter(event => {
-    const startsAt = DateTime.fromISO(event.startAt)
-    const isInFuture = startsAt >= now;
-    const isInOneWeek = startsAt <= nowAfterOneWeek;
-    return isInFuture && isInOneWeek;
+    const startsAt = DateTime.fromISO(event.startAt);
+    return startsAt >= now && startsAt <= endDate;
   }).sort((a, b) => {
     return DateTime.fromISO(a.startAt).toMillis() - DateTime.fromISO(b.startAt).toMillis();
   });
 
 
-  return (
+
+  return (<>
+    <TimePeriodSelection period={period} setPeriod={setPeriod} />
+    {!upcomingEvents.length && intl.formatMessage({ id: 'events.none' })}
     <Stack spacing={1}>
       {upcomingEvents.map((event, index) => <Event key={index} value={event} />)}
     </Stack>
+  </>
   )
 }
