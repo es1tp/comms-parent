@@ -105,6 +105,7 @@ class DatasourceVisitor {
       id: article.id,
       name: heading,
       blob: blobId,
+      matchingPolicy: page.matchingPolicy,
       links: this.visitQualificationLinks(article, page),
       parent: article.parentId,
       headings: [{

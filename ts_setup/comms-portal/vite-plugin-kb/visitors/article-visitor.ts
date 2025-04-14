@@ -41,8 +41,15 @@ class DirVisitor {
       const entries = getKeyValues(content);
       const page: KbApi.Page = this.getOrCreatePage(locale);
 
+
       if(entries['Q']) {
+        console.log(`  - syncing questionnaire: ${dirent.name}`);
         page.qualification = entries['Q'];
+      }
+
+      if (entries['R']) {
+        console.log(`  - syncing regexp article: ${dirent.name}`);
+        page.matchingPolicy = entries['R'];
       }
 
       if(entries['T']) {

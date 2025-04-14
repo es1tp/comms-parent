@@ -21,6 +21,7 @@ export declare namespace KbApi {
     localeCode: LocaleCode; // two letter 
     title: string; 
     qualification?: QualificationType | undefined; // page is dedicated for specific type of qualification
+    matchingPolicy?: string | undefined; // regexp to match with other data like event names
 
     materials: Material[]
     questionnaire: Question[];

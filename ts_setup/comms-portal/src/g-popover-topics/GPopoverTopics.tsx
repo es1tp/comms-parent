@@ -39,11 +39,11 @@ export const GPopoverTopics: React.FC<GPopoverTopicsSlotProps> = (props) => {
 
           <SimpleTreeView>
             {roots.map(root => (
-              <TreeItem itemId={root.id} label={root.topic.name}>
-                {root.blob?.value && <TreeItem itemId={root.id + '/index'} label={root.topic.name} onClick={(event) => handleTopicChange(root, event)} />}
+              <TreeItem itemId={root.id} label={root.topic.name} key={root.id}>
+                {root.blob?.value && <TreeItem key={root.id} itemId={root.id + '/index'} label={root.topic.name} onClick={(event) => handleTopicChange(root, event)} />}
                 {props.topics
                   .filter(child => child.parent?.id === root.id)
-                  .map(child => (<TreeItem itemId={child.id} label={child.name} onClick={(event) => handleTopicChange(child, event)} />))}
+                  .map(child => (<TreeItem key={root.id} itemId={child.id} label={child.name} onClick={(event) => handleTopicChange(child, event)} />))}
               </TreeItem>
 
             ))}

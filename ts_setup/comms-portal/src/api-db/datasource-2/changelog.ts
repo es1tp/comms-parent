@@ -1,7 +1,7 @@
 import { KbApi } from '@/api-kb'
 
 export default {
-  "timestamp": "2025-04-13T14:20:11.371+03:00",
+  "timestamp": "2025-04-14T12:12:50.564+03:00",
   "changes": [
     {
       "id": "calendar",
@@ -15,42 +15,126 @@ export default {
       "changeObject": "article",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-13T12:47:03.817+03:00"
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
     },
     {
       "id": "calendar_comp_2_m_et",
       "changeObject": "page",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-13T12:47:03.817+03:00"
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
     },
     {
       "id": "calendar_comp_2_m_et_content",
       "changeObject": "material",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-13T12:47:03.817+03:00"
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_23_cm",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_23_cm_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_23_cm_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_4_m",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_4_m_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_4_m_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_6_m",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_6_m_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_6_m_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
     },
     {
       "id": "calendar_comp_70_cm",
       "changeObject": "article",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-13T14:20:11.371+03:00"
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
     },
     {
       "id": "calendar_comp_70_cm_et",
       "changeObject": "page",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-13T14:20:11.371+03:00"
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
     },
     {
       "id": "calendar_comp_70_cm_et_content",
       "changeObject": "material",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-04-13T14:20:11.371+03:00"
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_80_m",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_80_m_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
+    },
+    {
+      "id": "calendar_comp_80_m_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-04-14T12:12:50.564+03:00"
     },
     {
       "id": "calendar_en",
