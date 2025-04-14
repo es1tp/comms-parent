@@ -2,6 +2,7 @@ ID,Info,en,et,fi,sv
 document.title,,ES1TP,ES1TP,,
 gamut.locale.et,,Estonian,Eesti keel,,,
 gamut.locale.en,,English,Inglise keel,,,
+gamut.article.pagelinks.forms.title,,Links,Lingid,Links,,
 gamut.buttons.serviceSelect,,Select topic,Valige teema,,,
 gamut.buttons.search,,Search,Otsing,,,
 gamut.search.popover.title,,Search,Otsing,,,

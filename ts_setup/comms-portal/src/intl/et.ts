@@ -2,6 +2,7 @@ export const et = {
   'document.title': 'ES1TP',
   'gamut.locale.et': 'Eesti keel',
   'gamut.locale.en': 'Inglise keel',
+  'gamut.article.pagelinks.forms.title': 'Lingid',
   'gamut.buttons.serviceSelect': 'Valige teema',
   'gamut.buttons.search': 'Otsing',
   'gamut.search.popover.title': 'Otsing',
