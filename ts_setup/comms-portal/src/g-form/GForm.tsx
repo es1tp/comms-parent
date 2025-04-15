@@ -1,4 +1,4 @@
-import { ExamApi, ExamProvider } from "@/api-exam";
+import { ExamProvider } from "@/api-exam";
 import { GQuestionnaire } from "@/g-questionnaire";
 import { GFormProps, useSite } from "@dxs-ts/gamut";
 

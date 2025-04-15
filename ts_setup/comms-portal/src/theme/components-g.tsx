@@ -6,7 +6,7 @@ import { DemoFooter } from './DemoFooter';
 import { groupTopics } from '@/api-site';
 import { GTopicLink } from '@/g-popover-topics';
 import { GForm } from '@/g-form';
-import { GLinkFormUnlocked } from '@/g-link';
+import { GLinkFormUnlocked, GLinkFormSearchResult } from '@/g-link';
 import { CancelExamButton } from '@/g-questionnaire';
 import { GPopoverTopics } from '@/g-popover-topics';
 import { GEvents } from '@/g-events/GEvents';
@@ -183,6 +183,13 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
         link: GLinkFormUnlocked
       }
     }
+  },
+  GLinkFormUnlockedSearchResults: {
+    defaultProps: {
+      slots: {
+        link: GLinkFormSearchResult
+      }
+    },
   },
   GRouterOffer: {
     defaultProps: {

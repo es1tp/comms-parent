@@ -2,7 +2,7 @@ import React from 'react';
 import { Drawer } from '@mui/material';
 import { SimpleTreeView, TreeItem } from '@mui/x-tree-view';
 
-import { GAppBarSpacer, GPopoverTopicsSlotProps, GShell, GShellClassName, SiteApi } from '@dxs-ts/gamut';
+import { GAppBarSpacer, GPopoverTopicsSlotProps, GShell, GShellClassName, SiteApi, useSite } from '@dxs-ts/gamut';
 import { useQualifications } from '@/api-site';
 import { useExamLink } from '@/g-nav';
 import { TopicsMenuRoot, useUtilityClasses } from './useUtilityClasses';
@@ -10,6 +10,7 @@ import { TopicsMenuRoot, useUtilityClasses } from './useUtilityClasses';
 
 export const GPopoverTopics: React.FC<GPopoverTopicsSlotProps> = (props) => {
 
+  const { views } = useSite();
   const { navToExam } = useExamLink();
   const { findQualificiation } = useQualifications();
   const classes = useUtilityClasses();
@@ -30,6 +31,8 @@ export const GPopoverTopics: React.FC<GPopoverTopicsSlotProps> = (props) => {
       props.onTopic(topic, event);
     }
   }
+console.log(views);
+
 
   return (
     <Drawer open={props.open} onClose={props.onClose} className={GShellClassName}>

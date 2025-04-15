@@ -77,8 +77,9 @@ class DatasourceVisitor {
         name: heading,
         value: page.qualification,
         anon: true,
-        type: 'dialob',
-        path: QUALIFICATION_LINK
+        type: 'workflow',
+        path: QUALIFICATION_LINK,
+        workflow: true
       };
       links.push(link.id);
       this._links[link.id] = link;
@@ -142,14 +143,14 @@ export function useQualifications() {
 
     if((init as any).links) {
       const topic: SiteApi.TopicView = init as SiteApi.TopicView;
-      const links = topic.links.filter(link => link.type === 'dialob' && link.path === QUALIFICATION_LINK);
+      const links = topic.links.filter(link => link.type === 'workflow' && link.path === QUALIFICATION_LINK);
       if(links.length !== 1) {
         return undefined
       }
       return links[0];
     } else {
       const [found] = topics.flatMap(t => t.links)
-        .filter(link => link.type === 'dialob' && link.path === QUALIFICATION_LINK)
+        .filter(link => link.type === 'workflow' && link.path === QUALIFICATION_LINK)
         .filter(link => link.value === init);
       return found;
     }
