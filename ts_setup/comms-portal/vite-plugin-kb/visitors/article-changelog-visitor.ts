@@ -5,80 +5,10 @@ import { DateTime } from 'luxon';
 export const NOW = DateTime.now().toISO();
 
 
-type ArticleObject = (
-  {
-    id: string;
-    changeObject: 'article';
-    value: KbApi.Article
-  } |
-  {
-    id: string;
-    changeObject: 'page';
-    value: KbApi.Page
-  } |
-  {
-    id: string;
-    changeObject: 'material';
-    value: KbApi.Material
-  } |
-  {
-    id: string;
-    changeObject: 'answer';
-    value: KbApi.Answer
-  } |
-  {
-    id: string;
-    changeObject: 'question';
-    value: KbApi.Question
-  }
-)
-
-function flatOutArticle(article: KbApi.Article): Record<string, ArticleObject> {
-  const allEntries: Record<string, ArticleObject> = {};
-  allEntries[article.id] = {
-    id: article.id,
-    changeObject: 'article',
-    value: article
-  };
-
-  for(const page of article.pages) {
-    allEntries[page.id] = {
-      id: page.id,
-      changeObject: 'page',
-      value: page
-    };
-
-    for(const material of page.materials) {
-      allEntries[material.id] = {
-        id: material.id,
-        changeObject: 'material',
-        value: material
-      };
-    }
-    for(const question of page.questionnaire) {
-      allEntries[question.id] = {
-        id: question.id,
-        changeObject: 'question',
-        value: question
-      };
-
-      for(const answer of question.answers) {
-        allEntries[answer.id] = {
-          id: answer.id,
-          changeObject: 'answer',
-          value: answer
-        };
-        
-      }
-    }
-  }
-  return allEntries;
-}
-
 export function visitNewArticleChangeLog(article: KbApi.Article): KbApi.ArticleChange[] {
   const change_log: KbApi.ArticleChange[] = [];
 
-  for(const entry of Object.values(flatOutArticle(article))) {
+  for(const entry of Object.values(KbApi.flatOutArticle(article))) {
     change_log.push({
       id: entry.id,
       changeObject: entry.changeObject,
@@ -92,8 +22,8 @@ export function visitNewArticleChangeLog(article: KbApi.Article): KbApi.ArticleC
 
 export function visitDiffArticleChangeLog(props: { prevArticle: KbApi.Article, newArticle: KbApi.Article, changelog: KbApi.ArticleChangeLog | undefined }): KbApi.ArticleChange[] {
   const change_log: KbApi.ArticleChange[] = [];
-  const newData = flatOutArticle(props.newArticle);
-  const prevData = flatOutArticle(props.prevArticle);
+  const newData = KbApi.flatOutArticle(props.newArticle);
+  const prevData = KbApi.flatOutArticle(props.prevArticle);
 
   const oldChangeLog = getChangelogEntries(props.prevArticle, props.changelog);
 

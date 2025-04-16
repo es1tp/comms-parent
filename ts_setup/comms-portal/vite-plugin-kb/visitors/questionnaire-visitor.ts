@@ -54,13 +54,15 @@ class QuestionnaireVisitor {
   visitQuestions(article: KbApi.Article, page: KbApi.Page): ExamApi.ErauQuestion[] {
     const result: Record<string, ExamApi.ErauQuestion> = {};
     
-    for(const { id, question, answers, qualifications } of page.questionnaire) {
+    for(const { id, question, answers, qualifications, formula, type } of page.questionnaire) {
       
       const entry: ExamApi.ErauQuestion = result[id] ?? { id, info: [], answers: [], text: {}, qualifications: [] };
       answers.forEach(answer => this.visitAnswer(answer, page, entry))
 
       entry.qualifications.push(...qualifications);
       entry.text = question;
+      entry.formula = formula;
+      entry.type = type;
       result[entry.id] = entry;
     }
     

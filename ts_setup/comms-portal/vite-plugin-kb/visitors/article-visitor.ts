@@ -26,7 +26,7 @@ class DirVisitor {
     this._parentId = parent?.id;
     this.visitMeta(dirent);
     this.visitContent(dirent)
-    this.visitQuestion(dirent);
+    this.visitQuestions(dirent);
     return this;
   }
 
@@ -79,7 +79,7 @@ class DirVisitor {
       this._pages[locale] = page;
     });
   }
-  visitQuestion(dirent: Dirent) {
+  visitQuestions(dirent: Dirent) {
     readLocaleDirent(dirent, 'q').forEach(({locale, content, nameWithoutExt}) => {
       const page: KbApi.Page = this.getOrCreatePage(locale);
       const gid = `${page.id}_${nameWithoutExt}_${locale}`;
@@ -87,46 +87,14 @@ class DirVisitor {
       if(this._questions[gid]) {
         throw Error(`duplicate question id-s for the same locale: ${gid}!`);
       }
+      
 
       try {
-        const entries = getKeyValues(content);
-        const question = entries['?']?.trim();
-        if(!question) {
-          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing title!`);
+        const newEntry = this.visitQuestion(content, gid, dirent, nameWithoutExt);
+        if(!newEntry) {
           return;
         }
-
-        const rawClassifiers = entries['.'];
-        if(!rawClassifiers) {
-          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing classifiers! \r\n${content}!`);
-        }
-
-        const qualifications: string[] = rawClassifiers ? rawClassifiers.trim().split('') : [];
-        if(!qualifications) {
-          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing classifiers! \r\n${content}!`);
-        }
-
-
-        const answers: KbApi.Answer[] = Object.entries(entries)
-          .filter(([key]) => !(key === '?' || key === '.' || key === 'Q') )
-          .map(([key, value]) => ({
-            id: `${gid}_${key.substring(0, 1)}`,
-            answer: value,
-            isCorrect: key.includes('*')
-          }));
-
-        if(answers.length === 0) {
-          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because there are no answers!`);
-          return;
-        }
-        if(answers.filter(a => a.isCorrect).length === 0) {
-          console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because there are no correct answers! \r\n${content}`);
-          return;
-        }
-
-        const newEntry: KbApi.Question = { id: gid, groupId: nameWithoutExt, question, answers, qualifications };
         page.questionnaire.push(newEntry);
-
         this._pages[locale] = page;
         this._questions[gid] = newEntry;
       } catch(error) {
@@ -134,6 +102,59 @@ class DirVisitor {
       }
     });
   }
+
+
+  visitQuestion(content: string, gid: string, dirent: Dirent, groupId: string): KbApi.Question | undefined {
+    const entries = getKeyValues(content);
+    const question = entries['?']?.trim();
+    if(!question) {
+      console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing title!`);
+      return;
+    }
+
+    const rawClassifiers = entries['.'];
+    if(!rawClassifiers) {
+      console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing classifiers! \r\n${content}!`);
+    }
+
+    const qualifications: string[] = rawClassifiers ? rawClassifiers.trim().split('') : [];
+    if(!qualifications) {
+      console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because it has missing classifiers! \r\n${content}!`);
+    }
+
+    const answers = this.visitAnswers(entries, gid);
+
+    if(answers.length === 0) {
+      console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because there are no answers!`);
+      return;
+    }
+    if(answers.filter(a => a.isCorrect).length === 0) {
+      console.error(`Failed to parse question with gid: ${gid} in: ${dirent.parentPath} because there are no correct answers! \r\n${content}`);
+      return;
+    }
+    const formula = entries['_']?.trim();
+
+    const newEntry: KbApi.Question = { 
+      id: gid, 
+      type: formula ? 'formula' : undefined,
+      formula, groupId, question, answers, qualifications 
+    };
+
+    return newEntry;
+  }
+
+  visitAnswers(entries: Record<string, string>, questionId: string) {
+    const answers: KbApi.Answer[] = Object.entries(entries)
+    .filter(([key]) => !(key === '?' || key === '.' || key === 'Q' || key === '_') )
+    .map(([key, value]) => ({
+      id: `${questionId}_${key.substring(0, 1)}`,
+      answer: value,
+      isCorrect: key.includes('*')
+    }));
+
+    return answers;
+  }
+
   close(): KbApi.Article {
     return {
       id: this._id,

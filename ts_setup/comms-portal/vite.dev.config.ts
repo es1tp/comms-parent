@@ -37,7 +37,15 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
             site: 'src/api-db/datasource-2',
             questionnaire: 'src/api-db/questionnaire-2'
           } 
+        },
+        { src: 'external-kb/erau_extra', 
+          enabled: true,
+          target: {
+            site: 'src/api-db/datasource-3',
+            questionnaire: 'src/api-db/questionnaire-3'
+          } 
         }
+
       ]),
 
       vitePluginEvents({ directory: 'src/api-db/events-1', tsFilename: 'erau_events.ts', enabled: false })

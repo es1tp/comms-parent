@@ -1,5 +1,11 @@
 import * as ctx from "./ExamContext";
 import { ExamStateImpl } from "./ExamStateImpl";
+import { mergeSubjects as _mergeSubjects } from './mergeSubjects';
+
+
+export namespace ExamApi {
+  export const mergeSubjects = _mergeSubjects
+}
 
 
 export declare namespace ExamApi {
@@ -20,6 +26,8 @@ export declare namespace ExamApi {
     info: TranslatedText[];
     answers: ErauAnswer[];
     qualifications: string[];
+    formula?: string | undefined
+    type?: 'formula' | undefined // dynamic question based on formula
   }
   export interface ErauAnswer {
     id: string;

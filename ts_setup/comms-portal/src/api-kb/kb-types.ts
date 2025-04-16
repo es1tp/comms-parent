@@ -1,4 +1,5 @@
-
+import {flatOutArticle as _flatOutArticle} from './flatOutArticle'
+import {mergeArticles as _mergeArticles} from './mergeArticles';
 
 export declare namespace KbApi {
   type Letter = 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z'
@@ -38,6 +39,8 @@ export declare namespace KbApi {
     question: string;
     answers: Answer[];
     qualifications: QualificationType[];
+    formula?: string | undefined;
+    type?: 'formula' // dynamic question based on formula
   }
 
   export interface Answer {
@@ -57,4 +60,42 @@ export declare namespace KbApi {
     timestamp: string;
     comment: string;
   }
+
+
+
+  export type ArticleObject = (
+    {
+      id: string;
+      changeObject: 'article';
+      value: KbApi.Article
+    } |
+    {
+      id: string;
+      changeObject: 'page';
+      value: KbApi.Page
+    } |
+    {
+      id: string;
+      changeObject: 'material';
+      value: KbApi.Material
+    } |
+    {
+      id: string;
+      changeObject: 'answer';
+      value: KbApi.Answer
+    } |
+    {
+      id: string;
+      changeObject: 'question';
+      value: KbApi.Question
+    }
+  )
+}
+
+
+export namespace KbApi {
+
+  export const flatOutArticle = _flatOutArticle;
+  export const mergeArticles = _mergeArticles;
+  
 }

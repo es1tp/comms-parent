@@ -3,19 +3,25 @@ import { ExamApi } from '@/api-exam';
 
 import datasource_1 from './datasource-1'
 import datasource_2 from './datasource-2'
+import datasource_3 from './datasource-3'
 import questionnaire_1 from './questionnaire-1'
+import questionnaire_3 from './questionnaire-3'
 import { calendar as erau_calendar } from './events-1/erau_events'
 import { EventApi } from '@/api-events';
 
 
-const all_articles: KbApi.Article[] = [
-  ...Object.values(datasource_1),
-  ...Object.values(datasource_2)
-];
 
-const all_subjects: ExamApi.ErauSubject[] = [
+
+const all_articles: KbApi.Article[] = KbApi.mergeArticles([
+  ...Object.values(datasource_1),
+  ...Object.values(datasource_2),
+  ...Object.values(datasource_3)
+]);
+
+const all_subjects: ExamApi.ErauSubject[] = ExamApi.mergeSubjects([
   ...Object.values(questionnaire_1),
-];
+  ...Object.values(questionnaire_3),
+]);
 
 
 
