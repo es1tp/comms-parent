@@ -13,6 +13,8 @@ class FormulaVisitor {
   private _engine = new PhysicsEngine();
   private _formula_to_what: PhysicsValueType;
   private _formula: Formula;
+  private _formula_text: string;
+  private _variable_index: number = 0;
 
   
   constructor(init: ErauApi.ErauQuestion) {
@@ -23,6 +25,7 @@ class FormulaVisitor {
     const position = init.formula.indexOf('=');
     this._formula_to_what = this._engine.isSupportedType(init.formula.substring(0, position).trim());
     this._formula = new Formula(init.formula.substring(position + 1).trim())
+    this._formula_text = init.formula;
   }
 
   visit(): ErauApi.ErauQuestion {
@@ -52,6 +55,7 @@ class FormulaVisitor {
         this._engine.clear();
         this._engine.reserveAllValues(variables)
         this._engine.reserveValue(result, this._formula_to_what)
+        this._variable_index = index;
         return { variables, value: result };
       }
     }
@@ -82,22 +86,31 @@ class FormulaVisitor {
     let index = 0;
     while(index < 3) {
       const isCorrect = correctAnswerAt === index;
-      const value = isCorrect ? used.value : this._engine.nextValue(this._formula_to_what);
+      
       const template = this._engine.anyInt(0, this._init.answers.length-1);
       const answer = this._init.answers[template];
 
-
-      const generatedText: string = answer.text
-        .replace(`{${this._formula_to_what}}`, `${value}`)
-        .replace(`{${this._formula_to_what.toUpperCase()}}`, `${value}`);
       answers.push({
         id: `${answer.id}_${index}`,
         isCorrect,
-        text: generatedText + (correctAnswerAt === index ? ' (' + this._init.formula + ')' : '')
+        text: this.visitAnswerText(used, answer, isCorrect)
       })
       index++;
     }
     return answers;
+  }
+
+  private visitAnswerText(used: UsedVariables, answer: ErauApi.ErauAnswer, isCorrect: boolean): string {
+    const value = isCorrect ? used.value : this._engine.nextValue(this._formula_to_what);
+    const generatedText: string = answer.text
+      .replace(`{${this._formula_to_what}}`, `${value}`)
+      .replace(`{${this._formula_to_what.toUpperCase()}}`, `${value}`);
+
+    let stats = '';
+    if(isCorrect) {
+      stats = ` (${this._formula_text}) - (${this._variable_index} - loops)`;
+    }
+    return generatedText + stats;
   }
 }
 
