@@ -5,7 +5,6 @@ b. Peak envelope power
 c. Effective radiated power *
 d. Isotropic coverage
 
-
 What is the effective radiated power (ERP) of a repeater station with 150 watts transmitter power output, 2 dB feed line loss, 2.2 dB duplexer loss, 
 and 7 dBd antenna gain?
 a. 469 watts
@@ -31,4 +30,10 @@ a. 5 Hz to 50 Hz
 b. 150 Hz to 500 Hz
 c. 2 kHz to 3 kHz *
 d. Approximately 6 kHz
+
+When selecting a CW transmitting frequency, what minimum separation should be used to minimize interference to stations on adjacent frequencies?
+a. 5 Hz to 50 Hz
+b. 150 Hz to 500 Hz *
+c. 1 kHz to 3 kHz
+d. 3 kHz to 6 kHz
 
