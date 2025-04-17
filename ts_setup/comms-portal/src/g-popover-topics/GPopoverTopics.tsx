@@ -31,7 +31,6 @@ export const GPopoverTopics: React.FC<GPopoverTopicsSlotProps> = (props) => {
       props.onTopic(topic, event);
     }
   }
-console.log(views);
 
 
   return (

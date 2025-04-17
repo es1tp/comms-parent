@@ -17,9 +17,6 @@ export const ExamProvider: React.FC<{ children: React.ReactNode, link: SiteApi.T
   const qualification = link.value;
   const source: ErauApi.ErauSubject[] = React.useMemo(() => datasource.questionnaires({qualification, locale}), [qualification, locale]);
 
-  console.log("xyz");
-
-  //return null;
   return (<WithContext source={source}>{children}</WithContext>)
 }
 

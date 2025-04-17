@@ -1,10 +1,14 @@
 import { merge as _merge } from './merge-visitor';
+import { PhysicsEngine } from './physics-engine';
 import { shuffle as _shuffle } from './shuffle-visitor';
+import { generateFormulaQuestion as _generateFormulaQuestion } from './generate-formula-question';
 
 
 export namespace ErauApi {
   export const merge = _merge;
   export const shuffle = _shuffle;
+  export const physicsEngine = () => new PhysicsEngine();
+  export const generateFormulaQuestion = _generateFormulaQuestion
 }
 
 export declare namespace ErauApi {

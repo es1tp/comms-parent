@@ -2,7 +2,6 @@ import { ErauApi } from "@/api-erau";
 import { ExamApi } from "./exam-types";
 
 
-
 class ExamGenerator {
   private _subjects: Record<string, ExamApi.Subject> = {};
   private _questions: Record<string, ExamApi.Question> = {};
@@ -21,7 +20,14 @@ class ExamGenerator {
       title: def.title,
       articleId: def.articleId,
       locale: def.locale,
-      questions: def.questions.map(q => this.visitQuestion(def.id, q)),
+      questions: def.questions
+        .map(q => {
+          if(q.type === 'formula') {
+            return ErauApi.generateFormulaQuestion(q);
+          }
+          return q;
+        })
+        .map(q => this.visitQuestion(def.id, q)),
     };
     this._subjects[def.id] = subject;
   }

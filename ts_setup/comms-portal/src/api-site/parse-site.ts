@@ -161,6 +161,5 @@ export function useQualifications() {
 
 export function parseSite(locale: string): SiteApi.Site {
   const result = new DatasourceVisitor(locale, datasource.articles()).visit().close();
-  console.debug(result);
   return result;
 }
