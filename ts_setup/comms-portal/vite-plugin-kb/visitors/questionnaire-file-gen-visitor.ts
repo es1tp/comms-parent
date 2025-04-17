@@ -1,5 +1,5 @@
 import { readdirSync, existsSync, unlinkSync } from 'node:fs'
-import { ExamApi } from '../../src/api-exam';
+import { ErauApi } from '../../src/api-erau';
 import { KbApi } from '../../src/api-kb';
 import { createFilePath, readTsObjectDirent, TsObjectSource, writeFile } from '../utils'
 import { visitQuestions } from './questionnaire-visitor';
@@ -16,12 +16,12 @@ const CHANGE_LOG_FILE = 'changelog.ts'
 
 class FileGenVisitor {
   private _targetDir: string;
-  private _new_articles: ExamApi.ErauSubject[];
+  private _new_articles: ErauApi.ErauSubject[];
 
-  private _current_source: Record<string, TsObjectSource<ExamApi.ErauSubject>>;
-  private _current_changelog: TsObjectSource<ExamApi.ErauChangeLog> | undefined;
+  private _current_source: Record<string, TsObjectSource<ErauApi.ErauSubject>>;
+  private _current_changelog: TsObjectSource<ErauApi.ErauChangeLog> | undefined;
   
-  private _new_change_log: ExamApi.ErauChange[] = [];
+  private _new_change_log: ErauApi.ErauChange[] = [];
   private _regen_index: boolean = false;
 
   constructor(targetDir: string, articles: KbApi.Article[]) {
@@ -34,14 +34,14 @@ class FileGenVisitor {
     this._current_source = tsFiles
       .filter(dirent => dirent.name !== 'index.ts')
       .filter(dirent => dirent.name !== CHANGE_LOG_FILE)
-      .map(dirent => readTsObjectDirent<ExamApi.ErauSubject>(dirent))
-      .reduce<Record<string, TsObjectSource<ExamApi.ErauSubject>>>((collector, current) => {
+      .map(dirent => readTsObjectDirent<ErauApi.ErauSubject>(dirent))
+      .reduce<Record<string, TsObjectSource<ErauApi.ErauSubject>>>((collector, current) => {
         collector[current.object.id] = current
         return collector;
       }, {});
     this._current_changelog = tsFiles
       .filter(dirent => dirent.name === CHANGE_LOG_FILE)
-      .map(dirent => readTsObjectDirent<ExamApi.ErauChangeLog>(dirent))
+      .map(dirent => readTsObjectDirent<ErauApi.ErauChangeLog>(dirent))
       .find(entry => true);
       
     this._targetDir = targetDir;
@@ -53,21 +53,21 @@ class FileGenVisitor {
     return this;
   }
 
-  visitArticle(article: ExamApi.ErauSubject) {
-    const prev: TsObjectSource<ExamApi.ErauSubject> | undefined = this._current_source[article.id];
+  visitArticle(article: ErauApi.ErauSubject) {
+    const prev: TsObjectSource<ErauApi.ErauSubject> | undefined = this._current_source[article.id];
     if(prev) {
       this.visitDiffArticle(prev, article)
     } else {
       this.visitNewArticle(article);
     }
   }
-  visitNewArticle(current: ExamApi.ErauSubject) {
+  visitNewArticle(current: ErauApi.ErauSubject) {
     const newSource = this.visitTsSource(current);
     this._new_change_log.push(...visitNewArticleChangeLog(current));
     this.visitWriteFile(newSource);
   }
 
-  visitDiffArticle(prev: TsObjectSource<ExamApi.ErauSubject>, current: ExamApi.ErauSubject) {
+  visitDiffArticle(prev: TsObjectSource<ErauApi.ErauSubject>, current: ErauApi.ErauSubject) {
     const newFile = this.visitTsSource(current);
     if(prev.test(newFile.content)) {
       // no changes
@@ -81,14 +81,14 @@ class FileGenVisitor {
     this.visitWriteFile(newSource);
   }
 
-  visitNoChangeArticle(prev: TsObjectSource<ExamApi.ErauSubject>, current: ExamApi.ErauSubject) {
+  visitNoChangeArticle(prev: TsObjectSource<ErauApi.ErauSubject>, current: ErauApi.ErauSubject) {
     this._new_change_log.push(...visitNoChangesArticleChangeLog({ current, changelog: this._current_changelog?.object})); 
   }
 
-  visitTsSource(article: ExamApi.ErauSubject): TsSource {
+  visitTsSource(article: ErauApi.ErauSubject): TsSource {
     const lines = JSON.stringify(article, null, 2)
-    const importLine = `import { ExamApi } from '@/api-exam'\n\n`;
-    const content = importLine + `export const ${article.id}: ExamApi.ErauSubject = ${lines}`;
+    const importLine = `import { ErauApi } from '@/api-erau'\n\n`;
+    const content = importLine + `export const ${article.id}: ErauApi.ErauSubject = ${lines}`;
     return { content, filename: `${article.id}.ts` };
   }
 
@@ -120,12 +120,12 @@ class FileGenVisitor {
       return;
     }
 
-    const changeLog: ExamApi.ErauChangeLog = {
+    const changeLog: ErauApi.ErauChangeLog = {
       timestamp: NOW,
       changes: newLog
     }
 
-    const importLine = `import { ExamApi } from '@/api-exam'\n\n`;
+    const importLine = `import { ErauApi } from '@/api-erau'\n\n`;
     const content = `${importLine}export default ${JSON.stringify(changeLog, null, 2)}`;
 
     this.visitWriteFile({ filename: CHANGE_LOG_FILE, content });

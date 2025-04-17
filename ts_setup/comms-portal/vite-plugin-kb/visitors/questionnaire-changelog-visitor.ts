@@ -1,4 +1,4 @@
-import { ExamApi } from '../../src/api-exam';
+import { ErauApi } from '../../src/api-erau';
 import { DateTime } from 'luxon';
 
 
@@ -10,21 +10,21 @@ type ExamObject = (
   {
     id: string;
     changeObject: 'subject';
-    value: ExamApi.ErauSubject
+    value: ErauApi.ErauSubject
   } |
   {
     id: string;
     changeObject: 'answer';
-    value: ExamApi.ErauAnswer
+    value: ErauApi.ErauAnswer
   } |
   {
     id: string;
     changeObject: 'question';
-    value: ExamApi.ErauQuestion
+    value: ErauApi.ErauQuestion
   }
 )
 
-function flatOutArticle(article: ExamApi.ErauSubject): Record<string, ExamObject> {
+function flatOutArticle(article: ErauApi.ErauSubject): Record<string, ExamObject> {
   const allEntries: Record<string, ExamObject> = {};
   allEntries[article.id] = {
     id: article.id,
@@ -50,8 +50,8 @@ function flatOutArticle(article: ExamApi.ErauSubject): Record<string, ExamObject
   return allEntries;
 }
 
-export function visitNewArticleChangeLog(article: ExamApi.ErauSubject): ExamApi.ErauChange[] {
-  const change_log: ExamApi.ErauChange[] = [];
+export function visitNewArticleChangeLog(article: ErauApi.ErauSubject): ErauApi.ErauChange[] {
+  const change_log: ErauApi.ErauChange[] = [];
 
   for(const entry of Object.values(flatOutArticle(article))) {
     change_log.push({
@@ -65,8 +65,8 @@ export function visitNewArticleChangeLog(article: ExamApi.ErauSubject): ExamApi.
   return change_log;
 }
 
-export function visitDiffArticleChangeLog(props: { prevArticle: ExamApi.ErauSubject, newArticle: ExamApi.ErauSubject, changelog: ExamApi.ErauChangeLog | undefined }): ExamApi.ErauChange[] {
-  const change_log: ExamApi.ErauChange[] = [];
+export function visitDiffArticleChangeLog(props: { prevArticle: ErauApi.ErauSubject, newArticle: ErauApi.ErauSubject, changelog: ErauApi.ErauChangeLog | undefined }): ErauApi.ErauChange[] {
+  const change_log: ErauApi.ErauChange[] = [];
   const newData = flatOutArticle(props.newArticle);
   const prevData = flatOutArticle(props.prevArticle);
 
@@ -109,7 +109,7 @@ export function visitDiffArticleChangeLog(props: { prevArticle: ExamApi.ErauSubj
 }
 
 
-export function visitNoChangesArticleChangeLog(props: {current: ExamApi.ErauSubject, changelog: ExamApi.ErauChangeLog | undefined}): ExamApi.ErauChange[] {
+export function visitNoChangesArticleChangeLog(props: {current: ErauApi.ErauSubject, changelog: ErauApi.ErauChangeLog | undefined}): ErauApi.ErauChange[] {
   const asIfNewAddition = visitNewArticleChangeLog(props.current);
 
   // old entries that are present
@@ -121,8 +121,8 @@ export function visitNoChangesArticleChangeLog(props: {current: ExamApi.ErauSubj
 }
 
 
-function getChangelogEntries(article: ExamApi.ErauSubject, changelog: ExamApi.ErauChangeLog | undefined) {
-  const logById = (changelog?.changes ?? []).reduce<Record<string, ExamApi.ErauChange>>((collector, next) => {
+function getChangelogEntries(article: ErauApi.ErauSubject, changelog: ErauApi.ErauChangeLog | undefined) {
+  const logById = (changelog?.changes ?? []).reduce<Record<string, ErauApi.ErauChange>>((collector, next) => {
     collector[next.id] = next;
     return collector;
   }, {});

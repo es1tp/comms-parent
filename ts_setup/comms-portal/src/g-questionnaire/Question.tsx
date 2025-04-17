@@ -1,7 +1,7 @@
 import React from 'react';
-import { Typography, List, ListSubheader, ListItemButton, ListItemText, ListItemIcon, Paper, Box, Divider } from '@mui/material';
+import { Typography, List, ListItemButton, ListItemText, ListItemIcon, Paper, Box, Divider } from '@mui/material';
 
-import { useExam, ExamApi } from '@/api-exam';
+import { ExamApi } from '@/api-exam';
 import { QuestionExplainer } from './QuestionExplainer';
 
 
@@ -34,7 +34,7 @@ function handleTranslate(text: string) {
 
 */
 const Answer: React.FC<{ answer: ExamApi.Answer, index: number }> = ({ answer, index }) => {
-  const { selectAnswer } = useExam();
+  const { selectAnswer } = ExamApi.useExam();
   const success = getSuccess(answer);
   const fail = getError(answer);
 

@@ -3,7 +3,7 @@ import { Container, Paper, Typography, ButtonGroup, Button, Box, MenuItem, TextF
 
 import Sticky from 'react-sticky-el';
 import { FormattedMessage } from 'react-intl';
-import { useExam } from '@/api-exam';
+import { ExamApi } from '@/api-exam';
 
 import { Subject } from './Subject';
 import { GQuestionnaireRoot } from './useUtilityClasses';
@@ -14,9 +14,9 @@ export const GQuestionnaire: React.FC<{}> = ({ }) => {
   const theme = useTheme();
   const smallScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
-  const { value, shuffle, reset, all, selectSubject } = useExam();
+  const { value, shuffle, reset, all, selectSubject, selectedSubject, source } = ExamApi.useExam();
   const subjects = Object.values(value.questionnaire.subjects);
-  const { selectedSubject, stats, source } = value;
+  const { stats } = value;
   const { correct, perc, total } = stats;
   const topRef = React.useRef<HTMLDivElement>(null);
   const scrollToTop = () => {

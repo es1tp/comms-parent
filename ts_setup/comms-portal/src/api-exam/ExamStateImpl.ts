@@ -1,35 +1,46 @@
+import { ErauApi } from '@/api-erau';
+
+/*
 import { ExamApi } from './exam-types';
 import { QuestionnaireReducer } from './QuestionnaireReducer';
-import { Shuffle } from './Shuffle';
+
 
 
 export class ExamStateImpl implements ExamApi.ExamState {
-  private _source: ExamApi.ErauSubject[];
+  private _source: ErauApi.ErauSubject[];
+  private _selectedSubject: ErauApi.ErauSubject | undefined;
+  
   private _questionnaire: ExamApi.Questionnaire;
   private _selectedAnswers: string[];
-  private _selectedSubject: ExamApi.ErauSubject | undefined;
 
 
   constructor(props: {
-    source: ExamApi.ErauSubject[],
-    subject?: ExamApi.ErauSubject | undefined,
+    source: ErauApi.ErauSubject[],
+    subject?: ErauApi.ErauSubject | undefined,
+
     selectedAnswers?: { values: string[], questionnaire: ExamApi.Questionnaire },
     nextNQuestions?: number
   }) {
     this._source = props.source;    
     this._selectedSubject = props.subject;
 
+
+    // ongoing exam
     if (props.selectedAnswers) {
       this._selectedAnswers = [...props.selectedAnswers.values];
       const subjects = Object.values(props.selectedAnswers.questionnaire.subjects);
       this._questionnaire = new QuestionnaireReducer(subjects, this._selectedAnswers).accept(); 
     } else {
+      // new exam
       const source = !!props.subject ? props.source.filter(e => e.id === props.subject?.id) : props.source;
       this._selectedAnswers = [];
-      const nextQuesions = props.nextNQuestions ? new Shuffle(source, props.nextNQuestions).accept() : source;
-      this._questionnaire = new QuestionnaireReducer(nextQuesions, this._selectedAnswers).accept();    
+      
+      const nextQuesions = props.nextNQuestions ? ErauApi.shuffle(source, props.nextNQuestions): source;
+      this._questionnaire = new QuestionnaireReducer(nextQuesions, []).accept();    
     }
   }
+
+
   selectAnswer(answerTk: string): ExamApi.ExamState {
     const source = this._source;
     const questionnaire = this._questionnaire;
@@ -73,12 +84,12 @@ export class ExamStateImpl implements ExamApi.ExamState {
     return { perc, total, correct }
   }
 
-  get selectedSubject(): ExamApi.ErauSubject | undefined {
+  get selectedSubject(): ErauApi.ErauSubject | undefined {
     return this._selectedSubject;
   }
 
-  selectSubject(subject: ExamApi.ErauSubject | undefined): ExamApi.ExamState {
+  selectSubject(subject: ErauApi.ErauSubject | undefined): ExamApi.ExamState {
     const source = this._source;
     return new ExamStateImpl({ source, subject });
   }
-}
+}*/

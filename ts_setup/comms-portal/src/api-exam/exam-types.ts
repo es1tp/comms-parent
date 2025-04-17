@@ -1,56 +1,14 @@
+import { ErauApi } from "@/api-erau";
 import * as ctx from "./ExamContext";
-import { ExamStateImpl } from "./ExamStateImpl";
-import { mergeSubjects as _mergeSubjects } from './mergeSubjects';
 
 
-export namespace ExamApi {
-  export const mergeSubjects = _mergeSubjects
-}
 
-
+// API for answering exam / aka UI state for the exam
 export declare namespace ExamApi {
   export type LocaleCode = string;
   export type TranslatedText = string;
 
-  export interface ErauSubject {
-    id: string;
-    articleId: string;
-    title: TranslatedText;
-    questions: ErauQuestion[];
-    locale: LocaleCode;
-  }
-  
-  export interface ErauQuestion {
-    id: string;
-    text: TranslatedText;
-    info: TranslatedText[];
-    answers: ErauAnswer[];
-    qualifications: string[];
-    formula?: string | undefined
-    type?: 'formula' | undefined // dynamic question based on formula
-  }
-  export interface ErauAnswer {
-    id: string;
-    text: TranslatedText;
-    isCorrect: boolean; 
-  }
-
-  export type ErauChangeLog = {
-    timestamp: string;
-    changes: ErauChange[];
-  };
-  export interface ErauChange {
-    id: string;
-    changeObject: 'question' | 'answer' | 'subject';
-    changeType: 'add' | 'update';
-    timestamp: string;
-    comment: string;
-  }
-
-
-
   export interface Subject {
-    
     id: string;
     articleId: string;
     title: TranslatedText;
@@ -87,16 +45,9 @@ export declare namespace ExamApi {
   }
 
   export interface ExamState {
-    selectSubject(subject: ErauSubject | undefined): ExamState;
-    selectAnswer(answerTk: string): ExamState;
-    suffle(nextNQuestions: number): ExamState;
     reset(): ExamState;
-    all(): ExamState;
-
-
-    source: ErauSubject[];
+    answer(answerId: string): ExamState;
     questionnaire: Questionnaire;
-    selectedSubject: ErauSubject | undefined;
     stats: { 
       perc: string;
       total: number;
@@ -106,10 +57,13 @@ export declare namespace ExamApi {
 
   export interface ExamContextType {
     value: ExamState;
+    source: ErauApi.ErauSubject[];
+    selectedSubject: ErauApi.ErauSubject | undefined;
 
     selectAnswer(answerTk: string): void;
-    selectSubject(selectedSubject: ErauSubject | undefined): void;
+    selectSubject(selectedSubject: ErauApi.ErauSubject | undefined): void;
     shuffle(nextNQuestions: number): void;
+
     reset(): void;
     all(): void;
   }
@@ -118,5 +72,4 @@ export declare namespace ExamApi {
 export namespace ExamApi {
   export const ExamProvider = ctx.ExamProvider;
   export const useExam = ctx.useExam;
-  export const getInstance = (props: { source: ErauSubject[] }): ExamState => new ExamStateImpl(props);
 }

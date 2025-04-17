@@ -1,6 +1,6 @@
-import { ExamApi } from '@/api-exam'
+import { ErauApi } from '@/api-erau'
 
-export const C01_S03_et: ExamApi.ErauSubject = {
+export const C01_S03_et: ErauApi.ErauSubject = {
   "id": "C01_S03_et",
   "articleId": "C01_S03",
   "locale": "et",

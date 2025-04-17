@@ -1,14 +1,16 @@
+import { ErauApi } from '@/api-erau';
 import { ExamApi } from './exam-types';
-
+/*
 
 export class QuestionnaireReducer {
-  private _source: ExamApi.ErauSubject[];
+  private _source: ErauApi.ErauSubject[];
+
   private _subjects: Record<string, ExamApi.Subject> = {};
   private _questions: Record<string, ExamApi.Question> = {};
   private _answers: Record<string, ExamApi.Answer> = {};
   private _selectedAnswers: string[];
 
-  constructor(source: ExamApi.ErauSubject[], selectedAnswers: string[]) {
+  constructor(source: ErauApi.ErauSubject[], selectedAnswers: string[]) {
     this._source = source;
     this._selectedAnswers = selectedAnswers;
   }
@@ -82,3 +84,4 @@ export class QuestionnaireReducer {
     return answer;
   }
 }
+*/

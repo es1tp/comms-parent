@@ -46,7 +46,7 @@ class ArticleMergeVisitor {
 }
 
 
-export function mergeArticles(articles: KbApi.Article[]): KbApi.Article[] {
+export function merge(articles: KbApi.Article[]): KbApi.Article[] {
   const visitor = new ArticleMergeVisitor();
   for(const entry of articles) {
     visitor.visitArticle(entry);

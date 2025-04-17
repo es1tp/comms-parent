@@ -1,5 +1,5 @@
 import { KbApi } from '@/api-kb';
-import { ExamApi } from '@/api-exam';
+import { ErauApi } from '@/api-erau';
 
 import datasource_1 from './datasource-1'
 import datasource_2 from './datasource-2'
@@ -18,7 +18,7 @@ const all_articles: KbApi.Article[] = KbApi.mergeArticles([
   ...Object.values(datasource_3)
 ]);
 
-const all_subjects: ExamApi.ErauSubject[] = ExamApi.mergeSubjects([
+const all_subjects: ErauApi.ErauSubject[] = ErauApi.merge([
   ...Object.values(questionnaire_1),
   ...Object.values(questionnaire_3),
 ]);

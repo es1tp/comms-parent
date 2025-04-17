@@ -1,4 +1,4 @@
-import { ExamProvider } from "@/api-exam";
+import { ExamApi } from "@/api-exam";
 import { GQuestionnaire } from "@/g-questionnaire";
 import { GFormProps, useSite } from "@dxs-ts/gamut";
 
@@ -9,8 +9,8 @@ export const GForm: React.FC<{className: string, ownerState: GFormProps}> = (pro
   const examLink = getLink(id);
 
   return (
-    <ExamProvider link={examLink}>
+    <ExamApi.ExamProvider link={examLink}>
       <GQuestionnaire />
-    </ExamProvider>
+    </ExamApi.ExamProvider>
   )
 }

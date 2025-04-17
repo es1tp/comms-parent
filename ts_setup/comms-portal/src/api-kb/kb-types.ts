@@ -1,5 +1,5 @@
 import {flatOutArticle as _flatOutArticle} from './flatOutArticle'
-import {mergeArticles as _mergeArticles} from './mergeArticles';
+import {merge as _merge} from './mergeArticles';
 
 export declare namespace KbApi {
   type Letter = 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z'
@@ -96,6 +96,6 @@ export declare namespace KbApi {
 export namespace KbApi {
 
   export const flatOutArticle = _flatOutArticle;
-  export const mergeArticles = _mergeArticles;
+  export const mergeArticles = _merge;
   
 }
