@@ -1,4 +1,4 @@
-import { ErauApi } from '@/api-erau'
+import { ErauApi } from '../../api-erau'
 
 export const C04_S06_et: ErauApi.ErauSubject = {
   "id": "C04_S06_et",

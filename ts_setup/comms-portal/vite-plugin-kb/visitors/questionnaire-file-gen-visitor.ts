@@ -87,7 +87,7 @@ class FileGenVisitor {
 
   visitTsSource(article: ErauApi.ErauSubject): TsSource {
     const lines = JSON.stringify(article, null, 2)
-    const importLine = `import { ErauApi } from '@/api-erau'\n\n`;
+    const importLine = `import { ErauApi } from '../../api-erau'\n\n`;
     const content = importLine + `export const ${article.id}: ErauApi.ErauSubject = ${lines}`;
     return { content, filename: `${article.id}.ts` };
   }
@@ -125,7 +125,7 @@ class FileGenVisitor {
       changes: newLog
     }
 
-    const importLine = `import { ErauApi } from '@/api-erau'\n\n`;
+    const importLine = `import { ErauApi } from '../../api-erau'\n\n`;
     const content = `${importLine}export default ${JSON.stringify(changeLog, null, 2)}`;
 
     this.visitWriteFile({ filename: CHANGE_LOG_FILE, content });

@@ -1,4 +1,4 @@
-import { KbApi } from '@/api-kb'
+import { KbApi } from '../../api-kb'
 
 export const C11_S01: KbApi.Article = {
   "id": "C11_S01",

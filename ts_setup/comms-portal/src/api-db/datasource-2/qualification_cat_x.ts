@@ -1,4 +1,4 @@
-import { KbApi } from '@/api-kb'
+import { KbApi } from '../../api-kb'
 
 export const qualification_cat_x: KbApi.Article = {
   "id": "qualification_cat_x",

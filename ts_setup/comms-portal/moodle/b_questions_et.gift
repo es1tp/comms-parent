@@ -1,0 +1,1365 @@
+// MD5: b2e92247c67148bab3c0776c40000ea1
+// question: C01_S01_et_q001_et name: C01_S01_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S01
+
+::C01_S01_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Mida tähendab termin impedants?<br></p>{
+=<p dir="ltr" style="text-align: left;">Vooluringi poolt vahelduvvoolule osutatavat takistust.<br></p>
+~<p dir="ltr" style="text-align: left;">Kondensaatoris salvestatavat elektrilaengut.<br></p>
+~<p dir="ltr" style="text-align: left;">Mahtuvust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust.<br></p>
+}
+
+// question: C01_S01_et_q011_et name: C01_S01_et_q011_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S01
+
+::C01_S01_et_q011_et::[html]<p dir="ltr" style="text-align: left;">Milline on reaktiivtakistuse mõõtühik?<br></p>{
+=<p dir="ltr" style="text-align: left;">Oom<br></p>
+~<p dir="ltr" style="text-align: left;">Amper.<br></p>
+~<p dir="ltr" style="text-align: left;">Siemens.<br></p>
+}
+
+// question: C01_S01_et_q012_et name: C01_S01_et_q012_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S01
+
+::C01_S01_et_q012_et::[html]<p dir="ltr" style="text-align: left;">Milline on impedantsi mõõtühik?<br></p>{
+=<p dir="ltr" style="text-align: left;">Oom.<br></p>
+~<p dir="ltr" style="text-align: left;">Volt.<br></p>
+~<p dir="ltr" style="text-align: left;">Amper.<br></p>
+}
+
+// question: C01_S03_et_q022_et name: C01_S03_et_q022_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S03
+
+::C01_S03_et_q022_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on kasutatav võimsus kui 400 V pingega vooluallikas ühendatakse 800 oomise koormusega?<br></p>{
+=<p dir="ltr" style="text-align: left;">200 vatti.<br></p>
+~<p dir="ltr" style="text-align: left;">0,5 vatti.<br></p>
+~<p dir="ltr" style="text-align: left;">400 vatti<br></p>
+}
+
+// question: C01_S03_et_q023_et name: C01_S03_et_q023_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S03
+
+::C01_S03_et_q023_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on 12 V 0,2 A vooluga indikaatorlambi võimsus?<br></p>{
+=<p dir="ltr" style="text-align: left;">2,4 vatti<br></p>
+~<p dir="ltr" style="text-align: left;">60 vatti.<br></p>
+~<p dir="ltr" style="text-align: left;">24 vatti.<br></p>
+}
+
+// question: C01_S03_et_q024_et name: C01_S03_et_q024_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S03
+
+::C01_S03_et_q024_et::[html]<p dir="ltr" style="text-align: left;">Kui suur võimsus eraldub 100 oomisel takistil, kui tema jalgadel mõõdetud pinge on 5 V?<br></p>{
+=<p dir="ltr" style="text-align: left;">250 millivatti.<br></p>
+~<p dir="ltr" style="text-align: left;">500 millivatti.<br></p>
+~<p dir="ltr" style="text-align: left;">50 millivatti.<br></p>
+~<p dir="ltr" style="text-align: left;">20 millivatti.<br></p>
+}
+
+// question: C01_S04_et_q013_et name: C01_S04_et_q013_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S04
+
+::C01_S04_et_q013_et::[html]<p dir="ltr" style="text-align: left;">Mis on Bell?<br></p>{
+=<p dir="ltr" style="text-align: left;">Erinevate võimsuste suhte suurust väljendav ühik.<br></p>
+~<p dir="ltr" style="text-align: left;">Mahtuvuse muutumise mõõtühik.<br></p>
+~<p dir="ltr" style="text-align: left;">Induktiivsuse muutumise mõõtühik.<br></p>
+}
+
+// question: C01_S04_et_q014_et name: C01_S04_et_q014_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S04
+
+::C01_S04_et_q014_et::[html]<p dir="ltr" style="text-align: left;">Mis on detsibell?<br></p>{
+=<p dir="ltr" style="text-align: left;">Võimsusnivoode suhte muutumine 0,1 Belli võrra.<br></p>
+~<p dir="ltr" style="text-align: left;">Võimsusnivoode suhte muutumine 0,01 Belli võrra<br></p>
+~<p dir="ltr" style="text-align: left;">Võimsusnivoode suhte muutumine 10 Belli võrra.<br></p>
+}
+
+// question: C01_S04_et_q015_et name: C01_S04_et_q015_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S04
+
+::C01_S04_et_q015_et::[html]<p dir="ltr" style="text-align: left;">Ligikaudu mitu detsibelli on vaevaltmärgatav helitugevuse muutus?<br></p>{
+=<p dir="ltr" style="text-align: left;">1 dB.<br></p>
+~<p dir="ltr" style="text-align: left;">12 dB.<br></p>
+~<p dir="ltr" style="text-align: left;">6 dB.<br></p>
+~<p dir="ltr" style="text-align: left;">3 dB<br></p>
+}
+
+// question: C01_S04_et_q016_et name: C01_S04_et_q016_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S04
+
+::C01_S04_et_q016_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on Võimsuse suurenemine kaks korda detsibellides?<br></p>{
+=<p dir="ltr" style="text-align: left;">3 dB.<br></p>
+~<p dir="ltr" style="text-align: left;">1 dB.<br></p>
+~<p dir="ltr" style="text-align: left;">6 dB<br></p>
+}
+
+// question: C01_S04_et_q017_et name: C01_S04_et_q017_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S04
+
+::C01_S04_et_q017_et::[html]<p dir="ltr" style="text-align: left;">Mitu korda suureneb võimsus 6 dB puhul?<br></p>{
+=<p dir="ltr" style="text-align: left;">4 korda.<br></p>
+~<p dir="ltr" style="text-align: left;">1,5 korda.<br></p>
+~<p dir="ltr" style="text-align: left;">2 korda.<br></p>
+}
+
+// question: C01_S04_et_q018_et name: C01_S04_et_q018_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S04
+
+::C01_S04_et_q018_et::[html]<p dir="ltr" style="text-align: left;">Mitu korda suureneb võimsus 3 dB puhul?<br></p>{
+=<p dir="ltr" style="text-align: left;">2 korda.<br></p>
+~<p dir="ltr" style="text-align: left;">1,5 korda.<br></p>
+~<p dir="ltr" style="text-align: left;">4 korda<br></p>
+}
+
+// question: C01_S04_et_q019_et name: C01_S04_et_q019_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S04
+
+::C01_S04_et_q019_et::[html]<p dir="ltr" style="text-align: left;">Signaali raport on ”10 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 150 vatini kui suur on uus signaali tugevuse raport?<br></p>{
+=<p dir="ltr" style="text-align: left;">S9.<br></p>
+~<p dir="ltr" style="text-align: left;">S5.<br></p>
+~<p dir="ltr" style="text-align: left;">S7<br></p>
+}
+
+// question: C01_S04_et_q020_et name: C01_S04_et_q020_et
+$CATEGORY: $course$/top/B-kategooria eksam/C01_S04
+
+::C01_S04_et_q020_et::[html]<p dir="ltr" style="text-align: left;">Signaali raport on “20 dB üle S9”.Kui saatja võimsust vähendatakse 1500 vatilt 15 vatini kui suur on uus signaali tugevuse raport?<br></p>{
+=<p dir="ltr" style="text-align: left;">S9.<br></p>
+~<p dir="ltr" style="text-align: left;">S5.<br></p>
+~<p dir="ltr" style="text-align: left;">S7<br></p>
+}
+
+// question: C02_S01_et_q001_et name: C02_S01_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S01
+
+::C02_S01_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Kuidas mõjub ümbruskonna temperatuur süsiniktakisti takistusele?<br></p>{
+=<p dir="ltr" style="text-align: left;">Takistuse muutus sõltub takisti temperatuuritegurist.<br></p>
+~<p dir="ltr" style="text-align: left;">Takistus suureneb 20% temperatuuri tõusmisel iga 10 kraadi võrra.<br></p>
+~<p dir="ltr" style="text-align: left;">Takistuse suurus ei muutu.<br></p>
+}
+
+// question: C02_S01_et_q002_et name: C02_S01_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S01
+
+::C02_S01_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Mis tüüpi kondensaatorit kasutatakse tihti võrgutoitealaldi silumisfiltris?<br></p>{
+=<p dir="ltr" style="text-align: left;">Elektrolüütkondensaatorit.<br></p>
+~<p dir="ltr" style="text-align: left;">Keraamilist ketaskondensaatorit.<br></p>
+~<p dir="ltr" style="text-align: left;">Muutuva mahtuvusega vaakumkondensaatorit.<br></p>
+}
+
+// question: C02_S01_et_q003_et name: C02_S01_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S01
+
+::C02_S01_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Millised kondensaatorid lülitatakse rööbiti transformaatori sekundaarmähisega pingeimpulsside vähendamiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Keraamilised kondensaatorid.<br></p>
+~<p dir="ltr" style="text-align: left;">Suure mahtuvusega kondensaatorid.<br></p>
+~<p dir="ltr" style="text-align: left;">Muutuva mahtuvusega vaakumkondensaatorid.<br></p>
+}
+
+// question: C02_S01_et_q004_et name: C02_S01_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S01
+
+::C02_S01_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Mis tekitab poolide omaresonantsi?<br></p>{
+=<p dir="ltr" style="text-align: left;">Keerdudevaheline mahtuvus.<br></p>
+~<p dir="ltr" style="text-align: left;">Hajutatud elektromagnetism.<br></p>
+~<p dir="ltr" style="text-align: left;">Pöörisvoolud.<br></p>
+}
+
+// question: C02_S02_et_q008_et name: C02_S02_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S02
+
+::C02_S02_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Mis on toiteseadme alalduselemendi vastupinge?<br></p>{
+=<p dir="ltr" style="text-align: left;">Mittejuhtivas suunas dioodi klemmidele rakendatud maksimaalne pinge.<br></p>
+~<p dir="ltr" style="text-align: left;">Suurim siirdepinge, mida diood on võimeline taluma.<br></p>
+~<p dir="ltr" style="text-align: left;">1,4 korda elektrivõrgu sagedus.<br></p>
+}
+
+// question: C02_S02_et_q009_et name: C02_S02_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S02
+
+::C02_S02_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Millist dioodi parameetrit ei tohi ületada?<br></p>{
+=<p dir="ltr" style="text-align: left;">Maksimaalne vastupinge<br></p>
+~<p dir="ltr" style="text-align: left;">Pärisuunaline pingelang dioodil<br></p>
+~<p dir="ltr" style="text-align: left;">Diferentsiaaltakistus<br></p>
+~<p dir="ltr" style="text-align: left;">Laviinpinge<br></p>
+}
+
+// question: C02_S02_et_q010_et name: C02_S02_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S02
+
+::C02_S02_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Miks peavad alaldi dioodid olema termaalselt kaitstud?<br></p>{
+=<p dir="ltr" style="text-align: left;">Ülemäärase kuumenemise tõttu võivad rikneda.<br></p>
+~<p dir="ltr" style="text-align: left;">Nende läheduse tõttu transformaatorile.<br></p>
+~<p dir="ltr" style="text-align: left;">Nende tundlikkuse tõttu siirdepingete mõjule.<br></p>
+}
+
+// question: C02_S02_et_q011_et name: C02_S02_et_q011_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S02
+
+::C02_S02_et_q011_et::[html]<p dir="ltr" style="text-align: left;">Mis on Zener dioodi (stabilitroni) peamine omadus?<br></p>{
+=<p dir="ltr" style="text-align: left;">Tagab konstantse pinge kõikuva voolu puhul.<br></p>
+~<p dir="ltr" style="text-align: left;">Tagab konstantse voolu kõikuva pinge puhul.<br></p>
+~<p dir="ltr" style="text-align: left;">Tagab konstantse voolu konstantse pinge puhul.<br></p>
+}
+
+// question: C02_S02_et_q012_et name: C02_S02_et_q012_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S02
+
+::C02_S02_et_q012_et::[html]<p dir="ltr" style="text-align: left;">Mis tüüpi diood on võimeline ostsilleerima ja ka võimendama?<br></p>{
+=<p dir="ltr" style="text-align: left;">Tunneldiood.<br></p>
+~<p dir="ltr" style="text-align: left;">Punktkontaktdiood.<br></p>
+~<p dir="ltr" style="text-align: left;">Ränialaldi.<br></p>
+}
+
+// question: C02_S02_et_q013_et name: C02_S02_et_q013_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S02
+
+::C02_S02_et_q013_et::[html]<p dir="ltr" style="text-align: left;">Mis on varikapi peamine omadus?<br></p>{
+=<p dir="ltr" style="text-align: left;">Tema mahtuvus sõltub rakendatud pingest.<br></p>
+~<p dir="ltr" style="text-align: left;">Hoiab stabiilset pinget läbiva muutliku voolu puhul.<br></p>
+~<p dir="ltr" style="text-align: left;">Omab negatiivse takistusega regiooni.<br></p>
+}
+
+// question: C02_S02_et_q014_et name: C02_S02_et_q014_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S02
+
+::C02_S02_et_q014_et::[html]<p dir="ltr" style="text-align: left;">Milleks kasutatakse PIN dioodi?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kõrgsageduslik dioodlüliti.<br></p>
+~<p dir="ltr" style="text-align: left;">Stabiilse voolu allikas.<br></p>
+~<p dir="ltr" style="text-align: left;">Stabiilse pinge allikas.<br></p>
+}
+
+// question: C02_S03_et_q005_et name: C02_S03_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S03
+
+::C02_S03_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Milline vooluringi komponent võimaldab suurendada vahelduvvoolu pinget 100 voldilt 1000 voldini?<br></p>{
+=<p dir="ltr" style="text-align: left;">Transformaator.<br></p>
+~<p dir="ltr" style="text-align: left;">Kondensaator.<br></p>
+~<p dir="ltr" style="text-align: left;">Diood.<br></p>
+}
+
+// question: C02_S03_et_q006_et name: C02_S03_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S03
+
+::C02_S03_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Kuidas nimetatakse transformaatori primaarmähises voolavat voolu, kui sekundaarmähise külge pole koormust lülitatud?<br></p>{
+=<p dir="ltr" style="text-align: left;">Magneetimisvooluks.<br></p>
+~<p dir="ltr" style="text-align: left;">Alalisvooluks.<br></p>
+~<p dir="ltr" style="text-align: left;">Ergutusvooluks.<br></p>
+}
+
+// question: C02_S03_et_q007_et name: C02_S03_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S03
+
+::C02_S03_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Mis suurustega iseloomustatakse tavaliselt jõutransformaatori primaar- ja sekundaarmähiseid?<br></p>{
+=<p dir="ltr" style="text-align: left;">Volt või volt-amper.<br></p>
+~<p dir="ltr" style="text-align: left;">Dzauli sekundis.<br></p>
+~<p dir="ltr" style="text-align: left;">Kulonit sekundis.<br></p>
+}
+
+// question: C02_S03_et_q029_et name: C02_S03_et_q029_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S03
+
+::C02_S03_et_q029_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on pinge transformaatori 500 keerust koosneva sekundaarmähise klemmidel, kui 2200 keerust koosnev primaarmähis on lülitatud 220 V vahelduvvooluvõrku?<br></p>{
+=<p dir="ltr" style="text-align: left;">50 V<br></p>
+~<p dir="ltr" style="text-align: left;">26 V<br></p>
+}
+
+// question: C02_S05_et_q004_et name: C02_S05_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C02_S05
+
+::C02_S05_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Miks on mõningates lampvõimendites vajalik neutralisatsioon?<br></p>{
+=<p dir="ltr" style="text-align: left;">Elektroodidevahelise mahtuvuse tõttu tekkida võiva ostsilleerimise vältimiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Häälestatud võnkeringides koormatud Q vähendamiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Võre ja katoodi vahelise lekkevoolu vähendamiseks.<br></p>
+}
+
+// question: C03_S01_et_q002_et name: C03_S01_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S01
+
+::C03_S01_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Kuidas nimetatakse mahtuvust ja induktiivsust sisaldava vooluringi poolt vahelduvvoolule osutatavat takistust?<br></p>{
+=<p dir="ltr" style="text-align: left;">Impedants.<br></p>
+~<p dir="ltr" style="text-align: left;">Oom.<br></p>
+~<p dir="ltr" style="text-align: left;">Dzhaul.<br></p>
+}
+
+// question: C03_S01_et_q003_et name: C03_S01_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S01
+
+::C03_S01_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Kuidas nimetatakse induktiivsuse poolt vahelduvvoolule osutatavat takistust?<br></p>{
+=<p dir="ltr" style="text-align: left;">Reaktiivtakistus.<br></p>
+~<p dir="ltr" style="text-align: left;">Takistus.<br></p>
+~<p dir="ltr" style="text-align: left;">Näivjuhtivus.<br></p>
+}
+
+// question: C03_S01_et_q004_et name: C03_S01_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S01
+
+::C03_S01_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Kuidas nimetatakse mahtuvuse poolt vahelduvvoolule osutatavat takistust?<br></p>{
+=<p dir="ltr" style="text-align: left;">Reaktiivtakistus.<br></p>
+~<p dir="ltr" style="text-align: left;">Takistus.<br></p>
+~<p dir="ltr" style="text-align: left;">Näivjuhtivus.<br></p>
+}
+
+// question: C03_S01_et_q005_et name: C03_S01_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S01
+
+::C03_S01_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Kuidas reageerib induktiivsus vahelduvvoolule?<br></p>{
+=<p dir="ltr" style="text-align: left;">Vahelduvvoolu sageduse suurenedes reaktiivtakistus suureneb.<br></p>
+~<p dir="ltr" style="text-align: left;">Vahelduvvoolu sageduse suurenedes reaktiivtakistus väheneb.<br></p>
+~<p dir="ltr" style="text-align: left;">Vahelduvvoolu amplituudi suurenedes suureneb ka reaktiivtakistus.<br></p>
+}
+
+// question: C03_S01_et_q006_et name: C03_S01_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S01
+
+::C03_S01_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Kuidas reageerib mahtuvus vahelduvvoolule?<br></p>{
+=<p dir="ltr" style="text-align: left;">Vahelduvvoolu sageduse suurenedes reaktiivtakistus väheneb.<br></p>
+~<p dir="ltr" style="text-align: left;">Vahelduvvoolu amplituudi suurenedes suureneb ka reaktiivtakistus.<br></p>
+~<p dir="ltr" style="text-align: left;">Vahelduvvoolu sageduse suurenedes reaktiivtakistus suureneb.<br></p>
+}
+
+// question: C03_S02_et_q021_et name: C03_S02_et_q021_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S02
+
+::C03_S02_et_q021_et::[html]<p dir="ltr" style="text-align: left;">Kui 1 amprilise vooluallikaga on ühendatud kaks paralleelselt lülitatud 10 oomist takistit kui suur vool läbib kumbagi takistit?<br></p>{
+=<p dir="ltr" style="text-align: left;">0,5 amprit.<br></p>
+~<p dir="ltr" style="text-align: left;">10 amprit.<br></p>
+~<p dir="ltr" style="text-align: left;">1 amper.<br></p>
+}
+
+// question: C03_S02_et_q025_et name: C03_S02_et_q025_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S02
+
+::C03_S02_et_q025_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kogutakistus on võrdne kõikide takistite takistuste summaga.<br></p>
+~<p dir="ltr" style="text-align: left;">Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.<br></p>
+~<p dir="ltr" style="text-align: left;">Kogutakistuse saame jagades takistite takistuste summa takistite arvuga.<br></p>
+}
+
+// question: C03_S02_et_q026_et name: C03_S02_et_q026_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S02
+
+::C03_S02_et_q026_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on kahe võrdse paralleelselt lülitatud takistist koosneva ahela kogutakistus?<br></p>{
+=<p dir="ltr" style="text-align: left;">Pool kummagi takisti takistuse väärtusest.<br></p>
+~<p dir="ltr" style="text-align: left;">Kahekordne ühe takisti takistuse väärtus.<br></p>
+~<p dir="ltr" style="text-align: left;">Kahekordne kummagi takisti väärtus.<br></p>
+}
+
+// question: C03_S02_et_q027_et name: C03_S02_et_q027_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S02
+
+::C03_S02_et_q027_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on kahe paralleelselt ühendatud induktiivsuse koguväärtus?<br></p>{
+=<p dir="ltr" style="text-align: left;">Pool kummagi väärtusest.<br></p>
+~<p dir="ltr" style="text-align: left;">Kahekordne kummagi induktiivsuse väärtus.<br></p>
+~<p dir="ltr" style="text-align: left;">Ei saa määrata induktiivsuste täpset suurust teadmata.<br></p>
+}
+
+// question: C03_S02_et_q028_et name: C03_S02_et_q028_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S02
+
+::C03_S02_et_q028_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on kahe paralleelselt lülitatud kondensaatori kogumahtuvus?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kogumahtuvus on võrdne kondensaatorite mahtuvuste summaga.<br></p>
+~<p dir="ltr" style="text-align: left;">Pool kummagi kondensaatori mahtuvusest.<br></p>
+~<p dir="ltr" style="text-align: left;">Mahtuvust ei saa määrata teadmata kondensatorite täpset mahtuvust.<br></p>
+}
+
+// question: C03_S03_et_q001_et name: C03_S03_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Miks ühendatakse toitealaldi dioodidega paralleelselt kondensaator ja takisti?<br></p>{
+=<p dir="ltr" style="text-align: left;">Pingelangude võrdsustamiseks dioodidel ja pingeimpulsside kahjuliku mõju vähendamiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Väljundpinge lainesuse silumiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Väljundpinge suurendamiseks.<br></p>
+}
+
+// question: C03_S03_et_q002_et name: C03_S03_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Milline on täislaine alaldi väljundpinge filtreerimata kuju?<br></p>{
+=<p dir="ltr" style="text-align: left;">Sisendpinge kahekordse sagedusega võrdne impulsside jada.<br></p>
+~<p dir="ltr" style="text-align: left;">Sile alalispinge.<br></p>
+~<p dir="ltr" style="text-align: left;">Sisendpinge sagedusega võrdne impulsside jada.<br></p>
+}
+
+// question: C03_S03_et_q003_et name: C03_S03_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Millised komponendid moodustavad toitealaldi filtri?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kondensaatorid ja drosselid.<br></p>
+~<p dir="ltr" style="text-align: left;">Dioodid.<br></p>
+~<p dir="ltr" style="text-align: left;">Trafod ja transistorid.<br></p>
+}
+
+// question: C03_S03_et_q004_et name: C03_S03_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Milline peab olema ühefaasilise sildalaldi alaldusdioodi vastupinge suurus?<br></p>{
+=<p dir="ltr" style="text-align: left;">Võrdne alaldi väljundpingega.<br></p>
+~<p dir="ltr" style="text-align: left;">Pool alaldi väljundpingest.<br></p>
+~<p dir="ltr" style="text-align: left;">Võrdne alaldi väljundpinge kahekordse väärtusega.<br></p>
+~<p dir="ltr" style="text-align: left;">Võrdne alaldi nominaalse väljundpinge neljakordse väärtusega.<br></p>
+}
+
+// question: C03_S03_et_q006_et name: C03_S03_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Milline peab olema silumiskondensaatoriga poolperioodalaldi alaldusdioodi väikseim vastupinge?<br></p>{
+=<p dir="ltr" style="text-align: left;">Alaldi nominaalse tipp-pinge kahekordne väärtus.<br></p>
+~<p dir="ltr" style="text-align: left;">Pool alaldi nominaalsest väljundpingest.<br></p>
+~<p dir="ltr" style="text-align: left;">Võrdne alaldi väljundpingega.<br></p>
+~<p dir="ltr" style="text-align: left;">Võrdne alaldi neljakordse väljundpingega.<br></p>
+}
+
+// question: C03_S03_et_q007_et name: C03_S03_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Kuhu ühendatakse toitealaldi šunttakisti?<br></p>{
+=<p dir="ltr" style="text-align: left;">Paralleelselt filterkondensaatoriga.<br></p>
+~<p dir="ltr" style="text-align: left;">Paralleelselt alaldi sisendiga.<br></p>
+~<p dir="ltr" style="text-align: left;">Paralleelselt väljundfiltri drosseliga.<br></p>
+}
+
+// question: C03_S03_et_q008_et name: C03_S03_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Mitu kraadi siinuslainest kasutab poolperioodalaldi?<br></p>{
+=<p dir="ltr" style="text-align: left;">180 kraadi.<br></p>
+~<p dir="ltr" style="text-align: left;">90 kraadi<br></p>
+~<p dir="ltr" style="text-align: left;">360 kraadi<br></p>
+}
+
+// question: C03_S03_et_q009_et name: C03_S03_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Mitu kraadi siinuslainest kasutab täisperioodalaldi?<br></p>{
+=<p dir="ltr" style="text-align: left;">360 kraadi<br></p>
+~<p dir="ltr" style="text-align: left;">90 kraadi<br></p>
+~<p dir="ltr" style="text-align: left;">180 kraadi<br></p>
+}
+
+// question: C03_S03_et_q010_et name: C03_S03_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Mis funktsiooni täidavad kõrgepingealaldis dioodidega paralleelselt lülitatud kondensaatorid ja takistid?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kaitsevad teistest dioodidest kiiremini vastutakistust taastavaid dioode.<br></p>
+~<p dir="ltr" style="text-align: left;">Kahe- või kolmekordistavad väljundpinget.<br></p>
+~<p dir="ltr" style="text-align: left;">Reguleerivad väljundpinget.<br></p>
+}
+
+// question: C03_S03_et_q332_et name: C03_S03_et_q332_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S03
+
+::C03_S03_et_q332_et::[html]<p dir="ltr" style="text-align: left;">Miks kasutatakse raadiosaatja kõrgepingealaldis šunttakistit?<br></p>{
+=<p dir="ltr" style="text-align: left;">Laadib filterkondensaatori tühjaks.<br></p>
+~<p dir="ltr" style="text-align: left;">Parandab pingeregulatsiooni.<br></p>
+~<p dir="ltr" style="text-align: left;">Kõrvaldab poolidelt elektrilöögi saamise ohu.<br></p>
+}
+
+// question: C03_S05_et_q005_et name: C03_S05_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S05
+
+::C03_S05_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Milline peab olema transmissiooniliiniga ühendatud madalpääsfiltri impedants liini impedantsiga võrreldes?<br></p>{
+=<p dir="ltr" style="text-align: left;">Enamvähem sama.<br></p>
+~<p dir="ltr" style="text-align: left;">Märgatavalt kõrgem.<br></p>
+~<p dir="ltr" style="text-align: left;">Võrdne liini kahekordse impedantsiga.<br></p>
+}
+
+// question: C03_S05_et_q007_et name: C03_S05_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S05
+
+::C03_S05_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Millal annab toiteallikas maksimaalse väljundenergia?<br></p>{
+=<p dir="ltr" style="text-align: left;">Juhul kui koormusimpedants on võrdne vooluallika impedantsiga.<br></p>
+~<p dir="ltr" style="text-align: left;">Kui seisulainetegur on saavutanud maksimaalväärtuse.<br></p>
+~<p dir="ltr" style="text-align: left;">Kui raudsüdamikuga transformaatori asemel kasutatakse õhksüdamikuga transformaatorit.<br></p>
+}
+
+// question: C03_S05_et_q008_et name: C03_S05_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S05
+
+::C03_S05_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Mida tähendab termin impedantside sobitamine?<br></p>{
+=<p dir="ltr" style="text-align: left;">Koormusimpedantsi võrdsustamine toiteallika impedantsiga.<br></p>
+~<p dir="ltr" style="text-align: left;">Koormusimpedantsi toiteallika impedantsist palju suuremaks tegemine.<br></p>
+~<p dir="ltr" style="text-align: left;">Baluni kasutamine antenni toitepunktis.<br></p>
+}
+
+// question: C03_S05_et_q009_et name: C03_S05_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S05
+
+::C03_S05_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Mis juhtub kui elektrilise koormuse impedants on võrdne toiteallika impedantsiga?<br></p>{
+=<p dir="ltr" style="text-align: left;">Toiteallikas juhib koormusesse maksimaalse võimsuse.<br></p>
+~<p dir="ltr" style="text-align: left;">Toiteallikas juhib koormusesse minimaalse võimsuse.<br></p>
+~<p dir="ltr" style="text-align: left;">Vool katkeb vooluahelas.<br></p>
+}
+
+// question: C03_S05_et_q010_et name: C03_S05_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S05
+
+::C03_S05_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Miks on impedantside sobitamine raadiotehnikas väga oluline?<br></p>{
+=<p dir="ltr" style="text-align: left;">Võimaldab toiteallikast juhtida koormusesse maksimaalse võimsuse.<br></p>
+~<p dir="ltr" style="text-align: left;">Kindlustab vooluringi aktiiv- ja reaktiivtakistuse võrdsuse.<br></p>
+~<p dir="ltr" style="text-align: left;">Kindlustab minimaalse võimsuse saamise toitallikast.<br></p>
+}
+
+// question: C03_S05_et_q030_et name: C03_S05_et_q030_et
+$CATEGORY: $course$/top/B-kategooria eksam/C03_S05
+
+::C03_S05_et_q030_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on 200 oomise väljundtakistusega helisagedusvõimendi sobitamiseks 10 oomise valjuhääldiga vajaliku transformaatori mähiste keerdude suhe?<br></p>{
+=<p dir="ltr" style="text-align: left;">4.47 : 1<br></p>
+~<p dir="ltr" style="text-align: left;">400: 1<br></p>
+~<p dir="ltr" style="text-align: left;">20 : 1<br></p>
+}
+
+// question: C04_S01_et_q006_et name: C04_S01_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S01
+
+::C04_S01_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Mida nimetatakse segustusprotsessiks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kahe signaali liitmist summaarse- ja vahesageduse saamiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Lairibavastuvõtjas müra kõrvaldamist faasivõrdluse teel.<br></p>
+~<p dir="ltr" style="text-align: left;">Lairibavastuvõtjas müra kõrvaldamist faasinihke abil.<br></p>
+}
+
+// question: C04_S01_et_q007_et name: C04_S01_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S01
+
+::C04_S01_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Mis eelised on sagedusmuundusprotsessil?<br></p>{
+=<p dir="ltr" style="text-align: left;">Suurenenud selektiivsus ja optimaalne häälestatud võnkeringide konstruktsioon.<br></p>
+~<p dir="ltr" style="text-align: left;">Automaatselt toimiv müralukustus ja suurenenud selektiivsus.<br></p>
+~<p dir="ltr" style="text-align: left;">Automaatne signaali piiramine ja müralukustus.<br></p>
+}
+
+// question: C04_S01_et_q011_et name: C04_S01_et_q011_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S01
+
+::C04_S01_et_q011_et::[html]<p dir="ltr" style="text-align: left;">Millised kaks faktorit määratlevad vastuvõtja tundlikkuse?<br></p>{
+=<p dir="ltr" style="text-align: left;">Ribalaius ja mürategur.<br></p>
+~<p dir="ltr" style="text-align: left;">Dünaamiline diapasoon ja kolmanda järgu lõikepunkt.<br></p>
+~<p dir="ltr" style="text-align: left;">Hind ja kättesaadavus.<br></p>
+}
+
+// question: C04_S02_et_q005_et name: C04_S02_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S02
+
+::C04_S02_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Miks on kasulik omada vastuvõtja sisendis attenuaatorit?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kaitseb vastuvõtja ülekoormamist erakordselt tugeva signaali poolt.<br></p>
+~<p dir="ltr" style="text-align: left;">Vähendab vastuvõetava signaali ribalaiust.<br></p>
+~<p dir="ltr" style="text-align: left;">Elimineerib isotroopilise kiirguse põhjustatud efekte.<br></p>
+}
+
+// question: C04_S02_et_q010_et name: C04_S02_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S02
+
+::C04_S02_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Mis on vastuvõtja kõrgsagedusvõimendi esmane ülesanne?<br></p>{
+=<p dir="ltr" style="text-align: left;">Parandada vastuvõtja mürategurit.<br></p>
+~<p dir="ltr" style="text-align: left;">Kindlustada enamik vastuvõtja võimendusest.<br></p>
+~<p dir="ltr" style="text-align: left;">Automaatse võimenduse reguleerimise süsteemi abil muuta parsiitsignaalide mahasurumise astet.<br></p>
+}
+
+// question: C04_S03_et_q002_et name: C04_S03_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S03
+
+::C04_S03_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Millised on põhilised seguastme väljundis esinevad sagedused?<br></p>{
+=<p dir="ltr" style="text-align: left;">Sisendsagedused ning summaarne ja vahesagedus.<br></p>
+~<p dir="ltr" style="text-align: left;">Sisendsignaali kahe- ja neljakordne sagedus.<br></p>
+~<p dir="ltr" style="text-align: left;">Sisendsageduste summa,vahe ja ruutjuurkordne sagedus.<br></p>
+}
+
+// question: C04_S03_et_q009_et name: C04_S03_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S03
+
+::C04_S03_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Mis vastuvõtjas juhtub kui väga tugev signaal jõuab seguastmeni?<br></p>{
+=<p dir="ltr" style="text-align: left;">Seguaste lakkab töötamast.<br></p>
+~<p dir="ltr" style="text-align: left;">Seguastmes genereeritakse parasiitsed segustusproduktid.<br></p>
+~<p dir="ltr" style="text-align: left;">Toimub automaatne signaali piiramine.<br></p>
+}
+
+// question: C04_S04_et_q008_et name: C04_S04_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S04
+
+::C04_S04_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Mis on vahesagedusvõimendi?<br></p>{
+=<p dir="ltr" style="text-align: left;">Fikseeritult häälestatud pääsuribaga võimendi.<br></p>
+~<p dir="ltr" style="text-align: left;">Vastuvõtja filter.<br></p>
+~<p dir="ltr" style="text-align: left;">Vastuvõtja demodulaator.<br></p>
+}
+
+// question: C04_S04_et_q015_et name: C04_S04_et_q015_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S04
+
+::C04_S04_et_q015_et::[html]<p dir="ltr" style="text-align: left;">Kui suur on SSB telefonitööks vajaliku hea kvartsfiltri pääsuriba laius?<br></p>{
+=<p dir="ltr" style="text-align: left;">2,1 kHz –6dB pääsuriba juures.<br></p>
+~<p dir="ltr" style="text-align: left;">6 kHz -6dB pääsuriba juures.<br></p>
+~<p dir="ltr" style="text-align: left;">500 Hz -6dB pääsuriba juures.<br></p>
+}
+
+// question: C04_S05_et_q001_et name: C04_S05_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S05
+
+::C04_S05_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Mis on produkt-detektor?<br></p>{
+=<p dir="ltr" style="text-align: left;">Detektor, mis kasutab segustusprotsessis vastuvõtjas genereeritud kandesagedust.<br></p>
+~<p dir="ltr" style="text-align: left;">Detektor, mis annab ostsillaatorsignaali seguastme sisendisse.<br></p>
+~<p dir="ltr" style="text-align: left;">Võimendav detektor, mis kitsendab vastuvõtja võimenduskanali pääsuriba.<br></p>
+}
+
+// question: C04_S05_et_q003_et name: C04_S05_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S05
+
+::C04_S05_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Mida nimetatakse detekteerimiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Moduleeritud kõrgsagedussignaalilt informatsiooni eraldamist.<br></p>
+~<p dir="ltr" style="text-align: left;">Vastuvõetaval kandelainel oleva informatsiooni summutamist S-meetri töölerakendamise eesmärgil.<br></p>
+~<p dir="ltr" style="text-align: left;">Kandelaine modulatsiooni.<br></p>
+}
+
+// question: C04_S05_et_q004_et name: C04_S05_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S05
+
+::C04_S05_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Mis on sagedusdiskriminaator?<br></p>{
+=<p dir="ltr" style="text-align: left;">FM signaalide detekteerimiseks kasutatav lülitus.<br></p>
+~<p dir="ltr" style="text-align: left;">Kahe kandelaine naabruses asuva parasiitsignaali filtreerimislõlitus.<br></p>
+~<p dir="ltr" style="text-align: left;">Automaatne lainelülitus.<br></p>
+}
+
+// question: C04_S05_et_q005_et name: C04_S05_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S05
+
+::C04_S05_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Mida kasutatakse FM signaali detekteerimiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Sagedusdiskriminaatorit.<br></p>
+~<p dir="ltr" style="text-align: left;">Balanssmodulaatorit.<br></p>
+~<p dir="ltr" style="text-align: left;">Produkt detektorit.<br></p>
+}
+
+// question: C04_S06_et_q008_et name: C04_S06_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C04_S06
+
+::C04_S06_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Kui palju tuleb suurendada saatja väljundvõimsusust, et saatja läheduses asuva vastuvõtja S-meetri näit suureneks S8-lt S9-ni ?<br></p>{
+=<p dir="ltr" style="text-align: left;">Ligikaudu neli korda.<br></p>
+~<p dir="ltr" style="text-align: left;">Ligikaudu kaks korda.<br></p>
+~<p dir="ltr" style="text-align: left;">Ligikaudu kolm korda.<br></p>
+}
+
+// question: C05_S01_et_q007_et name: C05_S01_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S01
+
+::C05_S01_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Mida on vaja omada telefonitööks ettenähtud amatöörraadiojaamas?<br></p>{
+=<p dir="ltr" style="text-align: left;">Mikrofon.<br></p>
+~<p dir="ltr" style="text-align: left;">Splatteri filter.<br></p>
+~<p dir="ltr" style="text-align: left;">Vastuvõtja helisagedusfilter<br></p>
+}
+
+// question: C05_S05_et_q006_et name: C05_S05_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S05
+
+::C05_S05_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Mis tüüpi filter tuleb installeerida amatöörsaatjasse harmooniliste sageduste kiirguse vältimiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Madalpääsfilter.<br></p>
+~<p dir="ltr" style="text-align: left;">Võtmeklõpsu filter.<br></p>
+~<p dir="ltr" style="text-align: left;">Kõrgpääsfilter.<br></p>
+}
+
+// question: C05_S05_et_q008_et name: C05_S05_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S05
+
+::C05_S05_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Monteerisite oma autosse VHF või UHF FM raadiojaama. Milline on antenni jaoks parim koht vältimaks juhi ja reisijate ülikõrgsagedusliku kiirituse ohtu?<br></p>{
+=<p dir="ltr" style="text-align: left;">Katuse keskkoht.<br></p>
+~<p dir="ltr" style="text-align: left;">Tuuleklaasi ülemine äär.<br></p>
+~<p dir="ltr" style="text-align: left;">Ükskõik kummal esimesel poritiival.<br></p>
+}
+
+// question: C05_S05_et_q009_et name: C05_S05_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S05
+
+::C05_S05_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Mis on saatjas kasutatavate ekraanide otstarve?<br></p>{
+=<p dir="ltr" style="text-align: left;">Likvideerib ebasoovitava kõrgsagedusliku kiirguse.<br></p>
+~<p dir="ltr" style="text-align: left;">Moodustab strukturaalse madalpääsfiltri.<br></p>
+~<p dir="ltr" style="text-align: left;">Takistab helisagedusliku tagasiside tekkimist saatjas<br></p>
+}
+
+// question: C05_S05_et_q010_et name: C05_S05_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S05
+
+::C05_S05_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Miks kasutatakse nn. pii-filtrit saatja väljundis?<br></p>{
+=<p dir="ltr" style="text-align: left;">Saatja väljundimpedantsi sobitamiseks antenni toiteliiniga ja parasiitkiirguse vähendamiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Antenni poolt vastuvõetud mürasignaalide mahajuhtimiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Antennis tekkinud staatiliste pingete saatjasse pääsu takistamiseks.<br></p>
+}
+
+// question: C05_S06_et_q001_et name: C05_S06_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S06
+
+::C05_S06_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Mis tüüpi sisendsignaali kasutatakse SSB saatja lineaarsuse kontrollimiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kaht helisageduslikku siinuslainet<br></p>
+~<p dir="ltr" style="text-align: left;">Tavalist kõnet.<br></p>
+~<p dir="ltr" style="text-align: left;">Helisageduslikku siinuslainet.<br></p>
+}
+
+// question: C05_S06_et_q003_et name: C05_S06_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S06
+
+::C05_S06_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Mida saab kontrollida kahe tooni testi abil?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kõrgsagedusvõimendi lineaarsust.<br></p>
+~<p dir="ltr" style="text-align: left;">Sagedusmodulatsiooni protsenti.<br></p>
+~<p dir="ltr" style="text-align: left;">Kandesageduse faasinihet.<br></p>
+}
+
+// question: C05_S06_et_q005_et name: C05_S06_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S06
+
+::C05_S06_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Milliseid kaht helisagedust võib kasutada SSB telefonisaatja lineaarsuse kontrollimiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Võib kasutada suvalisi helisagedusi, mis paiknevad saatja helisagedustrakti pääsuribas tingimusel, et nad ei ole teineteisega harmoonilises suhtes.<br></p>
+~<p dir="ltr" style="text-align: left;">Tuleb kasutada signaale sagedusega 20Hz ja 20000Hz.<br></p>
+~<p dir="ltr" style="text-align: left;">Tuleb kasutada sagedusi 1200Hz ja 2400Hz.<br></p>
+}
+
+// question: C05_S06_et_q303_et name: C05_S06_et_q303_et
+$CATEGORY: $course$/top/B-kategooria eksam/C05_S06
+
+::C05_S06_et_q303_et::[html]<p dir="ltr" style="text-align: left;">Kuidas saab raadiojaama häälestamisel eetrisoleku aega viia miinimumini?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kasutades jaama häälestamiseks antenni ekvivalenti (dummy load).<br></p>
+~<p dir="ltr" style="text-align: left;">Kasutades suvalise pikkusega antenni.<br></p>
+~<p dir="ltr" style="text-align: left;">Häälestades jaama esmalt 40m bandil siis minna üle teistele bandidele.<br></p>
+}
+
+// question: C07_S02_et_q005_et name: C07_S02_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S02
+
+::C07_S02_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Milline raadiolainete levimehhanism võimaldab saadet vastu võtta pinnalaine ulatusest kaugemal kuid lähemal ionosfäärist peegeldunud lainest?<br></p>{
+=<p dir="ltr" style="text-align: left;">Raadiolaine peegeldumine troposfääri ja ionosfääri ebaühtluskohtadest (scatter).<br></p>
+~<p dir="ltr" style="text-align: left;">Sporaadiline E-levi.<br></p>
+~<p dir="ltr" style="text-align: left;">Lühikese hüppega levi.<br></p>
+}
+
+// question: C07_S02_et_q008_et name: C07_S02_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S02
+
+::C07_S02_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Mis on raadiolainete levi kriitiline nurk?<br></p>{
+=<p dir="ltr" style="text-align: left;">Suurim tõusunurk, mille juures raadiolained peegelduvad veel ionosfäärist Maale tagasi.<br></p>
+~<p dir="ltr" style="text-align: left;">Väikseim tõusunurk, mille juures raadiolained peegelduvad veel ionosfäärist Maale tagasi.<br></p>
+~<p dir="ltr" style="text-align: left;">Kompassi suund teie asukohast korrespondendi suunas.<br></p>
+}
+
+// question: C07_S02_et_q302_et name: C07_S02_et_q302_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S02
+
+::C07_S02_et_q302_et::[html]<p dir="ltr" style="text-align: left;">Soovite suvise päeva õhtupoolikul sidet saada amatööriga, kes asub teist ligikaudu 2000 km eemal. Milline laineala sobiks edukaks sidepidamiseks kõige rohkem?<br></p>{
+=<p dir="ltr" style="text-align: left;">40 või 15 m laineala.<br></p>
+~<p dir="ltr" style="text-align: left;">80 või 40 m laineala.<br></p>
+~<p dir="ltr" style="text-align: left;">15 või 10 m laineala.<br></p>
+}
+
+// question: C07_S03_et_q001_et name: C07_S03_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S03
+
+::C07_S03_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Mis iseloomustab nn. “backscatter” signaale?<br></p>{
+=<p dir="ltr" style="text-align: left;">Lainetav heli.<br></p>
+~<p dir="ltr" style="text-align: left;">Väga hea arusaadavus.<br></p>
+~<p dir="ltr" style="text-align: left;">Ümberpööratud külgribad.<br></p>
+}
+
+// question: C07_S03_et_q002_et name: C07_S03_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S03
+
+::C07_S03_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Mis on päikesevoog (solar flux)?<br></p>{
+=<p dir="ltr" style="text-align: left;">Päikese poolt kiiratav ioniseeriv energia.<br></p>
+~<p dir="ltr" style="text-align: left;">Päikese magnetvälja intensiivsus.<br></p>
+~<p dir="ltr" style="text-align: left;">Maa poole pööratud Päikese küljel nähtavate plekkide arv.<br></p>
+}
+
+// question: C07_S03_et_q003_et name: C07_S03_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S03
+
+::C07_S03_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Mida nimetatakse geomagnetiliseks häireks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Maa magnetvälja järsk muutus lühikese aja jooksul.<br></p>
+~<p dir="ltr" style="text-align: left;">Päikese solar-fluks indeksi järsk langus.<br></p>
+~<p dir="ltr" style="text-align: left;">Maa magnetpooluse nihe.<br></p>
+}
+
+// question: C07_S03_et_q004_et name: C07_S03_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S03
+
+::C07_S03_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Kui kiiresti jõuab Päikeselt kiirguv laetud osakeste vool Maale?<br></p>{
+=<p dir="ltr" style="text-align: left;">20 kuni 40 tunniga.<br></p>
+~<p dir="ltr" style="text-align: left;">1,5 sekundiga<br></p>
+~<p dir="ltr" style="text-align: left;">8 minutiga<br></p>
+}
+
+// question: C07_S03_et_q006_et name: C07_S03_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S03
+
+::C07_S03_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Millises ionosfääri kihis kutsuvad äkilised ionosfääri häired esile raadiolainete suurenenud sumbuvuse?<br></p>{
+=<p dir="ltr" style="text-align: left;">D-kihis.<br></p>
+~<p dir="ltr" style="text-align: left;">E-kihis<br></p>
+~<p dir="ltr" style="text-align: left;">F2-kihis.<br></p>
+}
+
+// question: C07_S03_et_q007_et name: C07_S03_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S03
+
+::C07_S03_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Kuidas mõjutab geomagnetiline torm raadiolainete levi?<br></p>{
+=<p dir="ltr" style="text-align: left;">Halvenenud raadiolevi kõrgematel geomagnetilistel laiuskraadidel.<br></p>
+~<p dir="ltr" style="text-align: left;">Väga hea raadioside kõrgematel geomagnetilistel laiuskraadidel.<br></p>
+~<p dir="ltr" style="text-align: left;">Suurenenud pinnalaine ulatus.<br></p>
+}
+
+// question: C07_S03_et_q009_et name: C07_S03_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S03
+
+::C07_S03_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Kui kaua tavaliselt kestavad ootamatud ionosfääri häired?<br></p>{
+=<p dir="ltr" style="text-align: left;">Mõnest minutist kuni mõne tunnini.<br></p>
+~<p dir="ltr" style="text-align: left;">Kogu päev.<br></p>
+~<p dir="ltr" style="text-align: left;">Keskmiselt ühe nädala.<br></p>
+}
+
+// question: C07_S03_et_q010_et name: C07_S03_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C07_S03
+
+::C07_S03_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Millistel laiuskraadidel esineb tavaliselt rohkem geomagnetilisi häireid?<br></p>{
+=<p dir="ltr" style="text-align: left;">45 kraadist kõrgematel laiustel.<br></p>
+~<p dir="ltr" style="text-align: left;">Ekvaatori laiuskraadidel.<br></p>
+~<p dir="ltr" style="text-align: left;">Kõikidel laiuskraadidel ühtemoodi.<br></p>
+}
+
+// question: C08_S03_et_q001_et name: C08_S03_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S03
+
+::C08_S03_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Milline mõõteriist sisaldab horisontaal- ja vertikaalkanali võimendit?<br></p>{
+=<p dir="ltr" style="text-align: left;">Ostsilloskoop.<br></p>
+~<p dir="ltr" style="text-align: left;">Oommeeter.<br></p>
+~<p dir="ltr" style="text-align: left;">Signaalgeneraator.<br></p>
+}
+
+// question: C08_S03_et_q002_et name: C08_S03_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S03
+
+::C08_S03_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Mis tüüpi signaale on võimalik ostsilloskoobi abil vaadelda?<br></p>{
+=<p dir="ltr" style="text-align: left;">Suvalisi ajast sõltuvaid signaale instrumendi sagedusriba piires.<br></p>
+~<p dir="ltr" style="text-align: left;">Rahvusvahelisi laevade lipusignaale.<br></p>
+~<p dir="ltr" style="text-align: left;">Ookeanilaevade blinkersignaal<br></p>
+}
+
+// question: C08_S03_et_q003_et name: C08_S03_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S03
+
+::C08_S03_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Mis seade on ostsilloskoop?<br></p>{
+=<p dir="ltr" style="text-align: left;">Seade, mis võimaldab uurida kuvaril signaalide lainekuju.<br></p>
+~<p dir="ltr" style="text-align: left;">Seade,mis näitab antenni kiirgustakistust.<br></p>
+~<p dir="ltr" style="text-align: left;">Seade,mis näitab antenni toiteliini seisulaine tegurit.<br></p>
+}
+
+// question: C08_S03_et_q004_et name: C08_S03_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S03
+
+::C08_S03_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Mis võib põhjustada ostsilloskoobi kineskoobi luminofoori riknemise?<br></p>{
+=<p dir="ltr" style="text-align: left;">Liig suur heleduse säting.<br></p>
+~<p dir="ltr" style="text-align: left;">Vertikaalkanali võimendi ületüürimine.<br></p>
+~<p dir="ltr" style="text-align: left;">Kiire ebaõige fokuseerimine.<br></p>
+}
+
+// question: C08_S04_et_q007_et name: C08_S04_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S04
+
+::C08_S04_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Mis seade on väljatugevuse mõõtja?<br></p>{
+=<p dir="ltr" style="text-align: left;">Seade kõrgsagedussignaali suhtelise võimsuse mõõtmiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Seade,mis mõõdab seisulaine tegurit antenni toiteliinis.<br></p>
+~<p dir="ltr" style="text-align: left;">Seade modulatsioonisügavuse määramiseks saatja väljundis.<br></p>
+}
+
+// question: C08_S04_et_q009_et name: C08_S04_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S04
+
+::C08_S04_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Milline on kõige sobivam lihtne instrument antenni kiirguse suunadiagrammi määramiseks horisontaaltasapinnas?<br></p>{
+=<p dir="ltr" style="text-align: left;">Väljatugevuse mõõtja.<br></p>
+~<p dir="ltr" style="text-align: left;">Antenni mürasild.<br></p>
+~<p dir="ltr" style="text-align: left;">Tester.<br></p>
+}
+
+// question: C08_S05_et_q005_et name: C08_S05_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S05
+
+::C08_S05_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Mis seade on antenni mürasild?<br></p>{
+=<p dir="ltr" style="text-align: left;">Seade antenni või muu elektrilise lülituse impedantsi mõõtmiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Seade antenni või muu elektrilise lülituse mürateguri mõõtmiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Seade vastuvõtjas esineva müra hävitamiseks.<br></p>
+}
+
+// question: C08_S05_et_q006_et name: C08_S05_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S05
+
+::C08_S05_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Kuhu ühendatakse antenni mürasild?<br></p>{
+=<p dir="ltr" style="text-align: left;">Seade ühendatakse vastuvõtja ja tundmatu impedantsiga skeemi vahele ning häälestatakse minimaalse müra saavutamiseni.<br></p>
+~<p dir="ltr" style="text-align: left;">Seade ühendatakse antenni toitepunkti ja müra suurus loetakse seadme skaalalt.<br></p>
+~<p dir="ltr" style="text-align: left;">Seade ühendatakse saatja ja antenni vahele ning häälestatakse minimaalse seisulaine teguri saavutamiseni.<br></p>
+}
+
+// question: C08_S06_et_q010_et name: C08_S06_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C08_S06
+
+::C08_S06_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Millist seadet saab kasutada saatja väljundsignaalis esinevate intermodulatsioonimoonutustes tekitatud parasiitsignaalide uurimiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Spektrianalüsaator.<br></p>
+~<p dir="ltr" style="text-align: left;">Vattmeeter.<br></p>
+~<p dir="ltr" style="text-align: left;">Loogikaskeemide analüsaator.<br></p>
+}
+
+// question: C09_S01_et_q001_et name: C09_S01_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S01
+
+::C09_S01_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Mis on atmosfääriliste raadiohäirete peamine tekkepõhjus?<br></p>{
+=<p dir="ltr" style="text-align: left;">Äikesetormid.<br></p>
+~<p dir="ltr" style="text-align: left;">Päikeseplekid.<br></p>
+~<p dir="ltr" style="text-align: left;">Lennukid<br></p>
+}
+
+// question: C09_S01_et_q008_et name: C09_S01_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S01
+
+::C09_S01_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Mis tüüpi interferentshäireid võib kiirata mitmebandi antenn, mis on ühendatud valesti häälestatud raadiojaama väljundisse?<br></p>{
+=<p dir="ltr" style="text-align: left;">Harmoonilisi sagedusi.<br></p>
+~<p dir="ltr" style="text-align: left;">Aurora taolisi signaale.<br></p>
+~<p dir="ltr" style="text-align: left;">Parasiitsignaale.<br></p>
+}
+
+// question: C09_S01_et_q009_et name: C09_S01_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S01
+
+::C09_S01_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Mida tähendab väljend "harmooniliste kiirgus" ?<br></p>{
+=<p dir="ltr" style="text-align: left;">Töösageduse täiskordsete sageduste kiirgus eetrisse.<br></p>
+~<p dir="ltr" style="text-align: left;">50 Hz brummsagedusega moduleeritud signaalide kiirgus.<br></p>
+~<p dir="ltr" style="text-align: left;">Lähedal paiknevates teistes saatjates võib tekkida liitmodulatsioon teie saatja töö tõttu.<br></p>
+}
+
+// question: C09_S02_et_q002_et name: C09_S02_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S02
+
+::C09_S02_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Kuidas on võimalik kindlaks teha, kas raadiohäireid tekitav elektriliin asub teie majas?<br></p>{
+=<p dir="ltr" style="text-align: left;">Lülita välja maja elektrivõrgu pealüliti ja kuula patareitoitega raadiot.<br></p>
+~<p dir="ltr" style="text-align: left;">Kontrolli elektriliini pinget graafilise reflektomeetriga.<br></p>
+~<p dir="ltr" style="text-align: left;">Kontrolli vahelduvvoolu lainekuju ostsilloskoobi abil.<br></p>
+}
+
+// question: C09_S02_et_q003_et name: C09_S02_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S02
+
+::C09_S02_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Kuidas on võimalik vähendada auto elektrigeneraatori poolt tekitatavaid raadiohäireid?<br></p>{
+=<p dir="ltr" style="text-align: left;">Ühendades raadio toitejuhtmed akuga lühimat võimalikku teed kaudu.<br></p>
+~<p dir="ltr" style="text-align: left;">Ühendada raadio toitejuhtmed akuga nii pikka teed mööda kui vähegi võimalik.<br></p>
+~<p dir="ltr" style="text-align: left;">Ühendades kõrgpääsfiltri järjestikku raadiojaama auto pardavõrguga ühendavasse juhtmesse.<br></p>
+}
+
+// question: C09_S02_et_q004_et name: C09_S02_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S02
+
+::C09_S02_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Kuidas saab vähendada väga tugeva signaali toimel vastuvõtjas tekkivaid intermodulatsioonihäireid?<br></p>{
+=<p dir="ltr" style="text-align: left;">Lülitades vastuvõtja sisendisse attenuaatori.<br></p>
+~<p dir="ltr" style="text-align: left;">Vähendades vastuvõtja toitepinget.<br></p>
+~<p dir="ltr" style="text-align: left;">Kasutada vastuvõtja kõige kitsama pääsuribaga filtrit.<br></p>
+}
+
+// question: C09_S02_et_q006_et name: C09_S02_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S02
+
+::C09_S02_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Teie naaber teatab, et tekitate häireid televisioonivastuvõtule. Teie olete aga kindel, et teie aparatuur töötab korralikult. Mida peate tegema?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kontakteerudes naabriga proovite välja selgitada, kas tõepoolest teie töö eetris on TV-häirete tekkepõhjuseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Lülitate kohe oma saatja välja ja pöördute Sideameti poole abi saamiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Monteerite saatja väljundisse kõrgpääsfiltri ja televiisori sisendisse madalpääsfiltri.<br></p>
+}
+
+// question: C09_S02_et_q007_et name: C09_S02_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S02
+
+::C09_S02_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Mis tüüpi filter tuleb kõigepealt paigaldada amatöörraadiojaama harmooniliste sageduste kiirguse vältimiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Madalpääsfilter.<br></p>
+~<p dir="ltr" style="text-align: left;">Võtmeklõpsu filter.<br></p>
+~<p dir="ltr" style="text-align: left;">Kõrgpääsfilter.<br></p>
+}
+
+// question: C09_S02_et_q010_et name: C09_S02_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C09_S02
+
+::C09_S02_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Milline filter tuleb paigutada televiisori sisendisse esmase abinõuna amatöörraadiojaama poolt tekitatud kõrgsagedusliku ülekoormuse vähendamiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kõrgpääsfilter.<br></p>
+~<p dir="ltr" style="text-align: left;">Madalpääsfilter.<br></p>
+~<p dir="ltr" style="text-align: left;">Ribafilter.<br></p>
+~<p dir="ltr" style="text-align: left;">Sõltub, millisel sagedusel tekitab raadiojaam häireid.<br></p>
+}
+
+// question: C10_S01_et_q003_et name: C10_S01_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S01
+
+::C10_S01_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Kui suur võib maksimaalselt olla inimkeha läbiv vahelduvvool, mis endast ei kujuta veel ohtu?<br></p>{
+=<p dir="ltr" style="text-align: left;">10 mA<br></p>
+~<p dir="ltr" style="text-align: left;">1000 A<br></p>
+~<p dir="ltr" style="text-align: left;">0,1 A<br></p>
+}
+
+// question: C10_S01_et_q004_et name: C10_S01_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S01
+
+::C10_S01_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Mida tuleb teha kõigepealt kui näed voolujuhtmetesse kinnijäänud inimest?<br></p>{
+=<p dir="ltr" style="text-align: left;">Helistad mobiiltelefoniga Häirekeskusesse ja küsid juhendeid.<br></p>
+~<p dir="ltr" style="text-align: left;">Mingi voolu mittejuhtiva eseme abil vabastad kannatanu juhtmetest ja alustad kohe südame kaudse massaashi ja kunstliku hingamise tegemist samaaegselt hüüdes abi järele.<br></p>
+~<p dir="ltr" style="text-align: left;">Viskad elektrijuhtmetele mingi maandusjuhtme.<br></p>
+}
+
+// question: C10_S01_et_q008_et name: C10_S01_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S01
+
+::C10_S01_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Mida tuleb silmas pidada antennimasti püstitamisel või antenni vedamisel majade vahele?<br></p>{
+=<p dir="ltr" style="text-align: left;">Et antenn ei saaks mingil viisil kokku puutuda elektriülekandeliinidega.<br></p>
+~<p dir="ltr" style="text-align: left;">Kas antenn maast vaadatuna jätab kena mulje.<br></p>
+~<p dir="ltr" style="text-align: left;">Ega antenn mitte kuskil naabrimehe krundi nurgast üle ei käiks.<br></p>
+}
+
+// question: C10_S02_et_q001_et name: C10_S02_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S02
+
+::C10_S02_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Milline inimese keha organ on kõige tundlikum kõrgsagedusliku energia poolt põhjustatud kudede kuumenemise suhtes?<br></p>{
+=<p dir="ltr" style="text-align: left;">Silmad<br></p>
+~<p dir="ltr" style="text-align: left;">Käed<br></p>
+~<p dir="ltr" style="text-align: left;">Süda<br></p>
+}
+
+// question: C10_S02_et_q002_et name: C10_S02_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S02
+
+::C10_S02_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Tugev kõrgsagedusenergia kiirgus võib olenevalt lainepikkusest, kõrgsagedusvälja intensiivsusest ja muudest teguritest rikkuda inimkeha kudesid. Kuidas mõjub kiirgus keha kudedele?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kuumendab kudesid.<br></p>
+~<p dir="ltr" style="text-align: left;">Kutsub esile kiiritushaiguse.<br></p>
+~<p dir="ltr" style="text-align: left;">Jahutab kudesid.<br></p>
+}
+
+// question: C10_S02_et_q005_et name: C10_S02_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S02
+
+::C10_S02_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Kui tahad teha mõningaid häälestusoperatsioone oma VHF/UHF raadiojaama juures, mida peab tegema enne jaama sisselülitamist?<br></p>{
+=<p dir="ltr" style="text-align: left;">Tuleb veenduda, et kõik varjestused on kinnitatud oma kohale.<br></p>
+~<p dir="ltr" style="text-align: left;">Tuleb maha võtta kõik varjestused-ekraanid maksimaalse jahutuse saamiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Lülitada sisse mürasild interferentshäirete vähendamiseks.<br></p>
+}
+
+// question: C10_S04_et_q006_et name: C10_S04_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S04
+
+::C10_S04_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Mida peab silmas pidama, kui taod antennimasti tõmmitsate kinnitusvaiu maasse?<br></p>{
+=<p dir="ltr" style="text-align: left;">Et löögisuuna pikendusel ei seisaks inimesi, keda varre otsast juhuslikult äralendav kirves või vasar võiks vigastada.<br></p>
+~<p dir="ltr" style="text-align: left;">Et vai ei asuks antennimastile liialt lähedal.<br></p>
+~<p dir="ltr" style="text-align: left;">Et vai oleks küllaldase pikkusega.<br></p>
+}
+
+// question: C10_S04_et_q007_et name: C10_S04_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S04
+
+::C10_S04_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Mida tuleb jälgida raiudes puid välipäeva või kokkutuleku lõkke jaoks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Tuleb seista jalad harkis, et juhuslikul puust möödalöömisel kirves ei tabaks jalgu.<br></p>
+~<p dir="ltr" style="text-align: left;">Kas puud on küllaldaselt kuivad.<br></p>
+~<p dir="ltr" style="text-align: left;">Usaldada see töö kellelegi teisele.<br></p>
+}
+
+// question: C10_S04_et_q009_et name: C10_S04_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S04
+
+::C10_S04_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Mida tuleb jälgida tehes tööd kõrgel antennimasti otsas?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kasutatavad tööriistad oleksid paigutatud ja kinnitatud selliselt, et nad ei saaks allolijatele pähe kukkuda.<br></p>
+~<p dir="ltr" style="text-align: left;">Lähiajal ei oleks oodata piksevihma.<br></p>
+~<p dir="ltr" style="text-align: left;">Kas kõik vajalik on kaasas,et ei peaks mitu korda üles - alla ronima<br></p>
+}
+
+// question: C10_S04_et_q010_et name: C10_S04_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C10_S04
+
+::C10_S04_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Mida peab silmas pidama kui oled autoga sõitnud välipäevale?<br></p>{
+=<p dir="ltr" style="text-align: left;">Et auto ei saaks iseenesest liikuma hakata.<br></p>
+~<p dir="ltr" style="text-align: left;">Kas tagasisõiduks bensiini jätkub.<br></p>
+~<p dir="ltr" style="text-align: left;">Et mitte mingisugust auto osa ei oleks kasutatud antenni,antenni- või jõukaablite kinnituspunktidena,mis auto suvalisel ärasõidul viib kaasa pool laagrit koos kallite aparaatidega ja võib põhjustada õnnetusi inimestega.<br></p>
+}
+
+// question: C11_S01_et_q016_et name: C11_S01_et_q016_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S01
+
+::C11_S01_et_q016_et::[html]<p dir="ltr" style="text-align: left;">Kuidas tuleb veerimistabeli abil saata kutsung ES9A ?<br></p>{
+=<p dir="ltr" style="text-align: left;">Echo Sierra Nine Alfa.<br></p>
+~<p dir="ltr" style="text-align: left;">Eemeli Sagari Nine Aarne.<br></p>
+~<p dir="ltr" style="text-align: left;">Edward Santiago Nine Alabama.<br></p>
+}
+
+// question: C11_S01_et_q017_et name: C11_S01_et_q017_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S01
+
+::C11_S01_et_q017_et::[html]<p dir="ltr" style="text-align: left;">Kuidas veeritakse kutsungit AE0LQY ?<br></p>{
+=<p dir="ltr" style="text-align: left;">Alfa Echo Zero Lima Quebec Yankee<br></p>
+~<p dir="ltr" style="text-align: left;">Able Easy Zero Lima Quebec Yankee.<br></p>
+~<p dir="ltr" style="text-align: left;">Arizona Equador Zero London Queen Yesterday<br></p>
+}
+
+// question: C11_S02_et_q011_et name: C11_S02_et_q011_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S02
+
+::C11_S02_et_q011_et::[html]<p dir="ltr" style="text-align: left;">Mida tähendab "CQ" ?<br></p>{
+=<p dir="ltr" style="text-align: left;">Üldväljakutse märkimaks, et üritate kellegagi ühendust luua.<br></p>
+~<p dir="ltr" style="text-align: left;">Märguanne teisele jaamale, et kutsute teda veerand tunni pärast.<br></p>
+~<p dir="ltr" style="text-align: left;">Märguanne, et proovite uut antenni ja väljakutsetele ei vasta.<br></p>
+~<p dir="ltr" style="text-align: left;">Ainult kutsutud jaam tohib vastata.<br></p>
+}
+
+// question: C11_S02_et_q012_et name: C11_S02_et_q012_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S02
+
+::C11_S02_et_q012_et::[html]<p dir="ltr" style="text-align: left;">Mida tähendab lühend QRS ?<br></p>{
+=<p dir="ltr" style="text-align: left;">Saatke aeglasemalt.<br></p>
+~<p dir="ltr" style="text-align: left;">Mind segavad staatilised häired.<br></p>
+~<p dir="ltr" style="text-align: left;">Saatke RST raport.<br></p>
+}
+
+// question: C11_S02_et_q013_et name: C11_S02_et_q013_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S02
+
+::C11_S02_et_q013_et::[html]<p dir="ltr" style="text-align: left;">Mida tähendab lühend QTH ?<br></p>{
+=<p dir="ltr" style="text-align: left;">Minu asukoht on ...<br></p>
+~<p dir="ltr" style="text-align: left;">Kellaaeg on ...<br></p>
+~<p dir="ltr" style="text-align: left;">Minu nimi on ...<br></p>
+}
+
+// question: C11_S02_et_q020_et name: C11_S02_et_q020_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S02
+
+::C11_S02_et_q020_et::[html]<p dir="ltr" style="text-align: left;">Mida tähendab lühend QSL?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kas võite kinnitada minu saadetud teate kättesaamist?<br></p>
+~<p dir="ltr" style="text-align: left;">Kas pean saatma teile oma jaamapäeviku?<br></p>
+~<p dir="ltr" style="text-align: left;">Kas pean saatma aeglasemalt?<br></p>
+}
+
+// question: C11_S04_et_q001_et name: C11_S04_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S04
+
+::C11_S04_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Mis on kõige olulisem tegur kutsesageduse valikul teil kasutada lubatud sagedusalal?<br></p>{
+=<p dir="ltr" style="text-align: left;">Sagedus ei tohi olla hõivatud teiste amatööride poolt.<br></p>
+~<p dir="ltr" style="text-align: left;">Peate kuulma sel sagedusel mõnd jaama veendumaks et teid võidaks kuulda.<br></p>
+~<p dir="ltr" style="text-align: left;">Teie antenn peab olema resonantsis antud sagedusel.<br></p>
+}
+
+// question: C11_S04_et_q004_et name: C11_S04_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S04
+
+::C11_S04_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Kuulete oma sagedusel Haiitis toimunud maavärina päästjate teabevahetust. Mida teete?<br></p>{
+=<p dir="ltr" style="text-align: left;">Otsite töötamiseks mõne teise sageduse.<br></p>
+~<p dir="ltr" style="text-align: left;">Teatate jaamale, et sagedus on hõivatud.<br></p>
+~<p dir="ltr" style="text-align: left;">Helistate Päästeametisse.<br></p>
+~<p dir="ltr" style="text-align: left;">Helistate Tehnilise Järelevalve Ametisse.<br></p>
+~<p dir="ltr" style="text-align: left;">vajab kontrollimist<br></p>
+}
+
+// question: C11_S04_et_q014_et name: C11_S04_et_q014_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S04
+
+::C11_S04_et_q014_et::[html]<p dir="ltr" style="text-align: left;">Milline on standardse telefoniväljakutse formaat?<br></p>{
+=<p dir="ltr" style="text-align: left;">Saadate fraasi "CQ" kolm korda, "this is" ja oma kutsungi kolm korda.<br></p>
+~<p dir="ltr" style="text-align: left;">Saadate teise jaama kutsungi vähemalt kümme korda, siis sõnad "this is",seejärel oma kutsung vähemalt kaks korda.<br></p>
+~<p dir="ltr" style="text-align: left;">Saadate fraasi "CQ" vähemalt viis korda, siis "this is" ja oma kutsung üks kord.<br></p>
+}
+
+// question: C11_S04_et_q015_et name: C11_S04_et_q015_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S04
+
+::C11_S04_et_q015_et::[html]<p dir="ltr" style="text-align: left;">Kuidas te vastate raadiotelefoni väljakutsele?<br></p>{
+=<p dir="ltr" style="text-align: left;">Saadate teise jaama kutsungit ühe korra, "this is" ja oma kutsungit veerimistabelit kasutades ühe korra.<br></p>
+~<p dir="ltr" style="text-align: left;">Saadate teise jaama kutsungit kümme korda ,siis "this is" ja oma kutsungit vähemalt kaks korda.<br></p>
+~<p dir="ltr" style="text-align: left;">Saadate teise jaama kutsungit veerimistabelit kasutades vähemalt viis korda, "this is" ja oma kutsungit vähemalt üks kord.<br></p>
+}
+
+// question: C11_S05_et_q019_et name: C11_S05_et_q019_et
+$CATEGORY: $course$/top/B-kategooria eksam/C11_S05
+
+::C11_S05_et_q019_et::[html]<p dir="ltr" style="text-align: left;">Mida tähendab R RST signaali raportis?<br></p>{
+=<p dir="ltr" style="text-align: left;">Signaali loetavust.<br></p>
+~<p dir="ltr" style="text-align: left;">Signaali taastumist.<br></p>
+~<p dir="ltr" style="text-align: left;">CW tooni reonantsi.<br></p>
+}
+
+// question: C12_S01_et_q001_et name: C12_S01_et_q001_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q001_et::[html]<p dir="ltr" style="text-align: left;">Mida loetakse amatöörraadiojaamaks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Tehniliste seadmete kogumit, mida raadioamatöör võib kasutada amatöörraadiosideks vastavalt Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt väljastatud tööloa alusel.<br></p>
+~<p dir="ltr" style="text-align: left;">Tehasvalmistatud raadiosideaparatuuri ja selle energiatoite seadmete kogumit.<br></p>
+~<p dir="ltr" style="text-align: left;">Tehniliste seadmete kogumit, mida raadioamatöör võiks kasutada amatöörraadiosideks ka ilma Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt väljastatavat tööluba omamata.<br></p>
+}
+
+// question: C12_S01_et_q002_et name: C12_S01_et_q002_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q002_et::[html]<p dir="ltr" style="text-align: left;">Mis kuulub Amatöörraadiojaama tehniliste seadmete kogumikku?<br></p>{
+=<p dir="ltr" style="text-align: left;">Saatja, vastuvõtja, lõppseade ja antenn(id).<br></p>
+~<p dir="ltr" style="text-align: left;">Saatja ja vastuvõtja.<br></p>
+~<p dir="ltr" style="text-align: left;">Saatja, vastuvõtja ja energiatoite seade.<br></p>
+}
+
+// question: C12_S01_et_q003_et name: C12_S01_et_q003_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q003_et::[html]<p dir="ltr" style="text-align: left;">Mida loetakse Amatöör-vahendusraadiojaamaks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kindlal sagedusel või sagedustel toimivat amatöörraadiojaama, mille vahendusel teostatakse vastuvõetavate sõnaliste või digitaalsete saadete edastamist reaalajas või läbi vahemälu.<br></p>
+~<p dir="ltr" style="text-align: left;">Avakosmoses paiknevat raadiojaama.<br></p>
+~<p dir="ltr" style="text-align: left;">Amatöörraadiojaama, mille kaudu edastatakse ainult ringteateid.<br></p>
+}
+
+// question: C12_S01_et_q004_et name: C12_S01_et_q004_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q004_et::[html]<p dir="ltr" style="text-align: left;">Mida loetakse Amatöörraadiomajakaks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Automaatselt toimivat amatöörraadiojaama, mida kasutatakse väljatugevuse mõõtmisel, antennide häälestamisel ja raadiolevi tingimuste hindamisel.<br></p>
+~<p dir="ltr" style="text-align: left;">Avakosmoses paiknevat amatöörraadiojaama, mille vahendusel teostatakse raadiolevi tingimuste võrdlust.<br></p>
+~<p dir="ltr" style="text-align: left;">Ühiskasutusega amatöörraadiojaama, mida võib sidepidamiseks kasutada mitu raa dioamatööri.<br></p>
+}
+
+// question: C12_S01_et_q005_et name: C12_S01_et_q005_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q005_et::[html]<p dir="ltr" style="text-align: left;">Mida loetakse Ühiskasutusega amatöörraadiojaamaks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Amatöörraadiojaama, mis kuulub juriidilisele isikule või ERAÜ juures registreeritud raadioamatööride kollektiivile.<br></p>
+~<p dir="ltr" style="text-align: left;">Amatöörraadiojaama, mis toimib ainult teatud kindlal sagedusel ja kellaajal.<br></p>
+~<p dir="ltr" style="text-align: left;">Amatöörraadiojaama, mida võivad kasutada ka raadioamatööri kvalifikatsiooni mitteomavad isikud.<br></p>
+}
+
+// question: C12_S01_et_q006_et name: C12_S01_et_q006_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q006_et::[html]<p dir="ltr" style="text-align: left;">Mida loetakse Amatöörraadiojaama registreeritud asukohaks?<br></p>{
+=<p dir="ltr" style="text-align: left;">See asukoht, mis on märgitud tööloale.<br></p>
+~<p dir="ltr" style="text-align: left;">Asukoht, kust konkreetne raadiojaam antud ajahetkel väljub eetrisse.<br></p>
+~<p dir="ltr" style="text-align: left;">Amatöörraadiojaama valdaja elukoht.<br></p>
+~<p dir="ltr" style="text-align: left;">Seda õigusaktid enam ei reguleeri.<br></p>
+}
+
+// question: C12_S01_et_q007_et name: C12_S01_et_q007_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q007_et::[html]<p dir="ltr" style="text-align: left;">Mida loetakse Amatöörraadiosideks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Mittetulunduslikku raadiosidet, milles osalevad ainult raadioamatöörid.<br></p>
+~<p dir="ltr" style="text-align: left;">Raadiosidet, milles korrespondentide valik on vaba.<br></p>
+~<p dir="ltr" style="text-align: left;">Raadiosidet, kus osapooled vahetavad informatsiooni ainult morsekoodi abil.<br></p>
+}
+
+// question: C12_S01_et_q008_et name: C12_S01_et_q008_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q008_et::[html]<p dir="ltr" style="text-align: left;">Kuidas tohib kasutada Amatöörraadiosidet?<br></p>{
+=<p dir="ltr" style="text-align: left;">Ainult sagedusalades, mis on eraldatud amatöörraadiosideks Eesti raadiosageduste plaaniga.<br></p>
+~<p dir="ltr" style="text-align: left;">Sagedusalades, mis vastavad IARU 2.regiooni sagedusplaanile.<br></p>
+~<p dir="ltr" style="text-align: left;">Ainult mitteavalike raadiosõnumite edastamiseks.<br></p>
+}
+
+// question: C12_S01_et_q009_et name: C12_S01_et_q009_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q009_et::[html]<p dir="ltr" style="text-align: left;">Keda loetakse Raadioamatööriks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Isikut, kes omab raadioamatööri kvalifikatsioonitunnistust.<br></p>
+~<p dir="ltr" style="text-align: left;">Kes oma vanuse, raadiotehniliste teadmiste ja elukogemuste põhjal võib seda nimetust kanda.<br></p>
+~<p dir="ltr" style="text-align: left;">Kes kasutab tavalist, headest tavadest lähtuvat kõnekeelt raadioside pidamisel.<br></p>
+}
+
+// question: C12_S01_et_q018_et name: C12_S01_et_q018_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S01
+
+::C12_S01_et_q018_et::[html]<p dir="ltr" style="text-align: left;">Mille alusel tohib Amatöörraadiojaama kasutada?<br></p>{
+=<p dir="ltr" style="text-align: left;">Ainult kehtiva amatöörraadiojaama tööloa alusel.<br></p>
+~<p dir="ltr" style="text-align: left;">Ainult raadioamatööri harmoneeritud kvalifikatsioonitunnistuse alusel<br></p>
+~<p dir="ltr" style="text-align: left;">Ainult raadioamatööri kvalifikatsioonieksami sooritamise tunnistuse alusel.<br></p>
+}
+
+// question: C12_S02_et_q011_et name: C12_S02_et_q011_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S02
+
+::C12_S02_et_q011_et::[html]<p dir="ltr" style="text-align: left;">Millist varianti saab kasutada Eesti amatöörjaama kutsungi moodustamiseks?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kahetäheline eesliide, number ja neljatäheline järelliide.<br></p>
+~<p dir="ltr" style="text-align: left;">Kolmetäheline eesliide, number ja neljatäheline järelliide.<br></p>
+~<p dir="ltr" style="text-align: left;">Ühetäheline eesliide, number ja neljatäheline järelliide.<br></p>
+~<p dir="ltr" style="text-align: left;">Kahekohaline numbriline eesliide ja kuni kolmetähelisest järelliide.<br></p>
+}
+
+// question: C12_S02_et_q012_et name: C12_S02_et_q012_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S02
+
+::C12_S02_et_q012_et::[html]<p dir="ltr" style="text-align: left;">Kuidas algab Haapsalus registreeritud amatöörraadiojaama kutsung?<br></p>{
+=<p dir="ltr" style="text-align: left;">ES3<br></p>
+~<p dir="ltr" style="text-align: left;">ES1<br></p>
+~<p dir="ltr" style="text-align: left;">ES0<br></p>
+}
+
+// question: C12_S02_et_q013_et name: C12_S02_et_q013_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S02
+
+::C12_S02_et_q013_et::[html]<p dir="ltr" style="text-align: left;">Kuhu kuulub piirkondlikult Kutsung ES9Z?<br></p>{
+=<p dir="ltr" style="text-align: left;">Üleriigiline, kasutamiseks ainult ERAÜ poolt.<br></p>
+~<p dir="ltr" style="text-align: left;">Hiiumaale<br></p>
+~<p dir="ltr" style="text-align: left;">Põlvamaale.<br></p>
+}
+
+// question: C12_S02_et_q014_et name: C12_S02_et_q014_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S02
+
+::C12_S02_et_q014_et::[html]<p dir="ltr" style="text-align: left;">Millise klassi Eesti amatöörraadiojaamale võib kuuluda Kutsung ES2XX ?<br></p>{
+=<p dir="ltr" style="text-align: left;">A<br></p>
+~<p dir="ltr" style="text-align: left;">C<br></p>
+~<p dir="ltr" style="text-align: left;">B<br></p>
+}
+
+// question: C12_S02_et_q015_et name: C12_S02_et_q015_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S02
+
+::C12_S02_et_q015_et::[html]<p dir="ltr" style="text-align: left;">Milline järelliide omistatakse Ühiskasutusega (raadioklubi) amatöörraadiojaamale?<br></p>{
+=<p dir="ltr" style="text-align: left;">A-ZZ<br></p>
+~<p dir="ltr" style="text-align: left;">AAA-CCC<br></p>
+~<p dir="ltr" style="text-align: left;">XAA-ZZZ<br></p>
+}
+
+// question: C12_S03_et_q010_et name: C12_S03_et_q010_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S03
+
+::C12_S03_et_q010_et::[html]<p dir="ltr" style="text-align: left;">Mis tingimustel tohib Amatöörraadiosides edastada sihituseta või korrespondendita saateid?<br></p>{
+=<p dir="ltr" style="text-align: left;">Amatöörraadiomajakate poolt.<br></p>
+~<p dir="ltr" style="text-align: left;">Amatöörtelevisiooni saatja video- ja helikanali edastamiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">Kõikidele Eesti raadioamatööridele määratud infoteadete edastamiseks.<br></p>
+~<p dir="ltr" style="text-align: left;">vajab kontrollimist<br></p>
+}
+
+// question: C12_S03_et_q016_et name: C12_S03_et_q016_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S03
+
+::C12_S03_et_q016_et::[html]<p dir="ltr" style="text-align: left;">Kes võib olla ühiskasutusega (raadioklubi) amatöörraadiojaama vastutavaks järelevaatajaks?<br></p>{
+=<p dir="ltr" style="text-align: left;">A-klassi kvalifikatsioonitunnistust omav raadioamatöör.<br></p>
+~<p dir="ltr" style="text-align: left;">D-klassi kvalifikatsioonitunnistust omav raadioamatöör.<br></p>
+~<p dir="ltr" style="text-align: left;">C-klassi kvalifikatsioonitunnistust omav raadioamatöör.<br></p>
+}
+
+// question: C12_S03_et_q017_et name: C12_S03_et_q017_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S03
+
+::C12_S03_et_q017_et::[html]<p dir="ltr" style="text-align: left;">Millise maksimaalse kestvusega võib olla Tarbijakaitse ja Tehnilise Järelevalve Ameti poolt väljastatav Amatöörjaama luba?<br></p>{
+=<p dir="ltr" style="text-align: left;">5 aastat.<br></p>
+~<p dir="ltr" style="text-align: left;">Tähtajatu.<br></p>
+~<p dir="ltr" style="text-align: left;">1 aasta.<br></p>
+~<p dir="ltr" style="text-align: left;">3 aastat.<br></p>
+}
+
+// question: C12_S03_et_q019_et name: C12_S03_et_q019_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S03
+
+::C12_S03_et_q019_et::[html]<p dir="ltr" style="text-align: left;">Kus tuleb hoida Amatöörraadiojaama tööluba?<br></p>{
+=<p dir="ltr" style="text-align: left;">Seda ei reguleerita.<br></p>
+~<p dir="ltr" style="text-align: left;">Raadiojaama valdaja elukohas.<br></p>
+~<p dir="ltr" style="text-align: left;">Raadiojaama registreeritud asukohas.<br></p>
+~<p dir="ltr" style="text-align: left;">Tarbijakaitse ja Tehnilise Järelevalve Ametiis.<br></p>
+}
+
+// question: C12_S03_et_q020_et name: C12_S03_et_q020_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S03
+
+::C12_S03_et_q020_et::[html]<p dir="ltr" style="text-align: left;">Mida tuleb teha tööloale kantud andmete muutumisel?<br></p>{
+=<p dir="ltr" style="text-align: left;">Tuleb taotleda uut tööluba.<br></p>
+~<p dir="ltr" style="text-align: left;">Tuleb sooritada uus eksam<br></p>
+~<p dir="ltr" style="text-align: left;">Tuleb tööloal veekindla markeriga andmed muuta<br></p>
+}
+
+// question: C12_S03_et_q021_et name: C12_S03_et_q021_et
+$CATEGORY: $course$/top/B-kategooria eksam/C12_S03
+
+::C12_S03_et_q021_et::[html]<p dir="ltr" style="text-align: left;">Kui pikalt on lubatud Amatöörraadiojaama alaline (kohtpaikne) kasutamine väljaspool selle registreeritud asukohta ilma tööloa muutmiseta?<br></p>{
+=<p dir="ltr" style="text-align: left;">Kuus kuud.<br></p>
+~<p dir="ltr" style="text-align: left;">Kolm kuud.<br></p>
+~<p dir="ltr" style="text-align: left;">Viis kuud.<br></p>
+~<p dir="ltr" style="text-align: left;">Üks aasta.<br></p>
+~<p dir="ltr" style="text-align: left;">vajab kontrollimist, seaduses seda pole. on ainult (4) Amatöörraadiojaamale väljastatakse uus kutsung, kui muutub amatöörraadiojaama kasutaja raadioamatööri kvalifikatsiooniklass või amatöörraadiojaama registreeritud asukoht.<br></p>
+}

@@ -1,4 +1,4 @@
-import { ErauApi } from '@/api-erau'
+import { ErauApi } from '../../api-erau'
 
 export default {
   "timestamp": "2025-04-11T22:35:24.793+03:00",

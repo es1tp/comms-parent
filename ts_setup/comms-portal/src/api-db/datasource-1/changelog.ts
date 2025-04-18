@@ -1,4 +1,4 @@
-import { KbApi } from '@/api-kb'
+import { KbApi } from '../../api-kb'
 
 export default {
   "timestamp": "2025-04-11T22:35:24.788+03:00",

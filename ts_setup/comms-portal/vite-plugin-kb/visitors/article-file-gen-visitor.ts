@@ -85,7 +85,7 @@ class FileGenVisitor {
 
   visitTsSource(article: KbApi.Article): TsSource {
     const lines = JSON.stringify(article, null, 2)
-    const importLine = `import { KbApi } from '@/api-kb'\n\n`;
+    const importLine = `import { KbApi } from '../../api-kb'\n\n`;
     const content = importLine + `export const ${article.id}: KbApi.Article = ${lines}`;
     return { content, filename: `${article.id}.ts` };
   }
@@ -123,7 +123,7 @@ class FileGenVisitor {
       changes: newLog
     }
 
-    const importLine = `import { KbApi } from '@/api-kb'\n\n`;
+    const importLine = `import { KbApi } from '../../api-kb'\n\n`;
     const content = `${importLine}export default ${JSON.stringify(changeLog, null, 2)}`;
 
     this.visitWriteFile({ filename: CHANGE_LOG_FILE, content });

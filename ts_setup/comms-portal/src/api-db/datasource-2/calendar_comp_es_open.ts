@@ -1,4 +1,4 @@
-import { KbApi } from '@/api-kb'
+import { KbApi } from '../../api-kb'
 
 export const calendar_comp_es_open: KbApi.Article = {
   "id": "calendar_comp_es_open",

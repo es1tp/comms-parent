@@ -7,7 +7,7 @@ import { vitePluginIntl } from './vite-plugin-intl';
 import { alias } from './vite.paths.config';
 import { vitePluginKb } from './vite-plugin-kb';
 import { vitePluginEvents } from './vite-plugin-events';
-
+import { vitePluginMoodle } from './vite-plugin-moodle';
 
 
 // https://vitejs.dev/config/
@@ -45,8 +45,12 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
             questionnaire: 'src/api-db/questionnaire-3'
           } 
         }
-
       ]),
+
+      vitePluginMoodle({
+        enabled: false,
+        src: 'src/api-db'
+      }),
 
       vitePluginEvents({ directory: 'src/api-db/events-1', tsFilename: 'erau_events.ts', enabled: false })
       
