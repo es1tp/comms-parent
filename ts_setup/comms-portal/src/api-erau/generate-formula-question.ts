@@ -51,7 +51,9 @@ class FormulaVisitor {
       }, {});
 
       const result = this._formula.evaluate(variables) as number;
-      if(this.isFullFigure(result)) {
+
+      
+      if(this.isEven(result) && this.isFullFigure(result) && this.isSmall(result)) {
         this._engine.clear();
         this._engine.reserveAllValues(variables)
         this._engine.reserveValue(result, this._formula_to_what)
@@ -60,6 +62,14 @@ class FormulaVisitor {
       }
     }
     throw Error(`Can't generate nice set of numbers for formula: ${this._init.formula}!`);
+  }
+
+  private isSmall(input: number): boolean {
+    return input < 1000;
+  }
+
+  private isEven(input: number): boolean {
+    return input % 2 === 0;
   }
 
   private isFullFigure(input: number): boolean {
