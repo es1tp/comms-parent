@@ -7,9 +7,17 @@ function randomIntFromInterval(min: number, max: number) { // min and max includ
 
 class PhysicsNumber {
   private _used: number[];
+  private _upperLimit: number; //inclusive
 
-  constructor(used: number[] | undefined = []) {
-    this._used = used
+  constructor(props: {
+    upperLimit: number,
+    used: number[] | undefined
+  }) {
+    this._used = props.used ?? [];
+    if(props.upperLimit < 10) {
+      throw new Error(`Min supported upper limit is 10, you entered: ${props.upperLimit}!`)
+    }
+    this._upperLimit = props.upperLimit;
   }
   clear() {
     this._used = [];
@@ -17,6 +25,7 @@ class PhysicsNumber {
   reserve(value: number) {
     this._used.push(value);
   }
+
   nextValue(): number {
     // between 1 - 9 * (10 | 100)
     let index = 0;
@@ -27,6 +36,10 @@ class PhysicsNumber {
       if(this._used.includes(nextValue)) {
         continue;
       }
+      if(nextValue > this._upperLimit) {
+        continue;
+      }
+
       this._used.push(nextValue);
       return nextValue;
     }
@@ -55,7 +68,6 @@ class PhysicsNumber {
     }
     return 100;
   }
-
   private base() {
     const base = randomIntFromInterval(1, 9);
     return base;
@@ -66,9 +78,9 @@ export type PhysicsValueType = 'P' | 'p' | 'V' | 'v' | 'R' | 'r';
 
 export class PhysicsEngine {
 
-  private p_power = new PhysicsNumber();
-  private v_voltage = new PhysicsNumber();
-  private r_resistance = new PhysicsNumber();
+  private p_power = new PhysicsNumber({ upperLimit: 1000, used: [] });
+  private v_voltage = new PhysicsNumber({ upperLimit: 99, used: [] });
+  private r_resistance = new PhysicsNumber({ upperLimit: 1000, used: [] });
 
   constructor() {
   }
