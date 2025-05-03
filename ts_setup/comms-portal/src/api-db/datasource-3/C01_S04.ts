@@ -12,28 +12,19 @@ export const C01_S04: KbApi.Article = {
       "questionnaire": [
         {
           "id": "C01_S04_et_q016_et",
+          "type": "formula",
+          "formula": "dB ~ 10 * log10([power_ratio])",
           "groupId": "q016",
-          "question": "Kui suur on Võimsuse suurenemine kaks korda detsibellides?",
+          "question": "Kui suur on Võimsuse suurenemine {power_ratio} korda detsibellides?",
           "answers": [
             {
               "id": "C01_S04_et_q016_et_A",
-              "answer": "1 dB.",
-              "isCorrect": false
-            },
-            {
-              "id": "C01_S04_et_q016_et_B",
-              "answer": "3 dB.",
+              "answer": "{dB} dB.",
               "isCorrect": true
-            },
-            {
-              "id": "C01_S04_et_q016_et_C",
-              "answer": "6 dB",
-              "isCorrect": false
             }
           ],
           "qualifications": [
-            "A",
-            "B"
+            "X"
           ]
         }
       ]

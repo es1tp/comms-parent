@@ -21,7 +21,6 @@ class FormulaVisitor {
     const answers = this.visitAnswers(usedVariables);
     const correctAnswer = answers.filter(a => a.isCorrect).map(a => a.text).join(', ')
 
-
     const result: ErauApi.ErauQuestion = {
       ...this._init,
       answers,
@@ -75,18 +74,23 @@ class FormulaVisitor {
 }
 
 
-
-
 export function generateFormulaQuestion(init: ErauApi.ErauQuestion): ErauApi.ErauQuestion {
   if(!init.formula) {
     console.error(`Failed to generate formula for: ${init.text} questions, because formula is missing!`);
     return init;
   }
 
-  try {
-    return new FormulaVisitor(init).visit();
-  } catch(e) {
-    console.error(`Failed to generate formula: ${init.formula} questions`, e);
-  }
+  let tries = 0;
+  let lastError;
+  do {
+    try {
+      return new FormulaVisitor(init).visit();
+    } catch(e) {
+      lastError = e;
+    }
+  } while(tries++ < 100);
+  
+  console.error(`Failed to generate formula: ${init.formula} questions`, lastError);
+
   return init;
 }

@@ -1,0 +1,4 @@
+? Kui {I} amprilise vooluallikaga on ühendatud {component_seq} paralleelselt lülitatud {R} oomist takistit kui suur vool läbib kumbagi takistit?
+A*. {I} amprit.
+. X
+_ I = I/[component_seq] * (R/R)

@@ -1,7 +1,7 @@
 import { KbApi } from '../../api-kb'
 
 export default {
-  "timestamp": "2025-05-03T14:27:16.046+03:00",
+  "timestamp": "2025-05-03T18:09:37.954+03:00",
   "changes": [
     {
       "id": "C01",
@@ -78,42 +78,28 @@ export default {
       "changeObject": "article",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
+      "timestamp": "2025-05-03T17:17:39.709+03:00"
     },
     {
       "id": "C01_S04_et",
       "changeObject": "page",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
+      "timestamp": "2025-05-03T17:17:39.709+03:00"
     },
     {
       "id": "C01_S04_et_q016_et",
       "changeObject": "question",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
+      "timestamp": "2025-05-03T17:17:39.709+03:00"
     },
     {
       "id": "C01_S04_et_q016_et_A",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
-    },
-    {
-      "id": "C01_S04_et_q016_et_B",
-      "changeObject": "answer",
-      "changeType": "update",
-      "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
-    },
-    {
-      "id": "C01_S04_et_q016_et_C",
-      "changeObject": "answer",
-      "changeType": "update",
-      "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
+      "timestamp": "2025-05-03T17:17:39.709+03:00"
     },
     {
       "id": "C02",
@@ -156,6 +142,48 @@ export default {
       "changeType": "update",
       "comment": "",
       "timestamp": "2025-05-03T14:08:56.513+03:00"
+    },
+    {
+      "id": "C03",
+      "changeObject": "article",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-05-03T17:51:52.802+03:00"
+    },
+    {
+      "id": "C03_et",
+      "changeObject": "page",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-05-03T17:51:52.802+03:00"
+    },
+    {
+      "id": "C03_S02",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-05-03T18:09:37.954+03:00"
+    },
+    {
+      "id": "C03_S02_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-05-03T18:09:37.954+03:00"
+    },
+    {
+      "id": "C03_S02_et_q021_et",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-05-03T18:09:37.954+03:00"
+    },
+    {
+      "id": "C03_S02_et_q021_et_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-05-03T18:09:37.954+03:00"
     }
   ]
 }

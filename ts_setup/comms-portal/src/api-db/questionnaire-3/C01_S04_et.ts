@@ -12,25 +12,16 @@ export const C01_S04_et: ErauApi.ErauSubject = {
       "answers": [
         {
           "id": "C01_S04_et_q016_et_A",
-          "text": "1 dB.",
-          "isCorrect": false
-        },
-        {
-          "id": "C01_S04_et_q016_et_B",
-          "text": "3 dB.",
+          "text": "{dB} dB.",
           "isCorrect": true
-        },
-        {
-          "id": "C01_S04_et_q016_et_C",
-          "text": "6 dB",
-          "isCorrect": false
         }
       ],
-      "text": "Kui suur on Võimsuse suurenemine kaks korda detsibellides?",
+      "text": "Kui suur on Võimsuse suurenemine {power_ratio} korda detsibellides?",
       "qualifications": [
-        "A",
-        "B"
-      ]
+        "X"
+      ],
+      "formula": "dB ~ 10 * log10([power_ratio])",
+      "type": "formula"
     }
   ]
 }

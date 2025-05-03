@@ -1,5 +1,4 @@
-? Kui suur on Võimsuse suurenemine kaks korda detsibellides?
-A. 1 dB.
-B*. 3 dB.
-C. 6 dB
-. AB
+? Kui suur on Võimsuse suurenemine {power_ratio} korda detsibellides?
+A*. {dB} dB.
+. X
+_ dB ~ 10 * log10([power_ratio])

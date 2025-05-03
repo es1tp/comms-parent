@@ -1,5 +1,10 @@
 import { NormalizedFormula, parseFormula } from "./formula";
-import { PhysicsUnit, PhysicsUnitType } from "./physics-unit";
+import { isWholeNumber, PhysicsUnitType } from "./physics-unit";
+import { AnyPhysicsUnit, AnyPhysicsUnitValue } from "./physics-unit-any";
+import { DecibelUnit } from "./physics-unit-decibel";
+import { EvenNumberUnit } from "./physics-unit-even-number";
+import { PowerRatioUnit } from "./physics-unit-power-ratio";
+import { SequeceUnit } from "./physics-unit-sequence";
 
 export interface UsedVariables {
   variables: Record<string, number>; // used variables to get the correct answer
@@ -10,12 +15,14 @@ export interface UsedVariables {
 
 
 export type PhysicsValueType = (
+  'dB' | 'db' | // decibels
   'P' | 'p' |   // power
   'V' | 'v' |   // voltage
   'R' | 'r' |   // resistence
   'I' | 'i' |   // current
   'Np'| 'np'|   // transformer turns on primary
-  'Ns'| 'ns'    // transformer turns on secondary
+  'Ns'| 'ns'|   // transformer turns on secondary
+  'even_number'
 );
 
 export interface PhysicsEngineType {
@@ -28,13 +35,6 @@ function stringToHex(str: string): string {
 }
 export class PhysicsEngine implements PhysicsEngineType {
 
-  private i_current: PhysicsUnitType;
-  private p_power: PhysicsUnitType;
-  private v_voltage: PhysicsUnitType;
-  private r_resistance: PhysicsUnitType;
-  private ns_transformer_turns: PhysicsUnitType;
-  private np_transformer_turns: PhysicsUnitType;
-
   private all_units: Record<string, PhysicsUnitType> = {};
   private normalized_formula: NormalizedFormula;
 
@@ -43,21 +43,26 @@ export class PhysicsEngine implements PhysicsEngineType {
   constructor(props: {
     formulaText: string 
   }) {
-
+    //AnyPhysicsUnit
     this.formulaText = stringToHex(props.formulaText);
-    this.i_current = new PhysicsUnit({ upperLimit: 99, used: [], code: 'i' });
-    this.p_power = new PhysicsUnit({ upperLimit: 1000, used: [], code: 'p' });
-    this.v_voltage = new PhysicsUnit({ upperLimit: 99, used: [], code: 'v' });
-    this.r_resistance = new PhysicsUnit({ upperLimit: 1000, used: [], code: 'r' });
-    this.np_transformer_turns = new PhysicsUnit({ lowerLimit: 2000, upperLimit: 4000, used: [], code: 'np' });
-    this.ns_transformer_turns = new PhysicsUnit({ upperLimit: 1000, used: [], code: 'ns' });
 
-    this.all_units[this.i_current.code] = this.i_current;
-    this.all_units[this.p_power.code] = this.p_power;
-    this.all_units[this.v_voltage.code] = this.v_voltage;
-    this.all_units[this.r_resistance.code] = this.r_resistance;
-    this.all_units[this.ns_transformer_turns.code] = this.ns_transformer_turns;
-    this.all_units[this.np_transformer_turns.code] = this.np_transformer_turns;
+    const units: PhysicsUnitType[] = [
+      new AnyPhysicsUnit(new AnyPhysicsUnitValue({ upperLimit: 99 }), { used: [], code: 'i' }),
+      new AnyPhysicsUnit(new AnyPhysicsUnitValue({ upperLimit: 1000 }), { used: [], code: 'p' }),
+      new AnyPhysicsUnit(new AnyPhysicsUnitValue({ lowerLimit: 10, upperLimit: 99 }), { used: [], code: 'v' }),
+      new AnyPhysicsUnit(new AnyPhysicsUnitValue({ upperLimit: 1000 }), { used: [], code: 'r' }),
+      new AnyPhysicsUnit(new AnyPhysicsUnitValue({ lowerLimit: 2000, upperLimit: 4000 }), { used: [], code: 'np' }),
+      new AnyPhysicsUnit(new AnyPhysicsUnitValue({ lowerLimit: 100, upperLimit: 1000 }), { used: [], code: 'ns' }),
+      new AnyPhysicsUnit(new EvenNumberUnit({ upperLimit: 20, lowerLimit: 2 }), { used: [], code: 'even_number' }),
+
+      new AnyPhysicsUnit(new SequeceUnit({ upperLimit: 20, lowerLimit: 2  }), { used: [], code: 'seq_number' }),
+      new AnyPhysicsUnit(new DecibelUnit({ upperLimit: 3*30, lowerLimit: 3 }), {  used: [], code: 'db' }),
+      new AnyPhysicsUnit(new PowerRatioUnit({ upperLimit: 10_000, lowerLimit: 2 }), { used: [], code: 'power_ratio' }),
+      new AnyPhysicsUnit(new EvenNumberUnit({ upperLimit: 20, lowerLimit: 2}), { used: [], code: 'component_seq' })
+    ];
+    for(const unit of units) {
+      this.all_units[unit.code] = unit;
+    }
 
     this.normalized_formula = parseFormula(props.formulaText)
     this.isSupportedType(this.normalized_formula.meta.name);
@@ -103,7 +108,7 @@ export class PhysicsEngine implements PhysicsEngineType {
 
   private isOkForAnswer(input: number): boolean {
     const isSmall = input < 10000;
-    return isSmall && isWholeNumber(input) && isEven(input);
+    return isSmall && isWholeNumber(input);
   }
 
 
@@ -115,7 +120,6 @@ export class PhysicsEngine implements PhysicsEngineType {
     while(index++ < 100000) {
       const { variables, evaluated } = this.normalized_formula.evaluate((key) => this.nextValue(key as any));
       
-    
       if(this.isOkForAnswer(evaluated)) {
         const formulaToWhat = this.normalized_formula.meta.name as PhysicsValueType;
 
@@ -130,15 +134,3 @@ export class PhysicsEngine implements PhysicsEngineType {
   }
 }
 
-function isEven(input: number): boolean {
-  return input % 2 === 0;
-}
-
-function isWholeNumber(input: number): boolean {
-  const asString = input + '';
-  const afterComma = asString.indexOf('.')
-  if(afterComma < 0) {
-    return true;
-  }
-  return asString.substring(afterComma+1).replaceAll('0', '').trim().length === 0;
-}

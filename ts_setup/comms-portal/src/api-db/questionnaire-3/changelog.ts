@@ -1,7 +1,7 @@
 import { ErauApi } from '../../api-erau'
 
 export default {
-  "timestamp": "2025-05-03T14:27:16.046+03:00",
+  "timestamp": "2025-05-03T18:09:37.954+03:00",
   "changes": [
     {
       "id": "C01_S03_et",
@@ -57,35 +57,21 @@ export default {
       "changeObject": "subject",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
+      "timestamp": "2025-05-03T17:17:39.709+03:00"
     },
     {
       "id": "C01_S04_et_q016_et",
       "changeObject": "question",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
+      "timestamp": "2025-05-03T17:17:39.709+03:00"
     },
     {
       "id": "C01_S04_et_q016_et_A",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
-    },
-    {
-      "id": "C01_S04_et_q016_et_B",
-      "changeObject": "answer",
-      "changeType": "update",
-      "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
-    },
-    {
-      "id": "C01_S04_et_q016_et_C",
-      "changeObject": "answer",
-      "changeType": "update",
-      "comment": "",
-      "timestamp": "2025-05-03T14:27:16.046+03:00"
+      "timestamp": "2025-05-03T17:17:39.709+03:00"
     },
     {
       "id": "C02_S03_et",
@@ -107,6 +93,27 @@ export default {
       "changeType": "update",
       "comment": "",
       "timestamp": "2025-05-03T14:08:56.513+03:00"
+    },
+    {
+      "id": "C03_S02_et",
+      "changeObject": "subject",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-05-03T18:09:37.954+03:00"
+    },
+    {
+      "id": "C03_S02_et_q021_et",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-05-03T18:09:37.954+03:00"
+    },
+    {
+      "id": "C03_S02_et_q021_et_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-05-03T18:09:37.954+03:00"
     }
   ]
 }

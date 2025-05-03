@@ -22,7 +22,9 @@ function funnySpacesTrim(text: string) {
 };
 
 export function parseFormula(original: string): NormalizedFormula {
-  const position = original.indexOf('=');
+  
+  const isRounded = original.indexOf('~') > -1;
+  const position = isRounded ? original.indexOf('~') : original.indexOf('=');
   const formulaToWhat: string = original.substring(0, position).trim();
   const formulaInit: string = original.substring(position + 1).trim()
 
@@ -65,8 +67,18 @@ export function parseFormula(original: string): NormalizedFormula {
         return collector;
       }, {});
     
-      const evaluated: number = formula.evaluate(used) as number;
+      let evaluated: number = formula.evaluate(used) as number;
 
+      if(isRounded) {
+        evaluated = Number.parseFloat(evaluated.toFixed(1));
+      }
+
+      if(formulaToWhat.toLowerCase() === 'db') {
+        //console.log({ evaluated, used, formula: formula.getExpressionString() });
+      }
+      if(formulaToWhat.toLowerCase().startsWith('v')) {
+        //console.log({ evaluated, used, formula: formula.getExpressionString() });
+      }
       return {
         evaluated,
         variables: actual
