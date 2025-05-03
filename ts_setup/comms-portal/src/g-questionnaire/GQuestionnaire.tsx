@@ -10,6 +10,7 @@ import { GQuestionnaireRoot } from './useUtilityClasses';
 import { useMediaQuery } from '@mui/system';
 
 
+
 export const GQuestionnaire: React.FC<{}> = ({ }) => {
   const theme = useTheme();
   const smallScreen = useMediaQuery(theme.breakpoints.down('sm'));

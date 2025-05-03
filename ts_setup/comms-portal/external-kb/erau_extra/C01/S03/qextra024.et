@@ -1,0 +1,4 @@
+? Kui suur võimsus eraldub {R} oomisel takistil, kui tema jalgadel mõõdetud pinge on {V} V?
+A*. {P} millivatti.
+. X
+_ P = V^2 / R

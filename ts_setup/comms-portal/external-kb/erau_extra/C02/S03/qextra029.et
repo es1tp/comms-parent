@@ -1,0 +1,4 @@
+? Kui suur on pinge transformaatori {Ns} keerust koosneva sekundaarmähise klemmidel, kui {Np} keerust koosnev primaarmähis on lülitatud 220 V vahelduvvooluvõrku?
+A*. {V} V
+. X
+_ V = 220.00 * [Ns]/[Np]

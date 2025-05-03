@@ -38,6 +38,8 @@ export const en = {
   'questionnaire-header.reset': 'Reset',
   'questionnaire-header.shuffle': 'Shuffle(3)',
   'questionnaire-header.shuffle.big': 'Shuffle(25)',
+  'questionnaire-footer.questionid': 'Source: {src}',
+  'questionnaire-footer.extra': 'Info: {src}',
   'buttons.scroll-to-top': 'Scroll to top',
   'buttons.cancel': 'Cancel'
 }

@@ -1,84 +1,39 @@
 import { ErauApi } from "./erau-types";
-import { PhysicsEngine, PhysicsValueType } from "./physics-engine";
-import Formula from 'fparser';
+import { PhysicsEngine, PhysicsEngineType, PhysicsValueType, UsedVariables } from "./physics-engine";
+import { randomIntFromInterval } from "./physics-unit";
 
 
-interface UsedVariables {
-  variables: Record<string, number>; // used variables to get the correct answer
-  value: number; // the correct answer
-}
 
 class FormulaVisitor {
   private _init: ErauApi.ErauQuestion;
-  private _engine = new PhysicsEngine();
-  private _formula_to_what: PhysicsValueType;
-  private _formula: Formula;
-  private _formula_text: string;
-  private _variable_index: number = 0;
-
+  private _engine: PhysicsEngineType;
   
   constructor(init: ErauApi.ErauQuestion) {
     if(!init.formula) {
       throw new Error('Formula not defined');
     }
     this._init = init;
-    const position = init.formula.indexOf('=');
-    this._formula_to_what = this._engine.isSupportedType(init.formula.substring(0, position).trim());
-    this._formula = new Formula(init.formula.substring(position + 1).trim())
-    this._formula_text = init.formula;
+    this._engine = new PhysicsEngine({ formulaText: init.formula })
   }
 
   visit(): ErauApi.ErauQuestion {
-    const usedVariables: UsedVariables = this.visitVariables();
+    const usedVariables: UsedVariables = this._engine.variables;
+    const answers = this.visitAnswers(usedVariables);
+    const correctAnswer = answers.filter(a => a.isCorrect).map(a => a.text).join(', ')
+
 
     const result: ErauApi.ErauQuestion = {
       ...this._init,
+      answers,
       text: this.visitQuestionText(usedVariables),
-      answers: this.visitAnswers(usedVariables)
+      info: [
+          ...this._init.info, 
+          correctAnswer, 
+          (this._init.formula ?? ''), 
+          `{${usedVariables.variable_index}}`
+      ]
     }
     return result;
-  }
-
-  private visitVariables(): UsedVariables {
-    const variableNames = this._formula.getVariables();
-
-    // generate variable values until full figures
-    let index = 0;
-    while(index++ < 100000) {
-      const variables = variableNames.reduce<Record<string, number>>((collector, key) => {
-        collector[key] = this._engine.nextValue(key as any);
-        return collector;
-      }, {});
-
-      const result = this._formula.evaluate(variables) as number;
-
-      
-      if(this.isEven(result) && this.isFullFigure(result) && this.isSmall(result)) {
-        this._engine.clear();
-        this._engine.reserveAllValues(variables)
-        this._engine.reserveValue(result, this._formula_to_what)
-        this._variable_index = index;
-        return { variables, value: result };
-      }
-    }
-    throw Error(`Can't generate nice set of numbers for formula: ${this._init.formula}!`);
-  }
-
-  private isSmall(input: number): boolean {
-    return input < 1000;
-  }
-
-  private isEven(input: number): boolean {
-    return input % 2 === 0;
-  }
-
-  private isFullFigure(input: number): boolean {
-    const asString = input + '';
-    const afterComma = asString.indexOf('.')
-    if(afterComma < 0) {
-      return true;
-    }
-    return asString.substring(afterComma+1).replaceAll('0', '').trim().length === 0;
   }
 
   private visitQuestionText(used: UsedVariables): string {
@@ -90,14 +45,14 @@ class FormulaVisitor {
   }
 
   private visitAnswers(used: UsedVariables): ErauApi.ErauAnswer[] {
-    const correctAnswerAt = this._engine.anyInt(0, 2);
+    const correctAnswerAt = randomIntFromInterval(0, 2);
     const answers: ErauApi.ErauAnswer[] = [];
 
     let index = 0;
     while(index < 3) {
       const isCorrect = correctAnswerAt === index;
       
-      const template = this._engine.anyInt(0, this._init.answers.length-1);
+      const template = randomIntFromInterval(0, this._init.answers.length-1);
       const answer = this._init.answers[template];
 
       answers.push({
@@ -111,16 +66,11 @@ class FormulaVisitor {
   }
 
   private visitAnswerText(used: UsedVariables, answer: ErauApi.ErauAnswer, isCorrect: boolean): string {
-    const value = isCorrect ? used.value : this._engine.nextValue(this._formula_to_what);
+    const value = isCorrect ? used.value : this._engine.nextValue(used.formula_to_what);
     const generatedText: string = answer.text
-      .replace(`{${this._formula_to_what}}`, `${value}`)
-      .replace(`{${this._formula_to_what.toUpperCase()}}`, `${value}`);
-
-    let stats = '';
-    if(isCorrect) {
-      stats = ` (${this._formula_text}) - (${this._variable_index} - loops)`;
-    }
-    return generatedText + stats;
+      .replace(`{${used.formula_to_what}}`, `${value}`)
+      .replace(`{${used.formula_to_what.toUpperCase()}}`, `${value}`);
+    return generatedText;
   }
 }
 
@@ -136,7 +86,7 @@ export function generateFormulaQuestion(init: ErauApi.ErauQuestion): ErauApi.Era
   try {
     return new FormulaVisitor(init).visit();
   } catch(e) {
-    console.error(`Failed to generate formula: ${init.formula} questions`);
+    console.error(`Failed to generate formula: ${init.formula} questions`, e);
   }
   return init;
 }

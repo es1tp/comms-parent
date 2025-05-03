@@ -1,5 +1,6 @@
 
 import { generateUtilityClass, styled, useMediaQuery } from '@mui/material'
+import { fontSize, textAlign } from '@mui/system';
 import composeClasses from '@mui/utils/composeClasses'
 
 
@@ -27,6 +28,21 @@ export const GQuestionnaireRoot = styled("div", {
   },
 })(({ theme }) => {
   return {
+
+    '& .MuiDivider-root': {
+      marginTop: theme.spacing(1),
+      marginBottom: theme.spacing(1)
+    },
+
+    '& .question-footer': {
+      textAlign: 'end',
+      paddingRight: theme.spacing(1)
+    },
+
+    '& .question-footer .MuiTypography-root': {
+      ...theme.typography.body2,
+      fontSize: '10px',
+    },
 
     '& .question-title': {
       display: 'flex',

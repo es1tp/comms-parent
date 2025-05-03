@@ -7,7 +7,6 @@ import { generateFormulaQuestion as _generateFormulaQuestion } from './generate-
 export namespace ErauApi {
   export const merge = _merge;
   export const shuffle = _shuffle;
-  export const physicsEngine = () => new PhysicsEngine();
   export const generateFormulaQuestion = _generateFormulaQuestion
 }
 

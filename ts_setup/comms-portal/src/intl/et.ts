@@ -38,6 +38,8 @@ export const et = {
   'questionnaire-header.reset': 'Lähtestada',
   'questionnaire-header.shuffle': 'Juhuslikud(3)',
   'questionnaire-header.shuffle.big': 'Juhuslikud(25)',
+  'questionnaire-footer.questionid': 'Allikas: {src}',
+  'questionnaire-footer.extra': 'Lisa: {src}',
   'buttons.scroll-to-top': 'Kerige üles',
   'buttons.cancel': 'Tühista'
 }

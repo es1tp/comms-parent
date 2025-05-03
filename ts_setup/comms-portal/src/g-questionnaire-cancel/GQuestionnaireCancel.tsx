@@ -4,7 +4,7 @@ import { useNavigate } from '@tanstack/react-router';
 import { useIntl } from 'react-intl';
 
 
-export const CancelExamButton: React.FC = () => {
+export const GQuestionnaireCancel: React.FC = () => {
   const nav = useNavigate();
   const intl = useIntl();
 

@@ -7,7 +7,7 @@ import { groupTopics } from '@/api-site';
 import { GTopicLink } from '@/g-popover-topics';
 import { GForm } from '@/g-form';
 import { GLinkFormUnlocked, GLinkFormSearchResult } from '@/g-link';
-import { CancelExamButton } from '@/g-questionnaire';
+import { GQuestionnaireCancel } from '@/g-questionnaire-cancel';
 import { GPopoverTopics } from '@/g-popover-topics';
 import { GEvents } from '@/g-events/GEvents';
 
@@ -195,7 +195,7 @@ export const components_g: Components<Omit<Theme, 'components'>> = {
     defaultProps: {
       slots: {
         appbar: {
-          right: () => <CancelExamButton />
+          right: () => <GQuestionnaireCancel />
         }
       }
     }

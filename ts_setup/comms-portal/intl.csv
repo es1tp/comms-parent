@@ -44,6 +44,8 @@ questionnaire-header.all,,All questions,Kõik küsimused,All questions,,
 questionnaire-header.reset,,Reset,Lähtestada,Reset,,
 questionnaire-header.shuffle,,Shuffle(3),Juhuslikud(3),Shuffle(3),,
 questionnaire-header.shuffle.big,,Shuffle(25),Juhuslikud(25),Shuffle(25),,
+questionnaire-footer.questionid,,Source: {src},Allikas: {src},,,
+questionnaire-footer.extra,,Info: {src},Lisa: {src},,,
 
 buttons.scroll-to-top,,Scroll to top,Kerige üles,Scroll to top,,,
 buttons.cancel,,Cancel,Tühista,Cancel,,
