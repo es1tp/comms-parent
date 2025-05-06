@@ -15,8 +15,8 @@ importers:
         specifier: 1.3.13
         version: 1.3.13(moment@2.30.1)
       '@dxs-ts/gamut':
-        specifier: ^1.0.157
-        version: 1.0.157(2volo4fj3nk462sjssi2qwcune)
+        specifier: ^1.0.170
+        version: 1.0.170(2volo4fj3nk462sjssi2qwcune)
       '@emotion/react':
         specifier: ^11.10.6
         version: 11.14.0(@types/react@18.3.20)(react@18.3.1)
@@ -298,8 +298,8 @@ packages:
     peerDependencies:
       moment: ^2.24.0
 
-  '@dxs-ts/gamut@1.0.157':
-    resolution: {integrity: sha512-PAKd7BrxKO1In/lG8OIP1S3QgqWQSEWQ8D4m7RzYPGvD88n0t0uHpC2eGdDMape3DRknKR6Yv5771t0NTFkQXg==}
+  '@dxs-ts/gamut@1.0.170':
+    resolution: {integrity: sha512-fXvRTAtvzVBdEYmlFHlQKz4iRZp2XsUVGd70J/pOW8JI0Wj8NMHALeipSisTcjc6BoEIXQgHU6DpT9hT5pE6pw==}
     peerDependencies:
       '@date-io/date-fns': ^2.11.0
       '@date-io/moment': 1.3.13
@@ -3032,7 +3032,7 @@ snapshots:
       '@date-io/core': 1.3.13
       moment: 2.30.1
 
-  '@dxs-ts/gamut@1.0.157(2volo4fj3nk462sjssi2qwcune)':
+  '@dxs-ts/gamut@1.0.170(2volo4fj3nk462sjssi2qwcune)':
     dependencies:
       '@date-io/date-fns': 2.17.0(date-fns@2.30.0)
       '@date-io/moment': 1.3.13(moment@2.30.1)

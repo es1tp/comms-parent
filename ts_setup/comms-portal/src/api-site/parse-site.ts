@@ -128,6 +128,7 @@ class DatasourceVisitor {
     return {
       id: '',
       images: '',
+      workflowsInOtherLocales: {},
       locale: this._locale,
       topics: this._topics,
       blobs: this._blob,
