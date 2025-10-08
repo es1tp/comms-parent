@@ -615,8 +615,8 @@ export const calendar: EventApi.Calendar = [
   duration: 'MULTIPLE_DAYS',
   workModes: ['CW','SSB','FM'],
 
-  startAt: '2025-06-14T14:00:00.000Z',
-  endsAt: '2025-06-15T13:59:00.000Z'
+  startAt: '2025-06-21T14:00:00.000Z',
+  endsAt: '2025-06-22T13:59:00.000Z'
 },
 
 { 

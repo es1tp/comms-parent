@@ -53,7 +53,7 @@ export function getVirtualResponse() {
     blob: function (): Promise<Blob> {
       throw new Error("Function not implemented.");
     },
-    bytes: function (): Promise<Uint8Array> {
+    bytes: function (): Promise<any> {
       throw new Error("Function not implemented.");
     },
     formData: function (): Promise<FormData> {
