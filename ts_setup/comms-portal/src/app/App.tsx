@@ -1,6 +1,6 @@
 import { RouterProvider, createHashHistory, createRouter } from '@tanstack/react-router';
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
-import { SiteBackendProvider, GComponents, routeTree, LocaleProvider, IamBackendProvider } from '@dxs-ts/gamut';
+import { GComponents, routeTree, LocaleProvider, ConfigProvider } from '@dxs-ts/gamut';
 
 
 import { en } from '../intl/en';
@@ -32,27 +32,11 @@ export const App: React.FC<{}> = ({ }) => {
         en: en,
         fi: localeOptions,
       }}>
-        <IamBackendProvider 
-          liveness={staleTime} 
-          staleTime={staleTime} 
-          onExpire={() => { }}
-          fetchUserGET={iamFetch.fetchUserGET}
-          fetchUserLivenessGET={iamFetch.fetchUserLivenessGET}
-          fetchUserProductsGET={iamFetch.fetchUserProductsGET}
-          fetchUserRolesGET={iamFetch.fetchUserRolesGET}>
-
-          <SiteBackendProvider 
-            staleTime={staleTime}
-            refetchTime={staleTime}
-            fetchSiteGet={siteFetch.fetchSiteGet}
-            fetchFeedbackGet={siteFetch.fetchFeedbackGet}
-            fetchFeedbackRatingPut={siteFetch.fetchFeedbackRatingPut}>
-
-            <DemoTheme>
-              <RouterProvider router={router} />
-            </DemoTheme>
-          </SiteBackendProvider>
-        </IamBackendProvider>
+        <ConfigProvider options={{ iamFetch, siteFetch, staleTime }}>
+          <DemoTheme>
+            <RouterProvider router={router} />
+          </DemoTheme>
+        </ConfigProvider>
       </LocaleProvider>
     </QueryClientProvider>);
 }
