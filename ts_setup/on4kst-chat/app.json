@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "scheme": "on4kst",
+    "jsEngine": "hermes",
+    "ios": {
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "package": "on4kst"
+    }
+  }
+}

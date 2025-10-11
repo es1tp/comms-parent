@@ -1,0 +1,140 @@
+import React, { createContext, useContext, useState, useEffect, ReactNode, useMemo } from 'react';
+import { ChatApi, ClientImpl } from '@/api-chat';
+import { secureStorage } from './SecureStorage';
+
+
+const CONNECTION_PROPS: ChatApi.ClientConfig = {
+  host: 'www.on4kst.info',
+  port: 23001,
+  chatId: '2',
+  clientVersion: 'react_native_v_1',
+  callsign: '',
+  password: ''
+} 
+
+export interface AuthContextType {
+  connectionState: ChatApi.ConnectionState;
+  client: ChatApi.Client;
+  needsReauth: boolean;
+  
+  login: (callsign: string, password: string) => Promise<void>;
+  logout: (perm?: boolean) => Promise<void>;
+  
+  reconnect: (password: string) => Promise<void>;
+  dismissReauth: () => void;
+}
+
+export type AuthProviderProps = {
+  children: ReactNode;
+}
+
+
+
+export const AuthProvider = ({ children }: AuthProviderProps) => {
+  const [connectionState, setConnectionState] = useState<ChatApi.ConnectionState>({ status: 'disconnected' });
+  const [needsReauth, setNeedsReauth] = useState(false);
+  const client = useMemo(() => new ClientImpl(), [])
+
+  // On mount, try to restore session
+  useEffect(() => {
+    restoreSession();
+  }, []);
+
+  const restoreSession = async () => {
+    try {
+      const tokenRaw = await secureStorage.getToken();
+      const token: ChatApi.LoginResponse = tokenRaw ? JSON.parse(tokenRaw) : undefined;
+      const callsign = await secureStorage.getCallsign();
+      const password = await secureStorage.getPassword();
+
+      if (token && callsign && password) {
+        // Check if token still works
+        const connectionState = client.getConnectionState();
+        await secureStorage.saveCredentials(callsign, password);
+        await secureStorage.saveToken(JSON.stringify(token));
+
+        if (connectionState.status === 'disconnected' || connectionState.status === 'error') {
+          setNeedsReauth(true);
+        }
+      }
+    } catch (error) {
+      console.error('Session restore failed:', error);
+      setConnectionState({ status: 'disconnected' });
+    }
+  }
+
+  const login = async (callsign: string, password: string) => {
+    try {
+      setConnectionState({ status: 'connecting' });
+
+      const [token, error] = await client.connect({
+        ...CONNECTION_PROPS,
+        callsign, password
+      });
+
+      if(error) {
+        throw error;
+      }
+
+      const connectionState = client.getConnectionState();
+      await secureStorage.saveCredentials(callsign, password);
+      await secureStorage.saveToken(JSON.stringify(token));
+
+      setConnectionState(connectionState);
+      setNeedsReauth(false);
+    } catch (error) {
+      setConnectionState({ status: 'error', error: error as Error });
+      throw error;
+    }
+  }
+
+  const reconnect = async (password: string) => {
+    const callsign = await secureStorage.getCallsign();
+    if (!callsign) {
+      throw new Error('No saved callsign found');
+    }
+    await login(callsign, password);
+  }
+
+  const logout = async (perm?: boolean) => {
+    if(perm) {
+      await secureStorage.clearAll();
+    }
+    setConnectionState({ status: 'disconnected' });
+    setNeedsReauth(false);
+  }
+
+  const dismissReauth = () => {
+    setNeedsReauth(false);
+  }
+
+  return (
+    <AuthContext.Provider
+      value={{
+        client,
+        connectionState,
+        needsReauth,
+        login,
+        reconnect,
+        logout,
+        dismissReauth,
+      }}
+    >
+      {children}
+    </AuthContext.Provider>
+  );
+};
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined);
+
+export const useAuth = () => {
+  const context = useContext(AuthContext);
+  if (!context) {
+    throw new Error('useAuth must be used within AuthProvider');
+  }
+  return context;
+}
+
+export const useAuthStorage = () => {
+  return secureStorage;
+};
