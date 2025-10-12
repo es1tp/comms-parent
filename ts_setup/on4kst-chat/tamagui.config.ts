@@ -10,7 +10,7 @@ const palettes = {
     'rgba(10, 10, 10, 0.5)',    // 2
     'rgba(10, 10, 10, 0.75)',   // 3
     '#0a0a0a',                   // 4 - solid background
-    '#111111',                   // 5
+    '#1a0505',                   // 5 - very mild reddish fill
     '#1a1a1a',                   // 6
     '#222222',                   // 7
     '#2a2a2a',                   // 8
@@ -19,7 +19,7 @@ const palettes = {
     '#666666',                   // 11
     '#FFD700',                   // 12 - NEON YELLOW (primary accent)
     '#FFE033',                   // 13 - bright yellow
-    '#00F0FF',                   // 14 - ELECTRIC CYAN
+    '#00F0FF',                   // 14 - ELECTRIC CYAN / NEON BLUE
     '#eeeeee',                   // 15 - foreground
     'rgba(238, 238, 238, 0.75)', // 16 - transparent fg
     'rgba(238, 238, 238, 0.5)',  // 17
@@ -132,7 +132,7 @@ const palettes = {
     '#991e1e',
     '#b32323',
     '#cc2828',
-    '#FF003C',  // bright red
+    '#FF003C',  // bright red BORDER
     '#FF3363',
     '#FF668A',
     '#FF99B1',
@@ -140,6 +140,29 @@ const palettes = {
     'rgba(255, 153, 177, 0.5)',
     'rgba(255, 153, 177, 0.25)',
     'rgba(255, 153, 177, 0)',
+  ],
+  
+  dark_button: [
+    'rgba(26, 5, 5, 0)',
+    'rgba(26, 5, 5, 0.25)',
+    'rgba(26, 5, 5, 0.5)',
+    'rgba(26, 5, 5, 0.75)',
+    '#1a0505',                   // 4 - very mild reddish fill
+    '#200808',                   // 5 - slightly brighter on hover
+    '#2a0a0a',                   // 6 - press state
+    '#330a0a',                   // 7
+    '#2a2a2a',                   // 8
+    '#333333',                   // 9
+    '#444444',                   // 10
+    '#666666',                   // 11
+    '#FF003C',                   // 12 - REDDISH BORDER
+    '#FF3363',                   // 13 - brighter red on hover
+    '#00F0FF',                   // 14 - NEON BLUE TEXT
+    '#00F0FF',                   // 15 - neon blue for text color
+    'rgba(0, 240, 255, 0.75)',   // 16
+    'rgba(0, 240, 255, 0.5)',    // 17
+    'rgba(0, 240, 255, 0.25)',   // 18
+    'rgba(0, 240, 255, 0)',      // 19
   ],
 }
 
@@ -204,6 +227,33 @@ const templates = {
     borderColorHover: 14,
     borderColorPress: 14,
   },
+  
+  button: {
+    background: 4,           // mild red fill
+    backgroundFocus: 5,
+    backgroundHover: 5,
+    backgroundPress: 6,
+    backgroundStrong: 7,
+    backgroundTransparent: 1,
+    
+    color: 15,               // cyan text
+    colorFocus: 14,
+    colorHover: 15,
+    colorPress: 14,
+    colorTransparent: 18,
+    
+    borderColor: 12,         // red border
+    borderColorFocus: 13,
+    borderColorHover: 13,
+    borderColorPress: 12,
+    
+    placeholderColor: 11,
+    
+    shadowColor: 12,
+    shadowColorFocus: 14,
+    shadowColorHover: 13,
+    shadowColorPress: 11,
+  },
 }
 
 // Non-inherited values
@@ -248,7 +298,8 @@ const themeBuilder = createThemeBuilder()
   })
   .addChildThemes({
     Button: {
-      template: 'surface2',
+      palette: 'dark_button',
+      template: 'button',
     },
     Input: {
       template: 'surface1',
