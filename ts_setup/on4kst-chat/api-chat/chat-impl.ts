@@ -2,53 +2,39 @@ import { ChatApi } from './chat-api';
 import { Transport, TelnetBackend } from '@/api-transport';
 import { parseLine } from './parsers';
 import { buildLoginCommand, serializeCommand } from './builders';
+import { SessionState, SessionStateImpl } from './session-state';
+import { FrameSubscriber, FrameSubscriberImpl } from './frame-subscriber';
 
 /**
  * Implementation of ChatApi.Client
- * Uses Transport.Backend for raw TCP, handles protocol parsing and state
+ * Uses Transport.Backend for raw TCP, handles protocol operations
  */
 export class ClientImpl implements ChatApi.Client {
   private backend: Transport.Backend;
-  private state: ChatApi.ConnectionState = { status: 'disconnected' };
-  private login: ChatApi.LoginResponse| null = null;
-  private config: ChatApi.ClientConfig | null = null;
-  
-  // Subscriptions
-  private frameCallbacks: Array<(frame: ChatApi.Frame) => void> = [];
-  private chatCallbacks: Array<(frames: ChatApi.ChatFrame[]) => void> = [];
-  private dxSpotCallbacks: Array<(frames: ChatApi.DXSpotFrame[]) => void> = [];
-  private historicalCallbacks: Array<(frames: ChatApi.ChatLoginFrame[]) => void> = [];
-  private userEventCallbacks: Array<(frame: 
-    | ChatApi.UserConnectedFrame 
-    | ChatApi.UserDisconnectedFrame 
-    | ChatApi.UserStateChangeFrame
-  ) => void> = [];
+  private sessionState: SessionState;
+  private frameSubscriber: FrameSubscriber;
   private stateCallbacks: Array<(state: ChatApi.ConnectionState) => void> = [];
-  
-  // Frame batching for efficiency
-  private chatBatch: ChatApi.ChatFrame[] = [];
-  private dxSpotBatch: ChatApi.DXSpotFrame[] = [];
-  private historicalBatch: ChatApi.ChatLoginFrame[] = [];
-  private batchTimer: any | null = null;
   
   constructor(backend?: Transport.Backend) {
     this.backend = backend || new TelnetBackend();
+    this.sessionState = new SessionStateImpl();
+    this.frameSubscriber = new FrameSubscriberImpl();
     this.setupBackendHandlers();
   }
 
   // ========== Connection Management ==========
 
   async connect(config: ChatApi.ClientConfig): Promise<ChatApi.Result<ChatApi.LoginResponse, ChatApi.LoginError>> {
-    if (this.state.status === 'connecting') {
+    if (this.sessionState.connectionState.status === 'connecting') {
       return [null, { 
         code: 'NETWORK_ERROR', 
         message: 'Already connected or connecting' 
       }];
     }
 
-    if(this.state.status === 'connected') {
-      if(this.login) {
-        return [this.login, null];
+    if (this.sessionState.isConnected) {
+      if (this.sessionState.loginResponse) {
+        return [this.sessionState.loginResponse, null];
       }
 
       return [null, { 
@@ -57,11 +43,11 @@ export class ClientImpl implements ChatApi.Client {
       }];
     }
 
-    this.config = config;
-    this.updateState({ status: 'connecting' });
+    this.sessionState.initialize(config);
+    this.sessionState.setConnecting();
+    this.notifyStateChange();
 
     // Connect transport
-    
     const [, transportError] = await this.backend.connect({
       host: config.host,
       port: config.port,
@@ -69,11 +55,13 @@ export class ClientImpl implements ChatApi.Client {
     });
 
     if (transportError) {
-      this.updateState({ status: 'error', error: 'Connection failed' });
+      this.sessionState.setError('Connection failed');
+      this.notifyStateChange();
       return [null, { code: 'NETWORK_ERROR', message: transportError.message }];
     }
 
-    this.updateState({ status: 'authenticating' });
+    this.sessionState.setAuthenticating();
+    this.notifyStateChange();
 
     // Build LOGIN command
     const loginCmd = buildLoginCommand(config);
@@ -81,7 +69,8 @@ export class ClientImpl implements ChatApi.Client {
 
     if (writeError) {
       await this.backend.disconnect();
-      this.updateState({ status: 'error', error: 'Failed to send login' });
+      this.sessionState.setError('Failed to send login');
+      this.notifyStateChange();
       return [null, { code: 'NETWORK_ERROR', message: writeError.message }];
     }
 
@@ -89,7 +78,8 @@ export class ClientImpl implements ChatApi.Client {
     return new Promise((resolve) => {
       const timeout = setTimeout(() => {
         this.backend.disconnect();
-        this.updateState({ status: 'error', error: 'Login timeout' });
+        this.sessionState.setError('Login timeout');
+        this.notifyStateChange();
         resolve([null, { code: 'TIMEOUT', message: 'Login timeout' }]);
       }, config.connectionTimeout || 10000);
 
@@ -100,12 +90,13 @@ export class ClientImpl implements ChatApi.Client {
 
           if (frame.data.code === 100) {
             const sessionKey = frame.data.sessionKey || '';
-            this.updateState({ status: 'connected', sessionKey });
-            this.updateLogin(frame.data);
+            this.sessionState.setConnected(sessionKey, frame.data);
+            this.notifyStateChange();
             resolve([frame.data, null]);
           } else {
             this.backend.disconnect();
-            this.updateState({ status: 'error', error: frame.data.errorMessage || 'Login failed' });
+            this.sessionState.setError(frame.data.errorMessage || 'Login failed');
+            this.notifyStateChange();
             resolve([null, {
               code: 'INVALID_CREDENTIALS',
               message: frame.data.errorMessage || 'Login failed',
@@ -118,7 +109,7 @@ export class ClientImpl implements ChatApi.Client {
   }
 
   async disconnect(): Promise<ChatApi.Result<void, ChatApi.DisconnectError>> {
-    if (this.state.status === 'disconnected') {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -128,45 +119,29 @@ export class ClientImpl implements ChatApi.Client {
   }
 
   isConnected(): boolean {
-    return this.state.status === 'connected';
+    return this.sessionState.isConnected;
   }
 
   getConnectionState(): ChatApi.ConnectionState {
-    return this.state;
+    return this.sessionState.connectionState;
   }
 
   // ========== Frame Subscriptions ==========
 
   onFrame(callback: (frame: ChatApi.Frame) => void): ChatApi.Unsubscribe {
-    this.frameCallbacks.push(callback);
-    return () => {
-      const index = this.frameCallbacks.indexOf(callback);
-      if (index > -1) this.frameCallbacks.splice(index, 1);
-    };
+    return this.frameSubscriber.onFrame(callback);
   }
 
   onChatMessages(callback: (frames: ChatApi.ChatFrame[]) => void): ChatApi.Unsubscribe {
-    this.chatCallbacks.push(callback);
-    return () => {
-      const index = this.chatCallbacks.indexOf(callback);
-      if (index > -1) this.chatCallbacks.splice(index, 1);
-    };
+    return this.frameSubscriber.onChatMessages(callback);
   }
 
   onHistoricalMessages(callback: (frames: ChatApi.ChatLoginFrame[]) => void): ChatApi.Unsubscribe {
-    this.historicalCallbacks.push(callback);
-    return () => {
-      const index = this.historicalCallbacks.indexOf(callback);
-      if (index > -1) this.historicalCallbacks.splice(index, 1);
-    };
+    return this.frameSubscriber.onHistoricalMessages(callback);
   }
 
   onDXSpots(callback: (frames: ChatApi.DXSpotFrame[]) => void): ChatApi.Unsubscribe {
-    this.dxSpotCallbacks.push(callback);
-    return () => {
-      const index = this.dxSpotCallbacks.indexOf(callback);
-      if (index > -1) this.dxSpotCallbacks.splice(index, 1);
-    };
+    return this.frameSubscriber.onDXSpots(callback);
   }
 
   onUserEvents(callback: (frame: 
@@ -174,16 +149,12 @@ export class ClientImpl implements ChatApi.Client {
     | ChatApi.UserDisconnectedFrame 
     | ChatApi.UserStateChangeFrame
   ) => void): ChatApi.Unsubscribe {
-    this.userEventCallbacks.push(callback);
-    return () => {
-      const index = this.userEventCallbacks.indexOf(callback);
-      if (index > -1) this.userEventCallbacks.splice(index, 1);
-    };
+    return this.frameSubscriber.onUserEvents(callback);
   }
 
   onConnectionStateChange(callback: (state: ChatApi.ConnectionState) => void): ChatApi.Unsubscribe {
     this.stateCallbacks.push(callback);
-    callback(this.state); // Immediate call with current state
+    callback(this.sessionState.connectionState); // Immediate call with current state
     return () => {
       const index = this.stateCallbacks.indexOf(callback);
       if (index > -1) this.stateCallbacks.splice(index, 1);
@@ -197,7 +168,7 @@ export class ClientImpl implements ChatApi.Client {
     destination: string,
     message: string
   ): Promise<ChatApi.Result<void, ChatApi.SendError>> {
-    if (!this.isConnected()) {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -215,7 +186,7 @@ export class ClientImpl implements ChatApi.Client {
     chatId: string,
     command: ChatApi.Command
   ): Promise<ChatApi.Result<void, ChatApi.SendError>> {
-    if (!this.isConnected()) {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -242,7 +213,7 @@ export class ClientImpl implements ChatApi.Client {
       lastDxTimestamp?: number;
     }
   ): Promise<ChatApi.Result<void, ChatApi.SendError>> {
-    if (!this.isConnected()) {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -257,7 +228,7 @@ export class ClientImpl implements ChatApi.Client {
   }
 
   async removeChat(chatId: string): Promise<ChatApi.Result<void, ChatApi.SendError>> {
-    if (!this.isConnected()) {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -275,7 +246,7 @@ export class ClientImpl implements ChatApi.Client {
     chatId: string,
     ranges: Array<{ min: number; max: number }>
   ): Promise<ChatApi.Result<void, ChatApi.SendError>> {
-    if (!this.isConnected()) {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -294,7 +265,7 @@ export class ClientImpl implements ChatApi.Client {
     chatId: string,
     ranges: Array<{ min: number; max: number }>
   ): Promise<ChatApi.Result<void, ChatApi.SendError>> {
-    if (!this.isConnected()) {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -310,7 +281,7 @@ export class ClientImpl implements ChatApi.Client {
   }
 
   async readDXFrequencyRanges(chatId: string): Promise<ChatApi.Result<ChatApi.DXRangesFrame, ChatApi.SendError>> {
-    if (!this.isConnected()) {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -338,8 +309,8 @@ export class ClientImpl implements ChatApi.Client {
   }
 
   async readMapFrequencyRanges(chatId: string): Promise<ChatApi.Result<ChatApi.MapRangesFrame, ChatApi.SendError>> {
-    if (!this.isConnected()) {
-      return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
+    if (!this.sessionState.isConnected) {
+      return [null, { code: 'NOT_CONNECTED', message: 'NOT_CONNECTED' }];
     }
 
     const cmd = `RMAQ|${chatId}|`;
@@ -366,7 +337,7 @@ export class ClientImpl implements ChatApi.Client {
   }
 
   async setPropagationReception(enabled: boolean): Promise<ChatApi.Result<void, ChatApi.SendError>> {
-    if (!this.isConnected()) {
+    if (!this.sessionState.isConnected) {
       return [null, { code: 'NOT_CONNECTED', message: 'Not connected' }];
     }
 
@@ -381,14 +352,21 @@ export class ClientImpl implements ChatApi.Client {
   }
 
   getConfig(): ChatApi.ClientConfig | null {
-    return this.config;
+    return this.sessionState.config;
   }
 
   // ========== Internal Methods ==========
 
   private setupBackendHandlers(): void {
     this.backend.onData((line) => {
-      this.handleLine(line);
+      const frame = parseLine(line);
+      
+      // Handle keepalive before dispatching
+      if (frame.type === 'keepalive') {
+        this.backend.write('');
+      }
+      // Dispatch to subscribers
+      this.frameSubscriber.dispatch(frame);
     });
 
     this.backend.onStateChange((transportState) => {
@@ -398,112 +376,20 @@ export class ClientImpl implements ChatApi.Client {
     });
   }
 
-  private handleLine(line: string): void {
-    const frame = parseLine(line);
-    
-    // Emit to raw frame subscribers
-    this.frameCallbacks.forEach(cb => {
-      try {
-        cb(frame);
-      } catch (error) {
-        console.error('Error in frame callback:', error);
-      }
-    });
-
-    // Handle special frames
-    if (frame.type === 'keepalive') {
-      // Auto-respond to keepalive
-      this.backend.write('');
-    } else if (frame.type === 'chat') {
-      this.chatBatch.push(frame.data);
-      this.scheduleBatchFlush();
-    } else if (frame.type === 'chat_login') {
-      this.historicalBatch.push(frame.data);
-      this.scheduleBatchFlush();
-    } else if (frame.type === 'dx_spot' || frame.type === 'combined_spot') {
-      this.dxSpotBatch.push(frame.data as ChatApi.DXSpotFrame);
-      this.scheduleBatchFlush();
-    } else if (frame.type === 'user_connected' || frame.type === 'user_disconnected' || frame.type === 'user_state_change') {
-      this.userEventCallbacks.forEach(cb => {
-        try {
-          cb(frame.data as any);
-        } catch (error) {
-          console.error('Error in user event callback:', error);
-        }
-      });
-    }
-  }
-
-  private scheduleBatchFlush(): void {
-    if (this.batchTimer) return;
-    
-    this.batchTimer = setTimeout(() => {
-      this.flushBatches();
-    }, 50); // 50ms debounce
-  }
-
-  private flushBatches(): void {
-    if (this.chatBatch.length > 0) {
-      const batch = [...this.chatBatch];
-      this.chatBatch = [];
-      this.chatCallbacks.forEach(cb => {
-        try {
-          cb(batch);
-        } catch (error) {
-          console.error('Error in chat callback:', error);
-        }
-      });
-    }
-
-    if (this.historicalBatch.length > 0) {
-      const batch = [...this.historicalBatch];
-      this.historicalBatch = [];
-      this.historicalCallbacks.forEach(cb => {
-        try {
-          cb(batch);
-        } catch (error) {
-          console.error('Error in historical callback:', error);
-        }
-      });
-    }
-
-    if (this.dxSpotBatch.length > 0) {
-      const batch = [...this.dxSpotBatch];
-      this.dxSpotBatch = [];
-      this.dxSpotCallbacks.forEach(cb => {
-        try {
-          cb(batch);
-        } catch (error) {
-          console.error('Error in DX spot callback:', error);
-        }
-      });
-    }
-
-    this.batchTimer = null;
-  }
-
-  private updateState(newState: ChatApi.ConnectionState): void {
-    this.state = newState;
+  private notifyStateChange(): void {
+    const state = this.sessionState.connectionState;
     this.stateCallbacks.forEach(cb => {
       try {
-        cb(newState);
+        cb(state);
       } catch (error) {
         console.error('Error in state callback:', error);
       }
     });
   }
 
-  private updateLogin(newState: ChatApi.LoginResponse): void {
-    this.login = newState;
-  }
-
   private cleanup(): void {
-    if (this.batchTimer) {
-      clearTimeout(this.batchTimer);
-      this.batchTimer = null;
-    }
-    this.flushBatches();
-    this.updateState({ status: 'disconnected' });
-    this.config = null;
+    this.frameSubscriber.dispose();
+    this.sessionState.cleanup();
+    this.notifyStateChange();
   }
 }

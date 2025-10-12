@@ -40,6 +40,11 @@ export const ClientProvider = ({ children }: ClientProviderProps) => {
       console.log('historical', frames);
 
     });
+
+    result.onChatMessages((frames) => {
+      console.log('chat', frames);
+    });
+
     return result;
   }, []);
   

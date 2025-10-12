@@ -28,8 +28,6 @@ export type AuthProviderProps = {
   children: ReactNode;
 }
 
-
-
 export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [connectionState, setConnectionState] = useState<ChatApi.ConnectionState>({ status: 'disconnected' });
   const [needsReauth, setNeedsReauth] = useState(false);

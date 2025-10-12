@@ -9,7 +9,9 @@ export class TelnetBackend implements Transport.Backend {
   private socket: TcpSocket.Socket | null = null;
   private state: Transport.TransportState = { status: 'disconnected' };
   private config: Transport.BackendConfig | null = null;
-  
+  private recentLines = new Map<string, number>();
+  private readonly dedupeWindowMs = 2000;
+
   // Line buffering
   private buffer: string = '';
   
@@ -147,7 +149,6 @@ export class TelnetBackend implements Transport.Backend {
   }
   
   private updateState(newState: Transport.TransportState): void {
-    console.log(newState);
     this.state = newState;
     this.stateChangeCallbacks.forEach((callback) => {
       try {
@@ -180,7 +181,28 @@ export class TelnetBackend implements Transport.Backend {
     });
   }
 
+
+
   private emitLine(line: string): void {
+    // Deduplicate
+    const now = Date.now();
+    const lastSeen = this.recentLines.get(line);
+    
+    if (lastSeen && (now - lastSeen) < this.dedupeWindowMs) {
+      return; // Skip duplicate
+    }
+    
+    this.recentLines.set(line, now);
+    
+    // Cleanup old entries
+    if (this.recentLines.size > 1000) {
+      for (const [key, timestamp] of this.recentLines.entries()) {
+        if (now - timestamp > this.dedupeWindowMs) {
+          this.recentLines.delete(key);
+        }
+      }
+    }
+
     this.dataCallbacks.forEach((callback) => {
       try {
         callback(line);

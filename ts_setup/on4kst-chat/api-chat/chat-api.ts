@@ -696,7 +696,7 @@ export namespace ChatApi {
      * @param message - Message text
      */
     sendMessage(
-      chatId: string,
+      chatId: ChatId,
       destination: string,
       message: string
     ): Promise<Result<void, SendError>>;

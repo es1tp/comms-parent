@@ -77,23 +77,16 @@ const MessageItem = ({ item }: { item: Message }) => (
 export function ChatScreen() {
   const [messages] = useState<Message[]>(MOCK_MESSAGES);
   const [inputText, setInputText] = useState('');
-
-  const handleSend = () => {
-    if (inputText.trim()) {
-      // TODO: Send message via API
-      console.log('Send:', inputText);
-      setInputText('');
-    }
-  };
-
   const chat = useClient();
 
-  React.useEffect(() => {
-    //chat.client.sendCommand('2', { type: ''})
-  }, [])
+  const handleSend = async () => {
+    //await chat.client.sendMessage('2', '0', inputText);
+    setInputText('');
+  };
 
-  console.log(chat.store.messages);
+  
 
+  
   return (
     <YStack flex={1} backgroundColor="$background">
       <YStack flex={1}>
