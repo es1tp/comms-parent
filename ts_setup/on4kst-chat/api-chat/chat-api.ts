@@ -44,6 +44,7 @@ export namespace ChatApi {
    * Error: LOGSTAT|101-118|error message|
    */
   export interface LoginResponse {
+    frameType: 'login_response';
     /** 100 = success, 101-118 = error codes */
     code: number;
     chatId?: string;
@@ -90,6 +91,7 @@ export namespace ChatApi {
    * SES|chat id|session key|
    */
   export interface SessionFrame {
+    frameType: 'session';
     chatId: string;
     sessionKey: string;
   }
@@ -105,7 +107,8 @@ export namespace ChatApi {
    * Highlight: to ignore
    */
   export interface ChatLoginFrame {
-    chatId: string;
+    frameType: 'chat_login';
+    chatId: ChatId;
     /** Unix timestamp in seconds */
     date: Date;
     callsign: string;
@@ -125,7 +128,8 @@ export namespace ChatApi {
    * Date format: YYYYMMDDhhmmss
    */
   export interface ChatFrame {
-    chatId: string;
+    frameType: 'chat';
+    chatId: ChatId;
     /** YYYYMMDDhhmmss format */
     date: Date;
     callsign: string;
@@ -143,6 +147,7 @@ export namespace ChatApi {
    * CE|chat id|
    */
   export interface ChatEndFrame {
+    frameType: 'chat_end';
     chatId: string;
   }
 
@@ -156,6 +161,7 @@ export namespace ChatApi {
    * QRG: Frequency in kHz
    */
   export interface DXSpotFrame {
+    frameType: 'dx_spot';
     /** Unix timestamp in seconds */
     timestamp: number;
     /** UTC time in hhmm format (e.g., "0758") */
@@ -179,7 +185,9 @@ export namespace ChatApi {
    * Server -> Client
    * DE|
    */
-  export interface DXSpotEndFrame { }
+  export interface DXSpotEndFrame {
+    frameType: 'dx_spot_end';
+  }
 
   /**
    * MA frame - MAP spot for the map window
@@ -189,6 +197,7 @@ export namespace ChatApi {
    * Map window: map qrg range index (0-3)
    */
   export interface MapSpotFrame {
+    frameType: 'map_spot';
     /** Map QRG range index (0-3) */
     mapWindow: string;
     /** Unix timestamp in seconds */
@@ -208,7 +217,9 @@ export namespace ChatApi {
    * Server -> Client
    * ME|
    */
-  export interface MapSpotEndFrame { }
+  export interface MapSpotEndFrame {
+    frameType: 'map_spot_end';
+  }
 
   /**
    * DM frame - Combined DX + MAP spot
@@ -216,6 +227,7 @@ export namespace ChatApi {
    * DM|map window|Unix time|dx utc|spotter|qrg|info|spotter locator|dx locator|
    */
   export interface CombinedSpotFrame {
+    frameType: 'combined_spot';
     /** Map QRG range index (0-3) */
     mapWindow: string;
     /** Unix timestamp in seconds */
@@ -239,7 +251,9 @@ export namespace ChatApi {
    * Server -> Client
    * DF|
    */
-  export interface CombinedSpotEndFrame { }
+  export interface CombinedSpotEndFrame {
+    frameType: 'combined_spot_end';
+  }
 
   // ========== User Frames ==========
 
@@ -249,6 +263,7 @@ export namespace ChatApi {
    * UA0|chat id|callsign|firstname|locator|state|
    */
   export interface UserListFrame {
+    frameType: 'user_list';
     chatId: string;
     callsign: string;
     firstName: string;
@@ -264,6 +279,7 @@ export namespace ChatApi {
    * UE|chat id|nb registered users|
    */
   export interface UserStatsFrame {
+    frameType: 'user_stats';
     chatId: string;
     /** Total number of registered users */
     registeredUsers: number;
@@ -275,6 +291,7 @@ export namespace ChatApi {
    * US4|chat id|callsign|state|
    */
   export interface UserStateChangeFrame {
+    frameType: 'user_state_change';
     chatId: string;
     callsign: string;
     /** User state bitmap */
@@ -287,6 +304,7 @@ export namespace ChatApi {
    * UM3|chat id|callsign|firstname|locator|state|
    */
   export interface UserAlreadyLoggedFrame {
+    frameType: 'user_already_logged';
     chatId: string;
     callsign: string;
     firstName: string;
@@ -302,6 +320,7 @@ export namespace ChatApi {
    * UR6|chat id|callsign|
    */
   export interface UserDisconnectedFrame {
+    frameType: 'user_disconnected';
     chatId: string;
     callsign: string;
   }
@@ -312,6 +331,7 @@ export namespace ChatApi {
    * UA5|chat id|callsign|firstname|locator|state|
    */
   export interface UserConnectedFrame {
+    frameType: 'user_connected';
     chatId: string;
     callsign: string;
     firstName: string;
@@ -329,6 +349,7 @@ export namespace ChatApi {
    * LOC|Unix time|callsign|locator|
    */
   export interface LocatorUpdateFrame {
+    frameType: 'locator_update';
     /** Unix timestamp in seconds */
     timestamp: number;
     callsign: string;
@@ -344,6 +365,7 @@ export namespace ChatApi {
    * WC|14345|Unix time|time|info|
    */
   export interface WWCFrame {
+    frameType: 'wwc';
     constant: string; // "14345"
     /** Unix timestamp in seconds */
     timestamp: number;
@@ -359,6 +381,7 @@ export namespace ChatApi {
    * Date format: YYYYMMDDhhmmss
    */
   export interface AnnouncementFrame {
+    frameType: 'announcement';
     /** Date in YYYYMMDDhhmmss format */
     date: string;
     callsign: string;
@@ -371,6 +394,7 @@ export namespace ChatApi {
    * PRKP|time|kpp|
    */
   export interface KpIndexFrame {
+    frameType: 'kp_index';
     time: string;
     kpp: string;
   }
@@ -385,6 +409,7 @@ export namespace ChatApi {
    * sws: Solar wind speed
    */
   export interface MagneticFieldFrame {
+    frameType: 'magnetic_field';
     time: string;
     /** Total magnetic field */
     bt: string;
@@ -400,6 +425,7 @@ export namespace ChatApi {
    * PRSW|time|proton|
    */
   export interface ProtonFluxFrame {
+    frameType: 'proton_flux';
     time: string;
     proton: string;
   }
@@ -410,6 +436,7 @@ export namespace ChatApi {
    * PRWW|time|solar flux|A index|K index|Sun Spot Number|
    */
   export interface SolarConditionsFrame {
+    frameType: 'solar_conditions';
     time: string;
     solarFlux: string;
     aIndex: string;
@@ -423,6 +450,7 @@ export namespace ChatApi {
    * PRXR|time|xray|
    */
   export interface XRayFluxFrame {
+    frameType: 'xray_flux';
     time: string;
     xray: string;
   }
@@ -433,6 +461,7 @@ export namespace ChatApi {
    * PRAU|time|Aurora level|
    */
   export interface AuroraFrame {
+    frameType: 'aurora';
     time: string;
     /** Aurora alert level */
     auroraLevel: AuroraLevel;
@@ -447,7 +476,9 @@ export namespace ChatApi {
    * 
    * Client must respond with CRLF (\r\n) or connection will be terminated
    */
-  export interface KeepaliveFrame { }
+  export interface KeepaliveFrame {
+    frameType: 'keepalive';
+  }
 
   /**
    * CKUSER frame - Check if user is connected (proxy only)
@@ -455,6 +486,7 @@ export namespace ChatApi {
    * CKUSER|chat id|callsign|
    */
   export interface CheckUserFrame {
+    frameType: 'check_user';
     chatId: string;
     callsign: string;
   }
@@ -465,6 +497,7 @@ export namespace ChatApi {
    * DXQ|chat id|qrg min1|qrg max1|...|qrg min8|qrg max8|
    */
   export interface DXRangesFrame {
+    frameType: 'dx_ranges';
     chatId: string;
     ranges: Array<{ min: string; max: string }>;
   }
@@ -475,6 +508,7 @@ export namespace ChatApi {
    * MAQ|chat id|qrg min1|qrg max1|...|qrg min4|qrg max4|
    */
   export interface MapRangesFrame {
+    frameType: 'map_ranges';
     chatId: string;
     ranges: Array<{ min: string; max: string }>;
   }
@@ -657,7 +691,7 @@ export namespace ChatApi {
     /**
      * Subscribe to historical chat messages
      */
-    onHistoricalMessages(callback: (frames: ChatApi.ChatLoginFrame[]) => void): ChatApi.Unsubscribe
+    onHistoricalMessages(callback: (frames: ChatLoginFrame[]) => void): Unsubscribe;
 
     /**
      * Subscribe to chat messages (CH frames)
@@ -683,8 +717,6 @@ export namespace ChatApi {
      */
     onConnectionStateChange(callback: (state: ConnectionState) => void): Unsubscribe;
 
-
-    
     // ========== Commands (Client -> Server) ==========
 
     /**

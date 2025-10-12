@@ -1,7 +1,7 @@
 import { FlashList } from '@shopify/flash-list';
 import { YStack, XStack, Input, Text, Card } from 'tamagui';
 import { useState } from 'react';
-import { useClient, ChatApi } from '@/api-chat';
+import { useChat, User, UserMessage } from '@/chat-provider';
 import React from 'react';
 
 
@@ -13,8 +13,9 @@ const formatTime = (date: Date): string => {
 };
 
 // Message item component
-const MessageItem = ({ item }: { item: ChatApi.ChatFrame }) => (
-  <YStack padding="$3" gap="$2">
+const MessageItem = ({ item }: { item: UserMessage }) => {
+  const { store } = useChat();
+  return (<YStack padding="$3" gap="$2">
     {/* Header: callsign | time | locator - ALL RED */}
     <XStack gap="$2" alignItems="center">
       <Text color="$color" fontWeight="bold">
@@ -26,7 +27,7 @@ const MessageItem = ({ item }: { item: ChatApi.ChatFrame }) => (
       </Text>
       <Text color="$color" opacity={0.6}>|</Text>
       <Text color="$color" opacity={0.8} fontSize="$2">
-        {'locator'}
+        {store.callbook[item.callsign]?.locator}
       </Text>
     </XStack>
     
@@ -47,13 +48,13 @@ const MessageItem = ({ item }: { item: ChatApi.ChatFrame }) => (
         {item.message}
       </Text>
     </Card>
-  </YStack>
-);
+  </YStack>)
+}
 
 // Main chat screen
 export function ChatScreen() {
   const [inputText, setInputText] = useState('');
-  const chat = useClient();
+  const chat = useChat();
 
   const handleSend = async () => {
     //await chat.client.sendMessage('2', '0', inputText);
