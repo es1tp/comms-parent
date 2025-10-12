@@ -1,5 +1,5 @@
 import React from 'react';
-import { YStack, Text, Input, Button, Spinner } from 'tamagui';
+import { YStack, Text, Input, Button, Spinner, Heading } from 'tamagui';
 import { useAuth, useAuthStorage } from '@/api-auth';
 
 export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
@@ -34,9 +34,9 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
 
   return (
     <YStack flex={1} justifyContent="center" padding="$4">
-      <Text fontSize="$8" marginBottom="$4">
+      <Heading>
         Login
-      </Text>
+      </Heading>
 
       <Input
         placeholder="Callsign"
