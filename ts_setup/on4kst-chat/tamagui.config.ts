@@ -147,7 +147,7 @@ const palettes = {
     'rgba(26, 5, 5, 0.25)',
     'rgba(26, 5, 5, 0.5)',
     'rgba(26, 5, 5, 0.75)',
-    '#1a0505',                   // 4 - very mild reddish fill
+    '#331111',                   // 4 - very mild reddish fill
     '#200808',                   // 5 - slightly brighter on hover
     '#2a0a0a',                   // 6 - press state
     '#330a0a',                   // 7
@@ -242,7 +242,7 @@ const templates = {
     colorPress: 14,
     colorTransparent: 18,
     
-    borderColor: 12,         // red border
+    borderColor: 15,         // red border
     borderColorFocus: 13,
     borderColorHover: 13,
     borderColorPress: 12,

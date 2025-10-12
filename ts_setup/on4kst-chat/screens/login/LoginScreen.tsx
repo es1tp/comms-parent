@@ -47,14 +47,13 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
         marginBottom="$3"
         size="$4"
       />
-
       <Input
         placeholder="Password"
         value={password}
         onChangeText={setPassword}
         secureTextEntry
         disabled={isConnecting}
-        marginBottom="$4"
+        marginBottom="$10"
         size="$4"
       />
 
@@ -70,8 +69,8 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
         <Button
           onPress={handleLogin}
           disabled={!callsign || !password}
-          size="$4"
-        >
+          borderColor='$borderColor'
+          size="$4">
           Login
         </Button>
       )}
