@@ -655,6 +655,11 @@ export namespace ChatApi {
     onFrame(callback: (frame: Frame) => void): Unsubscribe;
 
     /**
+     * Subscribe to historical chat messages
+     */
+    onHistoricalMessages(callback: (frames: ChatApi.ChatLoginFrame[]) => void): ChatApi.Unsubscribe
+
+    /**
      * Subscribe to chat messages (CH frames)
      */
     onChatMessages(callback: (frames: ChatFrame[]) => void): Unsubscribe;
@@ -678,6 +683,8 @@ export namespace ChatApi {
      */
     onConnectionStateChange(callback: (state: ConnectionState) => void): Unsubscribe;
 
+
+    
     // ========== Commands (Client -> Server) ==========
 
     /**

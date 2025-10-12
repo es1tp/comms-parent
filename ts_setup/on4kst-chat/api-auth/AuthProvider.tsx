@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode, useMemo } from 'react';
-import { ChatApi, ClientImpl } from '@/api-chat';
+import { ChatApi, useClient } from '@/api-chat';
 import { secureStorage } from './SecureStorage';
 
 
@@ -8,13 +8,13 @@ const CONNECTION_PROPS: ChatApi.ClientConfig = {
   port: 23001,
   chatId: '2',
   clientVersion: 'react_native_v_1',
+  pastMessages: 5,
   callsign: '',
   password: ''
 } 
 
 export interface AuthContextType {
   connectionState: ChatApi.ConnectionState;
-  client: ChatApi.Client;
   needsReauth: boolean;
   
   login: (callsign: string, password: string) => Promise<void>;
@@ -33,7 +33,7 @@ export type AuthProviderProps = {
 export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [connectionState, setConnectionState] = useState<ChatApi.ConnectionState>({ status: 'disconnected' });
   const [needsReauth, setNeedsReauth] = useState(false);
-  const client = useMemo(() => new ClientImpl(), [])
+  const { client } = useClient();
 
   // On mount, try to restore session
   useEffect(() => {
@@ -111,7 +111,6 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   return (
     <AuthContext.Provider
       value={{
-        client,
         connectionState,
         needsReauth,
         login,

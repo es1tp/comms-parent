@@ -17,6 +17,7 @@ export class ClientImpl implements ChatApi.Client {
   private frameCallbacks: Array<(frame: ChatApi.Frame) => void> = [];
   private chatCallbacks: Array<(frames: ChatApi.ChatFrame[]) => void> = [];
   private dxSpotCallbacks: Array<(frames: ChatApi.DXSpotFrame[]) => void> = [];
+  private historicalCallbacks: Array<(frames: ChatApi.ChatLoginFrame[]) => void> = [];
   private userEventCallbacks: Array<(frame: 
     | ChatApi.UserConnectedFrame 
     | ChatApi.UserDisconnectedFrame 
@@ -27,7 +28,8 @@ export class ClientImpl implements ChatApi.Client {
   // Frame batching for efficiency
   private chatBatch: ChatApi.ChatFrame[] = [];
   private dxSpotBatch: ChatApi.DXSpotFrame[] = [];
-  private batchTimer: number | null = null;
+  private historicalBatch: ChatApi.ChatLoginFrame[] = [];
+  private batchTimer: any | null = null;
   
   constructor(backend?: Transport.Backend) {
     this.backend = backend || new TelnetBackend();
@@ -148,6 +150,14 @@ export class ClientImpl implements ChatApi.Client {
     return () => {
       const index = this.chatCallbacks.indexOf(callback);
       if (index > -1) this.chatCallbacks.splice(index, 1);
+    };
+  }
+
+  onHistoricalMessages(callback: (frames: ChatApi.ChatLoginFrame[]) => void): ChatApi.Unsubscribe {
+    this.historicalCallbacks.push(callback);
+    return () => {
+      const index = this.historicalCallbacks.indexOf(callback);
+      if (index > -1) this.historicalCallbacks.splice(index, 1);
     };
   }
 
@@ -407,6 +417,9 @@ export class ClientImpl implements ChatApi.Client {
     } else if (frame.type === 'chat') {
       this.chatBatch.push(frame.data);
       this.scheduleBatchFlush();
+    } else if (frame.type === 'chat_login') {
+      this.historicalBatch.push(frame.data);
+      this.scheduleBatchFlush();
     } else if (frame.type === 'dx_spot' || frame.type === 'combined_spot') {
       this.dxSpotBatch.push(frame.data as ChatApi.DXSpotFrame);
       this.scheduleBatchFlush();
@@ -420,9 +433,6 @@ export class ClientImpl implements ChatApi.Client {
       });
     }
   }
-
-
-
 
   private scheduleBatchFlush(): void {
     if (this.batchTimer) return;
@@ -441,6 +451,18 @@ export class ClientImpl implements ChatApi.Client {
           cb(batch);
         } catch (error) {
           console.error('Error in chat callback:', error);
+        }
+      });
+    }
+
+    if (this.historicalBatch.length > 0) {
+      const batch = [...this.historicalBatch];
+      this.historicalBatch = [];
+      this.historicalCallbacks.forEach(cb => {
+        try {
+          cb(batch);
+        } catch (error) {
+          console.error('Error in historical callback:', error);
         }
       });
     }

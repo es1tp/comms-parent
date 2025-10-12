@@ -147,10 +147,10 @@ const palettes = {
     'rgba(26, 5, 5, 0.25)',
     'rgba(26, 5, 5, 0.5)',
     'rgba(26, 5, 5, 0.75)',
-    '#331111',                   // 4 - very mild reddish fill
-    '#200808',                   // 5 - slightly brighter on hover
-    '#2a0a0a',                   // 6 - press state
-    '#330a0a',                   // 7
+    '#331111',                   // 4 - visible reddish fill
+    '#3d1414',                   // 5 - slightly brighter on hover
+    '#471717',                   // 6 - press state
+    '#521a1a',                   // 7
     '#2a2a2a',                   // 8
     '#333333',                   // 9
     '#444444',                   // 10
@@ -242,10 +242,37 @@ const templates = {
     colorPress: 14,
     colorTransparent: 18,
     
-    borderColor: 15,         // red border
+    borderColor: 12,         // red border
     borderColorFocus: 13,
     borderColorHover: 13,
     borderColorPress: 12,
+    
+    placeholderColor: 11,
+    
+    shadowColor: 12,
+    shadowColorFocus: 14,
+    shadowColorHover: 13,
+    shadowColorPress: 11,
+  },
+  
+  heading: {
+    background: 4,
+    backgroundFocus: 5,
+    backgroundHover: 5,
+    backgroundPress: 6,
+    backgroundStrong: 7,
+    backgroundTransparent: 1,
+    
+    color: 14,               // neon cyan text
+    colorFocus: 14,
+    colorHover: 13,          // bright yellow on hover
+    colorPress: 14,
+    colorTransparent: 18,
+    
+    borderColor: 12,
+    borderColorFocus: 14,
+    borderColorHover: 13,
+    borderColorPress: 14,
     
     placeholderColor: 11,
     
@@ -300,6 +327,9 @@ const themeBuilder = createThemeBuilder()
     Button: {
       palette: 'dark_button',
       template: 'button',
+    },
+    Heading: {
+      template: 'heading',
     },
     Input: {
       template: 'surface1',

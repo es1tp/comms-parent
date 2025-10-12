@@ -18,7 +18,8 @@
     "react-native": "0.82.0",
     "react-native-tcp-socket": "^6.3.0",
     "react-native-web": "~0.21.1",
-    "tamagui": "^1.91.0"
+    "tamagui": "^1.91.0",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
