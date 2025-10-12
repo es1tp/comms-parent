@@ -3,10 +3,14 @@
     "scheme": "on4kst",
     "jsEngine": "hermes",
     "ios": {
-      "jsEngine": "jsc"
+      "jsEngine": "jsc",
+      "bundleIdentifier": "io.github.es1tp"
     },
     "android": {
-      "package": "on4kst"
+      "minSdkVersion": 21,
+      "permissions": ["INTERNET"],
+      "usesCleartextTraffic": true,
+      "package": "io.github.es1tp"
     }
   }
 }

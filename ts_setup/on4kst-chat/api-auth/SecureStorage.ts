@@ -1,5 +1,4 @@
-import EncryptedStorage from 'react-native-encrypted-storage';
-
+import * as EncryptedStorage from 'expo-secure-store';
 
 
 export interface SecureStorage {
@@ -20,12 +19,12 @@ class SecureStorageImpl implements SecureStorage {
   };
 
   async saveCredentials(callsign: string, password: string): Promise<void> {
-    await EncryptedStorage.setItem(this.KEYS.CALLSIGN, callsign);
-    await EncryptedStorage.setItem(this.KEYS.PASSWORD, password);
+    await EncryptedStorage.setItemAsync(this.KEYS.CALLSIGN, callsign);
+    await EncryptedStorage.setItemAsync(this.KEYS.PASSWORD, password);
   }
 
   async saveToken(token: string): Promise<void> {
-    await EncryptedStorage.setItem(this.KEYS.TOKEN, token);
+    await EncryptedStorage.setItemAsync(this.KEYS.TOKEN, token);
   }
 
   async getCallsign(): Promise<string | null> {
@@ -42,9 +41,9 @@ class SecureStorageImpl implements SecureStorage {
   }
 
   async clearAll(): Promise<void> {
-    await EncryptedStorage.removeItem(this.KEYS.CALLSIGN);
-    await EncryptedStorage.removeItem(this.KEYS.PASSWORD);
-    await EncryptedStorage.removeItem(this.KEYS.TOKEN);
+    await EncryptedStorage.deleteItemAsync(this.KEYS.CALLSIGN);
+    await EncryptedStorage.deleteItemAsync(this.KEYS.PASSWORD);
+    await EncryptedStorage.deleteItemAsync(this.KEYS.TOKEN);
   }
 }
 

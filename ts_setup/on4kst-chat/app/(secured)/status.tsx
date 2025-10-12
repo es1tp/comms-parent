@@ -2,17 +2,13 @@ import { View, Text, Button } from 'react-native';
 import { useAuth } from '@/api-auth';
 import { router } from 'expo-router';
 
-export default function SecuredScreen() {
+export default function StatusScreen() {
   const {} = useAuth();
   const { connectionState, logout } = useAuth();
 
   async function handleLogout() {
     await logout();
     router.replace('/(auth)/login')
-  }
-
-  function handleChatNavigation() {
-    router.replace('/(secured)/chat')
   }
 
   return (
@@ -29,7 +25,6 @@ export default function SecuredScreen() {
         </Text>
       )}
 
-      <Button title="Chat" onPress={handleChatNavigation} />
       <Button title="Logout" onPress={handleLogout} />
     </View>
   );

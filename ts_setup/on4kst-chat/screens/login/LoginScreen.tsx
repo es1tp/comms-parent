@@ -1,26 +1,23 @@
 import React from 'react';
-import { View, Text, TextInput, Button, ActivityIndicator } from 'react-native';
+import { YStack, Text, Input, Button, Spinner } from 'tamagui';
 import { useAuth, useAuthStorage } from '@/api-auth';
 
 export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
-  const { login, connectionState, } = useAuth();
+  const { login, connectionState } = useAuth();
   const auth = useAuthStorage();
-
   const [callsign, setCallsign] = React.useState<string>('');
   const [password, setPassword] = React.useState<string>('');
   const [error, setError] = React.useState('');
 
   React.useEffect(() => {
-
     Promise.all([auth.getCallsign(), auth.getPassword()])
-    .then(([callsign, password]) => {
-      if(callsign && password) {
-        setCallsign(callsign);
-        setPassword(password);
-      }
-    });
+      .then(([callsign, password]) => {
+        if (callsign && password) {
+          setCallsign(callsign);
+          setPassword(password);
+        }
+      });
   }, []);
-
 
   const handleLogin = async () => {
     try {
@@ -36,34 +33,48 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
   const isConnecting = connectionState.status === 'connecting';
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', padding: 20 }}>
-      <Text style={{ fontSize: 24, marginBottom: 20 }}>Login</Text>
+    <YStack flex={1} justifyContent="center" padding="$4">
+      <Text fontSize="$8" marginBottom="$4">
+        Login
+      </Text>
 
-      <TextInput
+      <Input
         placeholder="Callsign"
         value={callsign}
         onChangeText={setCallsign}
         autoCapitalize="none"
-        editable={!isConnecting}
-        style={{ borderWidth: 1, padding: 10, marginBottom: 10 }}
+        disabled={isConnecting}
+        marginBottom="$3"
+        size="$4"
       />
 
-      <TextInput
+      <Input
         placeholder="Password"
         value={password}
         onChangeText={setPassword}
         secureTextEntry
-        editable={!isConnecting}
-        style={{ borderWidth: 1, padding: 10, marginBottom: 20 }}
+        disabled={isConnecting}
+        marginBottom="$4"
+        size="$4"
       />
 
-      {error ? <Text style={{ color: 'red', marginBottom: 10 }}>{error}</Text> : null}
+      {error ? (
+        <Text color="$red10" marginBottom="$3">
+          {error}
+        </Text>
+      ) : null}
 
       {isConnecting ? (
-        <ActivityIndicator size="large" />
+        <Spinner size="large" color="$color" />
       ) : (
-        <Button title="Login" onPress={handleLogin} disabled={!callsign || !password} />
+        <Button
+          onPress={handleLogin}
+          disabled={!callsign || !password}
+          size="$4"
+        >
+          Login
+        </Button>
       )}
-    </View>
+    </YStack>
   );
-}
+};

@@ -18,6 +18,7 @@ export class TelnetBackend implements Transport.Backend {
   private dataCallbacks: Array<(line: string) => void> = [];
 
   async connect(config: Transport.BackendConfig): Promise<Transport.Result<void, Transport.WriteError>> {
+
     if (this.state.status === 'connected' || this.state.status === 'connecting') {
       return [null, { code: 'NETWORK_ERROR', message: 'Already connected or connecting' }];
     }
@@ -31,6 +32,7 @@ export class TelnetBackend implements Transport.Backend {
 
     return new Promise<Transport.Result<void, Transport.WriteError>>((resolve) => {
       try {
+        
         this.socket = TcpSocket.createConnection(
           {
             host: config.host,
@@ -61,6 +63,7 @@ export class TelnetBackend implements Transport.Backend {
           this.handleClose();
         });
       } catch (error) {
+        console.error('Caught error:', error);
         const errorMsg = error instanceof Error ? error.message : String(error);
         this.updateState({ 
           status: 'error', 
