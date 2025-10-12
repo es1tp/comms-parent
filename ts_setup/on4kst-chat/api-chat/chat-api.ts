@@ -710,6 +710,7 @@ export namespace ChatApi {
       | UserConnectedFrame
       | UserDisconnectedFrame
       | UserStateChangeFrame
+      | ChatApi.UserListFrame
     ) => void): Unsubscribe;
 
     /**

@@ -30,7 +30,7 @@ export const ChatProvider = ({ children }: ChatProviderProps) => {
   const client = React.useMemo(() => {
     const result = new ClientImpl();
     result.onFrame((frames) => {
-
+      //console.log(frames)
     });
 
     result.onHistoricalMessages((frames) => {
@@ -43,7 +43,7 @@ export const ChatProvider = ({ children }: ChatProviderProps) => {
     });
 
     result.onUserEvents((frame) => {
-      if(frame.frameType == 'user_connected') {
+      if(frame.frameType == 'user_list') {
         store.addUsers(frame)
       }
     })

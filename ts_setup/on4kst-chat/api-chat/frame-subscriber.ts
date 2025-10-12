@@ -109,6 +109,7 @@ export class FrameSubscriberImpl implements FrameSubscriber {
         this.scheduleBatchFlush();
         break;
 
+      case 'user_list':
       case 'user_connected':
       case 'user_disconnected':
       case 'user_state_change':

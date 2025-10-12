@@ -148,6 +148,7 @@ export class ClientImpl implements ChatApi.Client {
     | ChatApi.UserConnectedFrame 
     | ChatApi.UserDisconnectedFrame 
     | ChatApi.UserStateChangeFrame
+    | ChatApi.UserListFrame
   ) => void): ChatApi.Unsubscribe {
     return this.frameSubscriber.onUserEvents(callback);
   }
