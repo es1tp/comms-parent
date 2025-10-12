@@ -75,13 +75,14 @@ function parseLogstat(parts: string[]): ChatApi.LoginResponse {
 }
 
 function parseChatLogin(parts: string[]): ChatApi.ChatLoginFrame {
+
   return {
     chatId: parts[1],
-    timestamp: parseInt(parts[2]),
+    date: parseDate(parts[2]),
     callsign: parts[3],
     firstName: parts[4],
     destination: parts[5],
-    message: parts[6],
+    message: decodeHtmlEntities(parts[6]),
     highlight: parts[7],
   };
 }
@@ -89,11 +90,11 @@ function parseChatLogin(parts: string[]): ChatApi.ChatLoginFrame {
 function parseChat(parts: string[]): ChatApi.ChatFrame {
   return {
     chatId: parts[1],
-    date: parts[2],
+    date: parseDate(parts[2]),
     callsign: parts[3],
     firstName: parts[4],
     destination: parts[5],
-    message: parts[6],
+    message: decodeHtmlEntities(parts[6]),
     highlight: parts[7],
   };
 }
@@ -163,4 +164,41 @@ function parseUserConnected(parts: string[]): ChatApi.UserConnectedFrame {
     locator: parts[4],
     state: parseInt(parts[5]),
   };
+}
+
+function parseDateInternal(input: string): Date {
+  // Check last character
+  if (input.endsWith('Z')) {
+    // It's an ISO/Zulu string
+    return new Date(input);
+  }
+  
+  // Otherwise it's a Unix timestamp string
+  const num = Number(input);
+  
+  // Assume seconds if < 10000000000, else milliseconds
+  return num < 10000000000 
+    ? new Date(num * 1000) 
+    : new Date(num);
+}
+
+function parseDate(input: string): Date {
+  const result = parseDateInternal(input);
+
+  console.log(input, result);
+
+  return result;
+}
+
+
+function decodeHtmlEntities(text: string): string {
+  return text
+    .replace(/&#39;/g, "'")      // Apostrophe
+    .replace(/&quot;/g, '"')     // Double quote
+    .replace(/&amp;/g, '&')      // Ampersand
+    .replace(/&lt;/g, '<')       // Less than
+    .replace(/&gt;/g, '>')       // Greater than
+    .replace(/&nbsp;/g, ' ')     // Non-breaking space
+    .replace(/&#(\d+);/g, (match, dec) => String.fromCharCode(dec))  // Numeric entities
+    .replace(/&#x([0-9a-fA-F]+);/g, (match, hex) => String.fromCharCode(parseInt(hex, 16)));  // Hex entities
 }

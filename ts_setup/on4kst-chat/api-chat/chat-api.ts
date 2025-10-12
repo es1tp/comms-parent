@@ -107,7 +107,7 @@ export namespace ChatApi {
   export interface ChatLoginFrame {
     chatId: string;
     /** Unix timestamp in seconds */
-    timestamp: number;
+    date: Date;
     callsign: string;
     firstName: string;
     /** '0' for public, or callsign for private message */
@@ -127,7 +127,7 @@ export namespace ChatApi {
   export interface ChatFrame {
     chatId: string;
     /** YYYYMMDDhhmmss format */
-    date: string;
+    date: Date;
     callsign: string;
     firstName: string;
     /** '0' for public, or callsign for private message */

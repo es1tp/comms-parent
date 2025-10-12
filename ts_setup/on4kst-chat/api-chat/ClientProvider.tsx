@@ -15,13 +15,14 @@ export type ClientProviderProps = {
 
 interface MessageStore {
   messages: ChatApi.ChatFrame[];
+  addMessages: (messages: ChatApi.ChatFrame[]) => void;
 }
 
 const useMessageStore = create<MessageStore>((set) => ({
   messages: [],
   addMessages: (messages: ChatApi.ChatFrame[]) => set((state) => ({ 
     ...state,
-    messages: [...state.messages,...messages]
+    messages: [...state.messages,...messages].sort(({ date: a }, { date: b }) => a.getTime() - b.getTime())
   })) 
 }))
 
@@ -31,18 +32,15 @@ export const ClientProvider = ({ children }: ClientProviderProps) => {
     const result = new ClientImpl();
     result.onFrame((frames) => {
 
-      //console.log(frames);
-
     });
 
-        result.onHistoricalMessages((frames) => {
-
-      console.log('historical', frames);
-
+    result.onHistoricalMessages((frames) => {
+      store.addMessages(frames)
     });
 
     result.onChatMessages((frames) => {
-      console.log('chat', frames);
+      console.log(frames);
+      store.addMessages(frames)
     });
 
     return result;
