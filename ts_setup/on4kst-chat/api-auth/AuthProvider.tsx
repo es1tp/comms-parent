@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode, useMemo } from 'react';
 import { ChatApi } from '@/api-chat';
 import { useChat } from '@/chat-provider';
-import { secureStorage } from './SecureStorage';
+import { useSecureStorage } from '@/api-secure-storage';
 
 
 const CONNECTION_PROPS: ChatApi.ClientConfig = {
@@ -33,6 +33,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [connectionState, setConnectionState] = useState<ChatApi.ConnectionState>({ status: 'disconnected' });
   const [needsReauth, setNeedsReauth] = useState(false);
   const { client } = useChat();
+  const { secureStorage } = useSecureStorage();
 
   // On mount, try to restore session
   useEffect(() => {
@@ -136,6 +137,3 @@ export const useAuth = () => {
   return context;
 }
 
-export const useAuthStorage = () => {
-  return secureStorage;
-};

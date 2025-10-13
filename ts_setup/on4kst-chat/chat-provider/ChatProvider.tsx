@@ -3,7 +3,7 @@ import { create } from 'zustand'
 import { ClientImpl } from '@/api-chat';
 import { ChatContextType, ChatProviderProps, ChatStore, User } from './chat-provider-types';
 import { mapToMessage, mapToUser } from './mappers';
-import { useAuthStorage } from '@/api-auth';
+import { useSecureStorage } from '@/api-secure-storage';
 
 
 const useMessageStore = create<ChatStore>((set) => ({
@@ -28,7 +28,7 @@ const useMessageStore = create<ChatStore>((set) => ({
 
 export const ChatProvider = ({ children }: ChatProviderProps) => {
   const store = useMessageStore();
-  const auth = useAuthStorage();
+  const { secureStorage } = useSecureStorage();
 
   const client = React.useMemo(() => {
     const result = new ClientImpl();
@@ -47,7 +47,7 @@ export const ChatProvider = ({ children }: ChatProviderProps) => {
 
     result.onUserEvents((frame) => {
       if(frame.frameType == 'user_list') {
-        auth.getMyLocaltion().then(me => store.addUsers(frame, me))
+        secureStorage.getMyLocaltion().then(me => store.addUsers(frame, me))
       }
     })
     return result;

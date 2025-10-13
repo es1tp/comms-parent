@@ -1,10 +1,12 @@
 import React from 'react';
 import { YStack, Text, Input, Button, Spinner, Heading } from 'tamagui';
-import { useAuth, useAuthStorage } from '@/api-auth';
+import { useAuth,  } from '@/api-auth';
+import { useSecureStorage } from '@/api-secure-storage';
+
 
 export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
   const { login, connectionState } = useAuth();
-  const auth = useAuthStorage();
+  const { getToken } = useSecureStorage()
   const [callsign, setCallsign] = React.useState<string>('');
   const [password, setPassword] = React.useState<string>('');
   const [locator, setLocator] = React.useState<string>('');
@@ -12,15 +14,14 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
   const [error, setError] = React.useState('');
 
   React.useEffect(() => {
-    Promise.all([auth.getCallsign(), auth.getPassword(), auth.getMyLocaltion()])
-      .then(([callsign, password, me]) => {
-        if (callsign && password) {
-          setCallsign(callsign);
-          setPassword(password);
-          setLocator(me.locator ?? '')
-          setOffset(me.calibrationOffset ?? 0)
-        }
-      });
+    getToken().then(({ callsign, password, me }) => {
+      if (callsign && password) {
+        setCallsign(callsign);
+        setPassword(password);
+        setLocator(me.locator ?? '')
+        setOffset(me.calibrationOffset ?? 0)
+      }
+    });
   }, []);
 
   const handleLogin = async () => {
@@ -32,21 +33,18 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
       console.log(err);
       setError(err instanceof Error ? err.message : 'Login failed');
     }
-  };
-
-  const isConnecting = connectionState.status === 'connecting';
+  }
 
   const handleOffsetChange = (text: string) => {
     const num = parseFloat(text);
     setOffset(isNaN(num) ? 0 : num);
   }
 
+  const isConnecting = connectionState.status === 'connecting';
+
   return (
     <YStack flex={1} justifyContent="center" padding="$4">
-      <Heading>
-        Login
-      </Heading>
-
+      <Heading>Login</Heading>
       <Input
         placeholder="Callsign"
         value={callsign}
@@ -54,6 +52,7 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
         autoCapitalize="none"
         disabled={isConnecting}
         marginBottom="$3"
+        marginTop="$3"
         size="$4"
       />
       <Input
@@ -65,8 +64,6 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
         marginBottom="$10"
         size="$4"
       />
-
-
       <Input
         placeholder="Current locator"
         value={locator}
@@ -86,11 +83,7 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
         size="$4"
       />
 
-      {error ? (
-        <Text color="$red10" marginBottom="$3">
-          {error}
-        </Text>
-      ) : null}
+      {error ? (<Text color="$red10" marginBottom="$3">{error}</Text>) : null}
 
       {isConnecting ? (
         <Spinner size="large" color="$color" />
