@@ -2,17 +2,18 @@ import React from 'react';
 import { create } from 'zustand'
 import { ClientImpl } from '@/api-chat';
 import { ChatContextType, ChatProviderProps, ChatStore, User } from './chat-provider-types';
-import { mapToMessage } from './mappers';
+import { mapToMessage, mapToUser } from './mappers';
+import { useAuthStorage } from '@/api-auth';
 
 
 const useMessageStore = create<ChatStore>((set) => ({
   messages: [],
   callbook: {},
 
-  addUsers: (users) => set((state) => ({ 
+  addUsers: (users, myLocation) => set((state) => ({ 
     ...state,
     callbook: { ...state.callbook, ...[users].reduce((acc, user) => {
-      acc[user.callsign.toUpperCase()] = user;
+      acc[user.callsign.toUpperCase()] = mapToUser(user, myLocation);
       return acc;
     }, {} as Record<string, User>)}
   })),
@@ -27,6 +28,8 @@ const useMessageStore = create<ChatStore>((set) => ({
 
 export const ChatProvider = ({ children }: ChatProviderProps) => {
   const store = useMessageStore();
+  const auth = useAuthStorage();
+
   const client = React.useMemo(() => {
     const result = new ClientImpl();
     result.onFrame((frames) => {
@@ -44,13 +47,11 @@ export const ChatProvider = ({ children }: ChatProviderProps) => {
 
     result.onUserEvents((frame) => {
       if(frame.frameType == 'user_list') {
-        store.addUsers(frame)
+        auth.getMyLocaltion().then(me => store.addUsers(frame, me))
       }
     })
-
     return result;
   }, []);
-  
 
   return (
     <ChatContext.Provider value={{ client, store }}>

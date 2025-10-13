@@ -14,7 +14,13 @@ export interface User {
   chatId: string;
   callsign: string;
   firstName: string;
-  locator: string;
+  locator: { 
+    maidenhead: string, 
+    lat: number | undefined; 
+    lng: number | undefined;
+    distanceInKm: number | undefined;
+    rotator: number | undefined;
+  };
   state: ChatApi.UserState;
 }
 
@@ -28,11 +34,13 @@ export interface UserMessage {
   message: string;
   /** To ignore */
   highlight: string;
+
+  
 }
 
 export interface ChatStore {
   messages: UserMessage[];
   callbook: Record<string, User> 
   addMessages: (messages: (ChatApi.ChatFrame | ChatApi.ChatLoginFrame)[]) => void;
-  addUsers: (users: ChatApi.UserListFrame | ChatApi.UserAlreadyLoggedFrame | ChatApi.UserConnectedFrame) => void;
+  addUsers: (users: ChatApi.UserListFrame, myLocation: { locator: string | null, calibrationOffset: number | null}) => void;
 }

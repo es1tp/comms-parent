@@ -27,7 +27,17 @@ const MessageItem = ({ item }: { item: UserMessage }) => {
       </Text>
       <Text color="$color" opacity={0.6}>|</Text>
       <Text color="$color" opacity={0.8} fontSize="$2">
-        {store.callbook[item.callsign]?.locator}
+        {store.callbook[item.callsign]?.locator.maidenhead}
+      </Text>
+
+      <Text color="$color" opacity={0.6}>|</Text>
+      <Text color="$color" opacity={0.8} fontSize="$2">
+        {store.callbook[item.callsign]?.locator.distanceInKm} km
+      </Text>
+
+      <Text color="$color" opacity={0.6}>|</Text>
+      <Text color="$color" opacity={0.8} fontSize="$2">
+        {store.callbook[item.callsign]?.locator.rotator} bearing
       </Text>
     </XStack>
     

@@ -7,14 +7,18 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
   const auth = useAuthStorage();
   const [callsign, setCallsign] = React.useState<string>('');
   const [password, setPassword] = React.useState<string>('');
+  const [locator, setLocator] = React.useState<string>('');
+  const [offset, setOffset] = React.useState<number>(0);
   const [error, setError] = React.useState('');
 
   React.useEffect(() => {
-    Promise.all([auth.getCallsign(), auth.getPassword()])
-      .then(([callsign, password]) => {
+    Promise.all([auth.getCallsign(), auth.getPassword(), auth.getMyLocaltion()])
+      .then(([callsign, password, me]) => {
         if (callsign && password) {
           setCallsign(callsign);
           setPassword(password);
+          setLocator(me.locator ?? '')
+          setOffset(me.calibrationOffset ?? 0)
         }
       });
   }, []);
@@ -22,7 +26,7 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
   const handleLogin = async () => {
     try {
       setError('');
-      await login(callsign, password);
+      await login(callsign, password, locator?.toUpperCase(), offset);
       onLogin();
     } catch (err) {
       console.log(err);
@@ -31,6 +35,11 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
   };
 
   const isConnecting = connectionState.status === 'connecting';
+
+  const handleOffsetChange = (text: string) => {
+    const num = parseFloat(text);
+    setOffset(isNaN(num) ? 0 : num);
+  }
 
   return (
     <YStack flex={1} justifyContent="center" padding="$4">
@@ -53,6 +62,26 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
         onChangeText={setPassword}
         secureTextEntry
         disabled={isConnecting}
+        marginBottom="$10"
+        size="$4"
+      />
+
+
+      <Input
+        placeholder="Current locator"
+        value={locator}
+        onChangeText={setLocator}
+        autoCapitalize="none"
+        disabled={isConnecting}
+        marginBottom="$3"
+        size="$4"
+      />
+      <Input
+        placeholder="Rotator offset in degrees"
+        value={offset.toString()}
+        onChangeText={handleOffsetChange}
+        disabled={isConnecting}
+        keyboardType="numeric"
         marginBottom="$10"
         size="$4"
       />

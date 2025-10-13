@@ -18,7 +18,7 @@ export interface AuthContextType {
   connectionState: ChatApi.ConnectionState;
   needsReauth: boolean;
   
-  login: (callsign: string, password: string) => Promise<void>;
+  login: (callsign: string, password: string, locator: string | null, calibrationOffset: number | null) => Promise<void>;
   logout: (perm?: boolean) => Promise<void>;
   
   reconnect: (password: string) => Promise<void>;
@@ -46,10 +46,12 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       const callsign = await secureStorage.getCallsign();
       const password = await secureStorage.getPassword();
 
+      const me = await secureStorage.getMyLocaltion()
+
       if (token && callsign && password) {
         // Check if token still works
         const connectionState = client.getConnectionState();
-        await secureStorage.saveCredentials(callsign, password);
+        await secureStorage.saveCredentials(callsign, password, me.locator, me.calibrationOffset);
         await secureStorage.saveToken(JSON.stringify(token));
 
         if (connectionState.status === 'disconnected' || connectionState.status === 'error') {
@@ -62,7 +64,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     }
   }
 
-  const login = async (callsign: string, password: string) => {
+  const login = async (callsign: string, password: string, locator: string | null, calibrationOffset: number | null) => {
     try {
       setConnectionState({ status: 'connecting' });
 
@@ -76,7 +78,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       }
 
       const connectionState = client.getConnectionState();
-      await secureStorage.saveCredentials(callsign, password);
+      await secureStorage.saveCredentials(callsign, password, locator, calibrationOffset);
       await secureStorage.saveToken(JSON.stringify(token));
 
       setConnectionState(connectionState);
@@ -89,10 +91,11 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
 
   const reconnect = async (password: string) => {
     const callsign = await secureStorage.getCallsign();
+    const me = await secureStorage.getMyLocaltion();
     if (!callsign) {
       throw new Error('No saved callsign found');
     }
-    await login(callsign, password);
+    await login(callsign, password, me.locator, me.calibrationOffset);
   }
 
   const logout = async (perm?: boolean) => {
