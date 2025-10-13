@@ -15,7 +15,7 @@ const formatTime = (date: Date): string => {
 // Message item component
 const MessageItem = ({ item }: { item: UserMessage }) => {
   const { store } = useChat();
-  return (<YStack padding="$3" gap="$2">
+  return (<YStack padding="$3" gap="$1">
     {/* Header: callsign | time | locator - ALL RED */}
     <XStack gap="$2" alignItems="center">
       <Text color="$color" fontWeight="bold">
