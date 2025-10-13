@@ -1,6 +1,6 @@
 import { ChatApi } from "@/api-chat";
 import { User, UserMessage } from "./chat-provider-types";
-import { locatorToCoords, calculateBearing, calculateDistance } from './locator';
+import { locatorToCoords, calculateBearing, calculateDistance } from '@/api-locator';
 
 
 export function mapToMessage(message: ChatApi.ChatFrame | ChatApi.ChatLoginFrame): UserMessage {

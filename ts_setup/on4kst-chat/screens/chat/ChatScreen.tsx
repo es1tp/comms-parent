@@ -1,69 +1,15 @@
-import { FlashList } from '@shopify/flash-list';
-import { YStack, XStack, Input, Text, Card } from 'tamagui';
-import { useState } from 'react';
-import { useChat, User, UserMessage } from '@/chat-provider';
 import React from 'react';
+import { FlashList } from '@shopify/flash-list';
+import { YStack, XStack, Input } from 'tamagui';
 
+import { useChat } from '@/chat-provider';
 
-// Format timestamp to HH:mm
-const formatTime = (date: Date): string => {
-  const hours = date.getHours().toString().padStart(2, '0');
-  const minutes = date.getMinutes().toString().padStart(2, '0');
-  return `${hours}:${minutes}`;
-};
-
-// Message item component
-const MessageItem = ({ item }: { item: UserMessage }) => {
-  const { store } = useChat();
-  return (<YStack padding="$3" gap="$1">
-    {/* Header: callsign | time | locator - ALL RED */}
-    <XStack gap="$2" alignItems="center">
-      <Text color="$color" fontWeight="bold">
-        {item.callsign}
-      </Text>
-      <Text color="$color" opacity={0.6}>|</Text>
-      <Text color="$color" opacity={0.8} fontSize="$2">
-        {formatTime(item.date)}
-      </Text>
-      <Text color="$color" opacity={0.6}>|</Text>
-      <Text color="$color" opacity={0.8} fontSize="$2">
-        {store.callbook[item.callsign]?.locator.maidenhead}
-      </Text>
-
-      <Text color="$color" opacity={0.6}>|</Text>
-      <Text color="$color" opacity={0.8} fontSize="$2">
-        {store.callbook[item.callsign]?.locator.distanceInKm} km
-      </Text>
-
-      <Text color="$color" opacity={0.6}>|</Text>
-      <Text color="$color" opacity={0.8} fontSize="$2">
-        {store.callbook[item.callsign]?.locator.rotator} bearing
-      </Text>
-    </XStack>
-    
-    {/* Message box with cyan border and glow */}
-    <Card
-      bordered
-      borderColor="$neonPink"
-      borderWidth={0.5}
-      padding="$3"
-      backgroundColor="$background"
-      shadowColor="$neonPink"
-      shadowOffset={{ width: 0, height: 0 }}
-      shadowOpacity={0.5}
-      shadowRadius={4}
-      elevationAndroid={4}
-    >
-      <Text color="$color">
-        {item.message}
-      </Text>
-    </Card>
-  </YStack>)
-}
+import { ChatMessage } from './ChatMessage';
+import { ChatMessageTitle } from './ChatMessageTitle';
 
 // Main chat screen
-export function ChatScreen() {
-  const [inputText, setInputText] = useState('');
+export const ChatScreen: React.FC<{ onLocatorMap: (locator: string, callsign: string) => void }> = ({ onLocatorMap }) => {
+  const [inputText, setInputText] = React.useState('');
   const chat = useChat();
 
   const handleSend = async () => {
@@ -76,7 +22,11 @@ export function ChatScreen() {
       <YStack flex={1}>
         <FlashList
           data={chat.store.messages}
-          renderItem={({ item }) => <MessageItem item={item} />}
+          renderItem={({ item }) => (
+            <YStack padding="$3" gap="$1">
+              <ChatMessageTitle item={item} onLocatorMap={onLocatorMap}/>
+              <ChatMessage item={item} />
+            </YStack>)}
           keyExtractor={(item, index) => index + ''}
         />
       </YStack>

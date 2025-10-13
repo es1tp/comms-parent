@@ -80,7 +80,7 @@ function parseLogstat(parts: string[]): ChatApi.LoginResponse {
 function parseChatLogin(parts: string[]): ChatApi.ChatLoginFrame {
   return {
     frameType: 'chat_login',
-    chatId: parts[1],
+    chatId: parts[1] as any,
     date: parseDate(parts[2]),
     callsign: parts[3],
     firstName: decodeHtmlEntities(parts[4]),
@@ -93,7 +93,7 @@ function parseChatLogin(parts: string[]): ChatApi.ChatLoginFrame {
 function parseChat(parts: string[]): ChatApi.ChatFrame {
   return {
     frameType: 'chat',
-    chatId: parts[1],
+    chatId: parts[1] as any,
     date: parseDate(parts[2]),
     callsign: parts[3],
     firstName: decodeHtmlEntities(parts[4]),
@@ -194,7 +194,6 @@ function parseDateInternal(input: string): Date {
 
 function parseDate(input: string): Date {
   const result = parseDateInternal(input);
-  console.log(input, result);
   return result;
 }
 

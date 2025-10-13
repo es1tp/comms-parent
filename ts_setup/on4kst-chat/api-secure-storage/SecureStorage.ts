@@ -14,6 +14,16 @@ export interface SecureStorage {
   clearAll(): Promise<void>;
 }
 
+export interface SecureStorageToken {
+  callsign: string | null;
+  password: string | null;
+  me: {
+    locator: string | null;
+    calibrationOffset: number | null;
+  };
+  raw: string | null;
+}
+
 
 class SecureStorageImpl implements SecureStorage {
 
@@ -82,8 +92,7 @@ export const secureStorage: SecureStorage = new SecureStorageImpl();
 
 
 export const useSecureStorage = () => {
-
-  const getToken = React.useCallback(() => Promise.all(
+  const getToken: () => Promise<SecureStorageToken> = React.useCallback(() => Promise.all(
     [ secureStorage.getCallsign(), 
       secureStorage.getPassword(), 
       secureStorage.getMyLocaltion(),
@@ -92,4 +101,14 @@ export const useSecureStorage = () => {
   , [secureStorage]);
 
   return { secureStorage, getToken };
-};
+}
+
+export const useSecureStorageToken = () => {
+  const { getToken } = useSecureStorage();
+  const [token, setToken] = React.useState<SecureStorageToken>();
+
+  React.useEffect(() => {
+    getToken().then(setToken);
+  }, []);
+  return { token };
+}

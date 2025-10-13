@@ -8,9 +8,14 @@
     },
     "android": {
       "minSdkVersion": 21,
-      "permissions": ["INTERNET"],
+      "permissions": [
+        "INTERNET"
+      ],
       "usesCleartextTraffic": true,
       "package": "io.github.es1tp"
-    }
+    },
+    "plugins": [
+      "expo-asset"
+    ]
   }
 }
