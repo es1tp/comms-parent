@@ -26,122 +26,6 @@ const palettes = {
     'rgba(238, 238, 238, 0.25)', // 18
     'rgba(238, 238, 238, 0)',    // 19
   ],
-  
-  dark_yellow: [
-    'rgba(26, 22, 0, 0)',
-    'rgba(26, 22, 0, 0.25)',
-    'rgba(26, 22, 0, 0.5)',
-    'rgba(26, 22, 0, 0.75)',
-    '#1a1600',
-    '#332d00',
-    '#4d4300',
-    '#665a00',
-    '#807000',
-    '#998700',
-    '#b39d00',
-    '#ccb400',
-    '#FFD700',  // neon yellow
-    '#FFE033',
-    '#FFEB66',
-    '#FFF599',
-    'rgba(255, 245, 153, 0.75)',
-    'rgba(255, 245, 153, 0.5)',
-    'rgba(255, 245, 153, 0.25)',
-    'rgba(255, 245, 153, 0)',
-  ],
-  
-  dark_pink: [
-    'rgba(26, 5, 17, 0)',
-    'rgba(26, 5, 17, 0.25)',
-    'rgba(26, 5, 17, 0.5)',
-    'rgba(26, 5, 17, 0.75)',
-    '#1a0511',
-    '#330a22',
-    '#4d0f33',
-    '#661444',
-    '#801955',
-    '#991e66',
-    '#b32377',
-    '#cc2888',
-    '#FF2E97',  // hot pink
-    '#FF5BAD',
-    '#FF88C3',
-    '#FFB5D9',
-    'rgba(255, 181, 217, 0.75)',
-    'rgba(255, 181, 217, 0.5)',
-    'rgba(255, 181, 217, 0.25)',
-    'rgba(255, 181, 217, 0)',
-  ],
-  
-  dark_cyan: [
-    'rgba(0, 26, 26, 0)',
-    'rgba(0, 26, 26, 0.25)',
-    'rgba(0, 26, 26, 0.5)',
-    'rgba(0, 26, 26, 0.75)',
-    '#001a1a',
-    '#003333',
-    '#004d4d',
-    '#006666',
-    '#008080',
-    '#009999',
-    '#00b3b3',
-    '#00cccc',
-    '#00F0FF',  // electric cyan
-    '#33F3FF',
-    '#66F6FF',
-    '#99F9FF',
-    'rgba(153, 249, 255, 0.75)',
-    'rgba(153, 249, 255, 0.5)',
-    'rgba(153, 249, 255, 0.25)',
-    'rgba(153, 249, 255, 0)',
-  ],
-  
-  dark_green: [
-    'rgba(10, 26, 5, 0)',
-    'rgba(10, 26, 5, 0.25)',
-    'rgba(10, 26, 5, 0.5)',
-    'rgba(10, 26, 5, 0.75)',
-    '#0a1a05',
-    '#14330a',
-    '#1e4d0f',
-    '#286614',
-    '#328019',
-    '#3c991e',
-    '#46b323',
-    '#50cc28',
-    '#39FF14',  // toxic green
-    '#5DFF47',
-    '#81FF7A',
-    '#A5FFAD',
-    'rgba(165, 255, 173, 0.75)',
-    'rgba(165, 255, 173, 0.5)',
-    'rgba(165, 255, 173, 0.25)',
-    'rgba(165, 255, 173, 0)',
-  ],
-  
-  dark_red: [
-    'rgba(26, 5, 5, 0)',
-    'rgba(26, 5, 5, 0.25)',
-    'rgba(26, 5, 5, 0.5)',
-    'rgba(26, 5, 5, 0.75)',
-    '#1a0505',
-    '#330a0a',
-    '#4d0f0f',
-    '#661414',
-    '#801919',
-    '#991e1e',
-    '#b32323',
-    '#cc2828',
-    '#FF003C',  // bright red BORDER
-    '#FF3363',
-    '#FF668A',
-    '#FF99B1',
-    'rgba(255, 153, 177, 0.75)',
-    'rgba(255, 153, 177, 0.5)',
-    'rgba(255, 153, 177, 0.25)',
-    'rgba(255, 153, 177, 0)',
-  ],
-  
   dark_button: [
     'rgba(26, 5, 5, 0)',
     'rgba(26, 5, 5, 0.25)',
@@ -205,18 +89,26 @@ const templates = {
     borderColorHover: 13,
     borderColorPress: 14,
   },
-  
-  surface2: {
-    background: 6,
-    backgroundFocus: 7,
-    backgroundHover: 7,
-    backgroundPress: 8,
+  input_secondary: {
+    background: 12,
+    backgroundFocus: 12,
+    backgroundHover: 12,
+    backgroundPress: 12,
     borderColor: 12,
-    borderColorFocus: 14,
-    borderColorHover: 13,
-    borderColorPress: 14,
+    borderColorFocus: 12,
+    borderColorHover: 12,
+    borderColorPress: 12,
   },
-  
+  surface_secondary: {
+    background: 12,
+    backgroundFocus: 12,
+    backgroundHover: 12,
+    backgroundPress: 12,
+    borderColor: 12,
+    borderColorFocus: 12,
+    borderColorHover: 12,
+    borderColorPress: 12,
+  },
   active: {
     background: 8,
     backgroundFocus: 9,
@@ -227,9 +119,8 @@ const templates = {
     borderColorHover: 14,
     borderColorPress: 14,
   },
-  
   button: {
-    background: 4,           // mild red fill
+    background: 3,           // mild red fill
     backgroundFocus: 5,
     backgroundHover: 5,
     backgroundPress: 6,
@@ -301,28 +192,7 @@ const themeBuilder = createThemeBuilder()
       nonInheritedValues: nonInherited,
     },
   })
-  .addChildThemes({
-    yellow: {
-      palette: 'dark_yellow',
-      template: 'base',
-    },
-    pink: {
-      palette: 'dark_pink',
-      template: 'base',
-    },
-    cyan: {
-      palette: 'dark_cyan',
-      template: 'base',
-    },
-    green: {
-      palette: 'dark_green',
-      template: 'base',
-    },
-    red: {
-      palette: 'dark_red',
-      template: 'base',
-    },
-  })
+
   .addChildThemes({
     Button: {
       palette: 'dark_button',

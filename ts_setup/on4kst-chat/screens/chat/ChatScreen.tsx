@@ -44,15 +44,15 @@ const MessageItem = ({ item }: { item: UserMessage }) => {
     {/* Message box with cyan border and glow */}
     <Card
       bordered
-      borderColor="$neonCyan"
-      borderWidth={1}
+      borderColor="$neonPink"
+      borderWidth={0.5}
       padding="$3"
       backgroundColor="$background"
-      shadowColor="$neonCyan"
+      shadowColor="$neonPink"
       shadowOffset={{ width: 0, height: 0 }}
       shadowOpacity={0.5}
-      shadowRadius={8}
-      elevationAndroid={8}
+      shadowRadius={4}
+      elevationAndroid={4}
     >
       <Text color="$color">
         {item.message}
@@ -70,9 +70,6 @@ export function ChatScreen() {
     //await chat.client.sendMessage('2', '0', inputText);
     setInputText('');
   };
-
-  
-
   
   return (
     <YStack flex={1} backgroundColor="$background">
@@ -85,14 +82,14 @@ export function ChatScreen() {
       </YStack>
       
       <XStack 
+        borderTopWidth={1}
         padding="$3" 
         gap="$2" 
         backgroundColor="$background"
-        borderTopWidth={1}
-        borderTopColor="$borderColor"
-      >
+        borderTopColor="$borderColor">
         <Input
           flex={1}
+          borderWidth={1}
           placeholder="Type message..."
           value={inputText}
           onChangeText={setInputText}
