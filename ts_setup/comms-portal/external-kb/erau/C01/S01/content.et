@@ -1,0 +1,84 @@
+Elektrivoolu tugevus ehk voolutugevus ***I*** on füüsikaline suurus, mis
+võrdub ajaühikus elektrijuhi ristlõike pinda läbinud elektrilaenguga, selle
+mõõtühik on Amper (***A***). Voolutugevust mõõdetakse ampermeetriga,
+kusjuures ampermeeter ühendatakse vooluringi jadamisi.
+
+Pinge (***U***) on füüsikaline suurus, mis iseloomustab kahe punkti vahelist
+elektrivälja potentsiaalide erinevust. Eristatakse alalispinget (püsiva polaarsusega)
+ja vahelduvpinget (vahelduvasuunalise polaarsusega). Pinge mõõtühik on Volt
+(***V***). Pinget mõõdetakse voltmeetriga.
+
+Takistus ***R*** iseloomustab elektrijuhi omadust avaldada elektrilaengute
+liikumisele takistavat mõju. Takistuse mõõtühik on oom (***Ω***).
+
+Sagedus ***f*** on võrdsete ajavahemike tagant korduvate sündmuste (nt. võngete, impulsside) arv ajaühikus.
+Sageduse ühik on herts (***Hz***), 1 sündmus sekundis on 1 Hz.
+
+Periood ehk võnkeperiood ***T*** on korduva muutuse tsükli kestus. Periood
+on sagedusega pöördvõrdelises seoses, T=1/f. Perioodi ühik on sekund
+(***s***).
+
+Lainepikkus ***λ*** on kaugus kahe teineteisele lähima samas faasis võnkuva punkti vahel.
+Siinuslaines on lainepikkuseks näiteks vahemaa kahe lähima laineharja või lainenõo
+vahel. Lainepikkuse mõõtühik on meeter (m).
+
+Lainepikkus on võrdne laine levimiskiiruse ***v*** ja laine sageduse ***f*** jagatisega:
+
+λ=v/f
+
+Helilainete puhul on levimiskiiruseks helikiirus (õhus umbes 330 m/s).
+Elektromagnetlaine levib vaakumis valguse kiirusega c=299792458m/s.
+
+Elektrimahtuvus ***C*** (lühemalt mahtuvus) iseloomustab elektrit juhtiva keha või kondensaatori
+võimet salvestada elektrilaengut. Mahtuvuse mõõtühik on farad (***F***).
+
+Induktiivsus ***L*** on elektromagnetilist induktsiooni iseloomustav füüsikaline suurus.
+Induktiivsuse mõõtühik on henri (***H***).
+
+Igal elektrijuhil (nt juhtmekeerul, poolil jm juhtival kontuuril) on teatav
+induktiivsus, sest juhti läbiva
+vooluga kaasneb alati magnetväli. Induktiivsus avaldub võimena takistada eneseinduktsiooni tõttu
+voolu muutumist. Näiteks mida suurem on pooli induktiivsus, seda aeglasemalt alalisvool
+sisselülitamise järel poolis tugevneb. Vahelduvvooluahelas suureneb koos induktiivsuse
+ja sagedusega pooli induktiivtakistus.
+
+Juhul kui voolu muutus ühes kontuuris (näiteks trafo mähises) indutseerib vastastikuse
+induktsiooni teel elektromotoorjõu ka teises kontuuris (teises mähises), on tegemist
+vastastikuse induktiivsusega. Vastastikuse induktiivsuse tähis on M või, mõõtühik
+ikka henri.
+
+Näivtakistus ehk impedants ***Z*** on elektriahela kahe punkti vahel perioodilisele siinuselisele
+vahelduvasuunalisele elektrivoolule ehk vahelduvvoolule avalduv takistus, mis koosneb kahest
+põhikomponendist:
+
+* aktiivtakistus ehk resistants ***R***  ‒ iseloomustab elektrienergia muundumist teist liiki energiaks, näiteks soojuseks;
+* reaktiivtakistus ehk reaktants ***X*** - iseloomustab elektrienergia perioodilist kadudeta toimuvat muutumist magnetvälja või elektrivälja energiaks.
+
+Induktiivsete ahelaelementide reaktiivtakistus on induktiivtakistus ja mahtuvuslike elementide
+reaktiivtakistus on mahtuvustakistus. Impedants on sagedusest on sõltuv
+suurus. Induktiivtakistus suureneb sageduse suurenemisel, mahtuvustakistus
+väheneb sageduse suurenemisel. Induktiivtakistust loetakse positiivseks ja
+mahtuvustakistust negatiivseks.
+
+Impedantsi mõõtühik on oom (***Ω***).
+
+Elektrotehnikas eristatakse hetk-, aktiiv-, reaktiiv- ja näivvõimsust.
+Elektriseade kas muundab mingit liiki energiat elektrienergiaks
+(näiteks elektrigeneraator) või elektrienergiat teist liiki energiaks
+(näiteks elektripliit soojuseks). Seadme elektrivõimsus väljendab
+ajaühikus toodetava või tarbitava elektrienergia hulka.
+Tarbiva elektriseadme ehk elektritarviti võimsust nimetatakse ka
+võimsustarbeks.
+
+* Hetkvõimsuseks ***p*** nimetatakse pinge ja voolutugevuse hetkväärtuse korrutist.
+* Aktiivvõimsus ***P*** on vahelduvvoolu hetkvõimsuse keskväärtus ühe perioodi kestel.
+* Reaktiivvõimsus ***Q*** iseloomustab kiirust, millega energia salvestub reaktiivtakistusega elektriahelaelementidesse, näiteks kondensaatorisse ja induktiivpooli, samuti energiavahetust ahelaosade vahel.
+* Näivvõimsus ***S*** on aktiiv- ja reaktiivõimsuse geomeetriline summa.
+
+Aktiivtakistusega R elektritarviti võimsus P on arvutatav pinge U ja voolu I kaudu järgmiselt:
+
+P = U * I = I * I * R = U * U * R 
+
+Aktiivvõimsuse mõõtühik on vatt (***W***), reaktiivvõimsuse ühik varr
+(***var***) ja näivvõimsuse ühik voltamper (***V•A***).
+

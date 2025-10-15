@@ -11,6 +11,22 @@ const formatTime = (date: Date): string => {
   return `${hours}:${minutes}`;
 };
 
+const AppendValue: React.FC<{
+  value: string | number | undefined | null;
+  children: (value: string | number) => React.ReactNode;
+}> = (props) => {
+
+  if(props.value) {
+    return (
+      <>
+        <Text color="$color" opacity={0.6}>|</Text>
+        {props.children(props.value)}
+      </>
+    )
+  }
+  return null;
+}
+
 export const ChatMessageTitle: React.FC<{ 
   item: UserMessage, 
   onLocatorMap: (locator: string, callsign: string) => void 
@@ -29,25 +45,20 @@ export const ChatMessageTitle: React.FC<{
       <Text color="$color" fontWeight="bold">
         {item.callsign}
       </Text>
-      <Text color="$color" opacity={0.6}>|</Text>
-      <Text color="$color" opacity={0.8} fontSize="$2">
-        {formatTime(item.date)}
-      </Text>
-      <Text color="$color" opacity={0.6}>|</Text>
-
+      <AppendValue value={formatTime(item.date)}>
+        {(value) => (<Text color="$color" opacity={0.8} fontSize="$2">{value}</Text>)}
+      </AppendValue>
       
-      <Text color="$color" opacity={0.8} fontSize="$2" onPress={handleLocatorMap}>
-        {store.callbook[item.callsign]?.locator.maidenhead}
-      </Text>
+      <AppendValue value={store.callbook[item.callsign]?.locator.maidenhead}>
+        {(value) => (<Text color="$color" textDecorationLine="underline" opacity={0.8} fontSize="$2" onPress={handleLocatorMap}>{value}</Text>)}
+      </AppendValue>
 
-      <Text color="$color" opacity={0.6}>|</Text>
-      <Text color="$color" opacity={0.8} fontSize="$2">
-        {store.callbook[item.callsign]?.locator.distanceInKm} km
-      </Text>
+      <AppendValue value={store.callbook[item.callsign]?.locator.distanceInKm}>
+        {(value) => (<Text color="$color" opacity={0.8} fontSize="$2">{value} km</Text>)}
+      </AppendValue>
 
-      <Text color="$color" opacity={0.6}>|</Text>
-      <Text color="$color" opacity={0.8} fontSize="$2">
-        {store.callbook[item.callsign]?.locator.rotator} bearing
-      </Text>
+      <AppendValue value={store.callbook[item.callsign]?.locator.rotator}>
+        {(value) => (<Text color="$color" opacity={0.8} fontSize="$2">{value} bearing</Text>)}
+      </AppendValue>
     </XStack>)
 }

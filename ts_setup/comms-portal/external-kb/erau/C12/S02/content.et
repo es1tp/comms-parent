@@ -1,0 +1,40 @@
+Igal raadioamatööril on tähtedest ja numbri(te)st koosnev kutsung, mis on maailmas ainuke ja on talle teise nime eest.
+
+Tõsi, riikides, kus amatööre on palju, lastakse juba kasutusel olnud kutsungid mõne aja pärast uuesti käiku.
+
+Iga kutsungi esimene osa ehk prefiks näitab, millisest riigist amatöör töötab. Eesti amatööride kutsungid
+algavad tähekombinatsiooniga “ES”, sellele järgnev number näitab, millisest Eesti piirkonnaga on tegemist.
+
+* ES1 Tallinn
+* ES2 Harjumaa
+* ES3 Rapla- ja Läänemaa
+* ES4 Ida-Virumaa ja Lääne-Virumaa
+* ES5 Tartu- ja Jõgevamaa
+* ES6 Põlva-, Võru- ja Valgamaa
+* ES7 Viljandimaa
+* ES8 Pärnumaa
+* ES9 ERAÜ erikutsung
+* ES0 Saare ja Hiiu maakond
+
+Viimane osa ehk sufiks annab Eesti jaamade puhul informatsiooni raadioamatööri kvalifikatsioonist ja jaama otstarbest.
+
+Üldreegliks on: mida lühem kutsung, seda parem operaator. Kutsungi lühenemisega kahaneb
+ka võimalike kutsungite arv, ka kõige parema tahtmise juures pole võimalik kõigile Eesti
+amatööridele väljastada ühetähelise sufiksiga kutsungeid.
+
+Päris algajate, D-klassi amatööride kutsungi sufiksis on neli tähte. Edasijõudnute, B-klassi amatööride kutsungis
+on pärast numbrit kolm tähte. Kaks tähte on sufiksis A-klassi amatööridel ja klubijaamadel. 
+Viimastel on võimalik TTJA-lt taotleda ka ühetähelist sufiksit.
+
+Kui amatöör ei tööta oma tavalises asukohas, saab seda näidata kaldjoonega (ingl. k. “stroke” või “slash”)
+eraldatud kutsungi lisa abil:
+
+* ES4LB/6 jaam töötab ajutisest asukohast teises kutsungipiirkonnas
+* ES5RY/p jaam töötab ajutisest asukohast samas kutsungipiirkonnas (“portable”)
+* ES5MG/m jaam töötab autolt (“mobile”)
+* ES0IC/mm jaam töötab merelt (“maritime mobile”)
+* ES5PC/am jaam töötab lennukilt (“aeroplane mobile”)
+
+Kui välismaa amatöör tuleb lühiajaliselt Eestisse, lisatakse tema kutsungi ette “ES”+kutsungipiirkond + “/”. 
+Näiteks Timo, OH1NOA, töötades Lõuna-Eestist, võtab kutsungiks ES6/OH1NOA. Pikemaajalisel peatumisel
+(üle kuue kuu) peab amatöör taotlema Eesti kutsungit.

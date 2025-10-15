@@ -3,11 +3,14 @@ import React from 'react';
 
 
 export interface SecureStorage {
-  saveCredentials(callsign: string, password: string, locator: string | null, calibrationOffset: number | null): Promise<void>;
+  saveCredentials(
+    callsign: string, password: string, chatId: string, 
+    locator: string | null, calibrationOffset: number | null): Promise<void>;
   saveToken(token: string): Promise<void>;
   getCallsign(): Promise<string | null>;
   getPassword(): Promise<string | null>;
   getToken(): Promise<string | null>;
+  getChatId(): Promise<string | null>;
 
   getMyLocaltion(): Promise<{ locator: string | null, calibrationOffset: number | null }>;
   
@@ -17,6 +20,7 @@ export interface SecureStorage {
 export interface SecureStorageToken {
   callsign: string | null;
   password: string | null;
+  chatId: string | null;
   me: {
     locator: string | null;
     calibrationOffset: number | null;
@@ -33,11 +37,17 @@ class SecureStorageImpl implements SecureStorage {
     TOKEN: 'user_token',
     LOCATOR: 'user_locator',
     ROTATOR_OFFSET: 'user_offset',
+    CHAT_ID: 'chat_id',
   };
 
-  async saveCredentials(callsign: string, password: string, locator: string | null, calibrationOffset: number | null): Promise<void> {
+  async saveCredentials(
+    callsign: string, password: string, 
+    chatId: string,
+    locator: string | null, calibrationOffset: number | null): Promise<void> {
+
     await EncryptedStorage.setItemAsync(this.KEYS.CALLSIGN, callsign);
     await EncryptedStorage.setItemAsync(this.KEYS.PASSWORD, password);
+    await EncryptedStorage.setItemAsync(this.KEYS.CHAT_ID, chatId);
 
     if(locator) {
       await EncryptedStorage.setItemAsync(this.KEYS.LOCATOR, locator);
@@ -50,11 +60,15 @@ class SecureStorageImpl implements SecureStorage {
   async saveToken(token: string): Promise<void> {
     await EncryptedStorage.setItemAsync(this.KEYS.TOKEN, token);
   }
-
+  async saveChatId(chatId: string): Promise<void> {
+    await EncryptedStorage.setItemAsync(this.KEYS.CHAT_ID, chatId);
+  }
   async getCallsign(): Promise<string | null> {
     return await EncryptedStorage.getItem(this.KEYS.CALLSIGN);
   }
-
+  async getChatId(): Promise<string | null> {
+    return await EncryptedStorage.getItem(this.KEYS.CHAT_ID);
+  }
   async getPassword(): Promise<string | null> {
     return await EncryptedStorage.getItem(this.KEYS.PASSWORD);
   }
@@ -84,6 +98,7 @@ class SecureStorageImpl implements SecureStorage {
     await EncryptedStorage.deleteItemAsync(this.KEYS.PASSWORD);
     await EncryptedStorage.deleteItemAsync(this.KEYS.TOKEN);
     await EncryptedStorage.deleteItemAsync(this.KEYS.LOCATOR);
+    await EncryptedStorage.deleteItemAsync(this.KEYS.CHAT_ID);
     await EncryptedStorage.deleteItemAsync(this.KEYS.ROTATOR_OFFSET);
   }
 }
@@ -96,8 +111,9 @@ export const useSecureStorage = () => {
     [ secureStorage.getCallsign(), 
       secureStorage.getPassword(), 
       secureStorage.getMyLocaltion(),
-      secureStorage.getToken()])
-      .then(([callsign, password, me, raw]) => ({ callsign, password, me, raw}))
+      secureStorage.getToken(),
+      secureStorage.getChatId() ])
+      .then(([callsign, password, me, raw, chatId]) => ({ callsign, password, me, raw, chatId}))
   , [secureStorage]);
 
   return { secureStorage, getToken };

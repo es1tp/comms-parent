@@ -1,4 +1,5 @@
 import { createTamagui } from 'tamagui'
+import { createAnimations } from '@tamagui/animations-react-native'
 import { media, shorthands, tokens } from '@tamagui/config/v4'
 import { createThemeBuilder } from '@tamagui/theme-builder'
 
@@ -272,6 +273,25 @@ const tamaguiConfig = createTamagui({
   themes,
   tokens: cyberpunkTokens,
   media,
+
+  animations: createAnimations({
+    // your animation configs
+    fast: {
+      damping: 20,
+      mass: 1.2,
+      stiffness: 250,
+    },
+    medium: {
+      damping: 15,
+      mass: 1,
+      stiffness: 120,
+    },
+    slow: {
+      damping: 20,
+      mass: 1,
+      stiffness: 60,
+    },
+  }),
 })
 
 export type Conf = typeof tamaguiConfig

@@ -2,16 +2,22 @@ export namespace ChatApi {
 
   // ========== Configuration Types ==========
 
-  /**
-   * Chat IDs for different bands
-   * - 1: 50/70 MHz
-   * - 2: 144/432 MHz
-   * - 3: Microwave
-   * - 4: EME/JT65
-   * - 5: Low Band
-   * - 7: 50 MHz IARI Region 2
-   */
-  export type ChatId = '1' | '2' | '3' | '4' | '5' | '7';
+export type ChatId = '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 'j' | 'k' | 'l' | 'm';
+export const CHAT_OPTIONS: Array<{ id: ChatId; label: string }> = [
+  { id: 'l', label: '28 MHz' },
+  { id: 'm', label: '40 MHz' },
+  { id: '1', label: '50/70 MHz' },
+  { id: '7', label: '50 MHz IARU Region 2' },
+  { id: '6', label: '50 MHz IARU Region 3' },
+  { id: '2', label: '144/432 MHz' },
+  { id: '8', label: '144/432 MHz IARU R 2' },
+  { id: '9', label: '144/432 MHz IARU R 3' },
+  { id: '3', label: 'Microwave' },
+  { id: 'j', label: 'kHz (2000-630m)' },
+  { id: '4', label: 'Low Band (160-40m)' },
+  { id: 'k', label: 'Warc (30,17,12m)' },
+  { id: '5', label: 'EME (all bands/modes)' },
+];
 
   /**
    * User state bitmap

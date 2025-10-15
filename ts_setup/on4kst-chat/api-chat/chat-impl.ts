@@ -364,6 +364,7 @@ export class ClientImpl implements ChatApi.Client {
       
       // Handle keepalive before dispatching
       if (frame.type === 'keepalive') {
+        console.log('keep-alive');
         this.backend.write('');
       }
       // Dispatch to subscribers

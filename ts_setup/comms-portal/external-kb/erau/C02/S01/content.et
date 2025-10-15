@@ -1,0 +1,77 @@
+Passiivkomponentideks loetakse takistid, kondensaatorid ja induktiivkomponendid, sealhulgas ka transformaatorid.
+
+### Takistid
+
+Takistite abil saab anda elektriahelale vajaliku takistuse.
+
+Takisteid on palju erinevaid, kõige tavalisem neist on aktiivtakisti mida
+nimetatakse ka lihtsalt takistiks. Takisti kõige olulistemateks parameetriteks on
+nominaalväärtus, võimsustaluvus ja materjal, sest sellest sõltuvad veel
+mõned olulised parameetrid. Takistite takistus ei vasta pea kunagi
+täpselt nominaalväärtusele, tootmisvigade ja takistitele omase takistuse
+muutumise temperatuuri kõikumisel tüüpiliselt takistite takistus kasvab
+temperatuuri tõustes. Takistuse muutumise suuruse määrab takisti
+materjalist sõltuv temperatuuritegur.
+
+Muuttakistite takistust saab sujuvalt muuta, kõige tuttavam on kõigile
+potentsiomeeter, seda kasutatakse näiteks raadiovastuvõtja helitugevuse
+reguleerimiseks.
+
+Oluline takistite rühm on termotaksitid ehk termistorid, need on ehitatud
+selliselt, et nende takistus muutub temperatuuri kõikumisel väga suurtes
+piirides. Sealjuures on olemas nii sellised mille takistus temperatuuri
+tõustes kasvab kui sellised, mille takistus temperatuuri tõustes langeb.
+Neid saab kasutada temperatuuri mõõtmiseks aga ka näiteks
+jahutusventilaatori kiiruse reguleerimiseks sõltuvalt seadme temperatuurist.
+
+### Kondensaatorid
+
+Kondensaatorite põhiomadus on mahtuvus, ehk võime salvestada elektrilaengut.
+Põhimõtteliselt koosnevad nad kõik kahest elektroodist ja neid eraldavast
+elektrit mitte juhtivast kihist. Kondensaatori mahtuvuse määrab elektroodide
+pindala ja neid eraldava dielektriku paksus, seepärast teakse nii
+elektroodid kui dielektrik võimalikult õhukesed. Sõltuvalt vajalikest
+omadustest valmisatakse kondensaatoreid erinevatest materjalidest.
+
+Ka kondensaatoreid on püsiva väärtusega ja muudetava väärtusega, sagedamini
+leiavad kasutust püsiva väärtusega kondensaatorid. Kondensaatorite
+olulisimad parameetrid on mahtuvus ja pingetaluvus. Nagu takistid, ei ole ka
+kondensaatorid ideaalsed ja erinevad nominaalväärtusest, nende mahtuvus võib
+ajas või näiteks temperatuuri kõikumisel oluliselt muutuja ja nad võivad
+omada ka arvestatavat aktiivtakistust. Tänapäeval on õpitud väga väikeseid
+ja suhteliselt suure mahtuvusega keraamilisi kondensaatoreid tegema, nende
+headeks omaduseks on ka vähene sisetakistus ja induktiivsus, seepärast
+sobivad nad hästi igasuguste järskude impulsside ja muude mürade filtreerimiseks
+ning kõrgsagedusahelates kasutamiseks.
+
+Eraldi mainimist väärivad elektrolüütkondensaatorid, sest neile saab
+suhteliselt väikese ruumala juures anda väga suure mahtuvuse. Dielektrikuks
+on nende sees imeõhuke oksiidikiht mille tekitamiseks ja püsimiseks on
+kondensaatori sisu immutatud elektrolüüdiga. Aja jooksul võib elektrolüüt
+neist välja lekkida, selle tulemusena rikneb kondensaator aga korrosiivne
+elektrolüüt võib kergesti rikkuda ka teised läheduses olevad komponendid või
+trükkplaadi millel komponendid paiknevad. Suure mahtuvuse tõttu kasutatakse
+neid sageli toiteahelates pinge silumiseks.
+ 
+Muutkondensaatorid võimaldavad elektroode teineteise suhtes nihutada, muutes
+niiviisi kondensaatori mahtuvust. Vanades raadiotes kasutati pea alati suurt
+pöördkondensaatorit mis koosnes üksteisega vaheliti metall-lehtedest.
+
+### Indiktiivelemendid
+
+Kõige lihtsam induktiivelement on induktiivpool, selle põhiline tunnus on
+elektriline induktiivsus. Pool koosneb mingist hulgas traadikeerdudest mis
+võivad olla mähitud poolialusele. Poolide induktiivsuse suurendamiseks
+kasutatakse ferromagnetilisi poolisüdamikke, kõrgsageduspoolid on sageli
+ilma aluseta ja südamikuta traadikeerud. Ka poolide induktiivuse saab
+muudetavaks teha, selleks tehakse poolisüdamik pooli sees liigutatavaks.
+
+Ka induktiivelemendid ei ole ideaalsed, nende mähisetraat omab aktiivtakistust
+mis tekitab poolis energiakadu, lisaks sellele moodustavad mähisekeerud ja
+kondensaatori mille tõttu on poolidel soovimatu omaresonantsisagedus.
+
+Kui ühele südamikule mähkida mitu induktiivpooli siis moodustub
+transformaator, kus südamik moodustab mähiseid omavahel siduva magnetahela.
+Ühele mähisele antav vahelduvpinge tekitab südamikus muutuva magnetvoo mis
+indutseerib teises mähiseks vahelduva elektromotoorjõu, kui mähisega
+ühendada elektriahel siis läbib seda eletrivool.

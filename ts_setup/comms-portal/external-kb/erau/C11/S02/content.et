@@ -1,0 +1,30 @@
+Q-koodil on veerimistabelile vastupidine eesmärk: see on välja töötatud selleks,
+et mõne tähe abil edastada teavet, mis sõnades väljaöelduna läheks liiga pikaks,
+seda eriti telegraafiside puhul. Tunduvalt lihtsam on telegraafis edastada
+"PSE QSY 14250" kui "PSE CHANGE UR FREQ TO 14250" 
+
+Samas ei tasu harvaesinevaid Q-koode pruukida telefonisides: ajavõidu asemel
+Te hoopis kaotate aega, kuna korrespondent peab mõistatama, mida öelda taheti.
+Q-koodi saab esitada nii küsimusena kui ka vastusena. Esimesel juhul lisatakse
+lõppu küsimärk, telefonisides tõstetakse hääletooni.
+
+|Lühend|Küsimus (selgitus)|Vastus (selgitus)|
+|------|------------------|-----------------|
+| QRL  | Kas olete hõivatud? (või) Kas sagedus on hõivatud? | Olen hõivatud. (või) Sagedus on hõivatud, palun ärge segage. |
+| QRM  | Kas teid segatakse? Kas esineb häireid? | Mind segatakse. |
+| QRN  | Kas teil esineb staatilisi häireid ? | Siin on staatilisi häireid.  |
+| QRO  | Kas ma peaksin suurendama saatevõimsust? | Suurendage saatevõimsust. |
+| QRP  | Kas ma peaksin vähendama saatevõimsust? | Vähendage saatevõimsust. |
+| QRQ  | Kas ma peaksin edastama kiiremini (telegraaf)? | Edastage kiiremini. |
+| QRS  | Kas ma peaksin edastama aeglasemalt ? | Edastage aeglasemalt |
+| QRT  | Kas ma peaksin saate lõpetama ? | Lõpetage saade. |
+| QRX  | Millal te mind uuesti kutsute ? (kasutatakse ka lühikese pausi alguses) | Kutsun teid hiljem uuesti.|
+| QRZ  | Kas keegi kutsub mind ? | Teid kutsub ... (kutsung) sagedusel ... kHz (MHz).|
+| QSB  | Kas minu (jaama) signaali tugevus kõigub ? | Teie (jaama) signaali tugevus kõigub. |
+| QSL  | Kas kinnitate info vastuvõttu ? (kasutatakse ka sidet kinnitava kaardi nimetusena) | Kinnitan info vastuvõttu. |
+| QSO  | Kas teil on otseühendus ... (kutsung) jaamaga või saate temaga ühendust läbi vahendusjaama ? | Mul on otseühendus ... (kutsung) jaamaga - kasutan vahendusjaama. (kasutatakse ka sõnade "side" ja "ühendus" asemel) |
+| QSY  | Kas ma peaksin vahetama töösagedust ? | Vahetage töösagedust. |
+| QTH  | Milline on teie asukoht ? | Minu asukoht on ... (asukoht või muud asukohta määravad andmed). |
+
+Täielik Q-koodide nimekiri http://www.kloth.net/radio/qcodes.php
+

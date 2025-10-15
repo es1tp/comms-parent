@@ -1,0 +1,63 @@
+Detsibell (tähis dB) on kümnendlogaritmiline mõõtühik, mis väljendab kahe füüsikalise
+suuruse (sageli võimsuse või pinge) suhet või ühe suuruse taset võrreldes mingi
+võrdlus- ehk baassuurusega. Detsibell on Belli osaühik, 1B = 10 dB.
+
+Kuna väljendatakse kahe suuruse suhet, mille ühikud on samad, siis on detsibell
+dimensioonita suurus. Detsibellides mõõdetakse näiteks helirõhutaset, elektrisignaali
+võimendust või nõrgendust jms.
+
+Selle ühiku eeliseks on väga suurte ja väga väikeste suhtarvude lihtne esitamine,
+mille tingib logaritmiline skaala. See lubab meil näiteks väga suurt ja väga väikest
+signaalitasemete suhet kergesti ja arusaadavalt kirjeldada tülikalt pikki arve kasutamata.
+
+Bellide arvutusvalemid on erisugused olenevalt sellest, kas on tegemist energiasuurustega
+näiteks energia, võimsus, heliintensiivsus, või väljasuurustega
+(amplituudidega), näiteks elektrivälja tugevus, elektripinge, voolutugevus, helirõhk.
+
+Energiaühikute korral korral on N (dB) = 10 * lg ( P1/P2) ja väljaühikute
+korral on N (dB) = 20 * lg (F1/F2) kus P1 või F1 on ette määratud
+baasväärtus.
+
+Mõned sagedasti kasutatavad dB väärtused:
+
+| dB | Võimsuste suhe | Amplituudide suhe |
+|----|----------------|-------------------|
+| 60 | 1000000 | 1000 |
+| 40 | 10000 | 100 |
+| 20 | 100 | 10 |
+| 10 | 10  | 3,162 |
+| 6 | 3.981 ≈ 4 | 1,995 ≈ 2 |
+| 0 | 1 | 1 |
+| -3 | 0,501 ≈ 1⁄2 | 0,708 |
+| −6 | 0,251 ≈ 1⁄4 | 0,501 ≈ 1⁄2 |
+| −10 |	0,1 | 0,3162 |
+| −20| 0,01 | 0,1 |
+| −40 |	0,0001| 0,01 |
+|−60 | 0,000001|0,001 |
+
+Näiteks -3 dB signaalikadu koaksiaalkaablis tähendab, et pool saatja
+väljundvõimsusest läheb kaablis kaduma. Saatevõimsuse kümnekordistamine
+tähendab +10dB muutust, aga +20dB muutus tähendab juba saatevõimsuse
+sajakordistamist. 
+
+Vastuvõtjate S-meetri skaalal tähendab üldiselt iga samm 6dB muutust,
+ehk siis S8-lt S9-le minek tähendab võimsuse neljakordistumist või antennist
+tulev signaali pinge kahekordistumist.
+
+1 dB on väikseim helitugevuse muutus, mida kõrv eristada suudab. See on võimalik
+ainult ideaalsetes tingimustes, kui inimene kuulab keskmisel muutumatul
+sagedusel "puhast" tooni ja tema ümber ei ole teisi mürasid. On kokku lepitud,
+et normaalsetes tingimustes saab terve kõrv vaevu aru 3-detsibellisest helimuutusest.
+
+Detsibelli tähisele lisatakse sufikseid (järelliiteid), selleks et viidata baastasemele,
+millega mõõdetud väärtust võrreldakse.
+
+Elektrotehnikas kasutatav dBm (dBmW) väljendab signaali võimendust või nõrgendust
+1millivati suhtes, mis on baasväärtus ehk nullnivoo (0 dB). Seega kui öeldakse, et
+signaali tugevus on ‒63 dBm, siis on see sama, kui öelda, et see signaal on 63 detsibelli
+võrra nõrgem kui 1-millivatine signaal. Kui öeldakse, et saatja
+väljundvõimsus on 40 dBm siis see tähendab, et väljundvõimsus on 10000 mW
+ehk 10W.
+
+Stuudiotehnikas on tuntud tähis dBu – signaalipinge suhe 0,775 voldi suhtes,
+koduses audiotehnikas on kasutusel dBV - signaalipinge suhe 1 voldi suhtes.

@@ -1,0 +1,24 @@
+Raadioamatörismis, nagu teistelgi tehnikaaladel, on vajalik nii väga suurte
+kui ka väga väikeste arvude väljendamine.
+
+Selleks, et see kergem oleks ja poleks vaja paljusid nulle loendada, kasutatakse eesliiteid,
+mis vastava mõõtühiku ette lisatakse.
+
+Suurte arvude väljendamine eesliidete abil:
+
+|Kordaja|Eesliide|Tähis|Näide|
+|-------|--------|-----|-----|
+| 1000 | kilo | k | 1 kHz = 1000 Hz |
+|1 000 000 | mega | M | 1 MHz = 1000000 Hz == 1000 kHz |
+|1 000 000 000 | giga | G | 1 GHz = 1000 MHz = 1000000000 Hz |
+|1 000 000 000 000 | tera | T | 1 THz = 1000 GHz = 1000000000000 Hz |
+
+Väikeste arvude väljendamine eesliidete abil:
+
+|Kordaja|Eesliide|Tähis|Näide|
+|-------|--------|-----|-----|
+| 0,001 | milli | m | 1 mm= 0,001 m |
+| 0,000001 | mikro | μ | 1 μm = 0,001 mm |
+|0,000000001 | nano| n | 1 nm = 0,001 μm |
+| 0,000000000001 | piko | p | 1 pm = 0,001 nm |
+

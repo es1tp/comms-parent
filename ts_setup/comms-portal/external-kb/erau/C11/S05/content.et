@@ -1,0 +1,50 @@
+Selleks, et side toimuks, on korrespondentidel vaja vahetada kutsungid ja RST-raport.
+Viimane on numbrikombinatsioon, mis iseloomustab vastuvõetud signaali loetavust
+(R=readability, 5-palli skaala), tugevust (S=strength, 9-palli skaala) ja
+tooni (T=tone, 9-palli skaala).
+
+Telefoniside puhul jäetakse raporti T-osa ära ja raport on kahekohaline.
+
+DX-peditsioonidel ja võistlustel kasutatakse aja kokkuhoiuks raportina tavaliselt
+ainult 599 või 59, vaatamata tegelikule signaalile. Kui saadud raporti R- või 
+T-osa on korduvalt maksimaalsest väiksemad, tuleks kontrollida aparatuuri
+korrasolekut, sest tavaliselt kipuvad raportid olema paremad kui tegelik
+signaal, loetavuse ja tooni  hinde alandamiseks peab olema tõsisem põhjus.
+
+### RST skaala
+
+R (loetavus)
+1. Loetamatu
+2. Vaevalt loetav
+3. Raskesti loetav
+4. Raskusteta loetav
+5. Selgesti loetav
+
+S (tugevus):
+1. Vaevalt kuuldav
+2. Väga nõrk signaal
+3. Nõrk signaal
+4. Pingutusega kuuldav signaal
+5. Rahuldava kuuldetugevusega signaal
+6. Mugava kuuldetugevusega signaal
+7. Mõõdukalt tugev signaal
+8. Tugev signaal
+9. Väga tugev signaal
+
+T (toon):
+1. Väga toorelt urisev
+2. Ebamusikaalne vahelduvvoolutoon
+3. Vahelduvvoolutoon
+4. Keskmiselt musikaalne vahelduvvoolutoon
+5. Musikaalne vahelduvvoolutoon
+6. Vahelduvvooluga märgatavalt moduleeritud toon
+7. Nõrga vahelduvvoolumodulatsiooniga toon
+8. Peaaegu modulatsioonita toon
+9. Eeskujulik moduleerimata toon
+                                                    
+Iga tugevuse aste vastab kahekordsele signaali intensiivsuse suurenemisele.
+Signaali tugevuseks võib olla ka üle 9 palli: sellisel juhul väljendatakse
+seda “9+” või S-meetrilt üheksat palli ületava detsibellide arvuna (“9+20”).
+
+Lisaks kohustuslikule edastatakse ka täiendavat teavet:
+Operaatori nimi; Jaama QTH (asukoht); Kasutatav aparatuur; Ilm; QSL-info.

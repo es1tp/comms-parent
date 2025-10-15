@@ -1,0 +1,5 @@
+? Kui suur on mitmest takistist koosneva jadalülituse kogutakistus?
+A*. Kogutakistus on võrdne kõikide takistite takistuste summaga.
+B. Kogutakistus on väiksem kõige väiksema takisti takistuse väärtusest.
+C. Kogutakistuse saame jagades takistite takistuste summa takistite arvuga.
+. AB

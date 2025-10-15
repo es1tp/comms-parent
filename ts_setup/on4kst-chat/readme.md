@@ -9,8 +9,13 @@ adb devices
 pnpm expo run:android --device
 
 
+corepack pnpm android:copy-network-config
 cd android
 ./gradlew assembleRelease
+
+adb -s R58M30XXXXXX install android/app/build/outputs/apk/release/app-release.apk
+adb -s R58M30XXXXXX uninstall io.github.es1tp
+
 
 rm -rf android
 pnpm expo prebuild --clean

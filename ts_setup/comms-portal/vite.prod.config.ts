@@ -31,7 +31,7 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
       vitePluginIntl({}),
       vitePluginKb([
         { src: 'external-kb/erau', 
-          enabled: false,
+          enabled: true,
           target: {
             site: 'src/api-db/datasource-1',
             questionnaire: 'src/api-db/questionnaire-1'

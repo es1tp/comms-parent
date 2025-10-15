@@ -1,6 +1,9 @@
 import React from 'react';
-import { YStack, Text, Input, Button, Spinner, Heading } from 'tamagui';
-import { useAuth,  } from '@/api-auth';
+import { YStack, Text, Input, Button, Spinner, Heading, Select, Adapt, Sheet, } from 'tamagui';
+import { LinearGradient } from 'tamagui/linear-gradient';
+import { ChevronDown, Check, ChevronUp } from '@tamagui/lucide-icons';
+import { useAuth } from '@/api-auth';
+import { ChatApi } from '@/api-chat';
 import { useSecureStorage } from '@/api-secure-storage';
 
 
@@ -12,14 +15,17 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
   const [locator, setLocator] = React.useState<string>('');
   const [offset, setOffset] = React.useState<number>(0);
   const [error, setError] = React.useState('');
+  const [selectedChat, setSelectedChat] = React.useState<ChatApi.ChatId>('2');
+
 
   React.useEffect(() => {
-    getToken().then(({ callsign, password, me }) => {
+    getToken().then(({ callsign, password, me, raw, chatId }) => {
       if (callsign && password) {
         setCallsign(callsign);
         setPassword(password);
         setLocator(me.locator ?? '')
         setOffset(me.calibrationOffset ?? 0)
+        setSelectedChat(chatId ? chatId as any : '2');
       }
     });
   }, []);
@@ -27,7 +33,7 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
   const handleLogin = async () => {
     try {
       setError('');
-      await login(callsign, password, locator?.toUpperCase(), offset);
+      await login(callsign, password, selectedChat, locator?.toUpperCase(), offset);
       onLogin();
     } catch (err) {
       console.log(err);
@@ -64,6 +70,86 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
         marginBottom="$10"
         size="$4"
       />
+
+      <Select
+        native
+        value={selectedChat}
+        onValueChange={(val) => setSelectedChat(val as ChatApi.ChatId)}
+      >
+        <Select.Trigger width="100%" iconAfter={ChevronDown}>
+          <Select.Value placeholder="Select chat" />
+        </Select.Trigger>
+
+        <Adapt when="maxMd" platform="touch">
+          <Sheet native modal dismissOnSnapToBottom>
+            <Sheet.Frame>
+              <Sheet.ScrollView>
+                <Adapt.Contents />
+              </Sheet.ScrollView>
+            </Sheet.Frame>
+            <Sheet.Overlay
+              backgroundColor="$shadowColor"
+
+              enterStyle={{ opacity: 0 }}
+              exitStyle={{ opacity: 0 }}
+            />
+          </Sheet>
+        </Adapt>
+
+        <Select.Content zIndex={200000}>
+          <Select.ScrollUpButton
+            alignItems="center"
+            justifyContent="center"
+            position="relative"
+            width="100%"
+            height="$3"
+          >
+            <YStack zIndex={10}>
+              <ChevronUp size={20} />
+            </YStack>
+            <LinearGradient
+              start={[0, 0]}
+              end={[0, 1]}
+              fullscreen
+              colors={['$background', 'transparent']}
+              borderRadius="$4"
+            />
+          </Select.ScrollUpButton>
+
+          <Select.Viewport minWidth={200}>
+            <Select.Group>
+              {ChatApi.CHAT_OPTIONS.map((option, i) => (
+                <Select.Item key={option.id} index={i} value={option.id}>
+                  <Select.ItemText>{option.label}</Select.ItemText>
+                  <Select.ItemIndicator marginLeft="auto">
+                    <Check size={16} />
+                  </Select.ItemIndicator>
+                </Select.Item>
+              ))}
+            </Select.Group>
+          </Select.Viewport>
+
+          <Select.ScrollDownButton
+            alignItems="center"
+            justifyContent="center"
+            position="relative"
+            width="100%"
+            height="$3"
+          >
+            <YStack zIndex={10}>
+              <ChevronDown size={20} />
+            </YStack>
+            <LinearGradient
+              start={[0, 0]}
+              end={[0, 1]}
+              fullscreen
+              colors={['transparent', '$background']}
+              borderRadius="$4"
+            />
+          </Select.ScrollDownButton>
+        </Select.Content>
+      </Select>
+
       <Input
         placeholder="Current locator"
         value={locator}
@@ -71,6 +157,7 @@ export const LoginScreen: React.FC<{ onLogin: () => void }> = ({ onLogin }) => {
         autoCapitalize="none"
         disabled={isConnecting}
         marginBottom="$3"
+        marginTop="$3"
         size="$4"
       />
       <Input

@@ -28301,7 +28301,34 @@
     },
     "onlyAllowShorthands": false,
     "fontLanguages": [],
-    "animations": {},
+    "animations": {
+      "isReactNative": true,
+      "animations": {
+        "fast": {
+          "damping": 20,
+          "mass": 1.2,
+          "stiffness": 250
+        },
+        "medium": {
+          "damping": 15,
+          "mass": 1,
+          "stiffness": 120
+        },
+        "slow": {
+          "damping": 20,
+          "mass": 1,
+          "stiffness": 60
+        }
+      },
+      "View": "Component",
+      "Text": "Component",
+      "useAnimatedNumber": "Function",
+      "useAnimatedNumberReaction": "Function",
+      "useAnimatedNumberStyle": "Function",
+      "usePresence": "Function",
+      "ResetPresence": "Function",
+      "useAnimations": "Function"
+    },
     "media": {
       "maxXs": {
         "maxWidth": 460

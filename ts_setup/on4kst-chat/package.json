@@ -4,16 +4,21 @@
   "main": "expo-router/entry",
   "scripts": {
     "android": "expo run:android",
+    "android:copy-network-config": "mkdir -p android/app/src/main/res/xml && cp network_security_config.xml android/app/src/main/res/xml/network_security_config.xml",
     "ios": "expo run:ios"
   },
   "dependencies": {
     "@shopify/flash-list": "^2.1.0",
+    "@tamagui/animations-react-native": "^1.135.2",
     "@tamagui/config": "^1.91.0",
+    "@tamagui/linear-gradient": "^1.135.2",
+    "@tamagui/lucide-icons": "^1.135.2",
     "@tamagui/use-direction": "^1.135.2",
     "@tanstack/react-query": "^5.90.2",
     "expo": "~54.0.0",
     "expo-asset": "~12.0.9",
     "expo-file-system": "~19.0.17",
+    "expo-linear-gradient": "^15.0.7",
     "expo-router": "~6.0.10",
     "expo-secure-store": "^15.0.7",
     "react": "19.1.1",

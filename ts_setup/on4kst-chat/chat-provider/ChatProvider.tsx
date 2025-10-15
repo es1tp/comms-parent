@@ -25,32 +25,32 @@ const useMessageStore = create<ChatStore>((set) => ({
       .sort(({ date: a }, { date: b }) => a.getTime() - b.getTime())
   })) 
 }))
+const init = new ClientImpl();
 
 export const ChatProvider = ({ children }: ChatProviderProps) => {
   const store = useMessageStore();
   const { secureStorage } = useSecureStorage();
 
-  const client = React.useMemo(() => {
-    const result = new ClientImpl();
-    result.onFrame((frames) => {
+  const client = React.useMemo(() => {    
+    init.onFrame((frames) => {
       //console.log(frames)
     });
 
-    result.onHistoricalMessages((frames) => {
+    init.onHistoricalMessages((frames) => {
       store.addMessages(frames)
     });
 
-    result.onChatMessages((frames) => {
-      console.log(frames);
+    init.onChatMessages((frames) => {
+      console.log('new messages');
       store.addMessages(frames)
     });
 
-    result.onUserEvents((frame) => {
+    init.onUserEvents((frame) => {
       if(frame.frameType == 'user_list') {
         secureStorage.getMyLocaltion().then(me => store.addUsers(frame, me))
       }
     })
-    return result;
+    return init;
   }, []);
 
   return (

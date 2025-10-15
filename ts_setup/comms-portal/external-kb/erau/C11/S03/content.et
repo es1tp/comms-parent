@@ -1,0 +1,21 @@
+
+
+### Telegraafiside seanss:
+
+* Lülitage transiiver sisse ja veenduge, et vastuvõtt toimib häireteta.
+* Kontrollige, et asute lubatud sagedusalas. Ehkki telegraafitöö on lubatud kogu laineala ulatuses, on vaikiv kokkulepe, et jäädakse laineala alumisse ossa, esimese 50-60 kHz ulatusse.
+* Pidage silmas, et sagedusala esimesed 10 kHz jäetakse vabaks DX-sidede jaoks. Kui Te seal töötate, pidage sidet ainult DX-jaamadega.
+* Kui hakkate kutsuma:
+ - Valige vaba sagedus ja kuulake seda mõnda aega, veendudes, et keegi seal ei tööta.
+ - Edastage mõned korrad: “QRL?”, küsimuste vahel kuulates. Kui vastuseks on “R”, “YES” või “QRL” vms, otsige teine sagedus.
+ - Kui sagedus on vaba, hakake kutsuma CQ. Jälgige et Te ei kutsuks liiga kaua: piisab, kui edastada 3 korda CQ ja 3 korda oma kutsungit, korrates seda veel ühe korra.
+* Kui leiate kutsuva jaama:
+ - kui jaam kuulab teisel sagedusel kui saadab, häälestage oma saatesagedus vastavaks;
+ - oodake, kuni jaam on kutsumise lõpetanud; edastage oma kutsungit 1..2 korda
+* Valige korrespondendi saatekiirus, kui see on Teie saatmiskiirusest aeglasem. Ärge saatke kiiremini kui suudate vastu võtta.
+* Saatmisel jälgige, et saatja ja antenn toimiksid häireteta.
+* Vahetage korrespondendiga rutiinne teave: raport, nimi, QTH. “Lühikese side” puhul edastage ainult raport.
+* Hoidke saateseansid lühidad ja asjalikud. Viisakused on telegraafisides lühemad kui telefoni teel.
+* Pärast side lõppu ärge hakake kohe saatma, vaid kuulatage, kas keegi Teid kutsub.
+
+Telegraafis võidakse RST raportis aja kokkuhoiuks saata “9” asemel “N” ja “0” asemel “T”. (Raport “599” = “5NN”)

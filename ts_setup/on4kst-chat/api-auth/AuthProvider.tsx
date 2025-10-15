@@ -9,7 +9,7 @@ const CONNECTION_PROPS: ChatApi.ClientConfig = {
   port: 23001,
   chatId: '2',
   clientVersion: 'react_native_v_1',
-  pastMessages: 5,
+  pastMessages: 50,
   callsign: '',
   password: ''
 } 
@@ -18,7 +18,7 @@ export interface AuthContextType {
   connectionState: ChatApi.ConnectionState;
   needsReauth: boolean;
   
-  login: (callsign: string, password: string, locator: string | null, calibrationOffset: number | null) => Promise<void>;
+  login: (callsign: string, password: string, chatId: ChatApi.ChatId, locator: string | null, calibrationOffset: number | null) => Promise<void>;
   logout: (perm?: boolean) => Promise<void>;
   
   reconnect: (password: string) => Promise<void>;
@@ -46,13 +46,13 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       const token: ChatApi.LoginResponse = tokenRaw ? JSON.parse(tokenRaw) : undefined;
       const callsign = await secureStorage.getCallsign();
       const password = await secureStorage.getPassword();
-
+      const chatId = await secureStorage.getChatId();
       const me = await secureStorage.getMyLocaltion()
 
-      if (token && callsign && password) {
+      if (token && callsign && password && chatId) {
         // Check if token still works
         const connectionState = client.getConnectionState();
-        await secureStorage.saveCredentials(callsign, password, me.locator, me.calibrationOffset);
+        await secureStorage.saveCredentials(callsign, password, chatId, me.locator, me.calibrationOffset);
         await secureStorage.saveToken(JSON.stringify(token));
 
         if (connectionState.status === 'disconnected' || connectionState.status === 'error') {
@@ -65,12 +65,13 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     }
   }
 
-  const login = async (callsign: string, password: string, locator: string | null, calibrationOffset: number | null) => {
+  const login = async (callsign: string, password: string, chatId: ChatApi.ChatId, locator: string | null, calibrationOffset: number | null) => {
     try {
       setConnectionState({ status: 'connecting' });
 
       const [token, error] = await client.connect({
         ...CONNECTION_PROPS,
+        chatId,
         callsign, password
       });
 
@@ -79,7 +80,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       }
 
       const connectionState = client.getConnectionState();
-      await secureStorage.saveCredentials(callsign, password, locator, calibrationOffset);
+      await secureStorage.saveCredentials(callsign, password, chatId,locator, calibrationOffset);
       await secureStorage.saveToken(JSON.stringify(token));
 
       setConnectionState(connectionState);
@@ -93,16 +94,18 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   const reconnect = async (password: string) => {
     const callsign = await secureStorage.getCallsign();
     const me = await secureStorage.getMyLocaltion();
+    const chatId: ChatApi.ChatId = (await secureStorage.getChatId()) as ChatApi.ChatId;
     if (!callsign) {
       throw new Error('No saved callsign found');
     }
-    await login(callsign, password, me.locator, me.calibrationOffset);
+    await login(callsign, password, chatId, me.locator, me.calibrationOffset);
   }
 
   const logout = async (perm?: boolean) => {
     if(perm) {
       await secureStorage.clearAll();
     }
+    await client.disconnect();
     setConnectionState({ status: 'disconnected' });
     setNeedsReauth(false);
   }

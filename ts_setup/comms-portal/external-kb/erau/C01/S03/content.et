@@ -1,0 +1,17 @@
+Oomi seadus määrab kindlaks pinge U, voolutugevuse I ja takistuse R vahelise seose:
+
+U=I*R või I=U/R või R=U*I
+
+I on ahelaosa läbiva voolu tugevus, mida mõõdetakse amprites (A);
+U on pinge, mida mõõdetakse voltides (V);
+R on vooluahela lõigu takistus, mida mõõdetakse oomides (Ω).
+
+Vahelduvvoolu korral kehtib seos
+
+I=U/Z
+
+kus Z on vahelduvvooluahela näivtakistus.
+
+Oomi seadusega on lähedalt seotud võimsus, mida saab arvutada:
+
+P = U * I = I * I * R = U * U * R
