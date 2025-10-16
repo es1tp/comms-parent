@@ -9,6 +9,13 @@ export const C02: KbApi.Article = {
       "title": "Raadio- ja elektrotehnika komponendid",
       "materials": [],
       "questionnaire": []
+    },
+    {
+      "id": "C02_en",
+      "localeCode": "en",
+      "title": "Radio and electrical engineering components",
+      "materials": [],
+      "questionnaire": []
     }
   ]
 }

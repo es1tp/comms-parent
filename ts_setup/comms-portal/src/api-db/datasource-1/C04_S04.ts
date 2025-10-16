@@ -63,6 +63,66 @@ export const C04_S04: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C04_S04_en",
+      "localeCode": "en",
+      "title": "Intermediate frequency",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C04_S04_en_q008_en",
+          "groupId": "q008",
+          "question": "What is an intermediate frequency amplifier?",
+          "answers": [
+            {
+              "id": "C04_S04_en_q008_en_A",
+              "answer": "Fixed tuned passband amplifier.",
+              "isCorrect": true
+            },
+            {
+              "id": "C04_S04_en_q008_en_B",
+              "answer": "Receiver filter.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S04_en_q008_en_C",
+              "answer": "Receiver demodulator.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C04_S04_en_q015_en",
+          "groupId": "q015",
+          "question": "What is the passband width of a good crystal filter needed for SSB telephone operation?",
+          "answers": [
+            {
+              "id": "C04_S04_en_q015_en_A",
+              "answer": "6 kHz at -6dB passband.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S04_en_q015_en_B",
+              "answer": "2.1 kHz at –6dB passband.",
+              "isCorrect": true
+            },
+            {
+              "id": "C04_S04_en_q015_en_C",
+              "answer": "500 Hz at -6dB passband.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

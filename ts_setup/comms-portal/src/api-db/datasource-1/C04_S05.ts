@@ -115,6 +115,118 @@ export const C04_S05: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C04_S05_en",
+      "localeCode": "en",
+      "title": "Detector",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C04_S05_en_q001_en",
+          "groupId": "q001",
+          "question": "What is a product detector?",
+          "answers": [
+            {
+              "id": "C04_S05_en_q001_en_A",
+              "answer": "Detector that provides oscillator signal to mixer stage input.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S05_en_q001_en_B",
+              "answer": "Amplifying detector that narrows receiver amplification channel passband.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S05_en_q001_en_C",
+              "answer": "Detector that uses carrier frequency generated in receiver in mixing process.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C04_S05_en_q003_en",
+          "groupId": "q003",
+          "question": "What is called detection?",
+          "answers": [
+            {
+              "id": "C04_S05_en_q003_en_A",
+              "answer": "Suppression of information on received carrier wave for S-meter operation purpose.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S05_en_q003_en_B",
+              "answer": "Extraction of information from modulated high frequency signal.",
+              "isCorrect": true
+            },
+            {
+              "id": "C04_S05_en_q003_en_C",
+              "answer": "Carrier wave modulation.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C04_S05_en_q004_en",
+          "groupId": "q004",
+          "question": "What is a frequency discriminator?",
+          "answers": [
+            {
+              "id": "C04_S05_en_q004_en_A",
+              "answer": "Circuit used for detecting FM signals.",
+              "isCorrect": true
+            },
+            {
+              "id": "C04_S05_en_q004_en_B",
+              "answer": "Filtering circuit for spurious signals located near two carrier waves.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S05_en_q004_en_C",
+              "answer": "Automatic band switching.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C04_S05_en_q005_en",
+          "groupId": "q005",
+          "question": "What is used to detect FM signal?",
+          "answers": [
+            {
+              "id": "C04_S05_en_q005_en_A",
+              "answer": "Balanced modulator.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S05_en_q005_en_B",
+              "answer": "Frequency discriminator.",
+              "isCorrect": true
+            },
+            {
+              "id": "C04_S05_en_q005_en_C",
+              "answer": "Product detector.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -61,6 +61,64 @@ export const C03_S06: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C03_S06_en",
+      "localeCode": "en",
+      "title": "Protection circuits",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C03_S06_en_q139_en",
+          "groupId": "q139",
+          "question": "What do you do when a fuse burns out?",
+          "answers": [
+            {
+              "id": "C03_S06_en_q139_en_A",
+              "answer": "Investigate why the fuse burned out.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S06_en_q139_en_B",
+              "answer": "Replace the fuse with a more resistant one.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S06_en_q139_en_C",
+              "answer": "Do not use fuses in future work.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C03_S06_en_q147_en",
+          "groupId": "q147",
+          "question": "What are fuses used for in radio equipment?",
+          "answers": [
+            {
+              "id": "C03_S06_en_q147_en_A",
+              "answer": "As solder to lower melting temperature so radio components are not damaged.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S06_en_q147_en_B",
+              "answer": "To break the circuit in case of excessive load.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S06_en_q147_en_C",
+              "answer": "To remove ice in winter to protect transmitter final stage from freezing.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

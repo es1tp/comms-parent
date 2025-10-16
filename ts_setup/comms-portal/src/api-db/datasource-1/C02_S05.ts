@@ -37,6 +37,40 @@ export const C02_S05: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C02_S05_en",
+      "localeCode": "en",
+      "title": "Radio tubes",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C02_S05_en_q004_en",
+          "groupId": "q004",
+          "question": "Why is neutralization necessary in some tube amplifiers?",
+          "answers": [
+            {
+              "id": "C02_S05_en_q004_en_A",
+              "answer": "To reduce loaded Q in tuned oscillating circuits.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S05_en_q004_en_B",
+              "answer": "To reduce leakage current between grid and cathode.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S05_en_q004_en_C",
+              "answer": "To prevent oscillation that may occur due to inter-electrode capacitance.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

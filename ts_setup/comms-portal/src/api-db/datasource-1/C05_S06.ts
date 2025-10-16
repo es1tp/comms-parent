@@ -140,6 +140,143 @@ export const C05_S06: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C05_S06_en",
+      "localeCode": "en",
+      "title": "Transmitter monitoring",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C05_S06_en_q001_en",
+          "groupId": "q001",
+          "question": "What type of input signal is used to check SSB transmitter linearity?",
+          "answers": [
+            {
+              "id": "C05_S06_en_q001_en_A",
+              "answer": "Normal speech.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q001_en_B",
+              "answer": "Audio frequency sine wave.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q001_en_C",
+              "answer": "Two audio frequency sine waves",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C05_S06_en_q003_en",
+          "groupId": "q003",
+          "question": "What can be checked with a two-tone test?",
+          "answers": [
+            {
+              "id": "C05_S06_en_q003_en_A",
+              "answer": "Frequency modulation percentage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q003_en_B",
+              "answer": "Carrier frequency phase shift.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q003_en_C",
+              "answer": "High frequency amplifier linearity.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C05_S06_en_q005_en",
+          "groupId": "q005",
+          "question": "Which two audio frequencies can be used to check SSB telephone transmitter linearity?",
+          "answers": [
+            {
+              "id": "C05_S06_en_q005_en_A",
+              "answer": "Must use signals with frequencies 20Hz and 20000Hz.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q005_en_B",
+              "answer": "Can use arbitrary audio frequencies located in transmitter audio path passband provided they are not harmonically related.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S06_en_q005_en_C",
+              "answer": "Must use frequencies 1200Hz and 2400Hz.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C05_S06_en_q169_en",
+          "groupId": "q169",
+          "question": "What do you do when told that your signal is distorted?",
+          "answers": [
+            {
+              "id": "C05_S06_en_q169_en_A",
+              "answer": "Increase power to improve signal quality.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q169_en_B",
+              "answer": "Ask correspondent not to insult you.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q169_en_C",
+              "answer": "Check transmitter functionality.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C05_S06_en_q303_en",
+          "groupId": "q303",
+          "question": "How can on-air time be minimized when tuning radio station?",
+          "answers": [
+            {
+              "id": "C05_S06_en_q303_en_A",
+              "answer": "Using arbitrary length antenna.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q303_en_B",
+              "answer": "Tuning station first on 40m band then switching to other bands.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S06_en_q303_en_C",
+              "answer": "Using antenna equivalent (dummy load) for station tuning.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

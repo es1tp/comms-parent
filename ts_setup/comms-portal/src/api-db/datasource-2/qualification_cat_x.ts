@@ -5,6 +5,14 @@ export const qualification_cat_x: KbApi.Article = {
   "parentId": "qualification",
   "pages": [
     {
+      "id": "qualification_cat_x_en",
+      "localeCode": "en",
+      "title": "Beta questions",
+      "materials": [],
+      "questionnaire": [],
+      "qualification": "X"
+    },
+    {
       "id": "qualification_cat_x_et",
       "localeCode": "et",
       "title": "Beeta küsimused",

@@ -110,6 +110,113 @@ export const C02_S03: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C02_S03_en",
+      "localeCode": "en",
+      "title": "Transformers",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C02_S03_en_q005_en",
+          "groupId": "q005",
+          "question": "Which circuit component allows increasing AC voltage from 100 volts to 1000 volts?",
+          "answers": [
+            {
+              "id": "C02_S03_en_q005_en_A",
+              "answer": "Transformer.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S03_en_q005_en_B",
+              "answer": "Capacitor.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S03_en_q005_en_C",
+              "answer": "Diode.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S03_en_q006_en",
+          "groupId": "q006",
+          "question": "What is the current flowing in the transformer primary winding called when no load is connected to the secondary winding?",
+          "answers": [
+            {
+              "id": "C02_S03_en_q006_en_A",
+              "answer": "Magnetizing current.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S03_en_q006_en_B",
+              "answer": "Direct current.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S03_en_q006_en_C",
+              "answer": "Excitation current.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S03_en_q007_en",
+          "groupId": "q007",
+          "question": "What quantities are typically used to characterize power transformer primary and secondary windings?",
+          "answers": [
+            {
+              "id": "C02_S03_en_q007_en_A",
+              "answer": "Joules per second.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S03_en_q007_en_B",
+              "answer": "Volt or volt-ampere.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S03_en_q007_en_C",
+              "answer": "Coulombs per second.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S03_en_q029_en",
+          "groupId": "q029",
+          "question": "What is the voltage at the terminals of a transformer secondary winding consisting of 500 turns, when the primary winding consisting of 2200 turns is connected to a 220 V AC network?",
+          "answers": [
+            {
+              "id": "C02_S03_en_q029_en_A",
+              "answer": "50 V",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S03_en_q029_en_B",
+              "answer": "26 V",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -9,6 +9,13 @@ export const C10: KbApi.Article = {
       "title": "Ohutustehnika",
       "materials": [],
       "questionnaire": []
+    },
+    {
+      "id": "C10_en",
+      "localeCode": "en",
+      "title": "Safety Technology",
+      "materials": [],
+      "questionnaire": []
     }
   ]
 }

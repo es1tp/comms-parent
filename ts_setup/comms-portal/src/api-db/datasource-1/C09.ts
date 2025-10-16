@@ -9,6 +9,13 @@ export const C09: KbApi.Article = {
       "title": "Raadiohäired ja elektromagnetiline ühildatavus (EMC)",
       "materials": [],
       "questionnaire": []
+    },
+    {
+      "id": "C09_en",
+      "localeCode": "en",
+      "title": "Radio interference and electromagnetic compatibility (EMC)",
+      "materials": [],
+      "questionnaire": []
     }
   ]
 }

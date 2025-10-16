@@ -9,6 +9,13 @@ export const C01: KbApi.Article = {
       "title": "Raadio- ja elektrotehnika teooria",
       "materials": [],
       "questionnaire": []
+    },
+    {
+      "id": "C01_en",
+      "localeCode": "en",
+      "title": "Radio and electrical engineering theory",
+      "materials": [],
+      "questionnaire": []
     }
   ]
 }

@@ -9,6 +9,13 @@ export const C07: KbApi.Article = {
       "title": "Raadiolevi",
       "materials": [],
       "questionnaire": []
+    },
+    {
+      "id": "C07_en",
+      "localeCode": "en",
+      "title": "Radio propagation",
+      "materials": [],
+      "questionnaire": []
     }
   ]
 }

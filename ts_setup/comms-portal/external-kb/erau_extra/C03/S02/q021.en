@@ -1,0 +1,4 @@
+? When {component_seq} resistors of {R} ohms connected in parallel are connected to a {I} ampere current source, what current flows through each resistor?
+A*. {I} amperes.
+. X
+_ I = I/[component_seq] * (R/R)

@@ -63,6 +63,66 @@ export const C04_S03: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C04_S03_en",
+      "localeCode": "en",
+      "title": "Mixer stage",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C04_S03_en_q002_en",
+          "groupId": "q002",
+          "question": "What are the main frequencies present at the mixer stage output?",
+          "answers": [
+            {
+              "id": "C04_S03_en_q002_en_A",
+              "answer": "Double and quadruple frequency of input signal.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S03_en_q002_en_B",
+              "answer": "Sum, difference and square root frequency of input frequencies.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S03_en_q002_en_D",
+              "answer": "Input frequencies and sum and difference frequency.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C04_S03_en_q009_en",
+          "groupId": "q009",
+          "question": "What happens in the receiver when a very strong signal reaches the mixer stage?",
+          "answers": [
+            {
+              "id": "C04_S03_en_q009_en_A",
+              "answer": "Spurious mixing products are generated in the mixer stage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S03_en_q009_en_B",
+              "answer": "Mixer stage stops working.",
+              "isCorrect": true
+            },
+            {
+              "id": "C04_S03_en_q009_en_C",
+              "answer": "Automatic signal limiting occurs.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

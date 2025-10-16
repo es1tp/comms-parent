@@ -141,6 +141,144 @@ export const C03_S02: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C03_S02_en",
+      "localeCode": "en",
+      "title": "Parallel and series connections",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C03_S02_en_q021_en",
+          "groupId": "q021",
+          "question": "When a 1 ampere current source is connected to two 10 ohm resistors connected in parallel, what current flows through each resistor?",
+          "answers": [
+            {
+              "id": "C03_S02_en_q021_en_A",
+              "answer": "10 amperes.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S02_en_q021_en_B",
+              "answer": "1 ampere.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S02_en_q021_en_C",
+              "answer": "0.5 amperes.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S02_en_q025_en",
+          "groupId": "q025",
+          "question": "What is the total resistance of a series connection consisting of multiple resistors?",
+          "answers": [
+            {
+              "id": "C03_S02_en_q025_en_A",
+              "answer": "Total resistance equals the sum of all resistors' resistance values.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S02_en_q025_en_B",
+              "answer": "Total resistance is less than the smallest resistor's resistance value.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S02_en_q025_en_C",
+              "answer": "We get total resistance by dividing the sum of resistors' resistance values by the number of resistors.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S02_en_q026_en",
+          "groupId": "q026",
+          "question": "What is the total resistance of a circuit consisting of two equal resistors connected in parallel?",
+          "answers": [
+            {
+              "id": "C03_S02_en_q026_en_A",
+              "answer": "Double the resistance value of one resistor.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S02_en_q026_en_B",
+              "answer": "Half the resistance value of either resistor.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S02_en_q026_en_C",
+              "answer": "Double the value of either resistor.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S02_en_q027_en",
+          "groupId": "q027",
+          "question": "What is the total value of two inductances connected in parallel?",
+          "answers": [
+            {
+              "id": "C03_S02_en_q027_en_A",
+              "answer": "Half of either value.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S02_en_q027_en_B",
+              "answer": "Double the value of either inductance.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S02_en_q027_en_C",
+              "answer": "Cannot determine exact inductance values without knowing.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S02_en_q028_en",
+          "groupId": "q028",
+          "question": "What is the total capacitance of two capacitors connected in parallel?",
+          "answers": [
+            {
+              "id": "C03_S02_en_q028_en_A",
+              "answer": "Half the capacitance of either capacitor.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S02_en_q028_en_B",
+              "answer": "Total capacitance equals the sum of the capacitors' capacitances.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S02_en_q028_en_C",
+              "answer": "Capacitance cannot be determined without knowing exact capacitance of capacitors.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

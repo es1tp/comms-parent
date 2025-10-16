@@ -255,6 +255,258 @@ export const C11_S04: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C11_S04_en",
+      "localeCode": "en",
+      "title": "Communication Rules",
+      "materials": [
+        {
+          "id": "C11_S04_en_content",
+          "text": "# Amateur Radio Station Operating Rules and Procedures  \n## Communication Rules  \nWhen making phone contacts:\n\n* Turn on the transceiver and ensure that reception works without interference.\n* If phone signals are unreadable, check if you are on the correct operating mode.\n* Check that you are within the permitted frequency band.\n* When you start calling:\n - Select a free frequency and listen to it for a while, making sure no one is working there.\n - Ask several times: \"Is this frequency in use?\", listening between questions. If told the frequency is in use, find another frequency.\n - If the frequency is free, start calling CQ. Make sure you don't call too long: it's enough to transmit CQ 3 times and your callsign 3 times, repeating this whole sequence once more.\n* When you find a calling station:\n - if the station listens on a different frequency than it transmits, tune your transmit frequency accordingly;\n - wait until the station has finished calling; transmit your callsign 1..2 times.\n* Exchange routine information with the correspondent: report, name, QTH. For \"short contact\" transmit only the report.\n* Speak clearly and at a moderate speed, especially if the correspondent is unknown.\n* Time saved by rushing is lost if the correspondent asks to repeat the transmitted information.\n* Don't use amateur jargon and Q-codes excessively in phone contacts: it's simpler to express yourself \"in human terms\".\n* Try to sneeze and cough so that it doesn't get on the air.\n* Transmit your own and correspondent's callsigns at least every 10 minutes.\n* Be sure to give them at the beginning and end of the contact.\n* When the conversation topic runs out, politely end the contact. Don't drag out the goodbye too long.\n* After the contact ends, don't start transmitting immediately, but listen to see if anyone is calling."
+        }
+      ],
+      "questionnaire": [
+        {
+          "id": "C11_S04_en_q001_en",
+          "groupId": "q001",
+          "question": "What is the most important factor when choosing a calling frequency for you to use in the permitted frequency band?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q001_en_A",
+              "answer": "The frequency must not be occupied by other amateurs.",
+              "isCorrect": true
+            },
+            {
+              "id": "C11_S04_en_q001_en_B",
+              "answer": "You must hear some station on that frequency to ensure you could be heard.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q001_en_C",
+              "answer": "Your antenna must be resonant at that frequency.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C11_S04_en_q004_en",
+          "groupId": "q004",
+          "question": "You hear rescue workers' information exchange about an earthquake that occurred in Haiti on your frequency. What do you do?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q004_en_A",
+              "answer": "Inform the station that the frequency is occupied.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q004_en_B",
+              "answer": "Find another frequency to work on.",
+              "isCorrect": true
+            },
+            {
+              "id": "C11_S04_en_q004_en_C",
+              "answer": "Call the Rescue Department.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q004_en_D",
+              "answer": "Call the Technical Supervision Authority.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q004_en_#",
+              "answer": "needs verification",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C11_S04_en_q014_en",
+          "groupId": "q014",
+          "question": "What is the format of a standard phone call?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q014_en_A",
+              "answer": "Send the other station's callsign at least ten times, then the words \"this is\", followed by your callsign at least twice.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q014_en_B",
+              "answer": "Send the phrase \"CQ\" at least five times, then \"this is\" and your callsign once.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q014_en_C",
+              "answer": "Send the phrase \"CQ\" three times, \"this is\" and your callsign three times.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C11_S04_en_q015_en",
+          "groupId": "q015",
+          "question": "How do you respond to a radiotelephone call?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q015_en_A",
+              "answer": "Send the other station's callsign ten times, then \"this is\" and your callsign at least twice.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q015_en_B",
+              "answer": "Send the other station's callsign using phonetics at least five times, \"this is\" and your callsign at least once.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q015_en_C",
+              "answer": "Send the other station's callsign once, \"this is\" and your callsign using phonetics once.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C11_S04_en_q220_en",
+          "groupId": "q220",
+          "question": "You hear a Finnish station calling \"CQ DX\". What do you do after the call ends?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q220_en_A",
+              "answer": "Immediately transmit your callsign 3 times.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q220_en_B",
+              "answer": "Since conditions are favorable, you start calling on that frequency yourself.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q220_en_C",
+              "answer": "Listen to see if anyone responds to get an idea of propagation conditions.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C11_S04_en_q221_en",
+          "groupId": "q221",
+          "question": "A station that responded to your CQ transmitted its callsign too quickly, so you couldn't receive it. What do you do?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q221_en_A",
+              "answer": "Ask for the callsign to be repeated more slowly.",
+              "isCorrect": true
+            },
+            {
+              "id": "C11_S04_en_q221_en_B",
+              "answer": "Change frequency band.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q221_en_C",
+              "answer": "Start calling again, as if you heard nothing.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C11_S04_en_q222_en",
+          "groupId": "q222",
+          "question": "You are working on a frequency when someone asks: \"Is the frequency occupied?\". What do you do?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q222_en_A",
+              "answer": "Immediately change frequency so the other amateur can work on the frequency.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q222_en_B",
+              "answer": "Inform the inquirer that the frequency is occupied.",
+              "isCorrect": true
+            },
+            {
+              "id": "C11_S04_en_q222_en_C",
+              "answer": "Switch the transceiver to tuning mode to show you are on the frequency.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C11_S04_en_q223_en",
+          "groupId": "q223",
+          "question": "You are working on a frequency when a German station starts calling \"CQ DX\" without asking. What do you do?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q223_en_A",
+              "answer": "Leave the frequency immediately, as stations making DX contacts have priority.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q223_en_B",
+              "answer": "Start contact with the caller.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q223_en_C",
+              "answer": "Inform the caller that the frequency is occupied and ask them to leave.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C11_S04_en_q224_en",
+          "groupId": "q224",
+          "question": "You ask on a frequency: \"Is the frequency occupied?\" and get an affirmative answer. What do you do?",
+          "answers": [
+            {
+              "id": "C11_S04_en_q224_en_A",
+              "answer": "Look for a new free frequency.",
+              "isCorrect": true
+            },
+            {
+              "id": "C11_S04_en_q224_en_B",
+              "answer": "Increase power to be stronger than the station on the frequency.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S04_en_q224_en_C",
+              "answer": "Tell the station on the frequency to leave immediately.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

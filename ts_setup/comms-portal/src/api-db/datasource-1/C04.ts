@@ -9,6 +9,13 @@ export const C04: KbApi.Article = {
       "title": "Raadiovastuvõtuseadmed",
       "materials": [],
       "questionnaire": []
+    },
+    {
+      "id": "C04_en",
+      "localeCode": "en",
+      "title": "Radio receiving equipment",
+      "materials": [],
+      "questionnaire": []
     }
   ]
 }

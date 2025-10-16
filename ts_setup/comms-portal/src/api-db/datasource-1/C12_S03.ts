@@ -417,6 +417,420 @@ export const C12_S03: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C12_S03_en",
+      "localeCode": "en",
+      "title": "Legislation",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C12_S03_en_q010_en",
+          "groupId": "q010",
+          "question": "Under what conditions is it permitted to transmit unaddressed or correspondent-free transmissions in amateur radio communications?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q010_en_A",
+              "answer": "For transmitting amateur television transmitter video and audio channels.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q010_en_B",
+              "answer": "By amateur radio beacons.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q010_en_C",
+              "answer": "For transmitting information notices designated for all Estonian radio amateurs.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q010_en_#",
+              "answer": "needs verification",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q016_en",
+          "groupId": "q016",
+          "question": "Who can be the responsible supervisor of a shared (radio club) amateur radio station?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q016_en_A",
+              "answer": "A radio amateur with A-class qualification certificate.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q016_en_B",
+              "answer": "A radio amateur with D-class qualification certificate.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q016_en_C",
+              "answer": "A radio amateur with C-class qualification certificate.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q017_en",
+          "groupId": "q017",
+          "question": "What is the maximum duration for an Amateur Station License issued by the Consumer Protection and Technical Surveillance Authority?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q017_en_A",
+              "answer": "Indefinite.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q017_en_B",
+              "answer": "1 year.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q017_en_C",
+              "answer": "3 years.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q017_en_D",
+              "answer": "5 years.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q019_en",
+          "groupId": "q019",
+          "question": "Where must the Amateur Radio Station operating license be kept?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q019_en_A",
+              "answer": "At the radio station owner's residence.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q019_en_B",
+              "answer": "At the radio station's registered location.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q019_en_C",
+              "answer": "At the Consumer Protection and Technical Surveillance Authority.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q019_en_D",
+              "answer": "This is not regulated.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q020_en",
+          "groupId": "q020",
+          "question": "What must be done when data recorded on the operating license changes?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q020_en_A",
+              "answer": "A new operating license must be applied for.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q020_en_B",
+              "answer": "A new exam must be taken.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q020_en_C",
+              "answer": "The data on the operating license must be changed with a waterproof marker.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q021_en",
+          "groupId": "q021",
+          "question": "For how long is permanent (fixed location) use of an Amateur Radio Station allowed outside its registered location without changing the operating license?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q021_en_A",
+              "answer": "Three months.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q021_en_B",
+              "answer": "Five months.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q021_en_C",
+              "answer": "Six months.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q021_en_D",
+              "answer": "One year.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q021_en_#",
+              "answer": "needs verification, this is not in the law. there is only (4) A new call sign is issued to an amateur radio station if the amateur radio station user's radio amateur qualification class or the amateur radio station's registered location changes.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q230_en",
+          "groupId": "q230",
+          "question": "What conditions must a radio amateur meet?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q230_en_A",
+              "answer": "They must be at least 12 years old.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q230_en_B",
+              "answer": "They must be able to transmit telegraph signals with a hand key.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q230_en_C",
+              "answer": "None of the above conditions are essential.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q231_en",
+          "groupId": "q231",
+          "question": "Why do radio amateurs take a qualification exam?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q231_en_A",
+              "answer": "Successful completion of the exam proves their skills for conducting amateur communications and allows them to apply for a radio station operating license.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q231_en_B",
+              "answer": "Taking the exam exempts them from paying state fees when applying for an operating license.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q231_en_C",
+              "answer": "Only people without higher education take the qualification exam.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q232_en",
+          "groupId": "q232",
+          "question": "What must a radio amateur do to obtain a call sign?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q232_en_A",
+              "answer": "Buy a radio station and start working with a freely chosen call sign.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q232_en_B",
+              "answer": "Undergo a medical examination.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q232_en_C",
+              "answer": "Submit an operating license application and qualification exam completion certificate to the Consumer Protection and Technical Surveillance Authority.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q235_en",
+          "groupId": "q235",
+          "question": "Who issues the radio station operating license and call sign?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q235_en_A",
+              "answer": "Consumer Protection and Technical Surveillance Authority.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q235_en_B",
+              "answer": "ERAÜ.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q235_en_C",
+              "answer": "State examination commission.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q236_en",
+          "groupId": "q236",
+          "question": "Why are D-class amateurs not allowed to operate outside amateur bands?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q236_en_A",
+              "answer": "Signal strength and readability drops sharply.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q236_en_B",
+              "answer": "It interferes with the work of commercial and service stations.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q236_en_C",
+              "answer": "Operating on those bands is only allowed for A-class amateurs.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q237_en",
+          "groupId": "q237",
+          "question": "What must amateur communications not be used for?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q237_en_A",
+              "answer": "Talking about personal life.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q237_en_B",
+              "answer": "Talking about free topics.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q237_en_C",
+              "answer": "Conducting business and work affairs.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q238_en",
+          "groupId": "q238",
+          "question": "What must a radio amateur keep in mind if they want to transmit music on the air?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q238_en_A",
+              "answer": "Music transmission is prohibited.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q238_en_B",
+              "answer": "They must ensure sufficiently good quality of music.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q238_en_C",
+              "answer": "For music transmission, copyright fees must be paid for public performance of the work.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q243_en",
+          "groupId": "q243",
+          "question": "What can a D-class amateur do when operating from a club station?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q243_en_A",
+              "answer": "They can only use the bands and transmitter power designated for D-qualification class amateurs.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q243_en_B",
+              "answer": "They can use the bands and transmitter power designated for A-qualification class amateurs.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q243_en_C",
+              "answer": "They add the club station's call sign to their call sign, separating them with a slash.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S03_en_q244_en",
+          "groupId": "q244",
+          "question": "What transmitter power may a radio amateur use?",
+          "answers": [
+            {
+              "id": "C12_S03_en_q244_en_A",
+              "answer": "Transmitter power must not exceed that designated for their qualification class.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S03_en_q244_en_B",
+              "answer": "Radio amateurs may use unlimited power.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S03_en_q244_en_C",
+              "answer": "For operating with a station over 10 kW power, a permit from the Consumer Protection and Technical Surveillance Authority must be obtained.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

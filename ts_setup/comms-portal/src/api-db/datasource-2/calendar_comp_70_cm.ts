@@ -5,6 +5,18 @@ export const calendar_comp_70_cm: KbApi.Article = {
   "parentId": "calendar",
   "pages": [
     {
+      "id": "calendar_comp_70_cm_en",
+      "localeCode": "en",
+      "title": "ES ULL CUP 432",
+      "materials": [
+        {
+          "id": "calendar_comp_70_cm_en_content",
+          "text": "# Calendar of events in the world of Estonian ham radio  \n## ES ULL CUP 432  \n70cm cup competition  \n\n[Rules](https://www.erau.ee/images/Voistlustulemused/ULL_KV/eesti%20ull%20karikavoistlused_juhend.pdf)\n\n[Results](https://es7arl.carlnet.ee/ull/?p=ULL70cmKV&etapp=2025)\n  * Frequencies: FM\n    * **433.300 - 433.475**\n    * **433.525 - 433.575**\n  * Frequencies: SSB\n    * **432.190 - 432.350**\n    * **433.525 - 433.575**"
+        }
+      ],
+      "questionnaire": []
+    },
+    {
       "id": "calendar_comp_70_cm_et",
       "localeCode": "et",
       "title": "ES ULL KV 432",

@@ -111,6 +111,114 @@ export const C08_S02: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C08_S02_en",
+      "localeCode": "en",
+      "title": "Tester",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C08_S02_en_q195_en",
+          "groupId": "q195",
+          "question": "What do you use to check if the voltage from the electrical grid is 230 volts?",
+          "answers": [
+            {
+              "id": "C08_S02_en_q195_en_A",
+              "answer": "Two high-resistance resistors.",
+              "isCorrect": false
+            },
+            {
+              "id": "C08_S02_en_q195_en_B",
+              "answer": "A tester.",
+              "isCorrect": true
+            },
+            {
+              "id": "C08_S02_en_q195_en_C",
+              "answer": "A frequency analyzer.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C08_S02_en_q196_en",
+          "groupId": "q196",
+          "question": "What is the main advantage of using a tester?",
+          "answers": [
+            {
+              "id": "C08_S02_en_q196_en_A",
+              "answer": "Ease of use, as one device allows measuring multiple parameters and different measurement ranges.",
+              "isCorrect": true
+            },
+            {
+              "id": "C08_S02_en_q196_en_B",
+              "answer": "Greater accuracy and reliability compared to all other measuring instruments.",
+              "isCorrect": false
+            },
+            {
+              "id": "C08_S02_en_q196_en_C",
+              "answer": "The lightness of the device.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C08_S02_en_q197_en",
+          "groupId": "q197",
+          "question": "What should you monitor when measuring voltage from the electrical grid with a tester?",
+          "answers": [
+            {
+              "id": "C08_S02_en_q197_en_A",
+              "answer": "All electrical devices must be turned off.",
+              "isCorrect": false
+            },
+            {
+              "id": "C08_S02_en_q197_en_B",
+              "answer": "You need to ensure that an appropriate measurement range is selected.",
+              "isCorrect": true
+            },
+            {
+              "id": "C08_S02_en_q197_en_C",
+              "answer": "You must notify Eesti Energia two weeks in advance so they can cut off the power.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C08_S02_en_q198_en",
+          "groupId": "q198",
+          "question": "What should be kept in mind when measuring resistance with a tester?",
+          "answers": [
+            {
+              "id": "C08_S02_en_q198_en_A",
+              "answer": "The measured resistance must not be too large, as the measuring device may burn out.",
+              "isCorrect": false
+            },
+            {
+              "id": "C08_S02_en_q198_en_B",
+              "answer": "The measured resistance must not be too small, as the measuring device reading cannot be recorded.",
+              "isCorrect": false
+            },
+            {
+              "id": "C08_S02_en_q198_en_C",
+              "answer": "The measured resistance must not be under voltage.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

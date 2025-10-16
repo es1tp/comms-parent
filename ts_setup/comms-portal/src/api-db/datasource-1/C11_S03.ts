@@ -191,6 +191,194 @@ export const C11_S03: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C11_S03_en",
+      "localeCode": "en",
+      "title": "Morse",
+      "materials": [
+        {
+          "id": "C11_S03_en_content",
+          "text": "# Amateur Radio Station Operating Rules and Procedures  \n## Morse  \n### Telegraph communication session:\n\n* Turn on the transceiver and ensure that reception works without interference.\n* Check that you are in the allowed frequency band. Although telegraph operation is permitted across the entire band, there is a silent agreement to stay in the lower part of the band, within the first 50-60 kHz range.\n* Keep in mind that the first 10 kHz of the frequency band is kept free for DX communications. If you operate there, only communicate with DX stations.\n* When you start calling:\n - Choose a free frequency and listen to it for some time, making sure that no one is operating there.\n - Transmit several times: \"QRL?\", listening between questions. If the response is \"R\", \"YES\" or \"QRL\" etc., look for another frequency.\n - If the frequency is free, start calling CQ. Make sure you don't call too long: it's enough to transmit CQ 3 times and your call sign 3 times, repeating this once more.\n* If you find a calling station:\n - if the station listens on a different frequency than it transmits, tune your transmit frequency accordingly;\n - wait until the station has finished calling; transmit your call sign 1..2 times\n* Choose the correspondent's transmission speed if it is slower than your transmission speed. Don't transmit faster than you can receive.\n* During transmission, ensure that the transmitter and antenna operate without interference.\n* Exchange routine information with the correspondent: report, name, QTH. For a \"short contact\", transmit only the report.\n* Keep transmission sessions short and to the point. Courtesies are shorter in telegraph communications than by telephone.\n* After the end of the contact, don't start transmitting immediately, but listen to see if anyone is calling you.\n\nIn telegraph, the RST report may send \"N\" instead of \"9\" and \"T\" instead of \"0\" to save time. (Report \"599\" = \"5NN\")"
+        }
+      ],
+      "questionnaire": [
+        {
+          "id": "C11_S03_en_q005_en",
+          "groupId": "q005",
+          "question": "What is the format of the standard call \"CQ\" given in Morse code?",
+          "answers": [
+            {
+              "id": "C11_S03_en_q005_en_A",
+              "answer": "You send \"CQ\" three times, followed by the procedure signal \"DE\" and your call sign three times.",
+              "isCorrect": true
+            },
+            {
+              "id": "C11_S03_en_q005_en_B",
+              "answer": "You send \"CQ\" three times, \"DE\" once and your call sign also once.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q005_en_C",
+              "answer": "You send \"CQ\" ten times, \"DE\" once and your call sign once.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A"
+          ]
+        },
+        {
+          "id": "C11_S03_en_q006_en",
+          "groupId": "q006",
+          "question": "How do you respond to a \"CQ\" call in Morse code?",
+          "answers": [
+            {
+              "id": "C11_S03_en_q006_en_A",
+              "answer": "You send your call sign four times.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q006_en_B",
+              "answer": "You send the other station's call sign twice, \"DE\" and your call sign twice.",
+              "isCorrect": true
+            },
+            {
+              "id": "C11_S03_en_q006_en_C",
+              "answer": "You send the other station's call sign once, \"DE\" and your call sign four times",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A"
+          ]
+        },
+        {
+          "id": "C11_S03_en_q007_en",
+          "groupId": "q007",
+          "question": "At what speed should you send \"CQ\" in Morse code?",
+          "answers": [
+            {
+              "id": "C11_S03_en_q007_en_A",
+              "answer": "Slower than 25 characters per minute.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q007_en_B",
+              "answer": "At the maximum speed your key is capable of developing.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q007_en_C",
+              "answer": "At a speed that you are able to properly receive yourself.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A"
+          ]
+        },
+        {
+          "id": "C11_S03_en_q008_en",
+          "groupId": "q008",
+          "question": "What is the meaning of the Morse code prosign AR?",
+          "answers": [
+            {
+              "id": "C11_S03_en_q008_en_A",
+              "answer": "Only the called station should respond.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q008_en_B",
+              "answer": "Everything has been properly received.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q008_en_C",
+              "answer": "End of message.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A"
+          ]
+        },
+        {
+          "id": "C11_S03_en_q009_en",
+          "groupId": "q009",
+          "question": "What do the prosigns SK mean when sent in Morse code?",
+          "answers": [
+            {
+              "id": "C11_S03_en_q009_en_A",
+              "answer": "More or less properly received.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q009_en_B",
+              "answer": "Best regards.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q009_en_C",
+              "answer": "End of contact.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A"
+          ]
+        },
+        {
+          "id": "C11_S03_en_q010_en",
+          "groupId": "q010",
+          "question": "What do the prosigns KN mean when sent in Morse code?",
+          "answers": [
+            {
+              "id": "C11_S03_en_q010_en_A",
+              "answer": "Fraction bar.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q010_en_B",
+              "answer": "End of contact.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q010_en_C",
+              "answer": "Only the called station should respond.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A"
+          ]
+        },
+        {
+          "id": "C11_S03_en_q018_en",
+          "groupId": "q018",
+          "question": "What does the abbreviation AS mean in Morse code?",
+          "answers": [
+            {
+              "id": "C11_S03_en_q018_en_A",
+              "answer": "Joint stock company.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q018_en_B",
+              "answer": "Start transmitting.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S03_en_q018_en_C",
+              "answer": "Wait",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A"
+          ]
+        }
+      ]
     }
   ]
 }

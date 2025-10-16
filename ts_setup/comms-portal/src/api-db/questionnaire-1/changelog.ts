@@ -1,8 +1,351 @@
 import { ErauApi } from '../../api-erau'
 
 export default {
-  "timestamp": "2025-04-11T22:35:24.793+03:00",
+  "timestamp": "2025-10-16T19:17:11.929+03:00",
   "changes": [
+    {
+      "id": "C01_S01_en",
+      "changeObject": "subject",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q001_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q011_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q011_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q011_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q011_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q012_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q012_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q012_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q012_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q113_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q113_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q113_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q113_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q114_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q114_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q114_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q114_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q123_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q123_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q123_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q123_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q124_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q124_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q124_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q124_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q125_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q125_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q125_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q125_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q126_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q126_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q126_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q126_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q127_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q127_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q127_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q127_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q128_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q128_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q128_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q128_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q129_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q129_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q129_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
+    {
+      "id": "C01_S01_en_q129_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:16:35.977+03:00"
+    },
     {
       "id": "C01_S01_et",
       "changeObject": "subject",
@@ -347,6 +690,237 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C01_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q115_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q115_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q115_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q115_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q116_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q116_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q116_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q116_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q117_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q117_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q117_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q117_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q118_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q118_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q118_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q118_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q119_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q119_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q119_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q119_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q120_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q120_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q120_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q120_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q121_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q121_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q121_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q121_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q122_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q122_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q122_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S02_en_q122_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C01_S02_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -578,6 +1152,104 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C01_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q022_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q022_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q022_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q022_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q023_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q023_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q023_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q023_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q024_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q024_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q024_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q024_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S03_en_q024_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C01_S03_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -674,6 +1346,244 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C01_S04_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q013_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q013_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q013_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q013_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q014_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q014_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q014_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q014_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q015_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q015_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q015_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q015_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q015_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q016_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q016_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q016_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q016_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q017_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q017_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q017_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q017_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q018_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q018_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q018_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q018_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q019_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q019_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q019_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q019_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q020_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q020_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q020_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S04_en_q020_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C01_S04_et",
@@ -912,6 +1822,377 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C01_S05_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q100_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q100_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q100_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q100_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q101_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q101_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q101_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q101_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q102_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q102_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q102_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q102_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q103_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q103_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q103_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q103_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q104_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q104_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q104_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q104_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q105_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q105_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q105_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q105_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q106_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q106_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q106_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q106_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q107_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q107_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q107_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q107_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q108_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q108_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q108_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q108_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q109_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q109_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q109_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q109_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q110_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q110_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q110_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q110_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q111_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q111_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q111_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q111_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q112_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q112_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q112_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C01_S05_en_q112_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C01_S05_et",
@@ -1285,6 +2566,153 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C02_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q002_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q136_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q136_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q136_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S01_en_q136_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C02_S01_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -1430,6 +2858,272 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C02_S02_en",
+      "changeObject": "subject",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q008_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q009_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q009_en_D",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q010_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q011_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q011_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q011_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q011_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q012_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q012_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q012_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q012_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q013_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q013_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q013_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q013_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q014_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q014_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q014_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q014_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q132_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q132_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q132_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q132_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q133_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q133_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q133_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S02_en_q133_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C02_S02_et",
@@ -1698,6 +3392,118 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C02_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q029_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q029_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S03_en_q029_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C02_S03_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -1808,6 +3614,209 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C02_S04_en",
+      "changeObject": "subject",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q130_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q130_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q130_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q130_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q131_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q131_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q131_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q131_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q134_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q134_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q134_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q134_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q135_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q135_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q135_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q135_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q137_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q137_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q137_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q137_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q138_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q138_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q138_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q138_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q149_en",
+      "changeObject": "question",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q149_en_A",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q149_en_B",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
+    },
+    {
+      "id": "C02_S04_en_q149_en_C",
+      "changeObject": "answer",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-16T19:17:11.929+03:00"
     },
     {
       "id": "C02_S04_et",
@@ -2013,6 +4022,41 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C02_S05_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S05_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S05_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S05_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C02_S05_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C02_S05_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -2046,6 +4090,209 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C03_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q002_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q140_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q140_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q140_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q140_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q141_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q141_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q141_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S01_en_q141_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C03_S01_et",
@@ -2251,6 +4498,153 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C03_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q021_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q021_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q021_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q021_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q025_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q025_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q025_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q025_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q026_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q026_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q026_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q026_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q027_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q027_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q027_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q027_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q028_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q028_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q028_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S02_en_q028_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C03_S02_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -2396,6 +4790,391 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C03_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q002_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q004_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q006_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q142_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q142_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q142_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q142_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q143_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q143_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q143_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q143_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q148_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q148_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q148_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q148_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q332_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q332_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q332_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S03_en_q332_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C03_S03_et",
@@ -2783,6 +5562,97 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C03_S04_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q144_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q144_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q144_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q144_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q145_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q145_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q145_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q145_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q146_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q146_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q146_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S04_en_q146_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C03_S04_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -2872,6 +5742,181 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C03_S05_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q030_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q030_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q030_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S05_en_q030_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C03_S05_et",
@@ -3049,6 +6094,69 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C03_S06_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S06_en_q139_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S06_en_q139_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S06_en_q139_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S06_en_q139_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S06_en_q147_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S06_en_q147_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S06_en_q147_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C03_S06_en_q147_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C03_S06_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -3110,6 +6218,349 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C04_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q011_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q011_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q011_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q011_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q150_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q150_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q150_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q150_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q151_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q151_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q151_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q151_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q152_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q152_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q152_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q152_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q153_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q153_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q153_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q153_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q154_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q154_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q154_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q154_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q155_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q155_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q155_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q155_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q156_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q156_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q156_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q156_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q157_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q157_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q157_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q157_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q160_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q160_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q160_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S01_en_q160_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C04_S01_et",
@@ -3455,6 +6906,69 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C04_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S02_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S02_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S02_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S02_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S02_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S02_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S02_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S02_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C04_S02_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -3516,6 +7030,69 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C04_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S03_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S03_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S03_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S03_en_q002_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S03_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S03_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S03_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S03_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C04_S03_et",
@@ -3581,6 +7158,69 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C04_S04_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S04_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S04_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S04_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S04_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S04_en_q015_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S04_en_q015_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S04_en_q015_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S04_en_q015_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C04_S04_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -3642,6 +7282,125 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C04_S05_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S05_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C04_S05_et",
@@ -3763,6 +7522,97 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C04_S06_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q158_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q158_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q158_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q158_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q159_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q159_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q159_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C04_S06_en_q159_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C04_S06_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -3852,6 +7702,181 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C05_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q161_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q161_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q161_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q161_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q162_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q162_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q162_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q162_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q163_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q163_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q163_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q163_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q164_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q164_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q164_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q164_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q165_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q165_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q165_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S01_en_q165_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C05_S01_et",
@@ -4029,6 +8054,97 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C05_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q166_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q166_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q166_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q166_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q168_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q168_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q168_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q168_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q170_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q170_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q170_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S02_en_q170_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C05_S02_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -4118,6 +8234,153 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C05_S05_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q006_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q167_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q167_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q167_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S05_en_q167_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C05_S05_et",
@@ -4267,6 +8530,153 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C05_S06_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q169_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q169_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q169_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q169_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q303_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q303_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q303_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C05_S06_en_q303_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C05_S06_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -4414,6 +8824,97 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C07_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q181_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q181_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q181_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q181_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q184_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q184_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q184_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q184_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q185_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q185_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q185_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S01_en_q185_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C07_S01_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -4503,6 +9004,286 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C07_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q182_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q182_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q182_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q182_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q183_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q183_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q183_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q183_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q187_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q187_en_#",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q187_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q187_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q187_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q188_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q188_en_#",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q188_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q188_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q188_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q189_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q189_en_#",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q189_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q189_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q189_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q190_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q190_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q190_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q190_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q302_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q302_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q302_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S02_en_q302_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C07_S02_et",
@@ -4785,6 +9566,265 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C07_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q002_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q186_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q186_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q186_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C07_S03_en_q186_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C07_S03_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -5044,6 +10084,153 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C08_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q191_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q191_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q191_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q191_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q192_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q192_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q192_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q192_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q193_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q193_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q193_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q193_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q194_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q194_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q194_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q194_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q199_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q199_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q199_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S01_en_q199_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C08_S01_et",
       "changeObject": "subject",
       "changeType": "update",
@@ -5191,6 +10378,125 @@ export default {
       "timestamp": "2025-04-11T22:35:24.793+03:00"
     },
     {
+      "id": "C08_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q195_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q195_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q195_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q195_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q196_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q196_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q196_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q196_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q197_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q197_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q197_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q197_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q198_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q198_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q198_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S02_en_q198_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C08_S02_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -5308,6 +10614,125 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C08_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q002_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S03_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C08_S03_et",
@@ -5429,6 +10854,69 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C08_S04_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S04_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S04_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S04_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S04_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S04_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S04_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S04_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S04_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C08_S04_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -5490,6 +10978,69 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C08_S05_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S05_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S05_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S05_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S05_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S05_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S05_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S05_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S05_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C08_S05_et",
@@ -5555,6 +11106,69 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C08_S06_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S06_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S06_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S06_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S06_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S06_en_q200_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S06_en_q200_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S06_en_q200_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C08_S06_en_q200_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C08_S06_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -5616,6 +11230,209 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C09_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q201_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q201_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q201_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q201_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q202_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q202_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q202_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q202_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q203_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q203_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q203_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q203_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q206_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q206_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q206_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S01_en_q206_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C09_S01_et",
@@ -5819,6 +11636,300 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C09_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q002_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q010_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q204_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q204_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q204_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q204_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q205_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q205_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q205_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q205_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q208_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q208_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q208_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q208_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q210_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q210_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q210_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C09_S02_en_q210_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C09_S02_et",
@@ -6115,6 +12226,272 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C10_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q211_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q211_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q211_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q211_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q215_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q215_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q215_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q215_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q216_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q216_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q216_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q216_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q217_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q217_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q217_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q217_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q218_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q218_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q218_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q218_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q219_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q219_en_#",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q219_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q219_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S01_en_q219_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C10_S01_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -6381,6 +12758,97 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C10_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q002_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S02_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C10_S02_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -6472,6 +12940,69 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C10_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S03_en_q207_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S03_en_q207_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S03_en_q207_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S03_en_q207_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S03_en_q209_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S03_en_q209_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S03_en_q209_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S03_en_q209_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C10_S03_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -6533,6 +13064,209 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C10_S04_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q212_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q212_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q212_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q212_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q213_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q213_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q213_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q213_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q214_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q214_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q214_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C10_S04_en_q214_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C10_S04_et",
@@ -6738,6 +13472,125 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C11_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q225_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q225_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q225_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q225_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q226_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q226_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q226_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q226_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q239_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q239_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q239_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q239_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q240_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q240_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q240_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_en_q240_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C11_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -6857,6 +13710,97 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C11_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q016_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q016_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q016_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q016_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q017_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q017_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q017_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q017_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q229_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q229_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q229_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S01_en_q229_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C11_S01_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -6946,6 +13890,132 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C11_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q011_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q011_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q011_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q011_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q011_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q012_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q012_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q012_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q012_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q013_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q013_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q013_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q013_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q020_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q020_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q020_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S02_en_q020_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C11_S02_et",
@@ -7072,6 +14142,209 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C11_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q018_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q018_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q018_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S03_en_q018_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C11_S03_et",
@@ -7275,6 +14548,279 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C11_S04_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q004_en_#",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q004_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q014_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q014_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q014_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q014_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q015_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q015_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q015_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q015_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q220_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q220_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q220_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q220_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q221_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q221_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q221_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q221_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q222_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q222_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q222_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q222_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q223_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q223_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q223_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q223_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q224_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q224_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q224_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S04_en_q224_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C11_S04_et",
@@ -7550,6 +15096,97 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C11_S05_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q019_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q019_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q019_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q019_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q227_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q227_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q227_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q227_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q228_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q228_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q228_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C11_S05_en_q228_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C11_S05_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -7639,6 +15276,356 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C12_S01_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q001_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q001_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q001_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q001_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q002_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q002_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q002_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q002_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q003_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q003_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q003_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q003_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q004_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q004_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q004_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q004_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q005_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q005_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q005_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q005_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q006_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q006_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q006_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q006_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q006_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q007_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q007_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q007_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q007_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q008_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q008_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q008_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q008_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q009_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q009_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q009_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q009_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q018_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q018_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q018_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q018_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q233_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q233_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q233_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q233_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q234_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q234_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q234_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S01_en_q234_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C12_S01_et",
@@ -7991,6 +15978,356 @@ export default {
       "timestamp": "2025-04-11T21:09:40.434+03:00"
     },
     {
+      "id": "C12_S02_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q011_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q011_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q011_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q011_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q011_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q012_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q012_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q012_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q012_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q013_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q013_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q013_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q013_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q014_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q014_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q014_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q014_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q015_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q015_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q015_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q015_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q241_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q241_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q241_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q241_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q242_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q242_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q242_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q242_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q245_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q245_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q245_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q245_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q246_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q246_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q246_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q246_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q247_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q247_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q247_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q247_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q248_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q248_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q248_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q248_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q249_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q249_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q249_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S02_en_q249_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
       "id": "C12_S02_et",
       "changeObject": "subject",
       "changeType": "add",
@@ -8339,6 +16676,468 @@ export default {
       "changeType": "add",
       "comment": "",
       "timestamp": "2025-04-11T21:09:40.434+03:00"
+    },
+    {
+      "id": "C12_S03_en",
+      "changeObject": "subject",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q010_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q010_en_#",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q010_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q010_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q010_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q016_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q016_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q016_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q016_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q017_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q017_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q017_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q017_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q017_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q019_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q019_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q019_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q019_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q019_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q020_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q020_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q020_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q020_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q021_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q021_en_#",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q021_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q021_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q021_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q021_en_D",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q230_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q230_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q230_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q230_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q231_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q231_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q231_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q231_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q232_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q232_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q232_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q232_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q235_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q235_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q235_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q235_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q236_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q236_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q236_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q236_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q237_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q237_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q237_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q237_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q238_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q238_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q238_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q238_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q243_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q243_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q243_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q243_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q244_en",
+      "changeObject": "question",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q244_en_A",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q244_en_B",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
+    },
+    {
+      "id": "C12_S03_en_q244_en_C",
+      "changeObject": "answer",
+      "changeType": "add",
+      "comment": "",
+      "timestamp": "2025-10-16T19:11:29.590+03:00"
     },
     {
       "id": "C12_S03_et",

@@ -5,6 +5,18 @@ export const calendar_comp_es_open: KbApi.Article = {
   "parentId": "calendar",
   "pages": [
     {
+      "id": "calendar_comp_es_open_en",
+      "localeCode": "en",
+      "title": "ES Open HF Championship",
+      "materials": [
+        {
+          "id": "calendar_comp_es_open_en_content",
+          "text": "# Calendar of events in the world of Estonian ham radio  \n## ES Open HF Championship  \n80m and 40m competition\n\n[Rules](https://www.erau.ee/images/LL/EESTI_MV_JUHEND.pdf)"
+        }
+      ],
+      "questionnaire": []
+    },
+    {
       "id": "calendar_comp_es_open_et",
       "localeCode": "et",
       "title": "ES Open HF Championship",

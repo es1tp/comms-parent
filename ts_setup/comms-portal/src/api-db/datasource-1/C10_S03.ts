@@ -61,6 +61,64 @@ export const C10_S03: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C10_S03_en",
+      "localeCode": "en",
+      "title": "Station Operation",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C10_S03_en_q207_en",
+          "groupId": "q207",
+          "question": "What should be considered when working during a thunderstorm?",
+          "answers": [
+            {
+              "id": "C10_S03_en_q207_en_A",
+              "answer": "Thunderstorm-induced interference significantly disrupts radio communication.",
+              "isCorrect": false
+            },
+            {
+              "id": "C10_S03_en_q207_en_B",
+              "answer": "Water entering the transceiver through the cable should be avoided.",
+              "isCorrect": false
+            },
+            {
+              "id": "C10_S03_en_q207_en_C",
+              "answer": "You should not work during a thunderstorm.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C10_S03_en_q209_en",
+          "groupId": "q209",
+          "question": "What should be considered if you want to conduct amateur radio communication on a commercial aircraft?",
+          "answers": [
+            {
+              "id": "C10_S03_en_q209_en_A",
+              "answer": "The transceiver power must be small enough not to cause interference in aircraft equipment.",
+              "isCorrect": false
+            },
+            {
+              "id": "C10_S03_en_q209_en_B",
+              "answer": "Atmospheric interference at high altitudes significantly disrupts communication.",
+              "isCorrect": false
+            },
+            {
+              "id": "C10_S03_en_q209_en_C",
+              "answer": "Communication is not allowed on commercial aircraft.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

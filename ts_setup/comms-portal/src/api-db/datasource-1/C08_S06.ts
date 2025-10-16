@@ -62,6 +62,65 @@ export const C08_S06: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C08_S06_en",
+      "localeCode": "en",
+      "title": "Spectrum analyzer",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C08_S06_en_q010_en",
+          "groupId": "q010",
+          "question": "What device can be used to study spurious signals caused by intermodulation distortions in the transmitter output signal?",
+          "answers": [
+            {
+              "id": "C08_S06_en_q010_en_A",
+              "answer": "Wattmeter.",
+              "isCorrect": false
+            },
+            {
+              "id": "C08_S06_en_q010_en_B",
+              "answer": "Spectrum analyzer.",
+              "isCorrect": true
+            },
+            {
+              "id": "C08_S06_en_q010_en_C",
+              "answer": "Logic circuit analyzer.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C08_S06_en_q200_en",
+          "groupId": "q200",
+          "question": "Can a ruler be used to measure the wavelength of radio waves radiated by a transmitter?",
+          "answers": [
+            {
+              "id": "C08_S06_en_q200_en_A",
+              "answer": "Cannot be used only if the ruler dimensions differ significantly from the wavelength.",
+              "isCorrect": false
+            },
+            {
+              "id": "C08_S06_en_q200_en_B",
+              "answer": "Can be used if the measurer acts quickly enough.",
+              "isCorrect": false
+            },
+            {
+              "id": "C08_S06_en_q200_en_C",
+              "answer": "Cannot be used, a spectrum analyzer must be used.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

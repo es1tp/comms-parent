@@ -93,6 +93,96 @@ export const C11_S01: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C11_S01_en",
+      "localeCode": "en",
+      "title": "Phonetic Alphabet",
+      "materials": [
+        {
+          "id": "C11_S01_en_content",
+          "text": "# Amateur Radio Station Operating Rules and Procedures  \n## Phonetic Alphabet  \nWhen conducting phone communication, simply reading out information is not sufficient for correct transmission. A correspondent from India may not understand the name \"Jaan\" at all, just as it is difficult for an Estonian to understand the name \"Vishvanathan\".\n\nTherefore, call signs, names and other information must be transmitted letter by letter. Transmitting individual sounds, especially when there is interference on the frequency, is also problematic, for example, a correspondent does not distinguish during SSB communication whether they were told \"ess\" or \"eff\".\n\nTherefore, a phonetic alphabet has been adopted in phone communications, where each letter corresponds to a certain word that is easier to understand on the air than an individual letter. The name \"Jaan\" is transmitted like this: \"Juliet, Alfa, Alfa, November\".\n\nSeveral phonetic alphabets are in use. For English and other languages, the international phonetic alphabet is recommended for radio amateurs.\n\nNumbers are transmitted as usual. The exception is \"9\", which may be pronounced \"niner\" to distinguish it from \"5\" (five). \"0\" corresponds to \"zero\", in writing a line is drawn through zero (Ø) to distinguish it from \"o\".\n\nIt should be remembered that the necessary information can be transmitted fastest at the right spelling speed: by rushing too much, the transmitter can manage to read the information somewhat faster, but the time gain can be nullified by a correspondent who asks to repeat everything from the beginning.\n\nInternational phonetic alphabet:\n|Letter|Word|\n|----|----|\n|A| Alfa |\n|B| Bravo |\n|C| Charlie |\n|D| Delta |\n|E| Echo |\n|F| Foxtrot |\n|G| Golf |\n|H| Hotel |\n|I| India |\n|J| Juliet |\n|K| Kilo |\n|L| Lima |\n|M| Mike |\n|N| November |\n|O| Oscar |\n|P| Papa |\n|Q| Quebec |\n|R| Romeo |\n|S| Sierra|\n|T| Tango |\n|U| Uniform |\n|V| Victor |\n|W| Whisky |\n|X| X-ray |\n|Y| Yankee |\n|Z| Zulu |"
+        }
+      ],
+      "questionnaire": [
+        {
+          "id": "C11_S01_en_q016_en",
+          "groupId": "q016",
+          "question": "How should the call sign ES9A be sent using the phonetic alphabet?",
+          "answers": [
+            {
+              "id": "C11_S01_en_q016_en_A",
+              "answer": "Eemeli Sagari Nine Aarne.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S01_en_q016_en_B",
+              "answer": "Echo Sierra Nine Alfa.",
+              "isCorrect": true
+            },
+            {
+              "id": "C11_S01_en_q016_en_C",
+              "answer": "Edward Santiago Nine Alabama.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C11_S01_en_q017_en",
+          "groupId": "q017",
+          "question": "How is the call sign AE0LQY spelled out?",
+          "answers": [
+            {
+              "id": "C11_S01_en_q017_en_A",
+              "answer": "Able Easy Zero Lima Quebec Yankee.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S01_en_q017_en_B",
+              "answer": "Arizona Equador Zero London Queen Yesterday",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S01_en_q017_en_C",
+              "answer": "Alfa Echo Zero Lima Quebec Yankee",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C11_S01_en_q229_en",
+          "groupId": "q229",
+          "question": "You hear a station calling on the frequency transmitting its call sign \"EchoSierra-one-Alfa-Charlie\". What does this tell you?",
+          "answers": [
+            {
+              "id": "C11_S01_en_q229_en_A",
+              "answer": "This is a mobile station working in a Ford Sierra.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S01_en_q229_en_B",
+              "answer": "The operator's name is Charlie.",
+              "isCorrect": false
+            },
+            {
+              "id": "C11_S01_en_q229_en_C",
+              "answer": "Communication can be conducted in Estonian.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

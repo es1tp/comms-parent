@@ -145,6 +145,148 @@ export const C02_S01: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C02_S01_en",
+      "localeCode": "en",
+      "title": "Passive components",
+      "materials": [
+        {
+          "id": "C02_S01_en_content",
+          "text": "# Radio and electrical engineering components  \n## Passive components  \nPassive components include resistors, capacitors and inductive components, including transformers.\n\n### Resistors\n\nResistors can be used to give an electrical circuit the necessary resistance.\n\nThere are many different resistors, the most common of which is the active resistor, which is\nalso simply called a resistor. The most important parameters of a resistor are\nnominal value, power tolerance and material, as several other\nimportant parameters depend on this. The resistance of resistors almost never\ncorresponds exactly to the nominal value, due to manufacturing errors and the inherent resistance\nchange of resistors with temperature fluctuations - typically resistor resistance increases\nas temperature rises. The magnitude of resistance change is determined by the resistor's\nmaterial-dependent temperature coefficient.\n\nVariable resistors can have their resistance smoothly changed, the most familiar to everyone is the\npotentiometer, which is used for example to control the volume\nof a radio receiver.\n\nAn important group of resistors are thermoresistors or thermistors, these are built\nin such a way that their resistance changes with temperature fluctuations within very large\nlimits. At the same time, there are both those whose resistance\nincreases with rising temperature and those whose resistance decreases with rising temperature.\nThey can be used to measure temperature but also for example\nto control cooling fan speed depending on device temperature.\n\n### Capacitors\n\nThe basic property of capacitors is capacitance, i.e. the ability to store electric charge.\nBasically, they all consist of two electrodes and a\nnon-electrically conductive layer separating them. The capacitance of a capacitor is determined by the electrode\nsurface area and the thickness of the dielectric separating them, therefore both\nelectrodes and dielectric are made as thin as possible. Depending on the required\nproperties, capacitors are made from different materials.\n\nCapacitors also come in fixed value and variable value types, more commonly\nfixed value capacitors are used. The most important\nparameters of capacitors are capacitance and voltage tolerance. Like resistors, capacitors are not\nideal either and differ from nominal value, their capacitance can\nchange significantly over time or for example with temperature fluctuations and they can\nalso have considerable active resistance. Today we have learned to make very small\nand relatively high capacitance ceramic capacitors, their\ngood properties also include low internal resistance and inductance, therefore\nthey are well suited for filtering all kinds of sharp pulses and other noise\nand for use in high frequency circuits.\n\nElectrolytic capacitors deserve special mention, as they can be\ngiven very high capacitance in a relatively small volume. The dielectric\ninside them is an ultra-thin oxide layer, for the creation and persistence of which the\ncapacitor contents are saturated with electrolyte. Over time, electrolyte may\nleak from them, as a result the capacitor breaks but the corrosive\nelectrolyte can easily damage other nearby components or\nthe circuit board on which the components are located. Due to their high capacitance, they are\noften used in power circuits for voltage smoothing.\n\nVariable capacitors allow electrodes to be shifted relative to each other, thus\nchanging the capacitor's capacitance. Old radios almost always used a large\nrotary capacitor consisting of alternating metal sheets.\n\n### Inductive elements\n\nThe simplest inductive element is an inductive coil, whose main characteristic is\nelectrical inductance. A coil consists of some number of wire turns which\ncan be wound on a coil former. To increase coil inductance,\nferromagnetic coil cores are used, high frequency coils are often\nwire turns without former and without core. Coil inductance can also be\nmade variable, for this the coil core is made movable inside the coil.\n\nInductive elements are also not ideal, their winding wire has active resistance\nwhich causes energy loss in the coil, in addition the winding turns form a\ncapacitor which gives coils an undesirable self-resonant frequency.\n\nIf several inductive coils are wound on one core, a\ntransformer is formed, where the core forms a magnetic circuit linking the windings together.\nAlternating voltage applied to one winding creates changing magnetic flux in the core which\ninduces alternating electromotive force in the other winding, if an electrical circuit\nis connected to the winding then electric current flows through it."
+        }
+      ],
+      "questionnaire": [
+        {
+          "id": "C02_S01_en_q001_en",
+          "groupId": "q001",
+          "question": "How does ambient temperature affect the resistance of a carbon resistor?",
+          "answers": [
+            {
+              "id": "C02_S01_en_q001_en_A",
+              "answer": "Resistance increases by 20% with temperature rise of every 10 degrees.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q001_en_B",
+              "answer": "Resistance value does not change.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q001_en_C",
+              "answer": "Resistance change depends on the resistor's temperature coefficient.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S01_en_q002_en",
+          "groupId": "q002",
+          "question": "What type of capacitor is often used in mains power supply smoothing filters?",
+          "answers": [
+            {
+              "id": "C02_S01_en_q002_en_A",
+              "answer": "Ceramic disc capacitor.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q002_en_B",
+              "answer": "Variable capacitance vacuum capacitor.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q002_en_C",
+              "answer": "Electrolytic capacitor.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S01_en_q003_en",
+          "groupId": "q003",
+          "question": "Which capacitors are connected in parallel with transformer secondary winding to reduce voltage pulses?",
+          "answers": [
+            {
+              "id": "C02_S01_en_q003_en_A",
+              "answer": "High capacitance capacitors.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q003_en_B",
+              "answer": "Variable capacitance vacuum capacitors.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q003_en_C",
+              "answer": "Ceramic capacitors.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S01_en_q004_en",
+          "groupId": "q004",
+          "question": "What causes self-resonance in coils?",
+          "answers": [
+            {
+              "id": "C02_S01_en_q004_en_A",
+              "answer": "Scattered electromagnetism.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q004_en_B",
+              "answer": "Eddy currents.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q004_en_C",
+              "answer": "Inter-turn capacitance.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S01_en_q136_en",
+          "groupId": "q136",
+          "question": "What are resistors used for?",
+          "answers": [
+            {
+              "id": "C02_S01_en_q136_en_A",
+              "answer": "To prevent unauthorized persons from entering radio station premises.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S01_en_q136_en_B",
+              "answer": "To build circuits with appropriate resistance.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S01_en_q136_en_C",
+              "answer": "To reduce electricity consumption during nighttime.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -162,6 +162,165 @@ export const C05_S01: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C05_S01_en",
+      "localeCode": "en",
+      "title": "Radio transmitter construction",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C05_S01_en_q007_en",
+          "groupId": "q007",
+          "question": "What is needed in an amateur radio station intended for telephone operation?",
+          "answers": [
+            {
+              "id": "C05_S01_en_q007_en_A",
+              "answer": "Splatter filter.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S01_en_q007_en_B",
+              "answer": "Microphone.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S01_en_q007_en_C",
+              "answer": "Receiver audio frequency filter",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C05_S01_en_q161_en",
+          "groupId": "q161",
+          "question": "What device can be used to transmit radio signals?",
+          "answers": [
+            {
+              "id": "C05_S01_en_q161_en_A",
+              "answer": "Oscilloscope.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S01_en_q161_en_B",
+              "answer": "Transceiver.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S01_en_q161_en_C",
+              "answer": "Spectrum analyzer.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C05_S01_en_q162_en",
+          "groupId": "q162",
+          "question": "What is needed in a radio station intended for telephone operation?",
+          "answers": [
+            {
+              "id": "C05_S01_en_q162_en_A",
+              "answer": "Telegraph key.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S01_en_q162_en_B",
+              "answer": "Microphone.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S01_en_q162_en_C",
+              "answer": "Low-pass filter.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C05_S01_en_q163_en",
+          "groupId": "q163",
+          "question": "What is the purpose of a microphone?",
+          "answers": [
+            {
+              "id": "C05_S01_en_q163_en_A",
+              "answer": "Converting voice to electrical signal.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S01_en_q163_en_B",
+              "answer": "Transmitting voice directly to antenna.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S01_en_q163_en_C",
+              "answer": "Complete suppression of audio signal.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C05_S01_en_q164_en",
+          "groupId": "q164",
+          "question": "What is the purpose of a hand telegraph key?",
+          "answers": [
+            {
+              "id": "C05_S01_en_q164_en_A",
+              "answer": "Switching radio transmitter on and off transmission in telegraph mode.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S01_en_q164_en_B",
+              "answer": "Automatic telegraph code generation.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S01_en_q164_en_C",
+              "answer": "Ensuring tone pitch of transmitted signal.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C05_S01_en_q165_en",
+          "groupId": "q165",
+          "question": "What happens when turning the transceiver band tuning knob?",
+          "answers": [
+            {
+              "id": "C05_S01_en_q165_en_A",
+              "answer": "Changes the frequency of low frequency signal transmitted through microphone.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S01_en_q165_en_B",
+              "answer": "Changes the frequency of radio signal transmitted and received by transceiver.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S01_en_q165_en_C",
+              "answer": "Changes the frequency of low frequency signal transmitted to headphones.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

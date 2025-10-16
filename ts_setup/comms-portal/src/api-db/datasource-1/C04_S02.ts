@@ -63,6 +63,66 @@ export const C04_S02: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C04_S02_en",
+      "localeCode": "en",
+      "title": "High frequency amplifier",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C04_S02_en_q005_en",
+          "groupId": "q005",
+          "question": "Why is it useful to have an attenuator at the receiver input?",
+          "answers": [
+            {
+              "id": "C04_S02_en_q005_en_A",
+              "answer": "Reduces the bandwidth of received signal.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S02_en_q005_en_B",
+              "answer": "Eliminates effects caused by isotropic radiation.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S02_en_q005_en_C",
+              "answer": "Protects receiver from overload by exceptionally strong signal.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C04_S02_en_q010_en",
+          "groupId": "q010",
+          "question": "What is the primary task of receiver high frequency amplifier?",
+          "answers": [
+            {
+              "id": "C04_S02_en_q010_en_A",
+              "answer": "Ensure most of the receiver amplification.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S02_en_q010_en_B",
+              "answer": "Use automatic gain control system to change spurious signal suppression level.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S02_en_q010_en_C",
+              "answer": "Improve receiver noise figure.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

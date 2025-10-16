@@ -189,6 +189,192 @@ export const C09_S01: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C09_S01_en",
+      "localeCode": "en",
+      "title": "Causes of Radio Interference",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C09_S01_en_q001_en",
+          "groupId": "q001",
+          "question": "What is the main cause of atmospheric radio interference?",
+          "answers": [
+            {
+              "id": "C09_S01_en_q001_en_A",
+              "answer": "Sunspots.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q001_en_B",
+              "answer": "Thunderstorms.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S01_en_q001_en_C",
+              "answer": "Aircraft",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S01_en_q008_en",
+          "groupId": "q008",
+          "question": "What type of interference signals can be radiated by a multiband antenna connected to an improperly tuned radio transmitter output?",
+          "answers": [
+            {
+              "id": "C09_S01_en_q008_en_A",
+              "answer": "Harmonic frequencies.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S01_en_q008_en_B",
+              "answer": "Aurora-like signals.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q008_en_C",
+              "answer": "Parasitic signals.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S01_en_q009_en",
+          "groupId": "q009",
+          "question": "What does the term \"harmonic radiation\" mean?",
+          "answers": [
+            {
+              "id": "C09_S01_en_q009_en_A",
+              "answer": "Radiation of frequencies that are integer multiples of the operating frequency into the ether.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S01_en_q009_en_B",
+              "answer": "Radiation of signals modulated with 50 Hz hum frequency.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q009_en_C",
+              "answer": "Intermodulation may occur in nearby other transmitters due to your transmitter operation.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S01_en_q201_en",
+          "groupId": "q201",
+          "question": "What radio interference can communication cause?",
+          "answers": [
+            {
+              "id": "C09_S01_en_q201_en_A",
+              "answer": "Television flickering and interference with electronic device operation.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q201_en_B",
+              "answer": "Interference with audio amplification equipment.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q201_en_C",
+              "answer": "All of the above interference.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C09_S01_en_q202_en",
+          "groupId": "q202",
+          "question": "What can be the cause of interference in amateur radio?",
+          "answers": [
+            {
+              "id": "C09_S01_en_q202_en_A",
+              "answer": "Nearby electrical equipment.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q202_en_B",
+              "answer": "Atmospheric interference or other radio stations.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q202_en_C",
+              "answer": "All of the above factors.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C09_S01_en_q203_en",
+          "groupId": "q203",
+          "question": "Can the sun cause atmospheric interference?",
+          "answers": [
+            {
+              "id": "C09_S01_en_q203_en_A",
+              "answer": "No, because the sun is very far away.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q203_en_B",
+              "answer": "Yes, because particles from the sun reach Earth and affect the ionosphere's condition.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S01_en_q203_en_C",
+              "answer": "The sun can only cause atmospheric interference during daytime.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C09_S01_en_q206_en",
+          "groupId": "q206",
+          "question": "If a radio station is located in a large city, does this change the situation regarding radio interference?",
+          "answers": [
+            {
+              "id": "C09_S01_en_q206_en_A",
+              "answer": "There is more interference than in the countryside, as there are more electrical devices in the city.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S01_en_q206_en_B",
+              "answer": "There is less interference than in the countryside, as city buildings are taller.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S01_en_q206_en_C",
+              "answer": "Interference intensity does not depend on the radio station's location.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

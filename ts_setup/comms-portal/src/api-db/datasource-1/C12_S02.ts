@@ -326,6 +326,329 @@ export const C12_S02: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C12_S02_en",
+      "localeCode": "en",
+      "title": "Radio Amateur Call Signs",
+      "materials": [
+        {
+          "id": "C12_S02_en_content",
+          "text": "# Domestic and International Legal Regulation of Amateur Radio Communication  \n## Radio Amateur Call Signs  \nEvery radio amateur has a call sign consisting of letters and number(s), which is unique in the world and serves as their second name.\n\nTrue, in countries where there are many amateurs, previously used call signs are allowed back into circulation after some time.\n\nThe first part of each call sign, the prefix, shows which country the amateur is operating from. Estonian amateur call signs begin with the letter combination \"ES\", followed by a number indicating which Estonian region is involved.\n\n* ES1 Tallinn\n* ES2 Harjumaa\n* ES3 Rapla and Läänemaa\n* ES4 Ida-Virumaa and Lääne-Virumaa\n* ES5 Tartu and Jõgevamaa\n* ES6 Põlva, Võru and Valgamaa\n* ES7 Viljandimaa\n* ES8 Pärnumaa\n* ES9 ERAU special call sign\n* ES0 Saare and Hiiu counties\n\nThe last part, the suffix, provides information about the radio amateur's qualification and station purpose for Estonian stations.\n\nThe general rule is: the shorter the call sign, the better the operator. As the call sign shortens, the number of possible call signs also decreases, and even with the best intentions, it is not possible to issue call signs with one-letter suffixes to all Estonian amateurs.\n\nComplete beginners, class D amateurs have four letters in their call sign suffix. Advanced class B amateurs have three letters after the number in their call sign. Class A amateurs and club stations have two letters in the suffix. The latter can also apply to TTJA for a one-letter suffix.\n\nWhen an amateur is not operating from their usual location, this can be indicated using a call sign addition separated by a slash (stroke):\n\n* ES4LB/6 station operating from a temporary location in another call area\n* ES5RY/p station operating from a temporary location in the same call area (\"portable\")\n* ES5MG/m station operating from a car (\"mobile\")\n* ES0IC/mm station operating from sea (\"maritime mobile\")\n* ES5PC/am station operating from aircraft (\"aeroplane mobile\")\n\nWhen a foreign amateur comes to Estonia for a short time, \"ES\"+call area + \"/\" is added before their call sign. For example, Timo, OH1NOA, operating from Southern Estonia, would use the call sign ES6/OH1NOA. For longer stays (over six months), the amateur must apply for an Estonian call sign."
+        }
+      ],
+      "questionnaire": [
+        {
+          "id": "C12_S02_en_q011_en",
+          "groupId": "q011",
+          "question": "Which variant can be used to form an Estonian amateur station call sign?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q011_en_A",
+              "answer": "Three-letter prefix, number and four-letter suffix.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q011_en_B",
+              "answer": "One-letter prefix, number and four-letter suffix.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q011_en_C",
+              "answer": "Two-letter prefix, number and four-letter suffix.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S02_en_q011_en_D",
+              "answer": "Two-digit numeric prefix and up to three-letter suffix.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q012_en",
+          "groupId": "q012",
+          "question": "How does the call sign of an amateur radio station registered in Haapsalu begin?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q012_en_A",
+              "answer": "ES1",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q012_en_B",
+              "answer": "ES0",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q012_en_C",
+              "answer": "ES3",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q013_en",
+          "groupId": "q013",
+          "question": "Which region does call sign ES9Z belong to?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q013_en_A",
+              "answer": "Hiiumaa",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q013_en_B",
+              "answer": "Nationwide, for use only by ERAU.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S02_en_q013_en_C",
+              "answer": "Põlvamaa.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q014_en",
+          "groupId": "q014",
+          "question": "Which class of Estonian amateur radio station could have call sign ES2XX?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q014_en_A",
+              "answer": "C",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q014_en_B",
+              "answer": "B",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q014_en_C",
+              "answer": "A",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q015_en",
+          "groupId": "q015",
+          "question": "What suffix is assigned to a shared use (radio club) amateur radio station?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q015_en_A",
+              "answer": "AAA-CCC",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q015_en_B",
+              "answer": "A-ZZ",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S02_en_q015_en_C",
+              "answer": "XAA-ZZZ",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q241_en",
+          "groupId": "q241",
+          "question": "How to recognize an Estonian class D amateur operating on the air?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q241_en_A",
+              "answer": "Their call sign prefix is \"ES0\".",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q241_en_B",
+              "answer": "They can only operate in Estonian and in phone mode.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q241_en_C",
+              "answer": "Their call sign prefix is \"ES\" and the call sign ending consists of four letters.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q242_en",
+          "groupId": "q242",
+          "question": "How to recognize an Estonian class A amateur operating on the air?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q242_en_A",
+              "answer": "Their call sign prefix is \"ES1\".",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q242_en_B",
+              "answer": "Their telegraph transmission speed is over 30 words per minute.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q242_en_C",
+              "answer": "Their call sign prefix is \"ES\" and the call sign ending consists of two letters.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q245_en",
+          "groupId": "q245",
+          "question": "What indicates that a minor is operating on the air?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q245_en_A",
+              "answer": "They cannot have class A or B qualification.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q245_en_B",
+              "answer": "They can only operate in phone mode.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q245_en_C",
+              "answer": "Based on the above, it is not possible to tell.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q246_en",
+          "groupId": "q246",
+          "question": "What does the call sign ES9B used by a radio amateur indicate?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q246_en_A",
+              "answer": "They have a class B amateur license.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q246_en_B",
+              "answer": "The station operates from Saaremaa.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q246_en_C",
+              "answer": "The radio station belongs to ERAU.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q247_en",
+          "groupId": "q247",
+          "question": "You hear a station calling with call sign ES5/DJ0IB. What does this mean?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q247_en_A",
+              "answer": "An Estonian amateur is operating from Germany.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q247_en_B",
+              "answer": "A German amateur is operating from Estonia.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S02_en_q247_en_C",
+              "answer": "Estonian and German call areas are connected.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q248_en",
+          "groupId": "q248",
+          "question": "You hear a station calling with call sign ES5JR/6. What does this mean?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q248_en_A",
+              "answer": "ES5JR listens on a frequency that is 6 times smaller than the transmit frequency.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q248_en_B",
+              "answer": "ES5JR is a six-year-old radio amateur.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q248_en_C",
+              "answer": "ES5JR is operating from Võru, Põlva or Valgamaa.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C12_S02_en_q249_en",
+          "groupId": "q249",
+          "question": "You hear a station calling with call sign ES5YL/M. What does this mean?",
+          "answers": [
+            {
+              "id": "C12_S02_en_q249_en_A",
+              "answer": "ES5YL is operating from a car.",
+              "isCorrect": true
+            },
+            {
+              "id": "C12_S02_en_q249_en_B",
+              "answer": "ES5YL is a male person.",
+              "isCorrect": false
+            },
+            {
+              "id": "C12_S02_en_q249_en_C",
+              "answer": "ES5YL is operating from English territory.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

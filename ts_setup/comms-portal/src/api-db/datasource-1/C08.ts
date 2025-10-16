@@ -9,6 +9,13 @@ export const C08: KbApi.Article = {
       "title": "Mõõtetehnika ja selle kasutamine",
       "materials": [],
       "questionnaire": []
+    },
+    {
+      "id": "C08_en",
+      "localeCode": "en",
+      "title": "Measurement techniques and their use",
+      "materials": [],
+      "questionnaire": []
     }
   ]
 }

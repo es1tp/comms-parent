@@ -272,6 +272,275 @@ export const C09_S02: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C09_S02_en",
+      "localeCode": "en",
+      "title": "Radio Interference Reduction",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C09_S02_en_q002_en",
+          "groupId": "q002",
+          "question": "How is it possible to determine if the power line causing radio interference is located in your house?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q002_en_A",
+              "answer": "Check the power line voltage with a graphic reflectometer.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q002_en_B",
+              "answer": "Check the AC waveform with an oscilloscope.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q002_en_C",
+              "answer": "Turn off the house electrical network main switch and listen to a battery-powered radio.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q003_en",
+          "groupId": "q003",
+          "question": "How is it possible to reduce radio interference caused by a car's electrical generator?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q003_en_A",
+              "answer": "Connect the radio power leads to the battery via the longest possible route.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q003_en_B",
+              "answer": "Connect the radio power leads to the battery via the shortest possible route.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S02_en_q003_en_C",
+              "answer": "Connect a high-pass filter in series with the wire connecting the radio station to the car's electrical system.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q004_en",
+          "groupId": "q004",
+          "question": "How can intermodulation interference caused by a very strong signal in a receiver be reduced?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q004_en_A",
+              "answer": "By reducing the receiver's supply voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q004_en_B",
+              "answer": "By switching an attenuator into the receiver input.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S02_en_q004_en_C",
+              "answer": "Use the receiver's filter with the narrowest passband.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q006_en",
+          "groupId": "q006",
+          "question": "Your neighbor reports that you are causing interference to television reception. However, you are certain that your equipment is working properly. What should you do?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q006_en_A",
+              "answer": "Immediately turn off your transmitter and contact the Communications Board for assistance.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q006_en_B",
+              "answer": "Contact the neighbor and try to determine if your on-air operation is indeed the cause of the TV interference.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S02_en_q006_en_C",
+              "answer": "Install a high-pass filter at the transmitter output and a low-pass filter at the television input.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q007_en",
+          "groupId": "q007",
+          "question": "What type of filter should be installed first in an amateur radio station to prevent harmonic frequency radiation?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q007_en_A",
+              "answer": "Key-click filter.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q007_en_B",
+              "answer": "Low-pass filter.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S02_en_q007_en_C",
+              "answer": "High-pass filter.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q010_en",
+          "groupId": "q010",
+          "question": "Which filter should be placed at the television input as a primary measure to reduce high-frequency overload caused by an amateur radio station?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q010_en_A",
+              "answer": "High-pass filter.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S02_en_q010_en_B",
+              "answer": "Low-pass filter.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q010_en_C",
+              "answer": "Band filter.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q010_en_D",
+              "answer": "Depends on which frequency the radio station causes interference.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q204_en",
+          "groupId": "q204",
+          "question": "What do you do if your neighbors complain about radio interference caused by your radio station?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q204_en_A",
+              "answer": "Move the radio station elsewhere immediately.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q204_en_B",
+              "answer": "Try to determine if and how the interference is related to your radio station operation.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S02_en_q204_en_C",
+              "answer": "Buy better equipment for the neighbors.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q205_en",
+          "groupId": "q205",
+          "question": "What do you do if your neighbors complain about excessively high mains voltage caused by your radio station?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q205_en_A",
+              "answer": "Move the radio station elsewhere immediately.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q205_en_B",
+              "answer": "Do everything you can to normalize the mains voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q205_en_C",
+              "answer": "Recommend that they contact Eesti Energia, as excessively high mains voltage is not related to your radio station in any way.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q208_en",
+          "groupId": "q208",
+          "question": "What is done to eliminate interference caused by other radio stations?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q208_en_A",
+              "answer": "A complaint is sent to the Consumer Protection and Technical Supervision Authority.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q208_en_B",
+              "answer": "Try to change the antenna direction or tune away from the interfering station.",
+              "isCorrect": true
+            },
+            {
+              "id": "C09_S02_en_q208_en_C",
+              "answer": "All of the above methods may help.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C09_S02_en_q210_en",
+          "groupId": "q210",
+          "question": "What do you do when distant stations start interfering with you on the ultra-short wave?",
+          "answers": [
+            {
+              "id": "C09_S02_en_q210_en_A",
+              "answer": "Stop working immediately.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q210_en_B",
+              "answer": "Simply don't pay attention to them.",
+              "isCorrect": false
+            },
+            {
+              "id": "C09_S02_en_q210_en_C",
+              "answer": "Try to make contact with those stations, as propagation is very good.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

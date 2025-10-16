@@ -356,6 +356,359 @@ export const C03_S03: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C03_S03_en",
+      "localeCode": "en",
+      "title": "Power supply circuits",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C03_S03_en_q001_en",
+          "groupId": "q001",
+          "question": "Why is a capacitor and resistor connected in parallel with power supply rectifier diodes?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q001_en_A",
+              "answer": "To smooth output voltage ripple.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q001_en_B",
+              "answer": "To increase output voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q001_en_C",
+              "answer": "To equalize voltage drops across diodes and reduce harmful effects of voltage pulses.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q002_en",
+          "groupId": "q002",
+          "question": "What is the unfiltered output voltage waveform of a full-wave rectifier?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q002_en_A",
+              "answer": "Smooth DC voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q002_en_B",
+              "answer": "Pulse train equal to input voltage frequency.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q002_en_C",
+              "answer": "Pulse train equal to double the input voltage frequency.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q003_en",
+          "groupId": "q003",
+          "question": "Which components form a power supply filter?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q003_en_A",
+              "answer": "Diodes.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q003_en_B",
+              "answer": "Transformers and transistors.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q003_en_C",
+              "answer": "Capacitors and chokes.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q004_en",
+          "groupId": "q004",
+          "question": "What should be the reverse voltage rating of a single-phase bridge rectifier diode?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q004_en_A",
+              "answer": "Half the rectifier output voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q004_en_B",
+              "answer": "Equal to the rectifier output voltage.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q004_en_C",
+              "answer": "Equal to double the rectifier output voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q004_en_D",
+              "answer": "Equal to four times the rectifier nominal output voltage.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q006_en",
+          "groupId": "q006",
+          "question": "What should be the minimum reverse voltage of a half-wave rectifier diode with smoothing capacitor?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q006_en_A",
+              "answer": "Half the rectifier nominal output voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q006_en_B",
+              "answer": "Double the rectifier nominal peak voltage.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q006_en_C",
+              "answer": "Equal to the rectifier output voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q006_en_D",
+              "answer": "Equal to four times the rectifier output voltage.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q007_en",
+          "groupId": "q007",
+          "question": "Where is the power supply shunt resistor connected?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q007_en_A",
+              "answer": "In parallel with the filter capacitor.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q007_en_B",
+              "answer": "In parallel with the rectifier input.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q007_en_C",
+              "answer": "In parallel with the output filter choke.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q008_en",
+          "groupId": "q008",
+          "question": "How many degrees of sine wave does a half-wave rectifier use?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q008_en_A",
+              "answer": "90 degrees",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q008_en_B",
+              "answer": "180 degrees.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q008_en_C",
+              "answer": "360 degrees",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q009_en",
+          "groupId": "q009",
+          "question": "How many degrees of sine wave does a full-wave rectifier use?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q009_en_A",
+              "answer": "90 degrees",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q009_en_B",
+              "answer": "180 degrees",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q009_en_C",
+              "answer": "360 degrees",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q010_en",
+          "groupId": "q010",
+          "question": "What function do capacitors and resistors connected in parallel with diodes serve in high voltage rectifiers?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q010_en_A",
+              "answer": "Double or triple the output voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q010_en_B",
+              "answer": "Protect diodes that recover reverse resistance faster than other diodes.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q010_en_C",
+              "answer": "Regulate output voltage.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q142_en",
+          "groupId": "q142",
+          "question": "What do you do when a transceiver requires 12-volt DC voltage for power?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q142_en_A",
+              "answer": "Reduce the mains voltage from the main switch to 12 volts.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q142_en_B",
+              "answer": "Use a DC power supply between the mains and the transceiver.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q142_en_C",
+              "answer": "Use a potentiometer circuit between the mains and the transceiver.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q143_en",
+          "groupId": "q143",
+          "question": "What is the task of a power supply?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q143_en_A",
+              "answer": "Supplying devices with appropriate supply voltage.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q143_en_B",
+              "answer": "Returning voltage output from devices to the mains.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q143_en_C",
+              "answer": "Feeding a baby when parents are away.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q148_en",
+          "groupId": "q148",
+          "question": "What do you do to charge batteries?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q148_en_A",
+              "answer": "Connect the battery to be charged to the mains using a three-phase plug.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q148_en_B",
+              "answer": "Use a battery charger.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q148_en_C",
+              "answer": "Connect the battery to be charged to the mains neutral wire, ensuring grounding is achieved.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C03_S03_en_q332_en",
+          "groupId": "q332",
+          "question": "Why is a shunt resistor used in radio transmitter high voltage rectifiers?",
+          "answers": [
+            {
+              "id": "C03_S03_en_q332_en_A",
+              "answer": "Improves voltage regulation.",
+              "isCorrect": false
+            },
+            {
+              "id": "C03_S03_en_q332_en_B",
+              "answer": "Discharges the filter capacitor.",
+              "isCorrect": true
+            },
+            {
+              "id": "C03_S03_en_q332_en_C",
+              "answer": "Eliminates the risk of electric shock from coils.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

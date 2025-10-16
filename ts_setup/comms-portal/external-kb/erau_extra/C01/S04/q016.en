@@ -1,0 +1,4 @@
+? What is the power increase of {power_ratio} times in decibels?
+A*. {dB} dB.
+. X
+_ dB ~ 10 * log10([power_ratio])

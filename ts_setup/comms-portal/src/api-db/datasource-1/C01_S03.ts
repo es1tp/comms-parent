@@ -99,6 +99,102 @@ export const C01_S03: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C01_S03_en",
+      "localeCode": "en",
+      "title": "Ohm's law",
+      "materials": [
+        {
+          "id": "C01_S03_en_content",
+          "text": "# Radio and electrical engineering theory  \n## Ohm's law  \nOhm's law defines the relationship between voltage U, current intensity I and resistance R:\n\nU=I*R or I=U/R or R=U*I\n\nI is the intensity of current flowing through the circuit section, measured in amperes (A);\nU is voltage, measured in volts (V);\nR is the resistance of the circuit section, measured in ohms (Ω).\n\nFor alternating current, the relationship applies\n\nI=U/Z\n\nwhere Z is the apparent resistance of the AC circuit.\n\nPower is closely related to Ohm's law and can be calculated:\n\nP = U * I = I * I * R = U * U * R"
+        }
+      ],
+      "questionnaire": [
+        {
+          "id": "C01_S03_en_q022_en",
+          "groupId": "q022",
+          "question": "What is the usable power when a 400 V voltage source is connected to an 800 ohm load?",
+          "answers": [
+            {
+              "id": "C01_S03_en_q022_en_A",
+              "answer": "0.5 watts.",
+              "isCorrect": false
+            },
+            {
+              "id": "C01_S03_en_q022_en_B",
+              "answer": "200 watts.",
+              "isCorrect": true
+            },
+            {
+              "id": "C01_S03_en_q022_en_C",
+              "answer": "400 watts",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C01_S03_en_q023_en",
+          "groupId": "q023",
+          "question": "What is the power of a 12 V 0.2 A current indicator lamp?",
+          "answers": [
+            {
+              "id": "C01_S03_en_q023_en_A",
+              "answer": "60 watts.",
+              "isCorrect": false
+            },
+            {
+              "id": "C01_S03_en_q023_en_B",
+              "answer": "24 watts.",
+              "isCorrect": false
+            },
+            {
+              "id": "C01_S03_en_q023_en_C",
+              "answer": "2.4 watts",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C01_S03_en_q024_en",
+          "groupId": "q024",
+          "question": "What power is dissipated in a 100 ohm resistor when the voltage measured across its terminals is 5 V?",
+          "answers": [
+            {
+              "id": "C01_S03_en_q024_en_A",
+              "answer": "500 milliwatts.",
+              "isCorrect": false
+            },
+            {
+              "id": "C01_S03_en_q024_en_B",
+              "answer": "50 milliwatts.",
+              "isCorrect": false
+            },
+            {
+              "id": "C01_S03_en_q024_en_C",
+              "answer": "20 milliwatts.",
+              "isCorrect": false
+            },
+            {
+              "id": "C01_S03_en_q024_en_D",
+              "answer": "250 milliwatts.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        }
+      ]
     }
   ]
 }

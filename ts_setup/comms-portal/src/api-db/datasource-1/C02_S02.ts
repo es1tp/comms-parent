@@ -248,6 +248,251 @@ export const C02_S02: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C02_S02_en",
+      "localeCode": "en",
+      "title": "Active components",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C02_S02_en_q008_en",
+          "groupId": "q008",
+          "question": "What is the reverse voltage of a power supply rectifier element?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q008_en_A",
+              "answer": "Maximum forward voltage that a diode is capable of withstanding.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q008_en_B",
+              "answer": "1.4 times the power grid frequency.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q008_en_C",
+              "answer": "Maximum voltage applied to diode terminals in non-conducting direction.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S02_en_q009_en",
+          "groupId": "q009",
+          "question": "Which diode parameter must not be exceeded?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q009_en_A",
+              "answer": "Forward voltage drop across diode",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q009_en_B",
+              "answer": "Differential resistance",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q009_en_C",
+              "answer": "Maximum reverse voltage",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S02_en_q009_en_D",
+              "answer": "Avalanche voltage",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S02_en_q010_en",
+          "groupId": "q010",
+          "question": "Why must rectifier diodes be thermally protected?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q010_en_A",
+              "answer": "Due to their proximity to the transformer.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q010_en_B",
+              "answer": "They may be damaged due to excessive heating.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S02_en_q010_en_C",
+              "answer": "Due to their sensitivity to transient voltage effects.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S02_en_q011_en",
+          "groupId": "q011",
+          "question": "What is the main property of a Zener diode (stabilitron)?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q011_en_A",
+              "answer": "Ensures constant current with fluctuating voltage.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q011_en_B",
+              "answer": "Ensures constant voltage with fluctuating current.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S02_en_q011_en_C",
+              "answer": "Ensures constant current with constant voltage.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S02_en_q012_en",
+          "groupId": "q012",
+          "question": "What type of diode is capable of oscillating and also amplifying?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q012_en_A",
+              "answer": "Point contact diode.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q012_en_B",
+              "answer": "Tunnel diode.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S02_en_q012_en_C",
+              "answer": "Silicon rectifier.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S02_en_q013_en",
+          "groupId": "q013",
+          "question": "What is the main property of a varicap?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q013_en_A",
+              "answer": "Maintains stable voltage with variable current flowing through.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q013_en_B",
+              "answer": "Its capacitance depends on applied voltage.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S02_en_q013_en_C",
+              "answer": "Has a negative resistance region.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S02_en_q014_en",
+          "groupId": "q014",
+          "question": "What is a PIN diode used for?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q014_en_A",
+              "answer": "Stable current source.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q014_en_B",
+              "answer": "Stable voltage source.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q014_en_C",
+              "answer": "High frequency diode switch.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C02_S02_en_q132_en",
+          "groupId": "q132",
+          "question": "What is the basic property of a semiconductor?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q132_en_A",
+              "answer": "Conducts electricity worse than metals, but better than insulators.",
+              "isCorrect": true
+            },
+            {
+              "id": "C02_S02_en_q132_en_B",
+              "answer": "Can be attached to circuit board by soldering.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q132_en_C",
+              "answer": "Cannot be used in radio tubes.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C02_S02_en_q133_en",
+          "groupId": "q133",
+          "question": "What can be said about radio tubes?",
+          "answers": [
+            {
+              "id": "C02_S02_en_q133_en_A",
+              "answer": "They are no longer used.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q133_en_B",
+              "answer": "They are used in electronic devices.",
+              "isCorrect": false
+            },
+            {
+              "id": "C02_S02_en_q133_en_C",
+              "answer": "Semiconductors cannot be used in them.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

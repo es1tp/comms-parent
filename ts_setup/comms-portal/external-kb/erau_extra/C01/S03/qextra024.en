@@ -1,0 +1,4 @@
+? What power is dissipated in a {R} ohm resistor when the voltage measured across its terminals is {V} V?
+A*. {P} milliwatts.
+. X
+_ P = V^2 / R

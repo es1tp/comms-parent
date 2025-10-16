@@ -1,0 +1,4 @@
+? What is the usable power when a {V} V voltage source is connected to a {R} ohm load?
+A*. {P} watts.
+. X
+_ P = V^2 / R

@@ -5,6 +5,65 @@ export const C01_S03: KbApi.Article = {
   "parentId": "C01",
   "pages": [
     {
+      "id": "C01_S03_en",
+      "localeCode": "en",
+      "title": "Ohm's Law",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C01_S03_en_qextra022_en",
+          "type": "formula",
+          "formula": "P = V^2 / R",
+          "groupId": "qextra022",
+          "question": "What is the usable power when a {V} V voltage source is connected to a {R} ohm load?",
+          "answers": [
+            {
+              "id": "C01_S03_en_qextra022_en_A",
+              "answer": "{P} watts.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "X"
+          ]
+        },
+        {
+          "id": "C01_S03_en_qextra023_en",
+          "type": "formula",
+          "formula": "P = V * I",
+          "groupId": "qextra023",
+          "question": "What is the power of an indicator lamp with {V} V and {I} A current?",
+          "answers": [
+            {
+              "id": "C01_S03_en_qextra023_en_A",
+              "answer": "{P} watts.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "X"
+          ]
+        },
+        {
+          "id": "C01_S03_en_qextra024_en",
+          "type": "formula",
+          "formula": "P = V^2 / R",
+          "groupId": "qextra024",
+          "question": "What power is dissipated in a {R} ohm resistor when the voltage measured across its terminals is {V} V?",
+          "answers": [
+            {
+              "id": "C01_S03_en_qextra024_en_A",
+              "answer": "{P} milliwatts.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "X"
+          ]
+        }
+      ]
+    },
+    {
       "id": "C01_S03_et",
       "localeCode": "et",
       "title": "Oomi seadus",

@@ -86,6 +86,89 @@ export const C05_S02: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C05_S02_en",
+      "localeCode": "en",
+      "title": "Transmit power",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C05_S02_en_q166_en",
+          "groupId": "q166",
+          "question": "What is called radio transmitter power?",
+          "answers": [
+            {
+              "id": "C05_S02_en_q166_en_A",
+              "answer": "Radio transmitter size.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S02_en_q166_en_B",
+              "answer": "Amount of energy radiated by transmitter per unit time.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S02_en_q166_en_C",
+              "answer": "Strength of received correspondent signal.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C05_S02_en_q168_en",
+          "groupId": "q168",
+          "question": "How does the signal received by correspondent change when radio transmitter power is increased?",
+          "answers": [
+            {
+              "id": "C05_S02_en_q168_en_A",
+              "answer": "Becomes more readable.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S02_en_q168_en_B",
+              "answer": "Becomes stronger.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S02_en_q168_en_C",
+              "answer": "Stays the same.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C05_S02_en_q170_en",
+          "groupId": "q170",
+          "question": "What do you do to talk with an amateur in a neighboring house?",
+          "answers": [
+            {
+              "id": "C05_S02_en_q170_en_A",
+              "answer": "Use as much power as possible so neighbor can hear better.",
+              "isCorrect": false
+            },
+            {
+              "id": "C05_S02_en_q170_en_B",
+              "answer": "Use as little power as possible to avoid damaging neighbor's receiving equipment.",
+              "isCorrect": true
+            },
+            {
+              "id": "C05_S02_en_q170_en_C",
+              "answer": "Call neighbor's phone for communication.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

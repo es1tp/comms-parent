@@ -1,0 +1,4 @@
+? What is the voltage across the terminals of a transformer's secondary winding consisting of {Ns} turns, when the primary winding consisting of {Np} turns is connected to a 220 V alternating current network?
+A*. {V} V
+. X
+_ V = 220.00 * [Ns]/[Np]

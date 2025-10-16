@@ -87,6 +87,90 @@ export const C04_S06: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C04_S06_en",
+      "localeCode": "en",
+      "title": "S-meter",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C04_S06_en_q008_en",
+          "groupId": "q008",
+          "question": "How much must transmitter output power be increased for a receiver S-meter reading near the transmitter to increase from S8 to S9?",
+          "answers": [
+            {
+              "id": "C04_S06_en_q008_en_A",
+              "answer": "About two times.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S06_en_q008_en_B",
+              "answer": "About three times.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S06_en_q008_en_C",
+              "answer": "About four times.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "id": "C04_S06_en_q158_en",
+          "groupId": "q158",
+          "question": "What does the transceiver S-meter show?",
+          "answers": [
+            {
+              "id": "C04_S06_en_q158_en_A",
+              "answer": "Received signal strength.",
+              "isCorrect": true
+            },
+            {
+              "id": "C04_S06_en_q158_en_B",
+              "answer": "Received signal readability.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S06_en_q158_en_C",
+              "answer": "Transceiver S-factor magnitude.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C04_S06_en_q159_en",
+          "groupId": "q159",
+          "question": "How can an operator assess signal strength when the receiver has no S-meter?",
+          "answers": [
+            {
+              "id": "C04_S06_en_q159_en_A",
+              "answer": "With spectrum analyzer.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S06_en_q159_en_B",
+              "answer": "With tester.",
+              "isCorrect": false
+            },
+            {
+              "id": "C04_S06_en_q159_en_C",
+              "answer": "By hearing.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }

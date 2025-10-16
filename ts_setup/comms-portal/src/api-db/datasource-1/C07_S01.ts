@@ -86,6 +86,89 @@ export const C07_S01: KbApi.Article = {
           ]
         }
       ]
+    },
+    {
+      "id": "C07_S01_en",
+      "localeCode": "en",
+      "title": "Radio wave propagation",
+      "materials": [],
+      "questionnaire": [
+        {
+          "id": "C07_S01_en_q181_en",
+          "groupId": "q181",
+          "question": "What is radio propagation?",
+          "answers": [
+            {
+              "id": "C07_S01_en_q181_en_A",
+              "answer": "Ability to listen to a radio receiver located in a public place.",
+              "isCorrect": false
+            },
+            {
+              "id": "C07_S01_en_q181_en_B",
+              "answer": "Network of radio shops for supplying radio amateurs.",
+              "isCorrect": false
+            },
+            {
+              "id": "C07_S01_en_q181_en_C",
+              "answer": "Ability of radio waves to travel from their origin to distant locations.",
+              "isCorrect": true
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C07_S01_en_q184_en",
+          "groupId": "q184",
+          "question": "What makes short wave long-distance propagation possible?",
+          "answers": [
+            {
+              "id": "C07_S01_en_q184_en_A",
+              "answer": "Reflection of short waves from the ionosphere and ground surface.",
+              "isCorrect": true
+            },
+            {
+              "id": "C07_S01_en_q184_en_B",
+              "answer": "Extension of the line-of-sight area due to short wave effects.",
+              "isCorrect": false
+            },
+            {
+              "id": "C07_S01_en_q184_en_C",
+              "answer": "Spherical shape of Earth and Sun.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        },
+        {
+          "id": "C07_S01_en_q185_en",
+          "groupId": "q185",
+          "question": "How is it possible to increase the line-of-sight coverage area of radio waves?",
+          "answers": [
+            {
+              "id": "C07_S01_en_q185_en_A",
+              "answer": "Significantly reduce Earth's curvature.",
+              "isCorrect": false
+            },
+            {
+              "id": "C07_S01_en_q185_en_B",
+              "answer": "Raise the antenna as high as possible.",
+              "isCorrect": true
+            },
+            {
+              "id": "C07_S01_en_q185_en_C",
+              "answer": "Use a thicker antenna cable.",
+              "isCorrect": false
+            }
+          ],
+          "qualifications": [
+            "D"
+          ]
+        }
+      ]
     }
   ]
 }
