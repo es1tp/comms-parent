@@ -1,0 +1,50 @@
+For communication to take place, correspondents need to exchange call signs and RST reports.
+The latter is a number combination that characterizes the readability of the received signal
+(R=readability, 5-point scale), strength (S=strength, 9-point scale) and
+tone (T=tone, 9-point scale).
+
+In phone communication, the T part of the report is omitted and the report is two digits.
+
+In DX expeditions and contests, to save time, usually only 599 or 59 is used as a report,
+regardless of the actual signal. If the R or T part of the received report is repeatedly
+less than maximum, the equipment should be checked for proper operation, because
+reports usually tend to be better than the actual signal, and there must be a serious
+reason for lowering the readability and tone ratings.
+
+### RST scale
+
+R (readability)
+1. Unreadable
+2. Barely readable
+3. Difficult to read
+4. Readable without difficulty
+5. Clearly readable
+
+S (strength):
+1. Barely audible
+2. Very weak signal
+3. Weak signal
+4. Signal audible with effort
+5. Signal with satisfactory audibility
+6. Signal with comfortable audibility
+7. Moderately strong signal
+8. Strong signal
+9. Very strong signal
+
+T (tone):
+1. Very rough buzzing
+2. Unmusical AC tone
+3. AC tone
+4. Moderately musical AC tone
+5. Musical AC tone
+6. Tone noticeably modulated with AC
+7. Tone with weak AC modulation
+8. Tone with almost no modulation
+9. Exemplary unmodulated tone
+                                                    
+Each strength level corresponds to a doubling of signal intensity.
+Signal strength can also be over 9 points: in such cases it is expressed
+as "9+" or as the number of decibels exceeding nine points on the S-meter ("9+20").
+
+In addition to the mandatory information, additional information is also transmitted:
+Operator name; Station QTH (location); Equipment used; Weather; QSL info.

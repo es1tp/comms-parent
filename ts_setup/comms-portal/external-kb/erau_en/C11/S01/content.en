@@ -1,0 +1,41 @@
+When conducting phone communication, simply reading out information is not sufficient for correct transmission. A correspondent from India may not understand the name "Jaan" at all, just as it is difficult for an Estonian to understand the name "Vishvanathan".
+
+Therefore, call signs, names and other information must be transmitted letter by letter. Transmitting individual sounds, especially when there is interference on the frequency, is also problematic, for example, a correspondent does not distinguish during SSB communication whether they were told "ess" or "eff".
+
+Therefore, a phonetic alphabet has been adopted in phone communications, where each letter corresponds to a certain word that is easier to understand on the air than an individual letter. The name "Jaan" is transmitted like this: "Juliet, Alfa, Alfa, November".
+
+Several phonetic alphabets are in use. For English and other languages, the international phonetic alphabet is recommended for radio amateurs.
+
+Numbers are transmitted as usual. The exception is "9", which may be pronounced "niner" to distinguish it from "5" (five). "0" corresponds to "zero", in writing a line is drawn through zero (Ø) to distinguish it from "o".
+
+It should be remembered that the necessary information can be transmitted fastest at the right spelling speed: by rushing too much, the transmitter can manage to read the information somewhat faster, but the time gain can be nullified by a correspondent who asks to repeat everything from the beginning.
+
+International phonetic alphabet:
+|Letter|Word|
+|----|----|
+|A| Alfa |
+|B| Bravo |
+|C| Charlie |
+|D| Delta |
+|E| Echo |
+|F| Foxtrot |
+|G| Golf |
+|H| Hotel |
+|I| India |
+|J| Juliet |
+|K| Kilo |
+|L| Lima |
+|M| Mike |
+|N| November |
+|O| Oscar |
+|P| Papa |
+|Q| Quebec |
+|R| Romeo |
+|S| Sierra|
+|T| Tango |
+|U| Uniform |
+|V| Victor |
+|W| Whisky |
+|X| X-ray |
+|Y| Yankee |
+|Z| Zulu |

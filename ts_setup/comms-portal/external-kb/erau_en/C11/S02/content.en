@@ -1,0 +1,23 @@
+The Q-code has the opposite purpose to the phonetic alphabet: it has been developed to convey information using a few letters that would be too long when spoken in words, especially for telegraph communications. It is much simpler to transmit "PSE QSY 14250" by telegraph than "PSE CHANGE UR FREQ TO 14250"
+
+However, rarely used Q-codes should not be used in phone communications: instead of saving time, you actually waste time because the correspondent has to guess what you meant to say. The Q-code can be presented both as a question and as an answer. In the first case, a question mark is added at the end, in phone communications the voice tone is raised.
+
+|Abbreviation|Question (explanation)|Answer (explanation)|
+|------|------------------|-----------------|
+| QRL  | Are you busy? (or) Is the frequency busy? | I am busy. (or) The frequency is busy, please do not interfere. |
+| QRM  | Are you being interfered with? Are there any interferences? | I am being interfered with. |
+| QRN  | Do you have static interference? | There is static interference here.  |
+| QRO  | Should I increase transmit power? | Increase transmit power. |
+| QRP  | Should I decrease transmit power? | Decrease transmit power. |
+| QRQ  | Should I transmit faster (telegraph)? | Transmit faster. |
+| QRS  | Should I transmit more slowly? | Transmit more slowly |
+| QRT  | Should I stop transmitting? | Stop transmitting. |
+| QRX  | When will you call me again? (also used at the beginning of a short pause) | I will call you again later.|
+| QRZ  | Is someone calling me? | You are being called by ... (callsign) on frequency ... kHz (MHz).|
+| QSB  | Is my (station) signal strength fluctuating? | Your (station) signal strength is fluctuating. |
+| QSL  | Do you confirm receipt of information? (also used as the name of a card confirming contact) | I confirm receipt of information. |
+| QSO  | Do you have direct contact with ... (callsign) station or can you contact them through a relay station? | I have direct contact with ... (callsign) station - I am using a relay station. (also used instead of the words "contact" and "connection") |
+| QSY  | Should I change operating frequency? | Change operating frequency. |
+| QTH  | What is your location? | My location is ... (location or other location-determining data). |
+
+Complete list of Q-codes http://www.kloth.net/radio/qcodes.php

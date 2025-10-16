@@ -1,0 +1,20 @@
+
+### Telegraph communication session:
+
+* Turn on the transceiver and ensure that reception works without interference.
+* Check that you are in the allowed frequency band. Although telegraph operation is permitted across the entire band, there is a silent agreement to stay in the lower part of the band, within the first 50-60 kHz range.
+* Keep in mind that the first 10 kHz of the frequency band is kept free for DX communications. If you operate there, only communicate with DX stations.
+* When you start calling:
+ - Choose a free frequency and listen to it for some time, making sure that no one is operating there.
+ - Transmit several times: "QRL?", listening between questions. If the response is "R", "YES" or "QRL" etc., look for another frequency.
+ - If the frequency is free, start calling CQ. Make sure you don't call too long: it's enough to transmit CQ 3 times and your call sign 3 times, repeating this once more.
+* If you find a calling station:
+ - if the station listens on a different frequency than it transmits, tune your transmit frequency accordingly;
+ - wait until the station has finished calling; transmit your call sign 1..2 times
+* Choose the correspondent's transmission speed if it is slower than your transmission speed. Don't transmit faster than you can receive.
+* During transmission, ensure that the transmitter and antenna operate without interference.
+* Exchange routine information with the correspondent: report, name, QTH. For a "short contact", transmit only the report.
+* Keep transmission sessions short and to the point. Courtesies are shorter in telegraph communications than by telephone.
+* After the end of the contact, don't start transmitting immediately, but listen to see if anyone is calling you.
+
+In telegraph, the RST report may send "N" instead of "9" and "T" instead of "0" to save time. (Report "599" = "5NN")
