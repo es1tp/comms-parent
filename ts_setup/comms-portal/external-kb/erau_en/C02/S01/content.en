@@ -1,0 +1,77 @@
+Passive components include resistors, capacitors and inductive components, including transformers.
+
+### Resistors
+
+Resistors can be used to give an electrical circuit the necessary resistance.
+
+There are many different resistors, the most common of which is the active resistor, which is
+also simply called a resistor. The most important parameters of a resistor are
+nominal value, power tolerance and material, as several other
+important parameters depend on this. The resistance of resistors almost never
+corresponds exactly to the nominal value, due to manufacturing errors and the inherent resistance
+change of resistors with temperature fluctuations - typically resistor resistance increases
+as temperature rises. The magnitude of resistance change is determined by the resistor's
+material-dependent temperature coefficient.
+
+Variable resistors can have their resistance smoothly changed, the most familiar to everyone is the
+potentiometer, which is used for example to control the volume
+of a radio receiver.
+
+An important group of resistors are thermoresistors or thermistors, these are built
+in such a way that their resistance changes with temperature fluctuations within very large
+limits. At the same time, there are both those whose resistance
+increases with rising temperature and those whose resistance decreases with rising temperature.
+They can be used to measure temperature but also for example
+to control cooling fan speed depending on device temperature.
+
+### Capacitors
+
+The basic property of capacitors is capacitance, i.e. the ability to store electric charge.
+Basically, they all consist of two electrodes and a
+non-electrically conductive layer separating them. The capacitance of a capacitor is determined by the electrode
+surface area and the thickness of the dielectric separating them, therefore both
+electrodes and dielectric are made as thin as possible. Depending on the required
+properties, capacitors are made from different materials.
+
+Capacitors also come in fixed value and variable value types, more commonly
+fixed value capacitors are used. The most important
+parameters of capacitors are capacitance and voltage tolerance. Like resistors, capacitors are not
+ideal either and differ from nominal value, their capacitance can
+change significantly over time or for example with temperature fluctuations and they can
+also have considerable active resistance. Today we have learned to make very small
+and relatively high capacitance ceramic capacitors, their
+good properties also include low internal resistance and inductance, therefore
+they are well suited for filtering all kinds of sharp pulses and other noise
+and for use in high frequency circuits.
+
+Electrolytic capacitors deserve special mention, as they can be
+given very high capacitance in a relatively small volume. The dielectric
+inside them is an ultra-thin oxide layer, for the creation and persistence of which the
+capacitor contents are saturated with electrolyte. Over time, electrolyte may
+leak from them, as a result the capacitor breaks but the corrosive
+electrolyte can easily damage other nearby components or
+the circuit board on which the components are located. Due to their high capacitance, they are
+often used in power circuits for voltage smoothing.
+
+Variable capacitors allow electrodes to be shifted relative to each other, thus
+changing the capacitor's capacitance. Old radios almost always used a large
+rotary capacitor consisting of alternating metal sheets.
+
+### Inductive elements
+
+The simplest inductive element is an inductive coil, whose main characteristic is
+electrical inductance. A coil consists of some number of wire turns which
+can be wound on a coil former. To increase coil inductance,
+ferromagnetic coil cores are used, high frequency coils are often
+wire turns without former and without core. Coil inductance can also be
+made variable, for this the coil core is made movable inside the coil.
+
+Inductive elements are also not ideal, their winding wire has active resistance
+which causes energy loss in the coil, in addition the winding turns form a
+capacitor which gives coils an undesirable self-resonant frequency.
+
+If several inductive coils are wound on one core, a
+transformer is formed, where the core forms a magnetic circuit linking the windings together.
+Alternating voltage applied to one winding creates changing magnetic flux in the core which
+induces alternating electromotive force in the other winding, if an electrical circuit
+is connected to the winding then electric current flows through it.

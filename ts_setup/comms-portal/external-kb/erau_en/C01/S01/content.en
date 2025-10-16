@@ -1,0 +1,83 @@
+Electric current strength or current intensity ***I*** is a physical quantity that
+equals the electric charge that has passed through the cross-sectional area of an electrical conductor per unit time, its
+unit of measurement is Ampere (***A***). Current intensity is measured with an ammeter,
+where the ammeter is connected in series with the circuit.
+
+Voltage (***U***) is a physical quantity that characterizes the difference in
+electric field potentials between two points. Direct voltage (with constant polarity)
+and alternating voltage (with alternating polarity) are distinguished. The unit of voltage is Volt
+(***V***). Voltage is measured with a voltmeter.
+
+Resistance ***R*** characterizes the property of an electrical conductor to exert
+a hindering effect on the movement of electric charges. The unit of resistance is ohm (***Ω***).
+
+Frequency ***f*** is the number of recurring events (e.g. oscillations, pulses) occurring at equal time intervals per unit time.
+The unit of frequency is hertz (***Hz***), 1 event per second is 1 Hz.
+
+Period or oscillation period ***T*** is the duration of a repeating change cycle. Period
+is inversely related to frequency, T=1/f. The unit of period is second
+(***s***).
+
+Wavelength ***λ*** is the distance between two nearest points oscillating in the same phase.
+In a sine wave, the wavelength is for example the distance between two nearest wave crests or wave
+troughs. The unit of wavelength is meter (m).
+
+Wavelength equals the wave propagation speed ***v*** divided by the wave frequency ***f***:
+
+λ=v/f
+
+For sound waves, the propagation speed is the speed of sound (in air approximately 330 m/s).
+Electromagnetic waves propagate in vacuum at the speed of light c=299792458m/s.
+
+Electric capacitance ***C*** (or simply capacitance) characterizes the ability of an electrically conductive body or capacitor
+to store electric charge. The unit of capacitance is farad (***F***).
+
+Inductance ***L*** is a physical quantity characterizing electromagnetic induction.
+The unit of inductance is henry (***H***).
+
+Every electrical conductor (e.g. wire coil, inductor or other conductive contour) has a certain
+inductance, since current flowing through the conductor
+is always accompanied by a magnetic field. Inductance manifests as the ability to resist current
+changes due to self-induction. For example, the greater the inductance of an inductor, the more slowly direct current
+strengthens in the inductor after switching on. In an alternating current circuit, the inductive reactance of the inductor increases with
+inductance and frequency.
+
+When current change in one contour (for example in a transformer winding) induces through mutual
+induction an electromotive force also in another contour (in another winding), this is
+mutual inductance. The symbol for mutual inductance is M, the unit is
+still henry.
+
+Apparent resistance or impedance ***Z*** is the resistance exhibited to periodic sinusoidal
+alternating electric current or AC current between two points of an electric circuit, which consists of two
+main components:
+
+* active resistance or resistance ***R*** ‒ characterizes the conversion of electrical energy into other types of energy, for example heat;
+* reactive resistance or reactance ***X*** - characterizes the periodic lossless conversion of electrical energy into magnetic field or electric field energy.
+
+The reactive resistance of inductive circuit elements is inductive reactance and the reactive resistance of capacitive elements
+is capacitive reactance. Impedance is a frequency-dependent
+quantity. Inductive reactance increases with increasing frequency, capacitive reactance
+decreases with increasing frequency. Inductive reactance is considered positive and
+capacitive reactance negative.
+
+The unit of impedance is ohm (***Ω***).
+
+In electrical engineering, instantaneous, active, reactive and apparent power are distinguished.
+An electrical device either converts some type of energy into electrical energy
+(for example an electric generator) or electrical energy into another type of energy
+(for example an electric stove into heat). The electrical power of the device expresses
+the amount of electrical energy produced or consumed per unit time.
+The power of a consuming electrical device or electrical appliance is also called
+power consumption.
+
+* Instantaneous power ***p*** is called the product of voltage and current intensity instantaneous values.
+* Active power ***P*** is the average value of AC instantaneous power over one period.
+* Reactive power ***Q*** characterizes the rate at which energy is stored in reactive resistance electrical circuit elements, for example in capacitors and inductive coils, as well as energy exchange between circuit parts.
+* Apparent power ***S*** is the geometric sum of active and reactive power.
+
+The power P of an electrical appliance with active resistance R is calculated through voltage U and current I as follows:
+
+P = U * I = I * I * R = U * U * R 
+
+The unit of active power is watt (***W***), the unit of reactive power is var
+(***var***) and the unit of apparent power is voltampere (***V•A***).

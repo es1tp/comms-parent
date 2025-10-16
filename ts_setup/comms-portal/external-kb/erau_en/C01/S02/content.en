@@ -1,0 +1,23 @@
+In amateur radio, as in other technical fields, it is necessary to express both very large
+and very small numbers.
+
+To make this easier and to avoid having to count many zeros, prefixes are used,
+which are added before the corresponding unit of measurement.
+
+Expressing large numbers using prefixes:
+
+|Multiplier|Prefix|Symbol|Example|
+|-------|--------|-----|-----|
+| 1000 | kilo | k | 1 kHz = 1000 Hz |
+|1 000 000 | mega | M | 1 MHz = 1000000 Hz == 1000 kHz |
+|1 000 000 000 | giga | G | 1 GHz = 1000 MHz = 1000000000 Hz |
+|1 000 000 000 000 | tera | T | 1 THz = 1000 GHz = 1000000000000 Hz |
+
+Expressing small numbers using prefixes:
+
+|Multiplier|Prefix|Symbol|Example|
+|-------|--------|-----|-----|
+| 0.001 | milli | m | 1 mm= 0.001 m |
+| 0.000001 | micro | μ | 1 μm = 0.001 mm |
+|0.000000001 | nano| n | 1 nm = 0.001 μm |
+| 0.000000000001 | pico | p | 1 pm = 0.001 nm |

@@ -1,0 +1,5 @@
+? Where is an antenna noise bridge connected?
+A. The device is connected to the antenna feed point and the noise level is read from the device scale.
+B. The device is connected between the transmitter and antenna and tuned until minimum standing wave ratio is achieved.
+C*. The device is connected between the receiver and a circuit with unknown impedance and tuned until minimum noise is achieved.
+. AB

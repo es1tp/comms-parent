@@ -1,0 +1,5 @@
+? Why is a so-called pi-filter used in transmitter output?
+A*. To match transmitter output impedance with antenna feed line and reduce spurious radiation.
+B. To drain noise signals received by antenna.
+C. To prevent static voltages generated in antenna from entering transmitter.
+. AB

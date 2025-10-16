@@ -1,0 +1,17 @@
+Ohm's law defines the relationship between voltage U, current intensity I and resistance R:
+
+U=I*R or I=U/R or R=U*I
+
+I is the intensity of current flowing through the circuit section, measured in amperes (A);
+U is voltage, measured in volts (V);
+R is the resistance of the circuit section, measured in ohms (Ω).
+
+For alternating current, the relationship applies
+
+I=U/Z
+
+where Z is the apparent resistance of the AC circuit.
+
+Power is closely related to Ohm's law and can be calculated:
+
+P = U * I = I * I * R = U * U * R
