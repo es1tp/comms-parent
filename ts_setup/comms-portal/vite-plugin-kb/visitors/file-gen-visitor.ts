@@ -11,14 +11,16 @@ import { generateQuestionnaireFiles } from './questionnaire-file-gen-visitor';
 
 export async function visitAssets(
   config: { 
-    src: string, 
+    src: string[], 
     target: {
       questionnaire: string,
       site: string
     } 
 }) {
   const root = process.cwd();
-  const { fullPath } = createFilePath([root], config.src);
+  const fullPath = config.src
+    .map(src => createFilePath([root], src))
+    .map(src => src.fullPath);
   
   try {  
     const articles: KbApi.Article[] = visitArticles(fullPath)

@@ -16,7 +16,7 @@ function getConfig(init: Partial<Config>): Config {
       site: init.target?.site ?? 'src/datasource',
       questionnaire: init.target?.questionnaire ?? 'src/questionnaire',
     },
-    src: init.src ?? 'md-crawler-datasource',
+    src: init.src ?? ['md-crawler-datasource'],
     enabled: init.enabled === undefined ? true : init.enabled
   };
 }
@@ -26,7 +26,7 @@ export interface Config {
     site: string,
     questionnaire: string,
   }; 
-  src: string;
+  src: string[];
   enabled: boolean;
 }
 
@@ -68,7 +68,7 @@ export function vitePluginKb(options: Partial<Config>[] = []): Plugin {
   ) => {
     const filePath = normalize(file);
     const isChangeOnPath: boolean = !!userConfig
-      .map(option => createFilePath([ROOT], option.src).fullPath)
+      .flatMap(option => option.src.map(src => createFilePath([ROOT], src).fullPath))
       .find(routesDirectoryPath => filePath.startsWith(routesDirectoryPath))
     
     if (isChangeOnPath) {

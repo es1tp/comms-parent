@@ -23,22 +23,22 @@ export default function defineConfig(props: ConfigEnv): UserConfig {
       svgr({ svgrOptions: {} }), 
       vitePluginIntl({}),
       vitePluginKb([
-        { src: 'external-kb/erau', 
-          enabled: false,
+        { src: ['external-kb/erau', 'external-kb/erau_en'], 
+          enabled: true,
           target: {
             site: 'src/api-db/datasource-1',
             questionnaire: 'src/api-db/questionnaire-1',
 
           } 
         },
-        { src: 'external-kb/es3ky_r_z', 
+        { src: ['external-kb/es3ky_r_z'], 
           enabled: true,
           target: {
             site: 'src/api-db/datasource-2',
             questionnaire: 'src/api-db/questionnaire-2'
           } 
         },
-        { src: 'external-kb/erau_extra', 
+        { src: ['external-kb/erau_extra'], 
           enabled: true,
           target: {
             site: 'src/api-db/datasource-3',

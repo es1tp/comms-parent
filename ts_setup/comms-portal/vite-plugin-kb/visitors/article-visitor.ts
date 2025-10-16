@@ -190,15 +190,32 @@ function findValidFolders(path: string): Dirent[] {
 }
 
 
-export function visitArticles(path: string): KbApi.Article[] {
-  const articles: KbApi.Article[] = findValidFolders(path)
+export function visitArticles(paths: string[]): KbApi.Article[] {
+  const articles: KbApi.Article[] = Object.values(paths.flatMap(path => findValidFolders(path))
     .flatMap(root => {
       const parent = new DirVisitor().visit(root).close();
       const children = findValidFolders(`${root.parentPath}/${root.name}`)
         .map(child => new DirVisitor().visit(child, parent).close())
       return [parent, ...children];
-    });
-
+    })
+    .reduce<Record<string, KbApi.Article>>((collector, article) => {
+      const prev = collector[article.id];
+      // merge
+      if(prev) {
+        collector[article.id] = { 
+          ...prev, 
+          parentId: prev.parentId ?? article.parentId,
+          pages: [...prev.pages,...article.pages]
+        };
+      } else {
+        collector[article.id] = article;
+        return collector;
+      }
+      if(prev.parentId !== article.parentId && (prev.parentId && article.parentId)) {
+        throw Error(`Article: ${article.id} has mismatching parent expecting: ${prev.parentId} but was ${article.parentId}`);
+      }
+      return collector;
+    }, {}));
   validateArticles(articles);
   return articles;
 }
