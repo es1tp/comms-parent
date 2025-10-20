@@ -1,20 +1,82 @@
-import React from "react";
+import React from 'react';
 
-import { useDb } from "@/api-db";
-import { GMarkdown, SiteApi, useLocale, useSite } from "@dxs-ts/gamut";
-import { Avatar, Card, CardContent, CardHeader, IconButton, Typography, Stack, useTheme } from "@mui/material";
+import { useDb } from '@/api-db';
+import { GMarkdown, SiteApi, useLocale, useSite } from '@dxs-ts/gamut';
+import { Avatar, Card, CardContent, CardHeader, IconButton, Typography, useTheme, Popover } from '@mui/material';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import { useIntl } from "react-intl";
-import { DateTime } from "luxon";
+import { DateTime } from 'luxon';
+import { Calendar, luxonLocalizer } from 'react-big-calendar'
+import 'react-big-calendar/lib/css/react-big-calendar.css'
 
-import { EventApi } from "@/api-events";
-import { TimePeriodSelection } from "./TimePeriodSelection";
+import { EventApi } from '@/api-events';
+import { useIntl } from 'react-intl';
+
+interface BigCalendarEvent {
+  allDay?: boolean | undefined;
+  title: React.ReactNode | undefined;
+  start: Date | undefined;
+  end: Date | undefined;
+  resource?: any;
+}
+
+export const GEvents: React.FC<{ children: SiteApi.TopicView }> = (props) => {
+  const { locale } = useLocale();  
+  const intl = useIntl();
+  const events = useDb().events();
+  const localizer = luxonLocalizer(DateTime);
+  
+  const bigCalendarEvents: BigCalendarEvent[] = React.useMemo(() => events.map((event) => ({
+    start: DateTime.fromISO(event.startAt).setLocale(locale).toJSDate(),
+    end: event.endsAt ? DateTime.fromISO(event.endsAt).setLocale(locale).toJSDate() : undefined,
+    title: (<Event value={event} />)
+  })), [events]);
+
+  return (
+    <div style={{ width: '700px', height: '700px' }}>
+      <Calendar
+        culture={locale}
+        localizer={localizer}
+        events={bigCalendarEvents}
+        startAccessor='start'
+        endAccessor='end'
+        messages={{ ...intl.messages, showMore: (total) => `+${total} ${intl.formatMessage({ id: 'showMore' })}`, }}
+      />
+    </div>
+  )
+}
 
 
 
 
 
 const Event: React.FC<{ value: EventApi.CalendarEvent }> = ({ value }) => {
+  const [anchorEl, setAnchorEl] = React.useState<HTMLButtonElement | null>(null);
+
+  function handleExpand(event: React.MouseEvent<HTMLButtonElement>) {
+    setAnchorEl(event.currentTarget);
+  }
+  function handleClose() {
+    setAnchorEl(null);
+  }
+
+  const open = Boolean(anchorEl);
+
+  return (
+    <>
+      <Typography variant='body2' onClick={handleExpand}>{value.eventName}</Typography>
+      <Popover
+        open={open}
+        anchorEl={anchorEl}
+        onClose={handleClose}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'left' }}>
+        <EventDetails value={value}/>        
+      </Popover>
+    </>
+  )
+}
+
+
+const EventDetails: React.FC<{ value: EventApi.CalendarEvent }> = ({ value }) => {
   const theme = useTheme();
   const { locale } = useLocale();
   const { topics } = useSite();
@@ -45,45 +107,4 @@ const Event: React.FC<{ value: EventApi.CalendarEvent }> = ({ value }) => {
       </Typography>
     </CardContent>
   </Card>)
-}
-
-
-export const GEvents: React.FC<{ children: SiteApi.TopicView }> = (props) => {
-  const intl = useIntl();
-  const events = useDb().events();
-  const [period, setPeriod] = React.useState(7);
-
-  const now = DateTime.now().minus({ days: 1 });
-  const nowAfterOneWeek = now.plus({ days: 7 });
-  const nowAfterTwoWeeks = now.plus({ days: 14 });
-  const nowAfterThirtyDays = now.plus({ days: 30 });
-
-  const endDate = (() => {
-    switch (period) {
-      case 1: return now;
-      case 7: return nowAfterOneWeek;
-      case 14: return nowAfterTwoWeeks;
-      case 30: return nowAfterThirtyDays;
-      default:
-        return nowAfterOneWeek;
-    }
-  })();
-
-  const upcomingEvents = events.filter(event => {
-    const startsAt = DateTime.fromISO(event.startAt);
-    return startsAt >= now && startsAt <= endDate;
-  }).sort((a, b) => {
-    return DateTime.fromISO(a.startAt).toMillis() - DateTime.fromISO(b.startAt).toMillis();
-  });
-
-
-
-  return (<>
-    <TimePeriodSelection period={period} setPeriod={setPeriod} />
-    {!upcomingEvents.length && intl.formatMessage({ id: 'events.none' })}
-    <Stack spacing={1}>
-      {upcomingEvents.map((event, index) => <Event key={index} value={event} />)}
-    </Stack>
-  </>
-  )
 }

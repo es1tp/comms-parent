@@ -41,5 +41,14 @@ export const et = {
   'questionnaire-footer.questionid': 'Allikas: {src}',
   'questionnaire-footer.extra': 'Lisa: {src}',
   'buttons.scroll-to-top': 'Kerige üles',
-  'buttons.cancel': 'Tühista'
+  'buttons.cancel': 'Tühista',
+  'week': 'Nädal',
+  'work_week': 'Töönädal',
+  'day': 'Päev',
+  'month': 'Kuu',
+  'previous': 'Eelmine',
+  'next': 'Järgmine',
+  'today': 'Täna',
+  'agenda': 'Päevakord',
+  'showMore': 'veel',
 }
