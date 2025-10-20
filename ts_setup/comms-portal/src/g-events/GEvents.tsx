@@ -20,8 +20,8 @@ interface BigCalendarEvent {
 }
 
 export const GEvents: React.FC<{ children: SiteApi.TopicView }> = (props) => {
-  const { locale } = useLocale();  
   const intl = useIntl();
+  const locale = intl.locale;
   const events = useDb().events();
   const localizer = luxonLocalizer(DateTime);
   
