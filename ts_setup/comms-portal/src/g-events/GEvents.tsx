@@ -31,8 +31,6 @@ export const GEvents: React.FC<{ children: SiteApi.TopicView }> = (props) => {
     title: (<Event value={event} />)
   })), [events, locale]);
 
-  console.log(intl.messages);
-
   return (
     <div style={{ width: '700px', height: '700px' }}>
       <Calendar

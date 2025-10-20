@@ -50,5 +50,5 @@ export const et = {
   'next': 'Järgmine',
   'today': 'Täna',
   'agenda': 'Päevakord',
-  'showMore': 'veel',
+  'showMore': 'veel'
 }

@@ -1,4 +1,5 @@
 import { en } from './en'
 import { et } from './et'
 import { fi } from './fi'
-export default { en, et, fi}
+import { sv } from './sv'
+export default { en, et, fi, sv}

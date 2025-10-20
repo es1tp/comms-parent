@@ -50,4 +50,12 @@ questionnaire-footer.extra,,Info: {src},Lisa: {src},,,
 buttons.scroll-to-top,,Scroll to top,Kerige üles,Scroll to top,,,
 buttons.cancel,,Cancel,Tühista,Cancel,,
 
-
+week,Calendar view: Week,Week,Nädal,Viikko,Vecka
+work_week,Calendar view: Work Week,Work Week,Töönädal,Työviikko,Arbetsvecka
+day,Calendar view: Day,Day,Päev,Päivä,Dag
+month,Calendar view: Month,Month,Kuu,Kuukausi,Månad
+previous,Navigation: Previous,Previous,Eelmine,Edellinen,Föregående
+next,Navigation: Next,Next,Järgmine,Seuraava,Nästa
+today,Navigation: Today,Today,Täna,Tänään,Idag
+agenda,Calendar view: Agenda,Agenda,Päevakord,Agenda,Agenda
+showMore,Show more items,more,veel,lisää,till
