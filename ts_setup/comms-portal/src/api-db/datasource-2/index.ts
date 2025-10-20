@@ -7,9 +7,10 @@ import { calendar_comp_70_cm } from './calendar_comp_70_cm'
 import { calendar_comp_80_m } from './calendar_comp_80_m'
 import { calendar_comp_es_open } from './calendar_comp_es_open'
 import { extra } from './extra'
+import { learn_cw } from './learn_cw'
 import { qualification } from './qualification'
 import { qualification_cat_a } from './qualification_cat_a'
 import { qualification_cat_b } from './qualification_cat_b'
 import { qualification_cat_d } from './qualification_cat_d'
 import { qualification_cat_x } from './qualification_cat_x'
-export default { calendar, calendar_comp_23_cm, calendar_comp_2_m, calendar_comp_4_m, calendar_comp_6_m, calendar_comp_70_cm, calendar_comp_80_m, calendar_comp_es_open, extra, qualification, qualification_cat_a, qualification_cat_b, qualification_cat_d, qualification_cat_x}
+export default { calendar, calendar_comp_23_cm, calendar_comp_2_m, calendar_comp_4_m, calendar_comp_6_m, calendar_comp_70_cm, calendar_comp_80_m, calendar_comp_es_open, extra, learn_cw, qualification, qualification_cat_a, qualification_cat_b, qualification_cat_d, qualification_cat_x}

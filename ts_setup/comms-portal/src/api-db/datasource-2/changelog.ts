@@ -1,7 +1,7 @@
 import { KbApi } from '../../api-kb'
 
 export default {
-  "timestamp": "2025-10-16T19:11:29.569+03:00",
+  "timestamp": "2025-10-20T17:24:47.281+03:00",
   "changes": [
     {
       "id": "calendar",
@@ -317,6 +317,41 @@ export default {
       "changeType": "update",
       "comment": "",
       "timestamp": "2025-04-12T09:25:09.108+03:00"
+    },
+    {
+      "id": "learn_cw",
+      "changeObject": "article",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-20T17:24:47.281+03:00"
+    },
+    {
+      "id": "learn_cw_en",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-20T17:24:47.281+03:00"
+    },
+    {
+      "id": "learn_cw_en_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-20T17:24:47.281+03:00"
+    },
+    {
+      "id": "learn_cw_et",
+      "changeObject": "page",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-20T17:24:47.281+03:00"
+    },
+    {
+      "id": "learn_cw_et_content",
+      "changeObject": "material",
+      "changeType": "update",
+      "comment": "",
+      "timestamp": "2025-10-20T17:24:47.281+03:00"
     },
     {
       "id": "qualification",
