@@ -29,7 +29,9 @@ export const GEvents: React.FC<{ children: SiteApi.TopicView }> = (props) => {
     start: DateTime.fromISO(event.startAt).setLocale(locale).toJSDate(),
     end: event.endsAt ? DateTime.fromISO(event.endsAt).setLocale(locale).toJSDate() : undefined,
     title: (<Event value={event} />)
-  })), [events]);
+  })), [events, locale]);
+
+  console.log(intl.messages);
 
   return (
     <div style={{ width: '700px', height: '700px' }}>
