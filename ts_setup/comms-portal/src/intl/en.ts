@@ -41,5 +41,14 @@ export const en = {
   'questionnaire-footer.questionid': 'Source: {src}',
   'questionnaire-footer.extra': 'Info: {src}',
   'buttons.scroll-to-top': 'Scroll to top',
-  'buttons.cancel': 'Cancel'
+  'buttons.cancel': 'Cancel',
+  'week': 'Week',
+  'work_week': 'Work Week',
+  'day': 'Day',
+  'month': 'Month',
+  'previous': 'Previous',
+  'next': 'Next',
+  'today': 'Today',
+  'agenda': 'Agenda',
+  'showMore': 'more'
 }

@@ -25,5 +25,14 @@ export const fi = {
   'questionnaire-header.shuffle': 'Shuffle(3)',
   'questionnaire-header.shuffle.big': 'Shuffle(25)',
   'buttons.scroll-to-top': 'Scroll to top',
-  'buttons.cancel': 'Cancel'
+  'buttons.cancel': 'Cancel',
+  'week': 'Viikko',
+  'work_week': 'Työviikko',
+  'day': 'Päivä',
+  'month': 'Kuukausi',
+  'previous': 'Edellinen',
+  'next': 'Seuraava',
+  'today': 'Tänään',
+  'agenda': 'Agenda',
+  'showMore': 'lisää'
 }
