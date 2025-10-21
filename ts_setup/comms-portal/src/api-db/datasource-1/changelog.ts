@@ -1,7 +1,7 @@
 import { KbApi } from '../../api-kb'
 
 export default {
-  "timestamp": "2025-10-16T19:17:11.929+03:00",
+  "timestamp": "2025-10-20T18:18:32.255+03:00",
   "changes": [
     {
       "id": "C01",
@@ -14295,203 +14295,203 @@ export default {
       "changeObject": "article",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en",
       "changeObject": "page",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_content",
       "changeObject": "material",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q016_en",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q016_en_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q016_en_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q016_en_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q017_en",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q017_en_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q017_en_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q017_en_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q229_en",
       "changeObject": "question",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q229_en_A",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q229_en_B",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_en_q229_en_C",
       "changeObject": "answer",
-      "changeType": "add",
+      "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et",
       "changeObject": "page",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_content",
       "changeObject": "material",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q016_et",
       "changeObject": "question",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q016_et_A",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q016_et_B",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q016_et_C",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q017_et",
       "changeObject": "question",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q017_et_A",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q017_et_B",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q017_et_C",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q229_et",
       "changeObject": "question",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q229_et_A",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q229_et_B",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S01_et_q229_et_C",
       "changeObject": "answer",
       "changeType": "update",
       "comment": "",
-      "timestamp": "2025-10-16T19:11:29.569+03:00"
+      "timestamp": "2025-10-20T18:18:32.255+03:00"
     },
     {
       "id": "C11_S02",
