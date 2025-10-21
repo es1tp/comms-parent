@@ -24,7 +24,7 @@ export class ClientImpl implements ChatApi.Client {
 
   // ========== Connection Management ==========
 
-  async connect(config: ChatApi.ClientConfig): Promise<ChatApi.Result<ChatApi.LoginResponse, ChatApi.LoginError>> {
+  async connect(config: ChatApi.ClientConfig, force?: boolean): Promise<ChatApi.Result<ChatApi.LoginResponse, ChatApi.LoginError>> {
     if (this.sessionState.connectionState.status === 'connecting') {
       return [null, { 
         code: 'NETWORK_ERROR', 
@@ -32,8 +32,9 @@ export class ClientImpl implements ChatApi.Client {
       }];
     }
 
-    if (this.sessionState.isConnected) {
+    if (this.sessionState.isConnected && (force !== true)) {
       if (this.sessionState.loginResponse) {
+        console.log('already connected, skipping');
         return [this.sessionState.loginResponse, null];
       }
 
@@ -53,6 +54,7 @@ export class ClientImpl implements ChatApi.Client {
       port: config.port,
       autoAppendCRLF: true,
     });
+    console.log('Connected to on4kst, ', { force });
 
     if (transportError) {
       this.sessionState.setError('Connection failed');

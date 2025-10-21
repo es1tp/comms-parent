@@ -669,7 +669,7 @@ export const CHAT_OPTIONS: Array<{ id: ChatId; label: string }> = [
      * Establish connection and authenticate
      * Returns session key on success
      */
-    connect(config: ClientConfig): Promise<Result<LoginResponse, LoginError>>;
+    connect(config: ClientConfig, force?: boolean): Promise<Result<LoginResponse, LoginError>>;
 
     /**
      * Gracefully disconnect

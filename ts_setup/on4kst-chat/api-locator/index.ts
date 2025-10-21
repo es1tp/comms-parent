@@ -5,8 +5,19 @@ export interface Locator {
   lng: number;
 }
 
-
-
+/**
+ * I.
+ * The world is divided into 18×18 = 324 big squares. 
+ * Each square is 20° wide (longitude) × 10° tall (latitude).
+ * 
+ * II.
+ * Each big field is divided into 10×10 = 100 smaller squares. Each is 2° wide × 1° tall.
+ * Example: "20" means column 2 and row 0 inside the JO field
+ * 
+ * III.
+ * Each square is divided into 24×24 = 576 tiny squares. Each is about 5 km × 2.5 km.
+ * Example: "HI" means column H (7th) and row I (8th) inside square 20
+ */
 export function locatorToCoords(locator: string): { lat: number; lng: number } | null {
   if (!locator || locator.length < 4) return null;
 
@@ -36,7 +47,16 @@ export function locatorToCoords(locator: string): { lat: number; lng: number } |
   return { lat, lng };
 }
 
-
+/**
+ * Haversine formula 
+ * 
+ * Imagine Earth is a perfectly round ball. You have two points on the surface. 
+ * The Haversine formula finds the shortest path along the curved surface (not through the ball, but around it - like an airplane flies).
+ * 
+ * a = sin²(Δlat/2) + cos(lat1) × cos(lat2) × sin²(Δlon/2)
+ * c = 2 × atan2(√a, √(1−a))
+ * distance = R × c
+ */
 export function calculateBearing(
   fromLocator: string,
   toLocator: string,
