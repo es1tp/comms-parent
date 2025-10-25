@@ -1,0 +1,12 @@
+spring:
+
+
+management:
+  server:
+    servlet.context-path: "/manage"
+    add-application-context-header: false
+  endpoints:
+    web:
+      exposure:
+        include: "health,mappings"
+ 
