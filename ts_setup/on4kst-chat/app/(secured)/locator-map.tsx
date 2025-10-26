@@ -1,16 +1,16 @@
-import { View} from 'react-native';
-import { useSecureStorageToken } from '@/api-secure-storage';
+import { View } from 'react-native';
+import { useProfile } from '@/api-profile';
 import { useLocalSearchParams } from 'expo-router';
 import { LocatorsMapScreen } from '@/screens';
 
 
 export default function LocatorsMap() {
-  const { token } = useSecureStorageToken();
+  const { profile } = useProfile();
 
   const params = useLocalSearchParams();
   const { locator: to } = params;
 
-  const from = token?.me.locator; // Your locator from config
+  const from = profile.locator; // Your locator from config
 
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', padding: 20 }}>

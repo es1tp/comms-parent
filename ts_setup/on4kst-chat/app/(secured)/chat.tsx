@@ -1,6 +1,9 @@
+import { router } from 'expo-router';
+
 import { useAuth } from '@/api-auth';
 import { ChatScreen } from '@/screens';
-import { router } from 'expo-router';
+
+
 
 export default function chat() {
   const { connectionState, logout } = useAuth();
@@ -17,7 +20,5 @@ export default function chat() {
     router.replace('/(auth)/login')
   }
 
-  return (
-    <ChatScreen onLocatorMap={handleLocatorMap} onLogout={handleLogout}/>
-  );
+  return (<ChatScreen onLocatorMap={handleLocatorMap} onLogout={handleLogout} />);
 }

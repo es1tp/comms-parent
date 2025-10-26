@@ -1,16 +1,16 @@
 import React from 'react';
-import { KeyboardAvoidingView, Platform } from 'react-native';
 import { FlashList } from '@shopify/flash-list';
-import { YStack, XStack, Input, Text, Button, Sheet } from 'tamagui';
-import { Filter } from '@tamagui/lucide-icons';
+import { YStack, XStack, Text, Button } from 'tamagui';
 
 import { useChat } from '@/chat-provider';
 import { ChatApi } from '@/api-chat';
-import { useSecureStorageToken } from '@/api-secure-storage';
+import { useProfile } from '@/api-profile';
 
 
 import { ChatMessage } from './ChatMessage';
 import { ChatMessageTitle } from './ChatMessageTitle';
+import { ChatFilter } from './ChatFilter';
+import { ChatInput } from './ChatInput';
 
 
 
@@ -19,31 +19,12 @@ export const ChatScreen: React.FC<{
   onLocatorMap: (locator: string, callsign: string) => void;
   onLogout: () => void;
 }> = ({ onLocatorMap, onLogout }) => {
-  const { token } = useSecureStorageToken();
-  const [inputText, setInputText] = React.useState('');
-  const [filterOpen, setFilterOpen] = React.useState(false);
-  const [distanceFilter, setDistanceFilter] = React.useState<string>('');
+
+  const { profile } = useProfile();
   const [appliedFilter, setAppliedFilter] = React.useState<number | null>(null);
 
   const chat = useChat();
-  const chatName = token?.chatId ? ChatApi.CHAT_OPTIONS.find(e => e.id === token.chatId)?.label : undefined;
-
-  const handleSend = async () => {
-    await chat.client.sendMessage(token?.chatId as any, '0', inputText);
-    setInputText('');
-  }
-
-  const handleApplyFilter = () => {
-    const distance = parseFloat(distanceFilter);
-    setAppliedFilter(isNaN(distance) ? null : distance);
-    setFilterOpen(false);
-  }
-
-  const handleClearFilter = () => {
-    setDistanceFilter('');
-    setAppliedFilter(null);
-    setFilterOpen(false);
-  }
+  const chatName = profile.chatId ? ChatApi.CHAT_OPTIONS.find(e => e.id === profile.chatId)?.label : undefined;
 
   const messages = React.useMemo(() => {
     if (appliedFilter) {
@@ -57,38 +38,7 @@ export const ChatScreen: React.FC<{
 
 
   return (
-    <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'} style={{ flex: 1 }}>
-      {/* Filter Sheet */}
-      <Sheet
-        modal
-        open={filterOpen}
-        onOpenChange={setFilterOpen}
-        snapPoints={[40]}
-        dismissOnSnapToBottom
-      >
-        <Sheet.Overlay />
-        <Sheet.Frame padding="$4">
-          <Sheet.Handle />
-          <YStack gap="$4" paddingTop="$4">
-            <Text fontSize="$5" fontWeight="bold">Filter by Distance</Text>
-            <Input
-              placeholder="Enter distance in km (e.g., 100)"
-              value={distanceFilter}
-              onChangeText={setDistanceFilter}
-              keyboardType="numeric"
-              size="$4"
-            />
-            <XStack gap="$3">
-              <Button flex={1} onPress={handleApplyFilter} disabled={!distanceFilter}>
-                Apply
-              </Button>
-              <Button flex={1} onPress={handleClearFilter} variant="outlined">
-                Clear
-              </Button>
-            </XStack>
-          </YStack>
-        </Sheet.Frame>
-      </Sheet>
+    <>
       <YStack flex={1} backgroundColor="$background" marginTop='$5' marginBottom='$7'>
 
         {/* Header row */}
@@ -102,15 +52,7 @@ export const ChatScreen: React.FC<{
         >
           <Text fontSize="$6" fontWeight="bold">{chatName ?? 'Chat'}</Text>
 
-           <Button 
-            size="$3" 
-            icon={Filter} 
-            onPress={() => setFilterOpen(true)}
-            variant={appliedFilter ? "outlined" : undefined}
-          >
-            {appliedFilter ? `${appliedFilter} km` : 'Filter'}
-          </Button>
-
+          <ChatFilter onFilter={setAppliedFilter}/>
           <Button size="$3" onPress={onLogout}>Logout</Button>
         </XStack>
 
@@ -123,26 +65,12 @@ export const ChatScreen: React.FC<{
                 <ChatMessageTitle item={item} onLocatorMap={onLocatorMap} />
                 <ChatMessage item={item} />
               </YStack>)}
-            keyExtractor={(item, index) => index + ''}
+            keyExtractor={(_item, index) => index + ''}
           />
         </YStack>
-        <XStack
-          borderTopWidth={1}
-          padding="$3"
-          gap="$2"
-          backgroundColor="$background"
-          borderTopColor="$borderColor">
-          <Input
-            flex={1}
-            borderWidth={1}
-            placeholder="Type message..."
-            value={inputText}
-            onChangeText={setInputText}
-            onSubmitEditing={handleSend}
-          />
-        </XStack>
 
+        <ChatInput />
       </YStack>
-    </KeyboardAvoidingView>
+    </>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { AppState } from 'react-native';
 import { ChatApi } from '@/api-chat';
 import { useChat } from '@/chat-provider';
-import { useSecureStorage } from '@/api-secure-storage';
+import { Profile, useProfile } from '@/api-profile';
 
 
 const CONNECTION_PROPS: ChatApi.ClientConfig = {
@@ -18,7 +18,7 @@ const CONNECTION_PROPS: ChatApi.ClientConfig = {
 export interface AuthContextType {
   connectionState: ChatApi.ConnectionState;
 
-  login: (callsign: string, password: string, chatId: ChatApi.ChatId, locator: string | null, calibrationOffset: number | null) => Promise<void>;
+  login: (profile: Profile) => Promise<void>;
   logout: (perm?: boolean) => Promise<void>;
 }
 
@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [connectionState, setConnectionState] = React.useState<ChatApi.ConnectionState>({ status: 'disconnected' });
   const chat = useChat();
 
-  const { secureStorage } = useSecureStorage();
+  const { profile, clear } = useProfile();
   const appState = React.useRef(AppState.currentState);
 
 
@@ -41,17 +41,11 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
         nextAppState === 'active'
       ) {
         // App came to foreground - check backend connection
-
-        Promise.all([ 
-          secureStorage.getCallsign(), 
-          secureStorage.getPassword(), 
-          secureStorage.getChatId() ])
-        .then(([callsign, password, chatId]) => {
-          if(chatId && callsign && password) {
-            console.log('background reconnect ...');
-            chat.client.connect({ ...CONNECTION_PROPS, chatId: chatId as ChatApi.ChatId, callsign, password }, true);
-          }
-        })
+        chat.client.connect({ 
+          ...CONNECTION_PROPS, 
+          chatId: profile.chatId as ChatApi.ChatId, 
+          callsign: profile.callsign, 
+          password: profile.password }, true);
 
       } else if (nextAppState.match(/inactive|background/)) {
 
@@ -64,14 +58,15 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     };
   }, []);
 
-  const login = React.useCallback(async (callsign: string, password: string, chatId: ChatApi.ChatId, locator: string | null, calibrationOffset: number | null) => {
+  const login = React.useCallback(async (profile: Profile) => {
     try {
       setConnectionState({ status: 'connecting' });
 
       const [token, error] = await chat.client.connect({
         ...CONNECTION_PROPS,
-        chatId,
-        callsign, password
+        chatId: profile.chatId as ChatApi.ChatId, 
+        callsign: profile.callsign, 
+        password: profile.password
       });
 
       if (error) {
@@ -79,19 +74,16 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
       }
 
       const connectionState = chat.client.getConnectionState();
-      await secureStorage.saveCredentials(callsign, password, chatId, locator, calibrationOffset);
-      await secureStorage.saveToken(JSON.stringify(token));
-
       setConnectionState(connectionState);
     } catch (error) {
       setConnectionState({ status: 'error', error: error as Error });
       throw error;
     }
-  }, [])
+  }, [profile])
 
   const logout = React.useCallback(async (perm?: boolean) => {
     if (perm) {
-      await secureStorage.clearAll();
+      clear();
     }
     await chat.client.disconnect();
     setConnectionState({ status: 'disconnected' });
