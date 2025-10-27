@@ -9,13 +9,15 @@
     "android": {
       "minSdkVersion": 21,
       "permissions": [
-        "INTERNET"
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
       ],
       "usesCleartextTraffic": true,
       "package": "io.github.es1tp"
     },
     "plugins": [
-      "expo-asset"
+      "expo-asset",
+      "./plugins/withNetworkSecurityConfig"
     ]
   }
 }

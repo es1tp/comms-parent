@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { FlashList } from '@shopify/flash-list';
 import { YStack, XStack, Text, Button } from 'tamagui';
 
@@ -38,7 +39,7 @@ export const ChatScreen: React.FC<{
 
 
   return (
-    <>
+     
       <YStack flex={1} backgroundColor="$background" marginTop='$5' marginBottom='$7'>
 
         {/* Header row */}
@@ -49,28 +50,28 @@ export const ChatScreen: React.FC<{
           alignItems="center"
           borderBottomWidth={1}
           borderBottomColor="$borderColor"
+          
         >
           <Text fontSize="$6" fontWeight="bold">{chatName ?? 'Chat'}</Text>
 
-          <ChatFilter onFilter={setAppliedFilter}/>
+          <ChatFilter onFilter={setAppliedFilter} />
           <Button size="$3" onPress={onLogout}>Logout</Button>
         </XStack>
 
         <YStack flex={1}>
           <FlashList
-            initialScrollIndex={Math.max(0, chat.store.messages.length - 1)}
             data={messages}
+            initialScrollIndex={Math.max(0, chat.store.messages.length - 1)}
+            keyExtractor={(_item, index) => index + ''}
             renderItem={({ item }) => (
               <YStack padding="$3" gap="$1">
                 <ChatMessageTitle item={item} onLocatorMap={onLocatorMap} />
                 <ChatMessage item={item} />
               </YStack>)}
-            keyExtractor={(_item, index) => index + ''}
           />
         </YStack>
-
         <ChatInput />
       </YStack>
-    </>
+
   );
 }

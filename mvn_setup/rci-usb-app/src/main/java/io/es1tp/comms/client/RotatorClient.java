@@ -31,6 +31,17 @@ public interface RotatorClient {
   PositionQuery positionQuery();
   
   CommandBuilder command();
+  
+  RawCommandSender raw();
+  
+  interface RawCommandSender {
+    /**
+     * Send a raw GS-232A command string
+     * @param command Command without carriage return (e.g., "O", "F", "M180")
+     */
+    void send(String command);
+  }
+  
 
   interface PositionQuery {
     Position find();

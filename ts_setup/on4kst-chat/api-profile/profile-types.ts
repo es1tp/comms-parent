@@ -26,7 +26,7 @@ export interface Profile {
     calibrationOffset: number;
     config: {     
       ip: string;
-      port: string
-    } | undefined
+      port: number
+    }
   }
 }

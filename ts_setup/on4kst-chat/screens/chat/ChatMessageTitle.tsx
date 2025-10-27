@@ -1,6 +1,8 @@
 import React from 'react';
 import { XStack, Text } from 'tamagui';
 import { useChat, UserMessage } from '@/chat-provider';
+import { useProfile } from '@/api-profile';
+import { useRotator } from '@/api-rotator';
 
 
 
@@ -15,7 +17,7 @@ const AppendValue: React.FC<{
   value: string | number | undefined | null;
   children: (value: string | number) => React.ReactNode;
 }> = (props) => {
-
+  
   if(props.value) {
     return (
       <>
@@ -32,11 +34,21 @@ export const ChatMessageTitle: React.FC<{
   onLocatorMap: (locator: string, callsign: string) => void 
 }> = ({item, onLocatorMap}) => {
 
+  const { profile } = useProfile();
+  const rotator = useRotator(profile.rotator.config)
+
   const { store } = useChat();
   function handleLocatorMap() {
     const theirLocator = store.callbook[item.callsign]?.locator.maidenhead;
     if(theirLocator) {
       onLocatorMap(theirLocator, item.callsign);
+    }
+  }
+
+  function handleBearing() {
+    const azimuth = store.callbook[item.callsign]?.locator.rotator;
+    if(azimuth) {
+      rotator.setSpeed(4).then(() => rotator.setAzimuth(azimuth));
     }
   }
 
@@ -57,8 +69,8 @@ export const ChatMessageTitle: React.FC<{
         {(value) => (<Text color="$color" opacity={0.8} fontSize="$2">{value} km</Text>)}
       </AppendValue>
 
-      <AppendValue value={store.callbook[item.callsign]?.locator.rotator}>
-        {(value) => (<Text color="$color" opacity={0.8} fontSize="$2">{value} bearing</Text>)}
+      <AppendValue value={store.callbook[item.callsign]?.locator.rotator} >
+        {(value) => (<Text color="$color" textDecorationLine="underline" opacity={0.8} fontSize="$2" onPress={handleBearing}>{value} bearing</Text>)}
       </AppendValue>
     </XStack>)
 }

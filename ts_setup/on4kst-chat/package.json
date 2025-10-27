@@ -5,6 +5,10 @@
   "scripts": {
     "android": "expo run:android",
     "android:copy-network-config": "mkdir -p android/app/src/main/res/xml && cp network_security_config.xml android/app/src/main/res/xml/network_security_config.xml",
+    "android:release": "cd android && ./gradlew assembleRelease",
+    "android:install": "adb -s $(adb devices | tail -n +2 | head -n 1 | awk '{print $1}') install android/app/build/outputs/apk/release/app-release.apk",
+    "android:uninstall": "adb -s $(adb devices | tail -n +2 | head -n 1 | awk '{print $1}') uninstall io.github.es1tp",
+    "android:reinstall": "pnpm android:uninstall; pnpm android:install",
     "ios": "expo run:ios"
   },
   "dependencies": {
@@ -23,7 +27,6 @@
     "expo-secure-store": "^15.0.7",
     "react": "19.1.1",
     "react-native": "0.82.0",
-    "react-native-keyboard-aware-scroll-view": "^0.9.5",
     "react-native-leaflet-view": "^1.1.2",
     "react-native-tcp-socket": "^6.3.0",
     "react-native-web": "~0.21.1",

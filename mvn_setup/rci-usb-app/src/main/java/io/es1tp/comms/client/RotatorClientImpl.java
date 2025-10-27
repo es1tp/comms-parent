@@ -41,6 +41,11 @@ public class RotatorClientImpl implements RotatorClient {
   private static final long DEFAULT_TIMEOUT_MS = 2000;
 
   @Override
+  public RawCommandSender raw() {
+    return new RawCommandSenderImpl();
+  }
+
+  @Override
   public AzimuthQuery azimuthQuery() {
     return new AzimuthQueryImpl();
   }
@@ -73,9 +78,9 @@ public class RotatorClientImpl implements RotatorClient {
   private String sendCommandAndWaitForResponse(String command, long timeoutMs) {
     CompletableFuture<String> future = new CompletableFuture<>();
     pendingResponse.set(future);
-    
+
     sendCommand(command);
-    
+
     try {
       return future.get(timeoutMs, TimeUnit.MILLISECONDS);
     } catch (Exception e) {
@@ -91,6 +96,19 @@ public class RotatorClientImpl implements RotatorClient {
       future.complete(response);
     }
   }
+  
+  
+  //Raw Command Sender Implementation
+  private class RawCommandSenderImpl implements RawCommandSender {
+   
+   @Override
+   public void send(String command) {
+     String cmd = GS232CommandBuilder.create()
+         .raw(command)
+         .build();
+     sendCommand(cmd);
+   }
+  }
 
   // Query Implementations
   private class AzimuthQueryImpl implements AzimuthQuery {
@@ -99,13 +117,13 @@ public class RotatorClientImpl implements RotatorClient {
       String cmd = GS232CommandBuilder.create()
           .queryAzimuth()
           .build();
-      
+
       String response = sendCommandAndWaitForResponse(cmd, DEFAULT_TIMEOUT_MS);
-      
+
       if (response.matches("\\+0\\d{3}")) {
         return Integer.parseInt(response.substring(2));
       }
-      
+
       throw new RuntimeException("Invalid azimuth response: " + response);
     }
   }
@@ -116,13 +134,13 @@ public class RotatorClientImpl implements RotatorClient {
       String cmd = GS232CommandBuilder.create()
           .queryElevation()
           .build();
-      
+
       String response = sendCommandAndWaitForResponse(cmd, DEFAULT_TIMEOUT_MS);
-      
+
       if (response.matches("\\+0\\d{3}")) {
         return Integer.parseInt(response.substring(2));
       }
-      
+
       throw new RuntimeException("Invalid elevation response: " + response);
     }
   }
@@ -133,23 +151,23 @@ public class RotatorClientImpl implements RotatorClient {
       String cmd = GS232CommandBuilder.create()
           .queryPosition()
           .build();
-      
+
       String response = sendCommandAndWaitForResponse(cmd, DEFAULT_TIMEOUT_MS);
-      
+
       // Parse response format: +0aaa+0eee
       if (response.matches("\\+0\\d{3}\\+0\\d{3}")) {
         int azimuth = Integer.parseInt(response.substring(2, 5));
         int elevation = Integer.parseInt(response.substring(7, 10));
         return new Position(azimuth, elevation);
       }
-      
+
       throw new RuntimeException("Invalid position response: " + response);
     }
   }
 
   // Command Builder Fluent Implementation
   private class CommandBuilderFluentImpl implements RotatorClient.CommandBuilder {
-    
+
     @Override
     public MovementBuilder move() {
       return new MovementBuilderImpl();
@@ -195,7 +213,7 @@ public class RotatorClientImpl implements RotatorClient {
 
   // Movement Builder Implementation
   private class MovementBuilderImpl implements MovementBuilder {
-    
+
     @Override
     public TargetBuilder to() {
       return new TargetBuilderImpl();
@@ -240,14 +258,14 @@ public class RotatorClientImpl implements RotatorClient {
             .moveToAzimuth(targetAzimuth)
             .build();
       }
-      
+
       sendCommand(cmd);
     }
   }
 
   // Direction Builder Implementation
   private class DirectionBuilderImpl implements DirectionBuilder {
-    
+
     @Override
     public ExecutableCommand right() {
       return () -> {
@@ -291,7 +309,7 @@ public class RotatorClientImpl implements RotatorClient {
 
   // Stop Builder Implementation
   private class StopBuilderImpl implements StopBuilder {
-    
+
     @Override
     public ExecutableCommand azimuth() {
       return () -> {
@@ -340,17 +358,16 @@ public class RotatorClientImpl implements RotatorClient {
     }
   }
 
-
   public void close() {
     if (port != null && port.isOpen()) {
       port.closePort();
     }
   }
-  
+
   public static Builder builder() {
     return new Builder();
   }
-  
+
   // Builder for creating RotatorClient
   public static class Builder {
 

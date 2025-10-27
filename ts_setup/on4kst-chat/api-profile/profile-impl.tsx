@@ -11,7 +11,10 @@ const EMPTY_PROFILE: Profile = {
   locator: "",
   rotator: {
     calibrationOffset: 0,
-    config: undefined
+    config: {
+      ip: '192.168.0.1',
+      port: 8080
+    }
   }
 }
 
@@ -27,17 +30,10 @@ function parseProfile(value: string | null): DeepPartial<Profile> | undefined {
 }
 
 function parseProfileConfig(profile: DeepPartial<Profile>): Profile['rotator']['config'] {
-
-  const isConfig = (
-    profile.rotator && 
-    profile.rotator.config && 
-    profile.rotator.config.ip && 
-    profile.rotator.config.port);
-
-  return isConfig ? {
-      ip: profile.rotator!.config!.ip!,
-      port: profile.rotator!.config!.port!
-    } : undefined;
+  return {
+    ip: profile.rotator?.config?.ip ?? EMPTY_PROFILE.rotator.config.ip,
+    port: profile.rotator?.config?.port ?? EMPTY_PROFILE.rotator.config.port
+  };
 }
 
 
@@ -84,13 +80,17 @@ export const ProfileProvider: React.FC<{ children: React.ReactNode }> = ({ child
 
   const save = React.useCallback((newProfile: DeepPartial<Profile>) => {
     setProfile(profile => {
-      const config = parseProfileConfig(profile);
+
+
       const saved = saveProfile({
         ...profile, 
         ...newProfile,
         rotator: {
           calibrationOffset: newProfile.rotator?.calibrationOffset?? profile.rotator.calibrationOffset,
-          config
+          config: {
+            ip: newProfile.rotator?.config?.ip ?? profile.rotator.config.ip,
+            port: newProfile.rotator?.config?.port ?? profile.rotator.config.port
+          }
         }
       });
 

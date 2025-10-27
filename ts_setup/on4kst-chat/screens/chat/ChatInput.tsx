@@ -1,11 +1,11 @@
 import React from 'react';
 
 import { XStack, Input, ScrollView } from 'tamagui';
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
+
 
 import { useChat } from '@/chat-provider';
 import { useProfile } from '@/api-profile';
-import { View } from 'react-native';
+
 
 
 export const ChatInput: React.FC<{}> = ({ }) => {
@@ -21,15 +21,14 @@ export const ChatInput: React.FC<{}> = ({ }) => {
   }
 
   return (
-  <KeyboardAwareScrollView>
-    <View>
-    <XStack
+    
+    <XStack      
       borderTopWidth={1}
       padding='$3'
       gap='$2'
-      
       backgroundColor='$background'
       borderTopColor='$borderColor'>
+ 
       <Input
         flex={1}
         borderWidth={1}
@@ -38,8 +37,8 @@ export const ChatInput: React.FC<{}> = ({ }) => {
         onChangeText={setInputText}
         onSubmitEditing={handleSend}
       />
+      
     </XStack>
-    </View>
-  </KeyboardAwareScrollView>
+
   );
 }

@@ -42,6 +42,19 @@ import lombok.extern.slf4j.Slf4j;
 public class RotatorController {
 
   private final RotatorClient rotator;
+  
+  @GetMapping("/raw")
+  public ResponseEntity<?> sendRawCommand(@RequestParam(name = "cmd") String cmd) {
+    try {
+      log.info("Sending raw command: {}", cmd);
+      rotator.raw().send(cmd);
+      return ResponseEntity.ok(new SuccessResponse("Raw command sent: " + cmd));
+    } catch (Exception e) {
+      log.error("Failed to send raw command: {}", cmd, e);
+      return ResponseEntity.internalServerError()
+          .body("Failed to send raw command: " + e.getMessage());
+    }
+  }
 
   /**
    * Stop all rotator movement
